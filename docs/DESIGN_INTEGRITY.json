@@ -27,5 +27,14 @@
   "coalition_page_styles": "Original homepage CSS reused with page-scoped additional rules.",
   "original_homepage_style_unchanged": true,
   "original_assets_untouched": true,
-  "fundraising_checkout_active": false
+  "fundraising_checkout_active": false,
+  "mobile_polish_stylesheet": "public/assets/mobile-polish.css",
+  "mobile_polish_scope": "Responsive-only layout adjustments at viewport widths <=750px.",
+  "copy_edit_scope": [
+    "public/index.html",
+    "public/coalition/index.html",
+    "public/plan/index.html"
+  ],
+  "original_homepage_inline_css_unchanged": true,
+  "original_asset_blob_shas_unchanged": true
 }
