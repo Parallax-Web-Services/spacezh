@@ -67,3 +67,12 @@ The original embedded desktop CSS and design assets are preserved. A separate [m
 Public headlines and explanatory copy have been revised to describe the actual scope and proposed partnership work rather than rely on generic startup slogans. The main "The sky belongs to everyone" identity is retained.
 
 For manual QA, check all three routes (`/`, `/coalition/`, `/plan/`) at narrow mobile widths, ~390px, 750px and desktop. Confirm no horizontal page scroll, readable cards and budgets, working navigation, intact artwork, and the synthetic-data/funding disclaimers.
+
+## Research programme
+
+- [Research index](research/README.md) — scientific standards and status of open studies.
+- [Research 001](research/001-leo-contact/README.md) — circular LEO contact and radio budget; six tests; not field validated.
+- [Research 002](research/002-independent-early-warning/README.md) — independent 60-second ballistic-warning feasibility question; nine tests of synthetic metric accounting, **not** a real missile-detection system.
+- [Public research page](public/research/index.html) available at `/research/` after deployment.
+
+Run the test suites with `python3 -m unittest discover -s research/001-leo-contact -p 'test_*.py' -v` and `python3 -m unittest discover -s research/002-independent-early-warning -p 'test_*.py' -v`. No external libraries required.

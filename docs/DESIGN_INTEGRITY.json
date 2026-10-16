@@ -21,7 +21,8 @@
   "site_routes": [
     "/",
     "/plan/",
-    "/coalition/"
+    "/coalition/",
+    "/research/"
   ],
   "public_coalition_page": "public/coalition/index.html",
   "coalition_page_styles": "Original homepage CSS reused with page-scoped additional rules.",
@@ -36,5 +37,13 @@
     "public/plan/index.html"
   ],
   "original_homepage_inline_css_unchanged": true,
-  "original_asset_blob_shas_unchanged": true
+  "original_asset_blob_shas_unchanged": true,
+  "research_page": "public/research/index.html",
+  "research_repositories": [
+    "research/001-leo-contact",
+    "research/002-independent-early-warning"
+  ],
+  "base_stylesheet_unchanged": true,
+  "original_graphics_unchanged": true,
+  "operational_early_warning_service": false
 }
