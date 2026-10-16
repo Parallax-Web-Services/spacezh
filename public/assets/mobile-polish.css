@@ -1,0 +1,109 @@
+/*
+ * SpaceЖ mobile layout refinement.
+ * Keeps the original desktop styles and artwork intact.
+ * One shared override covers the landing, founding plan and coalition pages.
+ */
+@media (max-width: 750px) {
+  /* Preserve a 44px tap target without a giant outlined menu button. */
+  .site-header .nav-wrap { min-height: 62px; gap: 14px; }
+  .site-header .logo { font-size: 24px; }
+  .mobile-nav summary {
+    width: 44px;
+    height: 44px;
+    padding: 9px;
+    border-color: rgba(160, 191, 228, .15);
+  }
+  .mobile-nav summary svg { width: 20px; height: 20px; }
+  .mobile-links { min-width: 0; width: min(85vw, 290px); top: calc(100% + 8px); padding: 6px; }
+  .mobile-links a { padding: 11px 12px; }
+
+  /* The six-word ribbon clips on narrow screens and repeats the header messaging. */
+  .ribbon { display: none; }
+
+  .hero { padding: 54px 0 58px; }
+  .hero-grid { gap: 34px; }
+  .hero h1 { font-size: clamp(2.85rem, 10.8vw, 4.1rem); line-height: 1.035; letter-spacing: -.065em; }
+  .hero-subtitle { font-size: 18px; line-height: 1.4; margin: 23px 0 14px; }
+  .hero-description { font-size: 15px; line-height: 1.67; }
+  .hero-buttons { margin-top: 27px; gap: 10px; }
+  .hero-buttons .button { width: 100%; min-height: 49px; padding: 14px 17px; gap: 12px; font-size: 11px; letter-spacing: .07em; }
+  .hero-note { font-size: 10px; line-height: 1.55; letter-spacing: .045em; margin-top: 18px; }
+  .hero-art-caption { font-size: 9px; }
+  .media-data > div { padding: 13px 10px; }
+
+  .section-tag { font-size: 10px; letter-spacing: .13em; }
+  .section-title { margin-top: 13px; font-size: clamp(2.2rem, 9vw, 3.3rem); line-height: 1.12; letter-spacing: -.053em; }
+  .section-lede { font-size: 15px; line-height: 1.65; }
+  .section-intro { margin-bottom: 27px; }
+
+  .mission { padding: 57px 0 63px; }
+  .mission-grid { gap: 24px; }
+  .mission-lead { font-size: 22px; line-height: 1.43; }
+  .mission-copy p:not(.mission-lead) { font-size: 15px; line-height: 1.67; }
+  .mission-points { margin-top: 25px; padding-top: 22px; gap: 16px; }
+
+  .principles { padding: 57px 0 64px; }
+  .values-grid, .work-grid { gap: 12px; }
+  .value-card { min-height: 0; padding: 24px 22px; }
+  .value-card h3 { margin-top: 20px; font-size: 30px; line-height: 1.09; }
+  .value-card .translation { margin-bottom: 15px; }
+  .value-card p:last-child { line-height: 1.64; }
+  .work { padding: 64px 0; }
+  .work-top { margin-bottom: 27px; }
+  .work-card { min-height: 0; padding: 24px 22px; }
+  .work-card h3 { margin: 23px 0 10px; font-size: 22px; }
+  .work-card p { line-height: 1.68; }
+  .lab { padding-bottom: 64px; }
+  .join { padding: 64px 0 70px; }
+  .join .section-title { font-size: clamp(2.55rem, 9.7vw, 3.25rem); }
+  .join p { font-size: 15px; line-height: 1.68; }
+  .faq { padding: 61px 0; }
+  .faq-grid { gap: 25px; }
+
+  /* Coalition page: remove the dead space and fixed-height cards. */
+  .coalition-hero { padding: 53px 0 55px; }
+  .coalition-hero h1 { font-size: clamp(2.85rem, 10.5vw, 4.05rem); line-height: 1.045; letter-spacing: -.06em; }
+  .coalition-foundations,
+  .coalition-targets,
+  .coalition-steps,
+  .coalition-plexus,
+  .coalition-invite { padding-top: 52px; padding-bottom: 58px; }
+  .coalition-foundations .values-grid { gap: 12px; }
+  .coalition-foundations .value-card { min-height: 0; padding: 23px 22px; }
+  .coalition-foundations .value-card h3 { margin: 17px 0 12px; font-size: 27px; line-height: 1.13; }
+  .coalition-foundations .value-card p { font-size: 14px; line-height: 1.65; }
+  .coalition-targets .work-card { min-height: 0; padding: 23px 22px; }
+  .coalition-targets .work-card h3 { margin: 18px 0 10px; font-size: 21px; line-height: 1.23; overflow-wrap: break-word; }
+  .coalition-targets .work-card p { line-height: 1.67; }
+  .coalition-targets .work-card .coalition-link { padding-top: 14px; }
+  .coalition-steps .work-card { min-height: 0; }
+  .coalition-steps .work-card h3 { margin: 18px 0 10px; font-size: 21px; }
+  .coalition-plexus .mission-grid { gap: 19px; }
+  .coalition-plexus .mission-copy .mission-lead { font-size: 20px; line-height: 1.45; }
+  .coalition-plexus .mission-copy p { font-size: 15px; line-height: 1.7; }
+  .coalition-invite p { font-size: 15px; line-height: 1.7; }
+
+  /* Reading edition: comfortable text and tables without a giant mobile masthead. */
+  .proposal-hero { padding: 54px 0 48px; }
+  .proposal-title { font-size: clamp(2.75rem, 10.7vw, 4.1rem); line-height: 1.08; margin: 20px 0; letter-spacing: -.06em; }
+  .proposal-dek { font-size: 16px; line-height: 1.68; }
+  .proposal-actions { margin-top: 25px; gap: 10px; }
+  .proposal-actions .button { width: 100%; min-height: 49px; padding: 14px 18px; }
+  .proposal-facts { margin-top: 28px; }
+  .proposal-facts > div { padding: 16px 19px; }
+  .proposal-layout { padding-top: 36px; padding-bottom: 60px; }
+  .proposal-document h2 { margin-top: 46px; padding-top: 27px; font-size: clamp(26px, 7.2vw, 34px); }
+  .proposal-document h3 { margin-top: 30px; font-size: 21px; }
+  .proposal-document blockquote { padding: 17px 19px; }
+  .proposal-end { padding: 58px 0 66px; }
+  .proposal-end h2 { font-size: clamp(2.25rem, 8.6vw, 3.15rem); }
+}
+@media (max-width: 390px) {
+  .hero h1, .coalition-hero h1 { font-size: clamp(2.7rem, 11.3vw, 3.15rem); }
+  .hero-eyebrow span:last-child { font-size: 9px; letter-spacing: .075em; }
+  .proposal-eyebrow { font-size: 10px; letter-spacing: .08em; }
+  .proposal-title { font-size: clamp(2.5rem, 10.8vw, 3rem); }
+  .section-title { font-size: 2.15rem; }
+  .value-card, .work-card { padding: 21px 19px; }
+  .coalition-foundations .value-card, .coalition-targets .work-card { padding: 21px 19px; }
+}

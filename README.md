@@ -59,3 +59,11 @@ The front-end is currently just a publication channel, not the promised orbital 
 No emails have been sent, no Plexus import has been performed, and no affiliation has been established through this repo update. The separate 24-candidate **private** prospecting package was deliberately not committed to the public repository.
 
 **Important:** A public check on 16 October 2026 still returned the older parody version of the live domain, even though `master` had already been updated. Verify deployment of the `public/` folder and fresh content at all three routes before sharing partner links.
+
+## Mobile layout and copy
+
+The original embedded desktop CSS and design assets are preserved. A separate [mobile polish stylesheet](public/assets/mobile-polish.css), loaded after each page's existing styles, adjusts layouts **only at widths of 750px and below**. It removes the overflowing ribbon on phones, reduces section/card spacing, preserves 44px menu tap targets, and improves hero, buttons and proposal reading typography.
+
+Public headlines and explanatory copy have been revised to describe the actual scope and proposed partnership work rather than rely on generic startup slogans. The main "The sky belongs to everyone" identity is retained.
+
+For manual QA, check all three routes (`/`, `/coalition/`, `/plan/`) at narrow mobile widths, ~390px, 750px and desktop. Confirm no horizontal page scroll, readable cards and budgets, working navigation, intact artwork, and the synthetic-data/funding disclaimers.

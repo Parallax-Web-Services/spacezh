@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#070c17">
   <meta name="description" content="The SpaceЖ public founding proposal: global defense of Ukraine through open satellite intelligence, resilient communications research, public infrastructure, and accountable governance.">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="SpaceЖ — Public Founding Proposal for Ukraine">
+  <meta property="og:title" content="SpaceЖ — Public founding plan">
   <meta property="og:description" content="Ukraine is why we begin. Read the complete SpaceЖ proposal, architecture, roadmap, budgets, governance, risks, and call to build.">
   <meta property="og:url" content="https://xn--80akd1bg1j.com/plan/">
   <meta property="og:image" content="https://xn--80akd1bg1j.com/assets/spacezh-hero.webp">
@@ -377,6 +377,7 @@
   @media(max-width:900px){.proposal-layout{grid-template-columns:1fr;gap:30px;padding-block:55px 80px}.proposal-contents{position:static;max-height:none}.proposal-toc-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.proposal-sidebar-note{margin-top:22px}}
   @media(max-width:650px){.proposal-hero{padding:68px 0 55px}.proposal-facts{grid-template-columns:1fr}.proposal-facts>div+div{border-left:0;border-top:1px solid var(--line)}.proposal-contents{display:none}.proposal-layout{padding-block:34px 65px}.proposal-document{font-size:15px;line-height:1.75}.proposal-document h2{margin-top:58px;padding-top:32px}.proposal-document th,.proposal-document td{padding:10px 12px}.proposal-actions .button{width:100%}.proposal-end{padding:50px 0}}
 </style>
+  <link rel="stylesheet" href="/assets/mobile-polish.css">
 </head>
 <body>
   <a class="skip-link" href="#proposal-body">Skip to the proposal</a>
@@ -401,11 +402,11 @@
     <section class="proposal-hero" aria-labelledby="proposal-title">
       <div class="container proposal-hero-inner">
         <div class="proposal-eyebrow"><span class="tiny-dot" aria-hidden="true"></span>GLOBAL DEFENSE OF UKRAINE <span aria-hidden="true">/</span> PUBLIC FOUNDING PROPOSAL</div>
-        <h1 class="proposal-title" id="proposal-title">Built for Ukraine.<br><span class="gold">Open to the world.</span></h1>
-        <p class="proposal-dek">SpaceЖ proposes verifiable satellite intelligence, open ground infrastructure, and resilient communications research. Ukraine's defense is why we begin. The work, constraints, finances, and assumptions are published for public scrutiny.</p>
+        <h1 class="proposal-title" id="proposal-title">SpaceЖ:<br><span class="gold">the founding plan.</span></h1>
+        <p class="proposal-dek">A proposal for an open satellite-observation platform, community ground-station software, and resilient communications research in support of Ukraine. This document contains the technical roadmap, budget, governance model, and limitations.</p>
         <div class="proposal-actions">
-          <a class="button button-primary" href="#proposal-body">READ THE PLAN <span class="arrow" aria-hidden="true">↘</span></a>
-          <a class="button button-secondary" href="https://github.com/Parallax-Web-Services/spacezh/blob/master/docs/FOUNDING_PROPOSAL.md" target="_blank" rel="noopener noreferrer">SOURCE MARKDOWN <span class="arrow" aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href="#proposal-body">READ THE PROPOSAL <span class="arrow" aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="https://github.com/Parallax-Web-Services/spacezh/blob/master/docs/FOUNDING_PROPOSAL.md" target="_blank" rel="noopener noreferrer">VIEW MARKDOWN SOURCE <span class="arrow" aria-hidden="true">↗</span></a>
         </div>
         <div class="proposal-facts" aria-label="Illustrative proposal at a glance">
           <div><small>FIRST 90 DAYS</small><strong class="emphasis">$50,000</strong><span>Illustrative kickoff budget</span></div>
@@ -423,7 +424,7 @@
 <a href="#section-03"><span>03</span>The open architecture</a>
 <a href="#section-04"><span>04</span>Delivery roadmap and gates</a>
 <a href="#section-05"><span>05</span>Funding and sustainability</a>
-<a href="#section-06"><span>06</span>Governance people can trust</a>
+<a href="#section-06"><span>06</span>Governance and accountability</a>
 <a href="#section-07"><span>07</span>Regulatory and execution realities</a>
 <a href="#section-08"><span>08</span>Sources and assumptions</a>
 <a href="#section-09"><span>09</span>THE CALL TO ARMS</a></nav>
@@ -437,7 +438,7 @@
 <p><strong>Ukraine is why SpaceЖ exists.</strong> Its founding mission is the <strong>global defense of Ukraine</strong> through verifiable space intelligence, open technical infrastructure, and resilient communications research. This is a call for international technical cooperation—not a claim that we operate a satellite constellation, military warning system, or emergency communications network.</p>
 <p><strong>Our premise:</strong> Ukraine&#39;s defense and civilian resilience should not depend entirely on opaque, single-provider space infrastructure. The public deserves an interoperable alternative to concentrated private control of space-based communications and data. <strong>We can begin building that alternative without pretending we can launch a broadband constellation tomorrow.</strong></p>
 <p>SpaceЖ is a proposed open-source, public-interest initiative with Ukraine at the center of its purpose and international collaboration at the center of its approach. It would start by connecting trustworthy, licensed public satellite observations; producing an auditable orbital intelligence platform; and making community-operated ground infrastructure easier to deploy and use. Longer-term, it would pursue interoperable communications experiments and independently governed orbital capacity—only after engineering, regulatory, and financial milestones are met.</p>
-<blockquote><p><strong>One-sentence strategy</strong> — Open the data. Federate the ground. Prove the protocols. Earn the orbit.</p></blockquote>
+<blockquote><p><strong>Operating sequence</strong> — Build a public satellite-observation atlas; test opt-in ground stations; evaluate authorized communications links; consider orbital hardware only after independent review.</p></blockquote>
 <h3 id="the-first-concrete-product">The first concrete product</h3>
 <p>A live public atlas of satellites and observations, paired with SpaceЖ Node: reproducible open software and documentation for compliant, opt-in ground stations. The product is useful on day one for educators, researchers, operators, journalists, and civic organizations.</p>
 <h3 id="our-founding-promises">Our founding promises</h3>
@@ -460,7 +461,7 @@
 <ul><li><strong>SPACEЖ ATLAS</strong> Public orbital-intelligence software: catalog ingestion, licensed observation feeds, 3D orbital visualization, historical playback, event provenance, uncertainty, and accessible APIs.</li><li><strong>SPACEЖ NODE</strong> Reproducible node packages: ground-station setup, equipment profiles, health telemetry, privacy controls, hardware documentation, and SatNOGS-compatible contributions wherever licensing permits.</li><li><strong>SPACEЖ LINK</strong> An interoperable communications testbed, beginning with lawful terrestrial transport, delay-tolerant messaging, simulation, and interoperability evaluation. Actual satellite messaging depends on separately authorized links.</li><li><strong>SPACEЖ ORBIT</strong> A gated feasibility track for a hosted payload or small satellite with a qualified mission partner. No launch contract, satellite capacity, or service availability is assumed.</li></ul>
 <h3 id="suggested-technology-foundation">Suggested technology foundation</h3>
 <p>Laravel for application APIs, ingest orchestration, access controls, queues, and a public ledger; React for research and operational interfaces; Babylon.js for immersive 3D orbit replay; PostgreSQL/PostGIS for spatial/event data; commodity object storage for versioned evidence; open exports and signed change history. These are implementation preferences, not claimed completed features.</p>
-<h3 id="trust-is-the-actual-product">Trust is the actual product</h3>
+<h3 id="trust-is-the-actual-product">Source provenance and verification</h3>
 <ul><li>Every observation carries a source, capture time, ingest time, license, checksum, and any transformation history.</li><li>Separate measurements, predicted orbits, reporting, analysis, and simulation; never quietly promote inference to fact.</li><li>Honor dataset redistribution licenses, source rate limits, opt-in station consent, and any operator location privacy.</li><li>Keep an offline-capable documentation and deployment path; open standards and exportable data minimize lock-in.</li></ul>
 <blockquote><p><strong>Design test</strong> — Could an independent university fork the software, operate an authorized station, and validate one published observation without our permission? If not, we have not built a public alternative.</p></blockquote>
 <hr class="proposal-rule" aria-hidden="true">
@@ -469,7 +470,7 @@
 <ul><li>Open a public repository, contribution guide, architecture RFC, source/license inventory, and issue tracker.</li><li>Publish an initial 3D orbit viewer with clearly labeled predictions, source links, and replayable event examples.</li><li>Recruit an interim advisory group covering ground stations, spectrum regulation, security, and nonprofit governance.</li><li>Publish a donation/contracting policy draft before accepting organizational funds.</li></ul>
 <h3 id="days-3190-prove-the-first-value">Days 31–90  •  Prove the first value</h3>
 <ul><li>Release SpaceЖ Atlas alpha with a reproducible ingestion pipeline and downloadable evidence records.</li><li>Document and demonstrate three authorized receiver/node pilots, using existing open projects where practical.</li><li>Run an independent reproducibility review and publish an error log and privacy assessment.</li><li>Publish monthly financial and technical updates, even if money raised is zero.</li></ul>
-<h3 id="months-412-earn-a-community">Months 4–12  •  Earn a community</h3>
+<h3 id="months-412-earn-a-community">Months 4–12  •  Validate community pilots</h3>
 <ul><li>Targets—not commitments: 20 opt-in pilot stations, 50 external code/documentation contributions, and two nonprofit or academic demonstrations.</li><li>Stable public APIs, accessibility and localization, interoperability tests, and independent governance input.</li><li>Demonstrate a store-and-forward communications prototype on authorized terrestrial links, explicitly without claiming orbital capacity.</li></ul>
 <h3 id="months-1230-assess-an-orbital-mission">Months 12–30  •  Assess an orbital mission</h3>
 <ul><li>Publish link budgets, spectrum plan, deorbit plan, security design, independent technical review, and fully costed vendor/partner options.</li><li>Proceed only if required approvals, appropriate partners, funds, operational responsibilities, and mission safety are demonstrably in place.</li></ul>
@@ -486,7 +487,7 @@
 <p>Early support would be philanthropic grants, sponsorship of named milestones, in-kind hosting and hardware, and university collaborations. Long-term options include optional managed hosting, commercial support and training—never exclusive ownership of the open core or undisclosed resale of user-location or surveillance data.</p>
 <p>Any accepted donations, tax status, and payment channels depend on a properly established legal vehicle and professional review. The publication itself is a call for collaborators and nonbinding expressions of support.</p>
 <hr class="proposal-rule" aria-hidden="true">
-<h2 id="section-06">06  |  Governance people can trust</h2>
+<h2 id="section-06">06  |  Governance and accountability</h2>
 <h3 id="proposed-legal-shape">Proposed legal shape</h3>
 <p>SpaceЖ begins as a public working proposal, not as an already incorporated foundation. The preferred destination is an independent nonprofit or comparable public-benefit steward with transparent rules and a separately contracted service ecosystem. The eventual jurisdiction and entity type need legal review.</p>
 <ul><li>An interim steering committee with public minutes; transition to an independent board when legally formed.</li><li>A majority of governors independent of any single sponsor or commercial vendor; conflicts disclosed and recusal required.</li><li>No purchasing of board votes or veto powers through philanthropy; donor support does not confer control.</li><li>Public roadmap votes and RFCs for non-sensitive technical decisions; legally reserved decisions remain with accountable human officers/directors.</li><li>Published transactions, contributor compensation, procurement conflicts, and annual reports when operational.</li></ul>
@@ -533,10 +534,10 @@
     </div>
     <section class="proposal-end">
       <div class="container">
-        <p class="section-tag">THE NEXT 30 DAYS</p>
-        <h2>Bring your skills.<br><span class="accent">Build in public.</span></h2>
-        <p>Global defense of Ukraine is the mission behind this open-infrastructure proposal. Technical scrutiny, Ukrainian civil-society perspectives, lawful radio expertise, software, documentation, and reproducible contributions are welcome. Financial checkout is not live.</p>
-        <a class="button button-primary" href="/coalition/">BUILD THE COALITION <span class="arrow" aria-hidden="true">↗</span></a>
+        <p class="section-tag">CONTRIBUTE</p>
+        <h2>Review or improve <span class="accent">the plan.</span></h2>
+        <p>We are seeking technical criticism, Ukrainian research input, lawful radio expertise, documentation, and reproducible software contributions. Financial checkout is not live.</p>
+        <a class="button button-primary" href="/coalition/">VIEW COLLABORATION OPTIONS <span class="arrow" aria-hidden="true">↗</span></a>
       </div>
     </section>
   </main>
