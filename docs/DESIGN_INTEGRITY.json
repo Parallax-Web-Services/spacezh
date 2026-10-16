@@ -1,0 +1,14 @@
+{
+  "existing_github_index_git_blob_sha": "f8536caa2fff617c90c978f82c60fab852ea3a72",
+  "initial_source_index_bytes": 40885,
+  "new_index_bytes": 42704,
+  "css_unchanged": true,
+  "unchanged_assets": [
+    "assets/favicon.svg",
+    "assets/spacezh-hero.webp"
+  ],
+  "script_tags_added": 0,
+  "new_fundraising_forms_added": 0,
+  "payment_checkout_live": false,
+  "public_repository_url": "https://github.com/Parallax-Web-Services/spacezh"
+}
