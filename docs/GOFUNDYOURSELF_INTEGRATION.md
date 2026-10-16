@@ -2,6 +2,8 @@
 
 **Status: design specification; payment collection is NOT LIVE.**
 
+The proposed founding mission is global defense of Ukraine through open engineering, independent verification, and civilian resilience. Any eventual fundraising disclosures must make the mission clear without suggesting deployed military warning or targeting capabilities.
+
 The SpaceЖ site is the mission, education, and trust layer. GoFundYourself is proposed as the separate contribution engine, with an ActBlue-style low-friction flow for one-time and optionally recurring support. Do not represent an unformed foundation as a 501(c)(3), or label payments tax-deductible without substantiation. Legal entity, processor, disclosures, and refund policy must be settled before activation.
 
 ## Funnel

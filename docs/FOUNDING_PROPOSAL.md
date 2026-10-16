@@ -1,11 +1,13 @@
 # SPACEЖ — The sky belongs to everyone
 
-**Public founding proposal | Version 0.1 | 16 October 2026**
+**Global defense of Ukraine. Open infrastructure for the world.**
+
+**Public founding proposal | Version 0.2 | 16 October 2026**
 
 > Working proposal for public comment. SpaceЖ is not represented here as an established nonprofit, an operational satellite constellation, or an approved securities offering.
 
 
-> **A call to build** — A coalition of engineers, radio operators, researchers, universities, civic organizations, and funders—working in public, with milestones anyone can audit.
+> **A call to build** — SpaceЖ begins with the global defense of Ukraine: an invitation to engineers, radio operators, researchers, Ukrainian civic groups, universities, and funders to help build auditable public infrastructure. No outside organization is presumed to have endorsed this proposal.
 
 
 ---
@@ -13,9 +15,11 @@
 
 ## 01  |  Executive thesis
 
-**Our premise: **The public deserves an interoperable alternative to concentrated private control of space-based communications and data. **We can begin building that alternative without pretending we can launch a broadband constellation tomorrow.**
+**Ukraine is why SpaceЖ exists.** Its founding mission is the **global defense of Ukraine** through verifiable space intelligence, open technical infrastructure, and resilient communications research. This is a call for international technical cooperation—not a claim that we operate a satellite constellation, military warning system, or emergency communications network.
 
-SpaceЖ is a proposed open-source, public-interest initiative. It would start by connecting trustworthy, licensed public satellite observations; producing an auditable orbital intelligence platform; and making community-operated ground infrastructure easier to deploy and use. Longer-term, it would pursue interoperable communications experiments and independently governed orbital capacity—only after engineering, regulatory, and financial milestones are met.
+**Our premise:** Ukraine's defense and civilian resilience should not depend entirely on opaque, single-provider space infrastructure. The public deserves an interoperable alternative to concentrated private control of space-based communications and data. **We can begin building that alternative without pretending we can launch a broadband constellation tomorrow.**
+
+SpaceЖ is a proposed open-source, public-interest initiative with Ukraine at the center of its purpose and international collaboration at the center of its approach. It would start by connecting trustworthy, licensed public satellite observations; producing an auditable orbital intelligence platform; and making community-operated ground infrastructure easier to deploy and use. Longer-term, it would pursue interoperable communications experiments and independently governed orbital capacity—only after engineering, regulatory, and financial milestones are met.
 
 
 > **One-sentence strategy** — Open the data. Federate the ground. Prove the protocols. Earn the orbit.
@@ -31,7 +35,8 @@ A live public atlas of satellites and observations, paired with SpaceЖ Node: re
 - Open work by default: source code, design discussions, milestones, and financial reporting are public, subject to security and privacy limits.
 - Public-benefit stewardship: donors may sponsor deliverables but may not purchase exclusive control of the mission.
 - Interoperability first: build on SatNOGS and other established open projects; do not create a proprietary replacement simply to own the ecosystem.
-- Civilian public value: resilience, scientific transparency, education, and lawful open-source verification—not tactical targeting or claims of real-time missile detection.
+- Defense through public infrastructure: support Ukraine's civilian resilience, independent information access, scientific transparency, and lawful open-source verification—not tactical targeting or claims of real-time missile detection.
+- Ukraine-informed priorities: seek requirements and critical review from consenting Ukrainian researchers, civil-society, and humanitarian participants; no partnership or endorsement is assumed.
 - No false deadlines: orbital broadband is a distant ambition, not a funded or presently feasible deliverable.
 
 ### What this publication asks
@@ -55,7 +60,7 @@ The International Telecommunication Union estimated that 2.2 billion people rema
 
 ### The gap SpaceЖ could fill
 
-There is room for a cohesive, user-facing layer that makes open space observations discoverable, attributable, replayable, and useful to non-specialists, while connecting that software to a practical ground-node and future communications roadmap. SpaceЖ should win adoption through clarity, reliability, integrations, documentation, and accountable governance—not novelty claims.
+Ukraine's defense is the founding purpose; public, inspectable infrastructure is the lasting international benefit. There is room for a cohesive, user-facing layer that makes open space observations discoverable, attributable, replayable, and useful to non-specialists, while connecting that software to a practical ground-node and future communications roadmap. SpaceЖ should win adoption through clarity, reliability, integrations, documentation, and accountable governance—not novelty claims.
 
 
 > **Scope boundary** — Public orbital data and observations do not constitute a military-grade launch-detection or early-warning system. Community ground stations and terrestrial mesh links do not constitute a Starlink-class broadband replacement.
@@ -63,6 +68,7 @@ There is room for a cohesive, user-facing layer that makes open space observatio
 
 ### Who benefits first
 
+- Ukrainian researchers, civil-society and humanitarian groups seeking verifiable open-source context and lawful resilience technology, with privacy and safety safeguards.
 - Universities, schools, and amateur-radio clubs that need accessible educational tooling.
 - Researchers and journalists who need source-linked timelines and reproducible visualizations.
 - Humanitarian and disaster-resilience organizations evaluating lawful, redundant communication options.
@@ -196,7 +202,7 @@ Adopt OSI-approved software licenses, with Apache-2.0 considered for libraries/S
 
 ### Civic and scientific safeguards
 
-- Civilian, humanitarian, educational, and research purposes are primary; no infrastructure for direct tactical targeting.
+- SpaceЖ supports the global defense of Ukraine through lawful public-interest technology. Public releases focus on civilian resilience, humanitarian, educational, and scientific uses; they will not provide direct tactical targeting or live threat cueing.
 - Do not publish exact positions of sensitive volunteer stations without informed consent.
 - Disclose uncertainty and correct errors visibly; public claims require source links and a defined confidence standard.
 - Conduct security review before launching messaging features, especially those used in crisis conditions.
@@ -234,6 +240,7 @@ U.S.-jurisdiction spacecraft and earth-station activities can involve FCC author
 - Three reproducible node pilots and a source-linked atlas alpha within the first 90 days (targets).
 - 20 opt-in pilot stations, 50 external contributions, and two documented institutional demos by month 12 (targets).
 - A public source-quality report, privacy policy, maintenance/security response plan, and proposed governance charter.
+- Ukrainian-language resources and voluntarily solicited input from Ukrainian research and civic contributors, without implying any endorsement before confirmation.
 
 > **What success is not** — Success is not a valuation, an impressive rendering, an unverified satellite map, or a promise to challenge commercial constellation throughput without a credible link budget.
 
@@ -267,6 +274,8 @@ SpaceЖ is presented as a proposed open public infrastructure initiative. The do
 
 ## 09  |  THE CALL TO ARMS
 
+**Ukraine is why we begin. The world is invited to build.** The global defense of Ukraine also needs enduring, independent public knowledge and resilient infrastructure. SpaceЖ seeks verifiable contributions to that foundation, with honest limits on present capabilities.
+
 A terminal. An antenna. A soldering iron. A laboratory. A classroom. A team. A contribution that can be audited.
 
 If you build software, take ownership of an issue. If you know RF, review the node specification. If you run a university, host a research team. If you operate a station, bring it to the standards conversation. If you can fund public-interest work, sponsor a milestone without purchasing control. If you see a flaw in this plan, publish the critique.
@@ -287,7 +296,9 @@ If you build software, take ownership of an issue. If you know RF, review the no
 
 # THE CALL TO ARMS
 
-**Not weapons. Tools.**
+**Built for Ukraine's defense. Open to the world.**
+
+This is a call for public engineering, independent verification, and civilian resilience—not a claim of deployed defense capabilities or a request for targeting support.
 
 A terminal. An antenna. A soldering iron. A laboratory. A classroom. A team. A contribution that can be audited.
 
