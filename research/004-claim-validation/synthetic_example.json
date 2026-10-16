@@ -1,0 +1,10 @@
+{
+  "data_kind": "synthetic",
+  "description": "Fictional one-page example: no sensitive or real launch records. Outcomes only.",
+  "abstract_outcomes": [
+    "on_time", "on_time", "on_time", "on_time", "on_time",
+    "on_time", "on_time", "on_time", "late", "unresolved"
+  ],
+  "non_event_exposure_days": 7.0,
+  "false_alarms": 0
+}

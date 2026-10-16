@@ -1,0 +1,35 @@
+{
+  "illustrative_scenario": {
+    "95pct_one_sided_lower_sensitivity_if_iid_and_complete": 0.4930987,
+    "95pct_one_sided_upper_expected_false_alarms_per_30d_if_poisson": 12.8388526,
+    "operational_qualification": "NOT ELIGIBLE — SYNTHETIC DATA",
+    "population_census_validated": false,
+    "source_independence_proved": false,
+    "tally": {
+      "conservative_non_success": 2,
+      "guaranteed_on_time": 8,
+      "known_events": 10,
+      "late": 1,
+      "missed": 0,
+      "on_time": 8,
+      "unresolved": 1
+    }
+  },
+  "joint_95pct_example_requirements": {
+    "joint_confidence_lower_bound": 0.95,
+    "max_expected_false_alarms_per_30_days": 1.0,
+    "one_sided_alpha_each": 0.025000000000000022,
+    "real_world_detection_validated": false,
+    "stationarity_and_iid_assumed": true,
+    "target_sensitivity": 0.99,
+    "zero_alarm_continuous_exposure_days_required": 110.666384,
+    "zero_miss_independent_trials_required": 368
+  },
+  "methodological_not_operational": true,
+  "required_zero_miss_trials_95pct_one_sided": {
+    "95.0%": 59,
+    "99.0%": 299,
+    "99.9%": 2995
+  },
+  "study": "SpaceZh Research 004 — Requirements for a 60-second evidence claim"
+}
