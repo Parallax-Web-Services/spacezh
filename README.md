@@ -81,3 +81,11 @@ For manual QA, check all three routes (`/`, `/coalition/`, `/plan/`) at narrow m
 Run the first three test suites with `python3 -m unittest discover -s research/001-leo-contact -p 'test_*.py' -v`, `python3 -m unittest discover -s research/002-independent-early-warning -p 'test_*.py' -v`, and `python3 -m unittest discover -s research/003-observation-gap -p 'test_*.py' -v`. No third-party libraries are required. Passing synthetic-model tests is **not** proof of real-world sensing.
 
 Run Research 004 using `python3 -m unittest discover -s research/004-claim-validation -p 'test_*.py' -v`. Together the four studies contain **54 passing mathematical/model tests**, which do not demonstrate any real launch-sensing capability.
+
+## Reading the studies without GitHub Markdown
+
+The [research page](public/research/index.html) links to the full on-site versions of Research 001–004. Each reader includes the complete canonical README prose, responsive tables, **native MathML** instead of raw LaTeX, and a **standalone SVG graph**. Research 003 and 004 also include their scientific review documents below the main study. Graphs are deliberately fictional or hypothetical and provide their underlying numbers on the page.
+
+GitHub remains the home of source code and test suites, not the required publication viewer.
+
+**Maintainer rule:** when a Markdown study changes, update its corresponding on-site HTML and re-run `python3 scripts/check_research_publication.py`. The published pages include a content fingerprint of the canonical Markdown source, so CI will fail if the source changes without updating the website. This is a source-consistency check, not a scientific result or proof that a browser renders well; mobile and desktop layout still need visual QA.

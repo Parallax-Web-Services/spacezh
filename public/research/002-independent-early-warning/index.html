@@ -1,0 +1,385 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="research-source-path" content="research/002-independent-early-warning/README.md"><meta name="research-source-blob" content="d09bf5ccd1acb561e09695072e8170466988414b"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#070c17"><meta name="description" content="The 60-second early-warning requirement. Full SpaceЖ study with equations and graphs."><meta property="og:type" content="article"><meta property="og:title" content="Research 002 — SpaceЖ"><meta property="og:url" content="https://xn--80akd1bg1j.com/research/002-independent-early-warning/"><meta property="og:image" content="https://xn--80akd1bg1j.com/assets/spacezh-hero.webp"><link rel="canonical" href="https://xn--80akd1bg1j.com/research/002-independent-early-warning/"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><title>Research 002 — The 60-second early-warning requirement · SpaceЖ</title><style>
+    :root {
+      color-scheme: dark;
+      --bg: #070c17;
+      --bg-deep: #040713;
+      --panel: #0b1324;
+      --panel-2: #111b30;
+      --text: #f3f7ff;
+      --muted: #a7b5ca;
+      --dim: #667892;
+      --line: rgba(160, 191, 228, .17);
+      --blue: #338efa;
+      --ice: #83c9ff;
+      --gold: #ffda47;
+      --container: 1220px;
+      --ease: cubic-bezier(.2, .75, .25, 1);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background: var(--bg);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      pointer-events: none;
+      z-index: -1;
+      inset: 0;
+      background-image: radial-gradient(circle at 14% 18%, rgba(69, 138, 255, .075) 0, transparent 32%), radial-gradient(circle at 85% 11%, rgba(38, 93, 187, .075) 0, transparent 35%);
+    }
+    ::selection { color: #06111e; background: var(--gold); }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+    a:focus-visible, summary:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; border-radius: 3px; }
+    img { max-width: 100%; display: block; }
+    .container { width: min(var(--container), calc(100% - 88px)); margin-inline: auto; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    .skip-link { position: fixed; z-index: 500; top: -100px; left: 12px; padding: 12px 18px; color: #04121b; background: var(--gold); font-weight: 700; }
+    .skip-link:focus { top: 12px; }
+    .flag-line { height: 3px; background: linear-gradient(90deg, #0057b7 0 50%, #ffd700 50% 100%); }
+
+    /* Navigation */
+    .site-header { position: sticky; z-index: 100; top: 0; background: rgba(7,12,23,.88); border-bottom: 1px solid var(--line); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); }
+    .nav-wrap { min-height: 80px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+    .logo { flex: none; font-size: 27px; line-height: 1; font-weight: 900; letter-spacing: -.085em; text-transform: uppercase; }
+    .logo .logo-zh { padding-left: 2px; color: var(--gold); }
+    .logo .logo-blue { color: #82bcff; }
+    .desktop-nav { display: flex; gap: 30px; align-items: center; margin-left: auto; }
+    .desktop-nav a { font-size: 11px; letter-spacing: .12em; font-weight: 750; color: #c7d2e3; transition: color .2s ease; }
+    .desktop-nav a:hover { color: var(--gold); }
+    .nav-cta { display: inline-flex; align-items: center; gap: 11px; border: 1px solid rgba(255,218,71,.55); padding: 12px 16px; color: var(--gold); font-size: 10px; font-weight: 800; letter-spacing: .1em; transition: background .2s ease, transform .2s ease; white-space: nowrap; }
+    .nav-cta:hover { background: rgba(255,218,71,.09); transform: translateY(-1px); }
+    .mobile-nav { display: none; position: relative; }
+    .mobile-nav summary { display: grid; place-items: center; cursor: pointer; padding: 10px; color: var(--text); border: 1px solid var(--line); list-style: none; }
+    .mobile-nav summary::-webkit-details-marker { display: none; }
+    .mobile-nav summary svg { width: 22px; height: 22px; }
+    .mobile-links { position: absolute; right: 0; top: calc(100% + 14px); min-width: 250px; background: #0c172a; border: 1px solid rgba(160,191,228,.3); box-shadow: 0 20px 50px rgba(0,0,0,.5); padding: 12px; }
+    .mobile-links a { display: block; padding: 13px; font-size: 13px; font-weight: 700; }
+    .mobile-links a:hover { color: var(--gold); background: rgba(255,255,255,.035); }
+
+    /* Common type and UI */
+    .mono { font-family: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .kicker { margin: 0; font-size: 11px; letter-spacing: .19em; line-height: 1.6; font-weight: 800; color: var(--ice); text-transform: uppercase; }
+    .kicker .rule { display: inline-block; width: 24px; height: 1px; margin: 0 10px 3px 0; vertical-align: middle; background: var(--blue); }
+    .button { display: inline-flex; align-items: center; justify-content: center; gap: 18px; min-height: 52px; padding: 16px 22px; font-size: 11px; letter-spacing: .1em; font-weight: 850; text-transform: uppercase; transition: transform .2s var(--ease), background .2s ease, border-color .2s ease; }
+    .button:hover { transform: translateY(-2px); }
+    .button-primary { color: #071323; background: var(--gold); border: 1px solid var(--gold); }
+    .button-primary:hover { background: #ffe584; }
+    .button-secondary { color: var(--text); background: rgba(17,29,49,.48); border: 1px solid rgba(154,183,222,.36); }
+    .button-secondary:hover { border-color: var(--ice); background: rgba(45,87,143,.2); }
+    .arrow { font-size: 19px; font-weight: 400; line-height: .8; }
+    .section-tag { display: inline-flex; align-items: center; gap: 12px; color: var(--ice); font-size: 11px; font-weight: 750; letter-spacing: .17em; text-transform: uppercase; }
+    .section-tag::before { content: ""; width: 22px; height: 1px; background: var(--blue); }
+    .section-title { margin: 20px 0 0; font-size: clamp(40px,5.2vw,75px); line-height: 1.06; letter-spacing: -.058em; font-weight: 830; }
+    .section-lede { max-width: 590px; font-size: 17px; line-height: 1.85; color: var(--muted); }
+    .accent { color: var(--gold); }
+    .blue { color: var(--ice); }
+    .muted { color: var(--muted); }
+    .divider { height: 1px; background: var(--line); }
+
+    /* Hero */
+    .hero { position: relative; overflow: hidden; padding: 99px 0 106px; isolation: isolate; }
+    .hero::before { content: ""; position: absolute; inset: -200px -10% -80px; z-index: -2; background: radial-gradient(ellipse 52% 48% at 73% 48%, rgba(12,66,155,.25), transparent 80%), radial-gradient(ellipse 48% 44% at 3% 12%, rgba(7,66,151,.15), transparent 76%); }
+    .star-field { pointer-events: none; position: absolute; z-index: -1; inset: 0; opacity: .32; background-image: radial-gradient(1px 1px at 14% 22%, white 80%, transparent 100%), radial-gradient(1px 1px at 38% 10%, white 80%, transparent 100%), radial-gradient(1.4px 1.4px at 71% 28%, #9cccff 80%, transparent 100%), radial-gradient(1px 1px at 86% 75%, white 80%, transparent 100%), radial-gradient(1px 1px at 25% 68%, white 80%, transparent 100%), radial-gradient(1px 1px at 60% 91%, white 80%, transparent 100%); background-size: 290px 310px; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); align-items: center; gap: clamp(35px,4vw,74px); }
+    .hero-copy { position: relative; z-index: 2; }
+    .hero-eyebrow { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 27px; }
+    .tiny-dot { width: 7px; height: 7px; background: var(--gold); box-shadow: 0 0 13px rgba(255,218,71,.7); border-radius: 50%; }
+    .hero-eyebrow span:last-child { color: var(--ice); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
+    .hero h1 { margin: 0; font-size: clamp(3.05rem,5.65vw,6.15rem); line-height: .985; letter-spacing: -.077em; font-weight: 880; }
+    .hero h1 span { display: block; }
+    .hero h1 .h1-soft { color: #dce7f8; }
+    .hero h1 .h1-live { color: var(--gold); }
+    .hero h1 .word-zh { display: inline; color: var(--gold); }
+    .hero h1 .period { display: inline; color: #68aafd; }
+    .hero-subtitle { margin: 31px 0 14px; font-size: 20px; letter-spacing: -.03em; font-weight: 780; }
+    .hero-description { max-width: 540px; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.85; }
+    .hero-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+    .hero-note { margin-top: 25px; color: #71849e; font-size: 10px; line-height: 1.65; letter-spacing: .1em; text-transform: uppercase; }
+    .hero-note strong { color: #a4b3c7; font-weight: 700; }
+    .hero-media { position: relative; }
+    .hero-media::before { content: ""; position: absolute; z-index: -1; width: 88%; height: 78%; top: -6%; right: -9%; border: 1px solid rgba(69,141,250,.17); border-radius: 50%; transform: rotate(-23deg); }
+    .hero-media::after { content: ""; position: absolute; z-index: -1; width: 70%; height: 100%; left: -10%; bottom: -12%; background: rgba(31,124,252,.16); filter: blur(80px); }
+    .hero-art { position: relative; margin: 0; overflow: hidden; border: 1px solid rgba(156,197,248,.35); background: #060b16; box-shadow: 0 22px 80px rgba(0,0,0,.33), inset 0 0 50px rgba(0,96,207,.15); }
+    .hero-art::before, .hero-art::after { content: ""; position: absolute; z-index: 2; width: 32px; height: 32px; pointer-events: none; }
+    .hero-art::before { top: 0; left: 0; border-top: 2px solid var(--gold); border-left: 2px solid var(--gold); }
+    .hero-art::after { bottom: 0; right: 0; border-bottom: 2px solid var(--blue); border-right: 2px solid var(--blue); }
+    .hero-art img { width: 100%; height: auto; aspect-ratio: 1122 / 850; object-fit: contain; transition: transform .75s var(--ease); }
+    .hero-art:hover img { transform: scale(1.035); }
+    .hero-art-caption { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 15px 16px; background: rgba(4,8,17,.96); border-top: 1px solid var(--line); color: #afbed5; font-size: 10px; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+    .flag { display: inline-block; width: 23px; height: 14px; flex: 0 0 auto; vertical-align: middle; background: linear-gradient(#0057b7 0 50%, #ffd700 50% 100%); }
+    .hero-art-caption .flag { margin-right: 7px; }
+    .media-data { margin-top: 14px; display: grid; grid-template-columns: repeat(3,1fr); border: 1px solid var(--line); background: rgba(11,19,36,.78); }
+    .media-data > div { padding: 17px 15px; min-width: 0; }
+    .media-data > div + div { border-left: 1px solid var(--line); }
+    .data-label { display: block; margin-bottom: 8px; color: var(--dim); letter-spacing: .14em; font-size: 9px; font-weight: 800; }
+    .data-value { display: block; color: #e8f1ff; font-size: 11px; font-weight: 750; letter-spacing: .06em; }
+    .data-value.gold { color: var(--gold); }
+
+    /* Ribbon */
+    .ribbon { overflow: hidden; background: linear-gradient(90deg, #0e2b53, #0c2850 60%, #092143); border-top: 1px solid rgba(75,141,230,.3); border-bottom: 1px solid rgba(75,141,230,.3); }
+    .ribbon-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 18px; padding-bottom: 18px; }
+    .ribbon-word { white-space: nowrap; font-size: clamp(12px,1.7vw,17px); letter-spacing: .16em; font-weight: 850; }
+    .ribbon-sep { color: var(--gold); opacity: .8; }
+
+    /* Mission */
+    .mission { padding: 139px 0 143px; }
+    .mission-grid { display: grid; grid-template-columns: minmax(0,.75fr) minmax(0,1.25fr); gap: clamp(40px,8vw,150px); }
+    .mission-lead { margin: 0 0 23px; font-size: clamp(24px,2.3vw,33px); font-weight: 700; line-height: 1.45; letter-spacing: -.04em; }
+    .mission-copy p:not(.mission-lead) { max-width: 710px; color: var(--muted); font-size: 17px; line-height: 1.82; }
+    .mission-points { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 55px; padding-top: 28px; border-top: 1px solid var(--line); }
+    .mission-points strong { display: block; color: var(--gold); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+    .mission-points p { margin-bottom: 0; font-size: 13px !important; line-height: 1.6 !important; }
+
+    /* Principles */
+    .principles { padding: 118px 0 127px; background: #0a1120; border-block: 1px solid var(--line); position: relative; }
+    .principles::before { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse 50% 50% at 50% 120%, rgba(0,87,183,.13), transparent 80%); pointer-events: none; }
+    .section-intro { position: relative; display: flex; align-items: end; justify-content: space-between; gap: 40px; margin-bottom: 48px; }
+    .section-intro .section-lede { margin: 0; max-width: 425px; }
+    .values-grid { position: relative; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; }
+    .value-card { min-height: 336px; border: 1px solid var(--line); padding: 30px; background: linear-gradient(155deg,rgba(28,51,84,.42),rgba(10,19,34,.75)); transition: border-color .25s ease, transform .3s var(--ease); }
+    .value-card:hover { transform: translateY(-5px); border-color: rgba(255,218,71,.42); }
+    .value-number { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: #8498b1; letter-spacing: .13em; }
+    .value-number span:last-child { display: inline-block; width: 33px; height: 3px; background: var(--blue); }
+    .value-card:nth-child(2) .value-number span:last-child { background: var(--gold); }
+    .value-card h3 { margin: 54px 0 5px; font-size: clamp(33px,3vw,44px); letter-spacing: -.065em; line-height: 1; }
+    .value-card h3 span { color: var(--gold); }
+    .value-card .translation { margin: 0 0 23px; font-size: 11px; color: var(--ice); letter-spacing: .18em; font-weight: 750; text-transform: uppercase; }
+    .value-card p:last-child { color: var(--muted); font-size: 14px; line-height: 1.85; }
+    .ukrainian-banner { display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; gap: 17px; margin-top: 36px; padding: 27px 0 0; border-top: 1px solid var(--line); }
+    .ukrainian-banner strong { font-size: clamp(16px,2vw,23px); letter-spacing: .04em; }
+    .ukrainian-banner span { color: var(--muted); font-size: 13px; }
+
+    /* Work */
+    .work { padding: 130px 0; }
+    .work-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 47px; }
+    .work-top p { max-width: 430px; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.8; }
+    .work-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
+    .work-card { position: relative; min-height: 244px; padding: 30px 31px; overflow: hidden; border: 1px solid var(--line); background: linear-gradient(120deg,rgba(14,28,50,.76),rgba(7,15,28,.91)); }
+    .work-card::after { content: ""; position: absolute; top: -64px; right: -60px; width: 170px; height: 170px; border: 1px solid rgba(63,127,212,.16); border-radius: 50%; box-shadow: 0 0 0 29px rgba(40,99,179,.035), 0 0 0 59px rgba(40,99,179,.022); pointer-events: none; }
+    .work-card-top { display: flex; align-items: start; justify-content: space-between; gap: 30px; }
+    .work-glyph { font-size: 37px; font-weight: 300; line-height: 1; color: var(--ice); }
+    .work-label { border: 1px solid rgba(255,218,71,.23); color: var(--gold); padding: 6px 10px; font-size: 9px; letter-spacing: .1em; font-weight: 780; }
+    .work-card h3 { position: relative; margin: 40px 0 11px; font-size: 22px; letter-spacing: -.04em; }
+    .work-card p { position: relative; max-width: 490px; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.75; }
+    .roadmap-note { display: flex; align-items: start; gap: 12px; margin-top: 22px; color: #93a6bf; font-size: 12px; line-height: 1.7; }
+    .roadmap-note b { color: var(--gold); font-weight: 900; }
+
+    /* Synthetic lab display */
+    .lab { padding: 0 0 143px; }
+    .lab-shell { border: 1px solid rgba(84,137,211,.37); background: #050d19; box-shadow: 0 34px 90px rgba(0,0,0,.3); }
+    .lab-titlebar { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 15px 21px; border-bottom: 1px solid var(--line); color: #c7d7ea; font-size: 10px; letter-spacing: .13em; font-weight: 760; }
+    .lab-titlebar .warning { color: var(--gold); }
+    .lab-content { display: grid; grid-template-columns: 1.02fr .98fr; }
+    .lab-display { min-height: 385px; position: relative; isolation: isolate; display: grid; place-items: center; overflow: hidden; border-right: 1px solid var(--line); background: radial-gradient(ellipse at center,rgba(20,68,119,.21),transparent 65%), linear-gradient(140deg,#071528,#07111d); }
+    .lab-display::before { content: ""; position: absolute; inset: 0; z-index: -1; opacity: .42; background-image: linear-gradient(rgba(73,127,192,.13) 1px,transparent 1px), linear-gradient(90deg,rgba(73,127,192,.13) 1px,transparent 1px); background-size: 30px 30px; -webkit-mask-image: radial-gradient(ellipse,black 34%,transparent 78%); mask-image: radial-gradient(ellipse,black 34%,transparent 78%); }
+    .radar { position: relative; width: min(305px,72%); aspect-ratio: 1; border: 1px solid rgba(81,165,255,.4); border-radius: 50%; box-shadow: 0 0 60px rgba(18,91,174,.1), inset 0 0 45px rgba(18,91,174,.06); }
+    .radar::before,.radar::after { content: ""; position: absolute; z-index: 3; background: rgba(81,165,255,.18); }
+    .radar::before { width: 1px; height: 100%; left: calc(50% - .5px); }
+    .radar::after { height: 1px; width: 100%; top: calc(50% - .5px); }
+    .radar-ring { position: absolute; border: 1px solid rgba(81,165,255,.25); border-radius: 50%; }
+    .radar-ring.r1 { inset: 16.66%; } .radar-ring.r2 { inset: 33.33%; }
+    .radar-sweep { position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 0deg,transparent 0 282deg,rgba(34,143,255,.015) 284deg,rgba(41,134,247,.28) 359deg); animation: sweep 13s linear infinite; }
+    .radar-dot { position: absolute; z-index: 4; width: 8px; height: 8px; background: var(--ice); border: 2px solid #dff3ff; border-radius: 50%; box-shadow: 0 0 17px var(--ice); }
+    .radar-dot.d1 { top: 28%; left: 68%; }.radar-dot.d2 { top: 64%; left: 31%; transform: scale(.6); opacity: .5; }
+    .radar-center { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); z-index: 4; width: 11px; height: 11px; background: var(--gold); border-radius: 50%; box-shadow: 0 0 20px rgba(255,218,71,.45); }
+    .lab-corner { position: absolute; left: 20px; top: 20px; color: #8299b5; font-size: 10px; letter-spacing: .11em; }
+    .lab-corner.right { left: auto; right: 20px; text-align: right; }
+    .lab-status { padding: 33px 38px; display: flex; flex-direction: column; justify-content: center; }
+    .lab-status h3 { margin: 11px 0 22px; font-size: clamp(23px,3vw,34px); letter-spacing: -.05em; }
+    .log-row { display: flex; align-items: start; gap: 12px; padding: 16px 0; border-top: 1px solid var(--line); font-size: 12px; line-height: 1.5; color: #c5d6e9; }
+    .log-row:last-child { border-bottom: 1px solid var(--line); }
+    .log-row span { flex: none; color: #7891b1; }
+    .log-row em { margin-left: auto; color: var(--ice); font-style: normal; text-align: right; }
+    .lab-disclaimer { padding: 17px 21px; border-top: 1px solid var(--line); background: rgba(255,218,71,.045); color: #d6c694; font-size: 11px; line-height: 1.6; }
+    @keyframes sweep { to { transform: rotate(360deg); } }
+
+    /* Join, FAQ, footer */
+    .join { padding: 118px 0 125px; position: relative; overflow: hidden; background: linear-gradient(125deg,#123f7a 0%,#0c2548 44%,#0b172b 100%); border-top: 1px solid rgba(113,183,255,.3); border-bottom: 1px solid rgba(113,183,255,.22); }
+    .join::after { content: "Ж"; pointer-events: none; position: absolute; right: 4%; bottom: -33%; color: rgba(255,218,71,.045); font-size: clamp(380px,47vw,760px); font-weight: 900; line-height: 1; }
+    .join-content { position: relative; z-index: 2; max-width: 860px; }
+    .join .section-title { font-size: clamp(53px,6.6vw,96px); }
+    .join p { max-width: 610px; color: #d4e2f3; font-size: 17px; line-height: 1.85; }
+    .join .button { margin-top: 16px; }
+    .join-small { display: block; margin-top: 20px; color: #98b7da; font-size: 11px; line-height: 1.6; }
+    .faq { padding: 89px 0 100px; }
+    .faq-grid { display: grid; grid-template-columns: .66fr 1.34fr; gap: 70px; }
+    .faq h2 { margin: 0; font-size: clamp(32px,3.5vw,49px); line-height: 1.1; letter-spacing: -.05em; }
+    .faq-item { border-bottom: 1px solid var(--line); }
+    .faq-item:first-child { border-top: 1px solid var(--line); }
+    .faq-item summary { position: relative; cursor: pointer; list-style: none; padding: 23px 36px 23px 0; font-size: 15px; font-weight: 700; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: "+"; position: absolute; right: 1px; top: 17px; color: var(--gold); font-size: 27px; font-weight: 300; }
+    .faq-item[open] summary::after { content: "−"; }
+    .faq-item p { margin: -6px 30px 24px 0; font-size: 14px; line-height: 1.8; color: var(--muted); }
+    .site-footer { padding: 38px 0 30px; border-top: 1px solid var(--line); background: #050914; }
+    .footer-main { display: flex; justify-content: space-between; align-items: start; gap: 35px; padding-bottom: 30px; }
+    .footer-main .logo { font-size: 34px; }
+    .footer-main p { max-width: 480px; margin: 13px 0 0; color: var(--muted); font-size: 12px; line-height: 1.75; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 23px; color: #c7d6e9; font-size: 12px; font-weight: 700; }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 15px; padding-top: 23px; border-top: 1px solid var(--line); color: #7186a0; font-size: 10px; line-height: 1.8; }
+    .footer-bottom span:first-child { max-width: 730px; }
+
+    @media (max-width: 1050px) {
+      .container { width: min(var(--container),calc(100% - 60px)); }
+      .desktop-nav { gap: 20px; }
+      .nav-cta { display: none; }
+      .hero { padding-block: 80px 90px; }
+      .hero h1 { font-size: clamp(3.4rem,6vw,5.4rem); }
+      .hero-grid { gap: 29px; }
+      .media-data > div { padding: 15px 10px; }
+      .data-value { font-size: 10px; }
+      .section-title { font-size: clamp(42px,5.6vw,68px); }
+      .value-card { padding: 23px; }
+      .value-card h3 { font-size: 35px; }
+    }
+    @media (max-width: 750px) {
+      html { scroll-padding-top: 80px; }
+      .container { width: calc(100% - 36px); }
+      .nav-wrap { min-height: 68px; }
+      .logo { font-size: 25px; }
+      .desktop-nav { display: none; }
+      .mobile-nav { display: block; }
+      .hero { padding: 70px 0 76px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 56px; }
+      .hero h1 { font-size: clamp(3.5rem,11vw,6rem); }
+      .hero-subtitle { font-size: 19px; }
+      .hero-description { font-size: 15px; }
+      .hero-media { max-width: 610px; width: 100%; margin: auto; }
+      .ribbon-inner { justify-content: center; }
+      .ribbon-word { font-size: 13px; }
+      .ribbon-inner .ribbon-word:nth-of-type(5), .ribbon-inner .ribbon-sep:nth-of-type(6) { display: none; }
+      .mission { padding: 89px 0 97px; }
+      .mission-grid { grid-template-columns: 1fr; gap: 42px; }
+      .mission .section-title { max-width: 570px; }
+      .mission-points { margin-top: 32px; }
+      .principles { padding: 84px 0 90px; }
+      .section-intro { display: block; }
+      .section-intro .section-lede { margin-top: 20px; }
+      .values-grid { grid-template-columns: 1fr; }
+      .value-card { min-height: auto; padding: 27px; }
+      .value-card h3 { margin-top: 32px; }
+      .ukrainian-banner { display: block; }
+      .ukrainian-banner span { display: block; margin-top: 8px; }
+      .work { padding: 90px 0 80px; }
+      .work-grid { grid-template-columns: 1fr; }
+      .work-card { min-height: 220px; }
+      .lab { padding-bottom: 90px; }
+      .lab-content { grid-template-columns: 1fr; }
+      .lab-display { border-right: 0; border-bottom: 1px solid var(--line); }
+      .join { padding: 83px 0 92px; }
+      .join::after { right: -10%; bottom: -20%; }
+      .faq { padding: 75px 0; }
+      .faq-grid { grid-template-columns: 1fr; gap: 35px; }
+      .footer-main { display: block; }
+      .footer-links { margin-top: 28px; }
+    }
+    @media (max-width: 460px) {
+      .hero h1 { font-size: clamp(3.12rem,12.2vw,4.3rem); }
+      .hero-buttons .button { width: 100%; }
+      .hero-art-caption { font-size: 9px; }
+      .media-data { grid-template-columns: 1fr 1fr; }
+      .media-data > div:last-child { grid-column: span 2; border-left: 0; border-top: 1px solid var(--line); }
+      .mission-points { grid-template-columns: 1fr; gap: 22px; }
+      .mission-points p { margin-top: 5px; }
+      .ribbon-inner { gap: 11px; }
+      .ribbon-word { letter-spacing: .05em; font-size: 10px; }
+      .section-title { font-size: 40px; }
+      .section-lede { font-size: 15px; }
+      .lab-titlebar { flex-wrap: wrap; }
+      .lab-status { padding: 26px 20px; }
+      .lab-display { min-height: 310px; }
+      .join .section-title { font-size: 53px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *,*::before,*::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+    }
+  </style><link rel="stylesheet" href="/assets/mobile-polish.css"><link rel="stylesheet" href="/assets/research-reader.css"></head><body><a class="skip-link" href="#study-body">Skip to study</a><div class="flag-line" aria-hidden="true"></div><header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="/" aria-label="Space Zh home">SPACE<span class="logo-zh" lang="uk">Ж</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="/">HOME</a>
+        <a href="/plan/">PUBLIC PLAN</a>
+        <a href="/coalition/">COLLABORATION</a>
+        <a href="/research/#studies">STUDIES</a>
+      </nav>
+      <a class="nav-cta" href="/research/#studies">ALL STUDIES <span aria-hidden="true">↗</span></a>
+      <details class="mobile-nav">
+        <summary aria-label="Toggle navigation">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <span class="sr-only">Menu</span>
+        </summary>
+        <nav class="mobile-links" aria-label="Mobile navigation">
+          <a href="/">Home</a>
+          <a href="/plan/">Public plan</a>
+          <a href="/coalition/">Collaboration</a>
+          <a href="/research/#studies">Research studies</a>
+          <a href="https://github.com/Parallax-Web-Services/spacezh/tree/master/research" target="_blank" rel="noopener noreferrer">Source code ↗</a>
+        </nav>
+      </details>
+    </div>
+  </header><main><section class="doc-hero"><div class="container"><nav class="doc-path" aria-label="Breadcrumb"><a href="/">SPACEЖ</a> / <a href="/research/">RESEARCH</a> / 002</nav><h1>The 60-second early-warning requirement</h1><p class="doc-dek">Study 002 — 60-second independent detection has not been demonstrated.</p><p class="doc-status"><strong>RESEARCH-STAGE</strong> / No operational missile sensor or safety alert service. Figures use hypothetical assumptions.</p><div class="doc-actions"><a class="button button-primary" href="#study-body">READ FULL DOCUMENT <span class="arrow" aria-hidden="true">↘</span></a><a class="button button-secondary" href="https://github.com/Parallax-Web-Services/spacezh/tree/master/research/002-independent-early-warning" target="_blank" rel="noopener noreferrer">CODE &amp; TESTS <span class="arrow" aria-hidden="true">↗</span></a></div></div></section><div class="container doc-layout"><aside class="doc-toc" aria-label="Contents"><p class="doc-kicker">IN THIS STUDY</p><nav><a href="#the-problem">The problem</a><a href="#why-it-is-a-real-capability-gap">Why it is a real capability gap</a><a href="#define-the-measurement-honestly">Define the measurement honestly</a><a href="#operational-independence-audit">Operational independence audit</a><a href="#what-we-can-research-publicly-now">What we can research publicly now</a><a href="#reproducible-evaluator">Reproducible evaluator</a><a href="#the-decisive-next-questions">The decisive next questions</a><a href="#sources">Sources</a><a href="#graph">Graph and data</a></nav><p class="doc-side-note">These are research calculations, not measured early-warning performance.</p></aside><article id="study-body" class="doc-article"><div class="doc-intro"><p><strong>Complete research document.</strong> The canonical Markdown, calculations, provenance statements and source citations follow. The graph summarizes only the toy data explicitly disclosed in the study.</p></div><figure class="doc-graph" id="graph"><p class="doc-kicker">PUBLISHED MODEL / CHART 02</p><h2>Why a claimed 99% sensitivity is not enough</h2><p>Invented 99% sensitivity, 0.1% false-positive rate and varying fictional event prevalence. All values are hypothetical, not operational measurements.</p><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Why a claimed 99% sensitivity is not enough. Invented 99% sensitivity, 0.1% false-positive rate and varying fictional event prevalence." viewBox="0 0 820 350"><title>Why a claimed 99% sensitivity is not enough</title><desc>Invented 99% sensitivity, 0.1% false-positive rate and varying fictional event prevalence.</desc><rect width="820" height="350" fill="#0a1729"/><text x="76" y="21" fill="#e5f0ff" font-size="12">Positive predictive value</text><line x1="76" x2="786" y1="280" y2="280" stroke="#2a405b"/><text x="65" y="284" fill="#b5c6d9" text-anchor="end" font-size="11">0%</text><line x1="76" x2="786" y1="233.6" y2="233.6" stroke="#2a405b"/><text x="65" y="237.6" fill="#b5c6d9" text-anchor="end" font-size="11">20%</text><line x1="76" x2="786" y1="187.2" y2="187.2" stroke="#2a405b"/><text x="65" y="191.2" fill="#b5c6d9" text-anchor="end" font-size="11">40%</text><line x1="76" x2="786" y1="140.8" y2="140.8" stroke="#2a405b"/><text x="65" y="144.8" fill="#b5c6d9" text-anchor="end" font-size="11">60%</text><line x1="76" x2="786" y1="94.39999999999998" y2="94.39999999999998" stroke="#2a405b"/><text x="65" y="98.39999999999998" fill="#b5c6d9" text-anchor="end" font-size="11">80%</text><line x1="76" x2="786" y1="48" y2="48" stroke="#2a405b"/><text x="65" y="52" fill="#b5c6d9" text-anchor="end" font-size="11">100%</text><polyline points="76,259.0990990990991 188.91869695032005,226.8620343950027 312.66666666666663,164.52488687782807 425.5853636169867,106.30703302243509 549.3333333333333,69.09090909090907 662.2520302836533,55.33746331920443 786,50.09009009009006" stroke="#83c9ff" stroke-width="3" stroke-linejoin="round" fill="none"/><circle cx="76" cy="259.0990990990991" r="5" fill="#ffda47"/><circle cx="188.91869695032005" cy="226.8620343950027" r="5" fill="#ffda47"/><circle cx="312.66666666666663" cy="164.52488687782807" r="5" fill="#ffda47"/><circle cx="425.5853636169867" cy="106.30703302243509" r="5" fill="#ffda47"/><circle cx="549.3333333333333" cy="69.09090909090907" r="5" fill="#ffda47"/><circle cx="662.2520302836533" cy="55.33746331920443" r="5" fill="#ffda47"/><circle cx="786" cy="50.09009009009006" r="5" fill="#ffda47"/><text x="76" y="303" fill="#b5c6d9" text-anchor="middle" font-size="12">0.01%</text><text x="312.66666666666663" y="303" fill="#b5c6d9" text-anchor="middle" font-size="12">0.1%</text><text x="549.3333333333333" y="303" fill="#b5c6d9" text-anchor="middle" font-size="12">1%</text><text x="786" y="303" fill="#b5c6d9" text-anchor="middle" font-size="12">10%</text><text x="410" y="340" fill="#e5f0ff" font-size="12" text-anchor="middle">Hypothetical event prevalence (log scale)</text></svg><figcaption>Based on Research 002 and its published assumptions. <strong>Not a detection system or measured sensor result.</strong></figcaption><details><summary>View the numbers behind the chart</summary><div class="doc-table" tabindex="0" role="region" aria-label="Graph source numbers"><table><thead><tr><th>Prevalence (fictional)</th><th>Positive predictive value</th></tr></thead><tbody><tr><td>0.010%</td><td>9.0%</td></tr><tr><td>0.030%</td><td>22.9%</td></tr><tr><td>0.100%</td><td>49.8%</td></tr><tr><td>0.300%</td><td>74.9%</td></tr><tr><td>1.000%</td><td>90.9%</td></tr><tr><td>3.000%</td><td>96.8%</td></tr><tr><td>10.000%</td><td>99.1%</td></tr></tbody></table></div></details></figure><div class="doc-content"><p><strong>Public feasibility research · 16 October 2026 · Research stage, not an operational detection or alert service</strong></p>
+<h3 id="the-problem">The problem</h3>
+<p><strong>Can Ukraine obtain independently verified evidence of a ballistic missile launch within 60 seconds of the actual launch, with no U.S. military sensing, intelligence, or required U.S.-controlled service?</strong></p>
+<p>The 60-second stopwatch starts at <strong>launch</strong>, not when another provider submits a notification. A system that merely republishes an existing alert more quickly does not satisfy the requirement.</p>
+<p>The mission is Ukrainian civilian protection and sovereign public-interest infrastructure. This research does <strong>not</strong> provide a ballistic detection algorithm, sensor placement, threat tracks, impact prediction, targeting, or live citizen-facing alerts. No capability is claimed before independent proof.</p>
+<h3 id="why-it-is-a-real-capability-gap">Why it is a real capability gap</h3>
+<ul><li>On October 13, 2026, President Zelenskyy said Ukraine received no prior intelligence warnings from partners about ballistic missiles striking Kyiv. The U.S. stated that it continued sharing intelligence; the reason for the missing warnings was disputed or unresolved. [1]</li><li>Reuters reported October 14 that Europe had no operational equivalent to the United States' space-based infrared early-warning capability. [2]</li><li>France and Germany's JEWEL work aims for an initial European space-based early-warning capability in the <strong>early 2030s</strong>. The EU-funded ODIN'S EYE II programme was a design and simulation effort, not evidence that a complete launch-detection constellation is ready to deploy. [3][4]</li><li>EU Space Surveillance and Tracking supports orbiting-space-object collision avoidance, reentry and fragmentation analyses. It is <strong>not</strong> a public instantaneous ballistic-launch detection service. [5]</li></ul>
+<h3 id="define-the-measurement-honestly">Define the measurement honestly</h3>
+<p>Let launch time be <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="t_0"><mrow><msub><mi>t</mi><mn>0</mn></msub></mrow></math>. The full launch-to-verification latency is</p>
+<div class="doc-equation" role="group" aria-label="Mathematical equation"><math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="T_{\mathrm{detect}}=T_{\mathrm{observe}}+T_{\mathrm{ingest}}+T_{\mathrm{verify}}."><mrow><msub><mi>T</mi><mrow><mtext>detect</mtext></mrow></msub><mo>=</mo><msub><mi>T</mi><mrow><mtext>observe</mtext></mrow></msub><mo>+</mo><msub><mi>T</mi><mrow><mtext>ingest</mtext></mrow></msub><mo>+</mo><msub><mi>T</mi><mrow><mtext>verify</mtext></mrow></msub><mo>.</mo></mrow></math><details><summary>LaTeX source</summary><code>T_{\rm detect}=T_{\rm observe}+T_{\rm ingest}+T_{\rm verify}.</code></details></div>
+<p>Here, <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="T_{\mathrm{observe}}"><mrow><msub><mi>T</mi><mrow><mtext>observe</mtext></mrow></msub></mrow></math> includes any delay before the <strong>first usable independent sensor observation</strong>. Missing observation is a detection failure, even if later software runs instantly.</p>
+<p>If a verified detection could be passed to Ukrainian civilian warning authorities, a <em>separate</em> total time would be</p>
+<div class="doc-equation" role="group" aria-label="Mathematical equation"><math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="T_{\mathrm{public}}=T_{\mathrm{detect}}+T_{\mathrm{authorize}}+T_{\mathrm{distribute}}+T_{\mathrm{device}}."><mrow><msub><mi>T</mi><mrow><mtext>public</mtext></mrow></msub><mo>=</mo><msub><mi>T</mi><mrow><mtext>detect</mtext></mrow></msub><mo>+</mo><msub><mi>T</mi><mrow><mtext>authorize</mtext></mrow></msub><mo>+</mo><msub><mi>T</mi><mrow><mtext>distribute</mtext></mrow></msub><mo>+</mo><msub><mi>T</mi><mrow><mtext>device</mtext></mrow></msub><mo>.</mo></mrow></math><details><summary>LaTeX source</summary><code>T_{\rm public}=T_{\rm detect}+T_{\rm authorize}+T_{\rm distribute}+T_{\rm device}.</code></details></div>
+<p><strong>Research target:</strong> <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="T_{\mathrm{detect}}\leq60\,\mathrm{s}"><mrow><msub><mi>T</mi><mrow><mtext>detect</mtext></mrow></msub><mo>≤</mo><mn>60</mn><mspace width="0.4em"/><mtext>s</mtext></mrow></math> for actual, independently verified launches, with meaningful reliability and false-alert bounds. An alert after the 60-second limit does not meet this requirement even if it was delivered quickly from the first notification.</p>
+<h4 id="first-hard-upper-bound">First hard upper bound</h4>
+<p>Define <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="C"><mrow><mi>C</mi></mrow></math> = “the launch is observable by at least one suitable, authorized, independent source” and <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="D_{60}"><mrow><msub><mi>D</mi><mrow><mn>60</mn></mrow></msub></mrow></math> = “a launch was correctly verified by 60 seconds.”</p>
+<p>Because <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="D_{60}\subseteq C"><mrow><msub><mi>D</mi><mrow><mn>60</mn></mrow></msub><mo>⊆</mo><mi>C</mi></mrow></math>,</p>
+<div class="doc-equation" role="group" aria-label="Mathematical equation"><math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="\boxed{P(D_{60})=P(C)P(D_{60}\mid C)\leq P(C).}"><mrow><menclose notation="box"><mrow><mi>P</mi><mo>(</mo><msub><mi>D</mi><mrow><mn>60</mn></mrow></msub><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>C</mi><mo>)</mo><mi>P</mi><mo>(</mo><msub><mi>D</mi><mrow><mn>60</mn></mrow></msub><mo>∣</mo><mi>C</mi><mo>)</mo><mo>≤</mo><mi>P</mi><mo>(</mo><mi>C</mi><mo>)</mo><mo>.</mo></mrow></menclose></mrow></math><details><summary>LaTeX source</summary><code>\boxed{P(D_{60})=P(C)P(D_{60}\mid C)\leq P(C).}</code></details></div>
+<p>If suitable observation coverage is absent, compute power, AI models, networking and dashboards <strong>cannot create missing evidence</strong>. Do not confuse orbit catalogs, earth-observation images or a public OSINT report with a capable launch sensor.</p>
+<h4 id="the-false-alarm-base-rate-trap">The false-alarm base-rate trap</h4>
+<p>For sensitivity <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="s"><mrow><mi>s</mi></mrow></math>, false-positive rate <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="f"><mrow><mi>f</mi></mrow></math>, and true-event prevalence <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="\pi"><mrow><mo>π</mo></mrow></math> over identical time windows:</p>
+<div class="doc-equation" role="group" aria-label="Mathematical equation"><math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="P(\text{real event}\mid\text{alert})=\frac{s\pi}{s\pi+f(1-\pi)}."><mrow><mi>P</mi><mo>(</mo><mtext>real event</mtext><mo>∣</mo><mtext>alert</mtext><mo>)</mo><mo>=</mo><mfrac><mrow><mi>s</mi><mo>π</mo></mrow><mrow><mi>s</mi><mo>π</mo><mo>+</mo><mi>f</mi><mo>(</mo><mn>1</mn><mo>-</mo><mo>π</mo><mo>)</mo></mrow></mfrac><mo>.</mo></mrow></math><details><summary>LaTeX source</summary><code>P(\text{real event}\mid\text{alert})=\frac{s\pi}{s\pi+f(1-\pi)}.</code></details></div>
+<p><strong>Illustration only:</strong> <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="s=0.99"><mrow><mi>s</mi><mo>=</mo><mn>0.99</mn></mrow></math>, <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="f=0.001"><mrow><mi>f</mi><mo>=</mo><mn>0.001</mn></mrow></math>, <math xmlns="http://www.w3.org/1998/Math/MathML" aria-label="\pi=0.0001"><mrow><mo>π</mo><mo>=</mo><mn>0.0001</mn></mrow></math> gives only about 9% probability that a raised alert represents a genuine event. Those are <strong>invented values</strong>, not sensor measurements or Ukrainian attack frequencies. This illustrates why a high claimed detection rate alone is insufficient for civilian public safety.</p>
+<h4 id="unbiased-sampling-and-confidence">Unbiased sampling and confidence</h4>
+<p>Count <strong>all known launches</strong>, including events with no sensor observation, no verification and late verification. Do not compute accuracy only from events already spotted. Include independent non-event control windows of a defined common duration to measure false alarms. The simple Python harness includes Wilson 95% confidence intervals, whose assumptions must be reviewed for dependent events and non-random sampling.</p>
+<p>Even if all 100 known synthetic events are detected, the 95% Wilson lower bound is about 96.3% — not 100%. A published probability cannot be stronger than its evidence base.</p>
+<h3 id="operational-independence-audit">Operational independence audit</h3>
+<p>The independent critical path would have to work without:</p>
+<ul><li>Any indispensable U.S. satellite launch-detection feed or U.S. military intelligence, including repackaged data whose original sensor is U.S.-controlled.</li><li>U.S. government sensor tasking, alert-routing approval, or restricted military API credentials.</li><li>U.S.-controlled operational hosting, authorization, timing, or connectivity as a single point of failure.</li></ul>
+<p>A European distributor of U.S.-origin sensor information does <strong>not</strong> become independent merely by changing the endpoint. Research repositories being publicly mirrored on a U.S.-based host are not themselves operational dependencies, but supply-chain sovereignty and actual running infrastructure still need a separate audit. We assume <strong>no partners or sensor access have been committed</strong>. Work with consenting Ukrainian and non-U.S. scientific/public-safety partners only; do not approach U.S. defense-industry partners.</p>
+<h3 id="what-we-can-research-publicly-now">What we can research publicly now</h3>
+<ol><li><strong>Capability inventory:</strong> distinguish genuine launch sensors from orbit catalogs, delayed OSINT, ordinary optical observations, and existing official air-raid alert systems; document sources, permissions, updates and independence.</li><li><strong>Coverage gap:</strong> identify whether there is any independently documented and appropriately shareable evidence proving immediate observation. Without that, publish the gap instead of assuming coverage.</li><li><strong>Timestamp and reliability standards:</strong> define ground-truth launch time, trusted clock/uncertainty, negative controls, completeness of known events, launch-to-detection vs launch-to-public-notice, and false-alarm accounting.</li><li><strong>Ukrainian civilian safety review:</strong> evaluate only with authorized Ukrainian experts. Never spoof, override, or originate public air-raid warnings; do not request sensitive operational information.</li><li><strong>Scientific review:</strong> publish methodology, limitations, negative findings and approved aggregate metrics. Do <strong>not</strong> publish real-time threat locations, operational sensor layouts, targeting data, sensitive station coordinates, or restricted feeds.</li></ol>
+<p><strong>No-go rule:</strong> We must not claim a 60-second operational capability without lawful, independently validated sensing evidence and a statistically credible unbiased evaluation. Fast response to synthetic data is not launch detection.</p>
+<h3 id="reproducible-evaluator">Reproducible evaluator</h3>
+<p><code>metrics.py</code> evaluates only <strong>synthetic pre-labeled input</strong>. It does not accept an operational feed, sense a launch, or issue an alert. The synthetic dataset contains no actual Ukraine or missile data.</p>
+<pre><code class="language-sh">python3 research/002-independent-early-warning/metrics.py
+python3 -m unittest discover -s research/002-independent-early-warning -p 'test_*.py' -v</code></pre>
+<p>Nine tests passed locally before publication. This validates only the bookkeeping and statistical helpers, not the sensing requirement.</p>
+<h3 id="the-decisive-next-questions">The decisive next questions</h3>
+<ul><li>What independent, lawful, suitably early <strong>observation</strong> source exists or can realistically be established without U.S. assistance?</li><li>Can qualified Ukrainian experts define an authorized evidence/ground-truth validation without disclosing protected information?</li><li>Could any feasible independent observation coverage ever satisfy the 60-second requirement for the full stated threat set?</li><li>What missed-warning and false-alarm risks will civilian protection authorities consider acceptable?</li><li>Which operational facts should stay confidential under appropriate Ukrainian review rather than be published on GitHub?</li></ul>
+<p>If these cannot be answered, that is the finding—not a reason to produce an impressive simulation.</p>
+<h3 id="sources">Sources</h3>
+<ol><li><a href="https://apnews.com/article/russia-ukraine-war-zelenkyy-no-warning-missile-strike-10c54e55f31aded2db95242fdb4fd153" target="_blank" rel="noopener noreferrer">Associated Press — Kyiv missile-warning failure reported, 13 October 2026 ↗</a></li><li><a href="https://www.reuters.com/business/media-telecom/ukraine-struggles-with-starlink-us-satellite-data-europe-has-no-quick-fix-2026-10-14/" target="_blank" rel="noopener noreferrer">Reuters — Europe's limited options to replace U.S. missile-warning data, 14 October 2026 ↗</a></li><li><a href="https://www.defense.gouv.fr/en/news/jewel-france-and-germany-lay-foundation-european-early-warning-capability" target="_blank" rel="noopener noreferrer">French Ministry of Armed Forces — JEWEL cooperation objective ↗</a></li><li><a href="https://defence-industry-space.ec.europa.eu/system/files/2023-06/ODINS%27EYE%20II-Factsheet_EDF22.pdf" target="_blank" rel="noopener noreferrer">European Defence Fund — ODIN'S EYE II factsheet ↗</a></li><li><a href="https://eu-space.europa.eu/space-safety/space-situational-awareness-ssa/space-surveillance-and-tracking-sst" target="_blank" rel="noopener noreferrer">European Union — EU Space Surveillance and Tracking remit ↗</a></li><li><a href="https://loda.gov.ua/en/services/text/18131" target="_blank" rel="noopener noreferrer">Lviv Regional State Administration — Ukrainian civilian Air Alert application ↗</a></li></ol></div></article></div><nav class="container doc-next"><a href="/research/001-leo-contact/"><small>← PREVIOUS STUDY</small><strong>Satellite contact and link budget</strong></a><a href="/research/003-observation-gap/"><small>NEXT STUDY →</small><strong>The independent observation gap</strong></a></nav></main><footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div>
+          <a class="logo" href="/" aria-label="Space Zh home">SPACE<span class="logo-zh" lang="uk">Ж</span></a>
+          <p><strong style="color:#e1eaf8">Life. Freedom. Science.</strong><br>Initiated by Varta Industries · A division of Tryzantha LLC · Independent public-benefit stewardship proposed.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation"><a href="/">Home</a><a href="/plan/">Public plan</a><a href="/coalition/">Coalition</a><a href="https://github.com/Parallax-Web-Services/spacezh/tree/master/research" target="_blank" rel="noopener noreferrer">Source code ↗</a></nav>
+      </div>
+      <div class="footer-bottom mono">
+        <span>NON-OPERATIONAL RESEARCH · NO BALLISTIC MISSILE SENSING, TARGETING OR EMERGENCY WARNING SERVICE.</span>
+        <span>© 2026 SPACE<span lang="uk">Ж</span> · Ж = ZH</span>
+      </div>
+    </div>
+  </footer></body></html>
