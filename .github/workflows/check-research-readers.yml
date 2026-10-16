@@ -1,0 +1,28 @@
+name: Research publication integrity
+
+on:
+  push:
+    paths:
+      - "research/**"
+      - "public/research/**"
+      - "public/assets/research-reader.css"
+      - "scripts/check_research_publication.py"
+      - ".github/workflows/check-research-readers.yml"
+  pull_request:
+    paths:
+      - "research/**"
+      - "public/research/**"
+      - "public/assets/research-reader.css"
+      - "scripts/check_research_publication.py"
+      - ".github/workflows/check-research-readers.yml"
+
+jobs:
+  verify-publication:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Verify on-site readers and canonical Markdown
+        run: python3 scripts/check_research_publication.py
