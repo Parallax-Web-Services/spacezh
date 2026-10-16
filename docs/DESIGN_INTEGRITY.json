@@ -1,0 +1,21 @@
+{
+  "existing_github_index_git_blob_sha": "f8536caa2fff617c90c978f82c60fab852ea3a72",
+  "initial_source_index_bytes": 40885,
+  "new_index_bytes": 42704,
+  "css_unchanged": true,
+  "unchanged_assets": [
+    "public/assets/favicon.svg",
+    "public/assets/spacezh-hero.webp"
+  ],
+  "script_tags_added": 0,
+  "new_fundraising_forms_added": 0,
+  "payment_checkout_live": false,
+  "public_repository_url": "https://github.com/Parallax-Web-Services/spacezh",
+  "site_document_root": "public/",
+  "original_index_path": "public/index.html",
+  "updated_index_path": "public/index.html",
+  "unchanged_asset_blob_shas": {
+    "public/assets/favicon.svg": "4f61d1ae80055f14cadec22589f4cb13d5e9f86b",
+    "public/assets/spacezh-hero.webp": "e3d98ec377f9664138f11c3f83f7634ead508c20"
+  }
+}

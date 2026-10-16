@@ -1,31 +1,42 @@
-# SpaceЖ — Static landing page
+# SpaceЖ — The sky belongs to everyone
 
-One-page, dependency-free static site. No build step, framework, analytics, external fonts, or backend required.
+Public website and founding proposal for SpaceЖ, a proposed open-source, public-interest initiative focused on auditable satellite intelligence and interoperable ground infrastructure.
 
-## Deploy
+**Status:** public working proposal, not an established nonprofit, operational satellite network, or live warning service. No donations are being accepted through this repository.
 
-Upload `index.html` and the `assets` folder together to any static web host, such as Cloudflare Pages, GitHub Pages, Netlify, Apache, or nginx. Keep the folder structure intact.
+## This site
 
-For a local preview, open `index.html` in a browser, or run:
+The deployable static website lives in **`public/`**: `public/index.html`, `public/assets/favicon.svg`, and `public/assets/spacezh-hero.webp`. Repository-level `docs/` and `CONTRIBUTING.md` are project documentation, not public web assets. No build tools, npm dependencies, analytics, third-party scripts, or backend. The launch design, responsive CSS, animated synthetic scanner, and original artwork have been preserved.
+
+To preview locally:
 
 ```bash
-python -m http.server 8080
+python3 -m http.server 8080 --directory public
 ```
 
-Then visit http://localhost:8080.
+Visit http://localhost:8080. **Set the hosting site's document root / publish directory to `public/`** (not the repository root), so `index.html` is served at `/` and `assets/*` resolves at `/assets/*`. For nginx, point `root` to the full filesystem path of the `public` folder; for a static host, use `public` as the publish directory with no build command. The live canonical domain is `https://xn--80akd1bg1j.com/`.
 
-## Before announcing a production domain
+## Read before contributing
 
-- Add absolute `og:url` and `og:image` URLs in `index.html` once the domain is known. Social platforms often require an absolute URL for link preview images.
-- Update the external launch link (currently points to the X post provided in the conversation) if a dedicated official SpaceЖ channel is launched.
-- Add actual repository and contribution links only when public repos exist.
-- Update R&D claims, corporate footer, and the project status as necessary. The page intentionally does not claim any operational detection or alert capabilities.
-- The hero artwork is a web-optimized crop of the artwork supplied by the site owner. Its original footer was excluded to avoid conflicting company language, and the HTML footer contains the requested product/company hierarchy.
+- [Public founding proposal (full Markdown)](docs/FOUNDING_PROPOSAL.md)
+- [How to contribute](CONTRIBUTING.md)
+- [GoFundYourself post-funnel integration plan](docs/GOFUNDYOURSELF_INTEGRATION.md)
 
-## Customization
+A PDF copy of the proposal was produced separately and can be uploaded to the repository once an approved binary-file publishing route is available.
 
-Color, spacing, and typography variables live at the top of the embedded `<style>` block. Every section is ordinary semantic HTML. The tiny animated scanner is explicitly a synthetic interface graphic and automatically respects the visitor's reduced-motion settings.
+## Roadmap
 
-## Legal / branding note
+1. **Atlas:** A public, source-linked 3D atlas of satellite observations and predictions.
+2. **Node:** Reproducible, opt-in ground-station tools interoperable with established open projects.
+3. **Link:** Authorized terrestrial communications testbeds and simulation.
+4. **Orbit:** Separately gated feasibility research for a hosted payload or spacecraft.
 
-The site includes an independence/parody disclaimer. It has not been reviewed for trademark, advertising, or other legal compliance; including a disclaimer does not itself settle those questions.
+### Proposed funding envelope
+
+The first 90 days are **illustratively budgeted at $50,000**. The first-year planning envelope is **$300,000, inclusive of kickoff**. These are estimates, not existing funding or offers of tax-deductible donation. GoFundYourself support checkout will be enabled only after legal and payment arrangements are approved and published.
+
+## Maintaining visual integrity
+
+The original `<style>` block in `public/index.html` has not been changed, and `public/assets/` is retained byte-for-byte. This change is content, metadata, links, and a **hidden** future GoFundYourself mount hook only. No visible payment form has been introduced.
+
+The front-end is currently just a publication channel, not the promised orbital product. Technical workstreams, licensing, and governance are proposals for public review.
