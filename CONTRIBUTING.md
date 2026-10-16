@@ -19,3 +19,9 @@ No ownership, reimbursement, charitable status, or funding commitment is implied
 ## Code contributions
 
 The site's HTML and CSS are public for inspection. Project-wide and individual component licenses are **not yet finalized**; contributors should first discuss substantive reusable code changes through an issue. Future open-source components will use explicit approved licenses and contributor requirements when established.
+
+## Coalition contributions
+
+For a public technical review, use the [SpaceЖ coalition-interest issue template](https://github.com/Parallax-Web-Services/spacezh/issues/new?template=coalition-interest.yml). Please describe one specific, verifiable question or deliverable. GitHub issues are **public**: never post sensitive locations, personal contact information, unpublished defense information, credentials or private introductions.
+
+See the [coalition strategy](docs/COALITION_STRATEGY.md). Being named as a research candidate does not establish a relationship with SpaceЖ. Formal collaboration announcements require affirmative permission and evidence. All actual prospect contact history belongs in a private, access-controlled Plexus workspace.

@@ -6,9 +6,9 @@ Public site and founding proposal for SpaceЖ, an open-source public-interest in
 
 ## This site
 
-The homepage at `/` links to a designed, complete public founding proposal at **`/plan/`**, sourced from [the Markdown proposal](docs/FOUNDING_PROPOSAL.md). No live payment processing is implemented.
+The homepage at `/` links to the designed public proposal at **`/plan/`** and the public coalition research/invitation at **`/coalition/`**. The [Markdown proposal](docs/FOUNDING_PROPOSAL.md) and [coalition strategy](docs/COALITION_STRATEGY.md) remain editable source documents. No live payment processing is implemented.
 
-The deployable static website lives in **`public/`**: `public/index.html`, `public/plan/index.html`, `public/assets/favicon.svg`, and `public/assets/spacezh-hero.webp`. Repository-level `docs/` and `CONTRIBUTING.md` are project documentation, not public web assets. No build tools, npm dependencies, analytics, third-party scripts, or backend. The launch design, responsive CSS, animated synthetic scanner, and original artwork have been preserved.
+The deployable static website lives in **`public/`**: `public/index.html`, `public/plan/index.html`, `public/coalition/index.html`, `public/assets/favicon.svg`, and `public/assets/spacezh-hero.webp`. Repository-level `docs/` and `CONTRIBUTING.md` are project documentation, not public web assets. No build tools, npm dependencies, analytics, third-party scripts, or backend. The launch design, responsive CSS, animated synthetic scanner, and original artwork have been preserved.
 
 To preview locally:
 
@@ -16,7 +16,7 @@ To preview locally:
 python3 -m http.server 8080 --directory public
 ```
 
-Visit http://localhost:8080 and http://localhost:8080/plan/. **Set the hosting site's document root / publish directory to `public/`** (not the repository root), so `index.html` is served at `/` and `assets/*` resolves at `/assets/*`. For nginx, point `root` to the full filesystem path of the `public` folder; for a static host, use `public` as the publish directory with no build command. The live canonical domain is `https://xn--80akd1bg1j.com/`.
+Visit http://localhost:8080, http://localhost:8080/plan/, and http://localhost:8080/coalition/. **Set the hosting site's document root / publish directory to `public/`** (not the repository root), so `index.html` is served at `/` and `assets/*` resolves at `/assets/*`. For nginx, point `root` to the full filesystem path of the `public` folder; for a static host, use `public` as the publish directory with no build command. The live canonical domain is `https://xn--80akd1bg1j.com/`.
 
 ## Read before contributing
 
@@ -46,3 +46,16 @@ The front-end is currently just a publication channel, not the promised orbital 
 ## Maintaining the published proposal
 
 `docs/FOUNDING_PROPOSAL.md` is the editorial source. `public/plan/index.html` is a static rendered edition with a responsive reading layout, navigation, sources, and accessible tables. Update both together; no runtime Markdown fetching or CDN is required. Original homepage CSS and design assets remain unchanged.
+
+## Coalition, outreach and Plexus
+
+- [Coalition landing page](public/coalition/index.html): first-wave candidate research, public requests, a 90-day sequence, and clear non-affiliation disclaimers.
+- [Coalition research and outreach strategy](docs/COALITION_STRATEGY.md): 22 source-linked institutional/program research leads (public identities only), six suggested review questions, and the rollout.
+- [Public identity-resolution seed](data/partner_candidates.public.json): **not** a CRM, partner list, or evidence of endorsement.
+- [Plexus private relationship handoff](docs/PLEXUS_NETWORK_HANDOFF.md): canonical entity matching, public/private boundaries, consent, evidence and gated outreach.
+- [Deployment / first outreach checklist](docs/DEPLOYMENT_AND_OUTREACH_GATE.md): verify the actual public website before any invitations.
+- [Public GitHub coalition-interest issue template](.github/ISSUE_TEMPLATE/coalition-interest.yml): for public technical contributions, never confidential personal contacts.
+
+No emails have been sent, no Plexus import has been performed, and no affiliation has been established through this repo update. The separate 24-candidate **private** prospecting package was deliberately not committed to the public repository.
+
+**Important:** A public check on 16 October 2026 still returned the older parody version of the live domain, even though `master` had already been updated. Verify deployment of the `public/` folder and fresh content at all three routes before sharing partner links.

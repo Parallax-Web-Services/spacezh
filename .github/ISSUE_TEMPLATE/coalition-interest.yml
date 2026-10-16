@@ -1,0 +1,38 @@
+name: SpaceЖ coalition interest
+description: Propose a public technical contribution or review, never a confidential introduction.
+title: "[Coalition] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        GitHub issues are PUBLIC. Do not post email addresses, passwords,
+        sensitive station locations, non-public introductions, or operational data.
+        Submitting this form does not create a partnership or endorsement.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of potential contribution
+      options:
+        - Ukrainian civilian resilience research
+        - Open satellite observations and provenance
+        - Lawful ground-station interoperability
+        - OSINT methodology and verification
+        - Security, privacy, or accessibility
+        - Public governance, translation, or education
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_work
+    attributes:
+      label: Your specific public question or contribution
+      description: Please keep this public and non-sensitive.
+    validations:
+      required: true
+  - type: checkboxes
+    id: understood
+    attributes:
+      label: Acknowledgment
+      options:
+        - label: I understand this is a public discussion and creates no formal partnership.
+          required: true
