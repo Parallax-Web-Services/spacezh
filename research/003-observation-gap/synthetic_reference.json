@@ -1,0 +1,18 @@
+{
+  "purpose": "synthetic_math_only",
+  "marginal_observation_probability_a": 0.8,
+  "marginal_observation_probability_b": 0.8,
+  "unknown_dependence_union_interval": [
+    0.8,
+    1.0
+  ],
+  "identical_evidence_union": 0.8,
+  "independent_evidence_union": 0.96,
+  "assumed_timely_conditional": 0.9,
+  "identical_evidence_timely_probability": 0.7200000000000001,
+  "independent_evidence_timely_probability": 0.864,
+  "time_case_within": "guaranteed_within",
+  "time_case_uncertain": "unresolved",
+  "time_case_late": "guaranteed_late",
+  "real_sensor_performance": null
+}
