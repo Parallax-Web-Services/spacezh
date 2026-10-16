@@ -46,7 +46,10 @@ class LinksAndIds(HTMLParser):
             self.meta[fields["name"]] = fields.get("content", "")
         if tag == "math":
             self.math_count += 1
-        if tag == "svg":
+        if tag == "svg" and fields.get("role") == "img":
+            # Ignore decorative navigation icons; require labelled research figures.
+            if not fields.get("aria-label"):
+                self.scripts.append("unlabelled scientific SVG")
             self.svg_count += 1
 
 
