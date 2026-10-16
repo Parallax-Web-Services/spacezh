@@ -18,4 +18,8 @@ Our mission is to support Ukraine's civilian protection and independence with re
 - Do not share private sensor details, ground-station coordinates, tactical targeting data or live threat tracks.
 - Never issue an unauthorized emergency alert. Future civilian-warning evaluation requires Ukrainian institutional authority and independent safety review.
 
+## Independent review
+
+[Peer review of 16 October 2026](PEER_REVIEW_2026-10-16.md): numbers, tests and citations reproduced; four publication defects fixed; substantive critique of the 60-second threshold, the evidence register and the statistical thresholds. It is not the Ukrainian scientific review these studies ask for.
+
 We will report an unresolved or infeasible result rather than invent an operational capability. **Four published studies now contain 54 passing mathematical tests, not validated sensors.**

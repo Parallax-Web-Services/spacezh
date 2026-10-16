@@ -76,6 +76,7 @@ For manual QA, check all three routes (`/`, `/coalition/`, `/plan/`) at narrow m
 - [Research 003](research/003-observation-gap/README.md) — evidence register of six public programmes/service categories, mathematically bounded correlated observations, uncertainty and sampling bias; 15 tests, **no launch detector**.
 - [Research 003 independent review protocol](research/003-observation-gap/REVIEW_PROTOCOL.md) — evidence required before any claim of 60-second launch verification.
 - [Research 004](research/004-claim-validation/README.md) — statistical evidence thresholds for a 60-second reliability claim, including false-alarm confidence and 24 tests; **not demonstrated**.
+- [Independent peer review, 16 October 2026](research/PEER_REVIEW_2026-10-16.md) — what reproduces, which citations were wrong, and what the studies still lack.
 - [Public research page](public/research/index.html) available at `/research/` after deployment.
 
 Run the first three test suites with `python3 -m unittest discover -s research/001-leo-contact -p 'test_*.py' -v`, `python3 -m unittest discover -s research/002-independent-early-warning -p 'test_*.py' -v`, and `python3 -m unittest discover -s research/003-observation-gap -p 'test_*.py' -v`. No third-party libraries are required. Passing synthetic-model tests is **not** proof of real-world sensing.
