@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070c17">
+  <meta name="description" content="The SpaceЖ public founding proposal: global defense of Ukraine through open satellite intelligence, resilient communications research, public infrastructure, and accountable governance.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="SpaceЖ — Public Founding Proposal for Ukraine">
+  <meta property="og:description" content="Ukraine is why we begin. Read the complete SpaceЖ proposal, architecture, roadmap, budgets, governance, risks, and call to build.">
+  <meta property="og:url" content="https://xn--80akd1bg1j.com/plan/">
+  <meta property="og:image" content="https://xn--80akd1bg1j.com/assets/spacezh-hero.webp">
+  <link rel="canonical" href="https://xn--80akd1bg1j.com/plan/">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <title>SpaceЖ — The Public Founding Proposal</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #070c17;
+      --bg-deep: #040713;
+      --panel: #0b1324;
+      --panel-2: #111b30;
+      --text: #f3f7ff;
+      --muted: #a7b5ca;
+      --dim: #667892;
+      --line: rgba(160, 191, 228, .17);
+      --blue: #338efa;
+      --ice: #83c9ff;
+      --gold: #ffda47;
+      --container: 1220px;
+      --ease: cubic-bezier(.2, .75, .25, 1);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background: var(--bg);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      pointer-events: none;
+      z-index: -1;
+      inset: 0;
+      background-image: radial-gradient(circle at 14% 18%, rgba(69, 138, 255, .075) 0, transparent 32%), radial-gradient(circle at 85% 11%, rgba(38, 93, 187, .075) 0, transparent 35%);
+    }
+    ::selection { color: #06111e; background: var(--gold); }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+    a:focus-visible, summary:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; border-radius: 3px; }
+    img { max-width: 100%; display: block; }
+    .container { width: min(var(--container), calc(100% - 88px)); margin-inline: auto; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    .skip-link { position: fixed; z-index: 500; top: -100px; left: 12px; padding: 12px 18px; color: #04121b; background: var(--gold); font-weight: 700; }
+    .skip-link:focus { top: 12px; }
+    .flag-line { height: 3px; background: linear-gradient(90deg, #0057b7 0 50%, #ffd700 50% 100%); }
+
+    /* Navigation */
+    .site-header { position: sticky; z-index: 100; top: 0; background: rgba(7,12,23,.88); border-bottom: 1px solid var(--line); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); }
+    .nav-wrap { min-height: 80px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+    .logo { flex: none; font-size: 27px; line-height: 1; font-weight: 900; letter-spacing: -.085em; text-transform: uppercase; }
+    .logo .logo-zh { padding-left: 2px; color: var(--gold); }
+    .logo .logo-blue { color: #82bcff; }
+    .desktop-nav { display: flex; gap: 30px; align-items: center; margin-left: auto; }
+    .desktop-nav a { font-size: 11px; letter-spacing: .12em; font-weight: 750; color: #c7d2e3; transition: color .2s ease; }
+    .desktop-nav a:hover { color: var(--gold); }
+    .nav-cta { display: inline-flex; align-items: center; gap: 11px; border: 1px solid rgba(255,218,71,.55); padding: 12px 16px; color: var(--gold); font-size: 10px; font-weight: 800; letter-spacing: .1em; transition: background .2s ease, transform .2s ease; white-space: nowrap; }
+    .nav-cta:hover { background: rgba(255,218,71,.09); transform: translateY(-1px); }
+    .mobile-nav { display: none; position: relative; }
+    .mobile-nav summary { display: grid; place-items: center; cursor: pointer; padding: 10px; color: var(--text); border: 1px solid var(--line); list-style: none; }
+    .mobile-nav summary::-webkit-details-marker { display: none; }
+    .mobile-nav summary svg { width: 22px; height: 22px; }
+    .mobile-links { position: absolute; right: 0; top: calc(100% + 14px); min-width: 250px; background: #0c172a; border: 1px solid rgba(160,191,228,.3); box-shadow: 0 20px 50px rgba(0,0,0,.5); padding: 12px; }
+    .mobile-links a { display: block; padding: 13px; font-size: 13px; font-weight: 700; }
+    .mobile-links a:hover { color: var(--gold); background: rgba(255,255,255,.035); }
+
+    /* Common type and UI */
+    .mono { font-family: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .kicker { margin: 0; font-size: 11px; letter-spacing: .19em; line-height: 1.6; font-weight: 800; color: var(--ice); text-transform: uppercase; }
+    .kicker .rule { display: inline-block; width: 24px; height: 1px; margin: 0 10px 3px 0; vertical-align: middle; background: var(--blue); }
+    .button { display: inline-flex; align-items: center; justify-content: center; gap: 18px; min-height: 52px; padding: 16px 22px; font-size: 11px; letter-spacing: .1em; font-weight: 850; text-transform: uppercase; transition: transform .2s var(--ease), background .2s ease, border-color .2s ease; }
+    .button:hover { transform: translateY(-2px); }
+    .button-primary { color: #071323; background: var(--gold); border: 1px solid var(--gold); }
+    .button-primary:hover { background: #ffe584; }
+    .button-secondary { color: var(--text); background: rgba(17,29,49,.48); border: 1px solid rgba(154,183,222,.36); }
+    .button-secondary:hover { border-color: var(--ice); background: rgba(45,87,143,.2); }
+    .arrow { font-size: 19px; font-weight: 400; line-height: .8; }
+    .section-tag { display: inline-flex; align-items: center; gap: 12px; color: var(--ice); font-size: 11px; font-weight: 750; letter-spacing: .17em; text-transform: uppercase; }
+    .section-tag::before { content: ""; width: 22px; height: 1px; background: var(--blue); }
+    .section-title { margin: 20px 0 0; font-size: clamp(40px,5.2vw,75px); line-height: 1.06; letter-spacing: -.058em; font-weight: 830; }
+    .section-lede { max-width: 590px; font-size: 17px; line-height: 1.85; color: var(--muted); }
+    .accent { color: var(--gold); }
+    .blue { color: var(--ice); }
+    .muted { color: var(--muted); }
+    .divider { height: 1px; background: var(--line); }
+
+    /* Hero */
+    .hero { position: relative; overflow: hidden; padding: 99px 0 106px; isolation: isolate; }
+    .hero::before { content: ""; position: absolute; inset: -200px -10% -80px; z-index: -2; background: radial-gradient(ellipse 52% 48% at 73% 48%, rgba(12,66,155,.25), transparent 80%), radial-gradient(ellipse 48% 44% at 3% 12%, rgba(7,66,151,.15), transparent 76%); }
+    .star-field { pointer-events: none; position: absolute; z-index: -1; inset: 0; opacity: .32; background-image: radial-gradient(1px 1px at 14% 22%, white 80%, transparent 100%), radial-gradient(1px 1px at 38% 10%, white 80%, transparent 100%), radial-gradient(1.4px 1.4px at 71% 28%, #9cccff 80%, transparent 100%), radial-gradient(1px 1px at 86% 75%, white 80%, transparent 100%), radial-gradient(1px 1px at 25% 68%, white 80%, transparent 100%), radial-gradient(1px 1px at 60% 91%, white 80%, transparent 100%); background-size: 290px 310px; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); align-items: center; gap: clamp(35px,4vw,74px); }
+    .hero-copy { position: relative; z-index: 2; }
+    .hero-eyebrow { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 27px; }
+    .tiny-dot { width: 7px; height: 7px; background: var(--gold); box-shadow: 0 0 13px rgba(255,218,71,.7); border-radius: 50%; }
+    .hero-eyebrow span:last-child { color: var(--ice); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
+    .hero h1 { margin: 0; font-size: clamp(3.05rem,5.65vw,6.15rem); line-height: .985; letter-spacing: -.077em; font-weight: 880; }
+    .hero h1 span { display: block; }
+    .hero h1 .h1-soft { color: #dce7f8; }
+    .hero h1 .h1-live { color: var(--gold); }
+    .hero h1 .word-zh { display: inline; color: var(--gold); }
+    .hero h1 .period { display: inline; color: #68aafd; }
+    .hero-subtitle { margin: 31px 0 14px; font-size: 20px; letter-spacing: -.03em; font-weight: 780; }
+    .hero-description { max-width: 540px; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.85; }
+    .hero-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+    .hero-note { margin-top: 25px; color: #71849e; font-size: 10px; line-height: 1.65; letter-spacing: .1em; text-transform: uppercase; }
+    .hero-note strong { color: #a4b3c7; font-weight: 700; }
+    .hero-media { position: relative; }
+    .hero-media::before { content: ""; position: absolute; z-index: -1; width: 88%; height: 78%; top: -6%; right: -9%; border: 1px solid rgba(69,141,250,.17); border-radius: 50%; transform: rotate(-23deg); }
+    .hero-media::after { content: ""; position: absolute; z-index: -1; width: 70%; height: 100%; left: -10%; bottom: -12%; background: rgba(31,124,252,.16); filter: blur(80px); }
+    .hero-art { position: relative; margin: 0; overflow: hidden; border: 1px solid rgba(156,197,248,.35); background: #060b16; box-shadow: 0 22px 80px rgba(0,0,0,.33), inset 0 0 50px rgba(0,96,207,.15); }
+    .hero-art::before, .hero-art::after { content: ""; position: absolute; z-index: 2; width: 32px; height: 32px; pointer-events: none; }
+    .hero-art::before { top: 0; left: 0; border-top: 2px solid var(--gold); border-left: 2px solid var(--gold); }
+    .hero-art::after { bottom: 0; right: 0; border-bottom: 2px solid var(--blue); border-right: 2px solid var(--blue); }
+    .hero-art img { width: 100%; height: auto; aspect-ratio: 1122 / 850; object-fit: contain; transition: transform .75s var(--ease); }
+    .hero-art:hover img { transform: scale(1.035); }
+    .hero-art-caption { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 15px 16px; background: rgba(4,8,17,.96); border-top: 1px solid var(--line); color: #afbed5; font-size: 10px; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+    .flag { display: inline-block; width: 23px; height: 14px; flex: 0 0 auto; vertical-align: middle; background: linear-gradient(#0057b7 0 50%, #ffd700 50% 100%); }
+    .hero-art-caption .flag { margin-right: 7px; }
+    .media-data { margin-top: 14px; display: grid; grid-template-columns: repeat(3,1fr); border: 1px solid var(--line); background: rgba(11,19,36,.78); }
+    .media-data > div { padding: 17px 15px; min-width: 0; }
+    .media-data > div + div { border-left: 1px solid var(--line); }
+    .data-label { display: block; margin-bottom: 8px; color: var(--dim); letter-spacing: .14em; font-size: 9px; font-weight: 800; }
+    .data-value { display: block; color: #e8f1ff; font-size: 11px; font-weight: 750; letter-spacing: .06em; }
+    .data-value.gold { color: var(--gold); }
+
+    /* Ribbon */
+    .ribbon { overflow: hidden; background: linear-gradient(90deg, #0e2b53, #0c2850 60%, #092143); border-top: 1px solid rgba(75,141,230,.3); border-bottom: 1px solid rgba(75,141,230,.3); }
+    .ribbon-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 18px; padding-bottom: 18px; }
+    .ribbon-word { white-space: nowrap; font-size: clamp(12px,1.7vw,17px); letter-spacing: .16em; font-weight: 850; }
+    .ribbon-sep { color: var(--gold); opacity: .8; }
+
+    /* Mission */
+    .mission { padding: 139px 0 143px; }
+    .mission-grid { display: grid; grid-template-columns: minmax(0,.75fr) minmax(0,1.25fr); gap: clamp(40px,8vw,150px); }
+    .mission-lead { margin: 0 0 23px; font-size: clamp(24px,2.3vw,33px); font-weight: 700; line-height: 1.45; letter-spacing: -.04em; }
+    .mission-copy p:not(.mission-lead) { max-width: 710px; color: var(--muted); font-size: 17px; line-height: 1.82; }
+    .mission-points { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 55px; padding-top: 28px; border-top: 1px solid var(--line); }
+    .mission-points strong { display: block; color: var(--gold); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+    .mission-points p { margin-bottom: 0; font-size: 13px !important; line-height: 1.6 !important; }
+
+    /* Principles */
+    .principles { padding: 118px 0 127px; background: #0a1120; border-block: 1px solid var(--line); position: relative; }
+    .principles::before { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse 50% 50% at 50% 120%, rgba(0,87,183,.13), transparent 80%); pointer-events: none; }
+    .section-intro { position: relative; display: flex; align-items: end; justify-content: space-between; gap: 40px; margin-bottom: 48px; }
+    .section-intro .section-lede { margin: 0; max-width: 425px; }
+    .values-grid { position: relative; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; }
+    .value-card { min-height: 336px; border: 1px solid var(--line); padding: 30px; background: linear-gradient(155deg,rgba(28,51,84,.42),rgba(10,19,34,.75)); transition: border-color .25s ease, transform .3s var(--ease); }
+    .value-card:hover { transform: translateY(-5px); border-color: rgba(255,218,71,.42); }
+    .value-number { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: #8498b1; letter-spacing: .13em; }
+    .value-number span:last-child { display: inline-block; width: 33px; height: 3px; background: var(--blue); }
+    .value-card:nth-child(2) .value-number span:last-child { background: var(--gold); }
+    .value-card h3 { margin: 54px 0 5px; font-size: clamp(33px,3vw,44px); letter-spacing: -.065em; line-height: 1; }
+    .value-card h3 span { color: var(--gold); }
+    .value-card .translation { margin: 0 0 23px; font-size: 11px; color: var(--ice); letter-spacing: .18em; font-weight: 750; text-transform: uppercase; }
+    .value-card p:last-child { color: var(--muted); font-size: 14px; line-height: 1.85; }
+    .ukrainian-banner { display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; gap: 17px; margin-top: 36px; padding: 27px 0 0; border-top: 1px solid var(--line); }
+    .ukrainian-banner strong { font-size: clamp(16px,2vw,23px); letter-spacing: .04em; }
+    .ukrainian-banner span { color: var(--muted); font-size: 13px; }
+
+    /* Work */
+    .work { padding: 130px 0; }
+    .work-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 47px; }
+    .work-top p { max-width: 430px; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.8; }
+    .work-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
+    .work-card { position: relative; min-height: 244px; padding: 30px 31px; overflow: hidden; border: 1px solid var(--line); background: linear-gradient(120deg,rgba(14,28,50,.76),rgba(7,15,28,.91)); }
+    .work-card::after { content: ""; position: absolute; top: -64px; right: -60px; width: 170px; height: 170px; border: 1px solid rgba(63,127,212,.16); border-radius: 50%; box-shadow: 0 0 0 29px rgba(40,99,179,.035), 0 0 0 59px rgba(40,99,179,.022); pointer-events: none; }
+    .work-card-top { display: flex; align-items: start; justify-content: space-between; gap: 30px; }
+    .work-glyph { font-size: 37px; font-weight: 300; line-height: 1; color: var(--ice); }
+    .work-label { border: 1px solid rgba(255,218,71,.23); color: var(--gold); padding: 6px 10px; font-size: 9px; letter-spacing: .1em; font-weight: 780; }
+    .work-card h3 { position: relative; margin: 40px 0 11px; font-size: 22px; letter-spacing: -.04em; }
+    .work-card p { position: relative; max-width: 490px; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.75; }
+    .roadmap-note { display: flex; align-items: start; gap: 12px; margin-top: 22px; color: #93a6bf; font-size: 12px; line-height: 1.7; }
+    .roadmap-note b { color: var(--gold); font-weight: 900; }
+
+    /* Synthetic lab display */
+    .lab { padding: 0 0 143px; }
+    .lab-shell { border: 1px solid rgba(84,137,211,.37); background: #050d19; box-shadow: 0 34px 90px rgba(0,0,0,.3); }
+    .lab-titlebar { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 15px 21px; border-bottom: 1px solid var(--line); color: #c7d7ea; font-size: 10px; letter-spacing: .13em; font-weight: 760; }
+    .lab-titlebar .warning { color: var(--gold); }
+    .lab-content { display: grid; grid-template-columns: 1.02fr .98fr; }
+    .lab-display { min-height: 385px; position: relative; isolation: isolate; display: grid; place-items: center; overflow: hidden; border-right: 1px solid var(--line); background: radial-gradient(ellipse at center,rgba(20,68,119,.21),transparent 65%), linear-gradient(140deg,#071528,#07111d); }
+    .lab-display::before { content: ""; position: absolute; inset: 0; z-index: -1; opacity: .42; background-image: linear-gradient(rgba(73,127,192,.13) 1px,transparent 1px), linear-gradient(90deg,rgba(73,127,192,.13) 1px,transparent 1px); background-size: 30px 30px; -webkit-mask-image: radial-gradient(ellipse,black 34%,transparent 78%); mask-image: radial-gradient(ellipse,black 34%,transparent 78%); }
+    .radar { position: relative; width: min(305px,72%); aspect-ratio: 1; border: 1px solid rgba(81,165,255,.4); border-radius: 50%; box-shadow: 0 0 60px rgba(18,91,174,.1), inset 0 0 45px rgba(18,91,174,.06); }
+    .radar::before,.radar::after { content: ""; position: absolute; z-index: 3; background: rgba(81,165,255,.18); }
+    .radar::before { width: 1px; height: 100%; left: calc(50% - .5px); }
+    .radar::after { height: 1px; width: 100%; top: calc(50% - .5px); }
+    .radar-ring { position: absolute; border: 1px solid rgba(81,165,255,.25); border-radius: 50%; }
+    .radar-ring.r1 { inset: 16.66%; } .radar-ring.r2 { inset: 33.33%; }
+    .radar-sweep { position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 0deg,transparent 0 282deg,rgba(34,143,255,.015) 284deg,rgba(41,134,247,.28) 359deg); animation: sweep 13s linear infinite; }
+    .radar-dot { position: absolute; z-index: 4; width: 8px; height: 8px; background: var(--ice); border: 2px solid #dff3ff; border-radius: 50%; box-shadow: 0 0 17px var(--ice); }
+    .radar-dot.d1 { top: 28%; left: 68%; }.radar-dot.d2 { top: 64%; left: 31%; transform: scale(.6); opacity: .5; }
+    .radar-center { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); z-index: 4; width: 11px; height: 11px; background: var(--gold); border-radius: 50%; box-shadow: 0 0 20px rgba(255,218,71,.45); }
+    .lab-corner { position: absolute; left: 20px; top: 20px; color: #8299b5; font-size: 10px; letter-spacing: .11em; }
+    .lab-corner.right { left: auto; right: 20px; text-align: right; }
+    .lab-status { padding: 33px 38px; display: flex; flex-direction: column; justify-content: center; }
+    .lab-status h3 { margin: 11px 0 22px; font-size: clamp(23px,3vw,34px); letter-spacing: -.05em; }
+    .log-row { display: flex; align-items: start; gap: 12px; padding: 16px 0; border-top: 1px solid var(--line); font-size: 12px; line-height: 1.5; color: #c5d6e9; }
+    .log-row:last-child { border-bottom: 1px solid var(--line); }
+    .log-row span { flex: none; color: #7891b1; }
+    .log-row em { margin-left: auto; color: var(--ice); font-style: normal; text-align: right; }
+    .lab-disclaimer { padding: 17px 21px; border-top: 1px solid var(--line); background: rgba(255,218,71,.045); color: #d6c694; font-size: 11px; line-height: 1.6; }
+    @keyframes sweep { to { transform: rotate(360deg); } }
+
+    /* Join, FAQ, footer */
+    .join { padding: 118px 0 125px; position: relative; overflow: hidden; background: linear-gradient(125deg,#123f7a 0%,#0c2548 44%,#0b172b 100%); border-top: 1px solid rgba(113,183,255,.3); border-bottom: 1px solid rgba(113,183,255,.22); }
+    .join::after { content: "Ж"; pointer-events: none; position: absolute; right: 4%; bottom: -33%; color: rgba(255,218,71,.045); font-size: clamp(380px,47vw,760px); font-weight: 900; line-height: 1; }
+    .join-content { position: relative; z-index: 2; max-width: 860px; }
+    .join .section-title { font-size: clamp(53px,6.6vw,96px); }
+    .join p { max-width: 610px; color: #d4e2f3; font-size: 17px; line-height: 1.85; }
+    .join .button { margin-top: 16px; }
+    .join-small { display: block; margin-top: 20px; color: #98b7da; font-size: 11px; line-height: 1.6; }
+    .faq { padding: 89px 0 100px; }
+    .faq-grid { display: grid; grid-template-columns: .66fr 1.34fr; gap: 70px; }
+    .faq h2 { margin: 0; font-size: clamp(32px,3.5vw,49px); line-height: 1.1; letter-spacing: -.05em; }
+    .faq-item { border-bottom: 1px solid var(--line); }
+    .faq-item:first-child { border-top: 1px solid var(--line); }
+    .faq-item summary { position: relative; cursor: pointer; list-style: none; padding: 23px 36px 23px 0; font-size: 15px; font-weight: 700; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: "+"; position: absolute; right: 1px; top: 17px; color: var(--gold); font-size: 27px; font-weight: 300; }
+    .faq-item[open] summary::after { content: "−"; }
+    .faq-item p { margin: -6px 30px 24px 0; font-size: 14px; line-height: 1.8; color: var(--muted); }
+    .site-footer { padding: 38px 0 30px; border-top: 1px solid var(--line); background: #050914; }
+    .footer-main { display: flex; justify-content: space-between; align-items: start; gap: 35px; padding-bottom: 30px; }
+    .footer-main .logo { font-size: 34px; }
+    .footer-main p { max-width: 480px; margin: 13px 0 0; color: var(--muted); font-size: 12px; line-height: 1.75; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 23px; color: #c7d6e9; font-size: 12px; font-weight: 700; }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 15px; padding-top: 23px; border-top: 1px solid var(--line); color: #7186a0; font-size: 10px; line-height: 1.8; }
+    .footer-bottom span:first-child { max-width: 730px; }
+
+    @media (max-width: 1050px) {
+      .container { width: min(var(--container),calc(100% - 60px)); }
+      .desktop-nav { gap: 20px; }
+      .nav-cta { display: none; }
+      .hero { padding-block: 80px 90px; }
+      .hero h1 { font-size: clamp(3.4rem,6vw,5.4rem); }
+      .hero-grid { gap: 29px; }
+      .media-data > div { padding: 15px 10px; }
+      .data-value { font-size: 10px; }
+      .section-title { font-size: clamp(42px,5.6vw,68px); }
+      .value-card { padding: 23px; }
+      .value-card h3 { font-size: 35px; }
+    }
+    @media (max-width: 750px) {
+      html { scroll-padding-top: 80px; }
+      .container { width: calc(100% - 36px); }
+      .nav-wrap { min-height: 68px; }
+      .logo { font-size: 25px; }
+      .desktop-nav { display: none; }
+      .mobile-nav { display: block; }
+      .hero { padding: 70px 0 76px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 56px; }
+      .hero h1 { font-size: clamp(3.5rem,11vw,6rem); }
+      .hero-subtitle { font-size: 19px; }
+      .hero-description { font-size: 15px; }
+      .hero-media { max-width: 610px; width: 100%; margin: auto; }
+      .ribbon-inner { justify-content: center; }
+      .ribbon-word { font-size: 13px; }
+      .ribbon-inner .ribbon-word:nth-of-type(5), .ribbon-inner .ribbon-sep:nth-of-type(6) { display: none; }
+      .mission { padding: 89px 0 97px; }
+      .mission-grid { grid-template-columns: 1fr; gap: 42px; }
+      .mission .section-title { max-width: 570px; }
+      .mission-points { margin-top: 32px; }
+      .principles { padding: 84px 0 90px; }
+      .section-intro { display: block; }
+      .section-intro .section-lede { margin-top: 20px; }
+      .values-grid { grid-template-columns: 1fr; }
+      .value-card { min-height: auto; padding: 27px; }
+      .value-card h3 { margin-top: 32px; }
+      .ukrainian-banner { display: block; }
+      .ukrainian-banner span { display: block; margin-top: 8px; }
+      .work { padding: 90px 0 80px; }
+      .work-grid { grid-template-columns: 1fr; }
+      .work-card { min-height: 220px; }
+      .lab { padding-bottom: 90px; }
+      .lab-content { grid-template-columns: 1fr; }
+      .lab-display { border-right: 0; border-bottom: 1px solid var(--line); }
+      .join { padding: 83px 0 92px; }
+      .join::after { right: -10%; bottom: -20%; }
+      .faq { padding: 75px 0; }
+      .faq-grid { grid-template-columns: 1fr; gap: 35px; }
+      .footer-main { display: block; }
+      .footer-links { margin-top: 28px; }
+    }
+    @media (max-width: 460px) {
+      .hero h1 { font-size: clamp(3.12rem,12.2vw,4.3rem); }
+      .hero-buttons .button { width: 100%; }
+      .hero-art-caption { font-size: 9px; }
+      .media-data { grid-template-columns: 1fr 1fr; }
+      .media-data > div:last-child { grid-column: span 2; border-left: 0; border-top: 1px solid var(--line); }
+      .mission-points { grid-template-columns: 1fr; gap: 22px; }
+      .mission-points p { margin-top: 5px; }
+      .ribbon-inner { gap: 11px; }
+      .ribbon-word { letter-spacing: .05em; font-size: 10px; }
+      .section-title { font-size: 40px; }
+      .section-lede { font-size: 15px; }
+      .lab-titlebar { flex-wrap: wrap; }
+      .lab-status { padding: 26px 20px; }
+      .lab-display { min-height: 310px; }
+      .join .section-title { font-size: 53px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *,*::before,*::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+    }
+  </style>
+  <style>
+  .proposal-hero{position:relative;overflow:hidden;padding:98px 0 76px;border-bottom:1px solid var(--line);background:radial-gradient(ellipse 65% 70% at 82% 15%,rgba(40,103,199,.20),transparent 75%)}
+  .proposal-hero::after{position:absolute;content:"";pointer-events:none;right:-11%;top:-5%;width:390px;height:390px;border:1px solid rgba(51,142,250,.14);border-radius:50%;box-shadow:0 0 0 70px rgba(51,142,250,.02),0 0 0 150px rgba(51,142,250,.012)}
+  .proposal-hero-inner{position:relative;z-index:1;max-width:1060px}
+  .proposal-eyebrow{display:flex;gap:13px;align-items:center;flex-wrap:wrap;color:var(--ice);font:800 11px/1.6 ui-monospace,Consolas,monospace;letter-spacing:.16em;text-transform:uppercase}
+  .proposal-title{margin:25px 0 24px;max-width:1040px;font-size:clamp(48px,6.2vw,87px);letter-spacing:-.075em;line-height:1.07;font-weight:860}
+  .proposal-title .gold{color:var(--gold)}
+  .proposal-dek{max-width:810px;color:var(--muted);font-size:clamp(16px,1.7vw,20px);line-height:1.8}
+  .proposal-actions{display:flex;flex-wrap:wrap;gap:13px;margin-top:31px}
+  .proposal-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:860px;margin-top:50px;border:1px solid var(--line);background:rgba(11,19,36,.6)}
+  .proposal-facts>div{padding:21px 25px;min-width:0}
+  .proposal-facts>div+div{border-left:1px solid var(--line)}
+  .proposal-facts small{display:block;color:var(--dim);font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:9px}
+  .proposal-facts strong{font-size:clamp(19px,2.4vw,30px);font-weight:850;letter-spacing:-.04em;color:#f4f8ff}
+  .proposal-facts strong.emphasis{color:var(--gold)}
+  .proposal-facts span{display:block;font-size:11px;line-height:1.6;color:var(--muted);margin-top:7px}
+  .proposal-layout{display:grid;grid-template-columns:235px minmax(0,1fr);align-items:start;gap:clamp(38px,6vw,100px);padding-block:86px 112px}
+  .proposal-contents{position:sticky;top:110px;max-height:calc(100vh - 135px);overflow:auto}
+  .proposal-contents-label{margin:0 0 20px;color:var(--ice);font-weight:800;font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+  .proposal-toc-list a{display:flex;gap:12px;align-items:start;padding:11px 12px;color:#a9bad1;border-left:2px solid var(--line);font-size:12px;line-height:1.5;transition:color .15s,border-color .15s,background .15s}
+  .proposal-toc-list a:hover,.proposal-toc-list a:focus-visible{color:var(--gold);border-color:var(--gold);background:rgba(255,218,71,.045)}
+  .proposal-toc-list span{color:var(--dim);font:800 10px/1.7 ui-monospace,Consolas,monospace}
+  .proposal-sidebar-note{margin-top:25px;padding:18px;border:1px solid var(--line);color:var(--muted);font-size:12px;line-height:1.7}
+  .proposal-sidebar-note strong{color:var(--gold)}
+  .proposal-sidebar-note a{color:var(--ice);text-decoration:underline}
+  .proposal-document{min-width:0;max-width:880px;color:#d7e2f2;font-size:16px;line-height:1.85;overflow-wrap:anywhere}
+  .proposal-document>p{margin:0 0 22px}
+  .proposal-document h2,.proposal-document h3{scroll-margin-top:108px;letter-spacing:-.044em;line-height:1.18;color:#f3f7ff}
+  .proposal-document h2{font-size:clamp(28px,3vw,42px);margin:75px 0 24px;padding-top:45px;border-top:1px solid var(--line)}
+  .proposal-document>h2:first-of-type{margin-top:46px}
+  .proposal-document h3{font-size:clamp(20px,2.1vw,27px);margin:40px 0 16px}
+  .proposal-document h2[id="the-call-to-arms"]{color:var(--gold)}
+  .proposal-document strong{color:#f4f7ff;font-weight:800}
+  .proposal-document p,.proposal-document li{color:#c3d1e5}
+  .proposal-document ul,.proposal-document ol{padding-left:25px;margin:12px 0 30px}
+  .proposal-document li{padding-left:6px;margin-bottom:12px}
+  .proposal-document li::marker{color:var(--gold)}
+  .proposal-document blockquote{margin:20px 0 32px;padding:19px 26px;border-left:3px solid var(--gold);background:rgba(27,49,78,.35)}
+  .proposal-document blockquote p{margin:0;color:#d8e7f8}
+  .proposal-document .proposal-rule{border:0;border-top:1px solid var(--line);margin:51px 0 -30px}
+  .proposal-document a{color:var(--ice);text-decoration:underline;text-decoration-color:rgba(131,201,255,.38);text-underline-offset:4px}
+  .proposal-document a:hover{color:var(--gold);text-decoration-color:var(--gold)}
+  .proposal-document code{font-size:.88em;color:#f0db88;background:rgba(255,218,71,.075);padding:.12em .3em}
+  .proposal-document pre{overflow:auto;border:1px solid var(--line);background:#091322;padding:20px}
+  .proposal-document pre code{background:none;padding:0;color:#d4e2fa}
+  .proposal-table-wrap{margin:20px 0 37px;max-width:100%;overflow:auto;border:1px solid var(--line)}
+  .proposal-document table{width:100%;min-width:540px;border-collapse:collapse;background:#0a1323;font-size:14px;line-height:1.6}
+  .proposal-document th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--ice);background:#14233b;font-weight:800}
+  .proposal-document th,.proposal-document td{padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+  .proposal-document tr:last-child td{border-bottom:0}
+  .proposal-document tr:nth-child(even) td{background:rgba(255,255,255,.016)}
+  .proposal-document tr:last-child td{font-weight:700;color:#f0f6ff}
+  .proposal-end{border-top:1px solid var(--line);padding:55px 0 85px;background:radial-gradient(ellipse at bottom right,rgba(51,142,250,.08),transparent 70%)}
+  .proposal-end h2{font-size:clamp(38px,4vw,58px);letter-spacing:-.05em;margin:12px 0}
+  .proposal-end p{max-width:750px;color:var(--muted);font-size:16px;line-height:1.8}
+  .proposal-end .button{margin-top:17px}
+  @media(max-width:900px){.proposal-layout{grid-template-columns:1fr;gap:30px;padding-block:55px 80px}.proposal-contents{position:static;max-height:none}.proposal-toc-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.proposal-sidebar-note{margin-top:22px}}
+  @media(max-width:650px){.proposal-hero{padding:68px 0 55px}.proposal-facts{grid-template-columns:1fr}.proposal-facts>div+div{border-left:0;border-top:1px solid var(--line)}.proposal-contents{display:none}.proposal-layout{padding-block:34px 65px}.proposal-document{font-size:15px;line-height:1.75}.proposal-document h2{margin-top:58px;padding-top:32px}.proposal-document th,.proposal-document td{padding:10px 12px}.proposal-actions .button{width:100%}.proposal-end{padding:50px 0}}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#proposal-body">Skip to the proposal</a>
+  <div class="flag-line" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="/" aria-label="Space Zh home">SPACE<span class="logo-zh" lang="uk">Ж</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="/#mission">THE MISSION</a>
+        <a href="/#principles">OUR PRINCIPLES</a>
+        <a href="/#work">ROADMAP</a>
+        <a href="/#faq">FAQ</a>
+      </nav>
+      <a class="nav-cta" href="https://github.com/Parallax-Web-Services/spacezh" target="_blank" rel="noopener noreferrer">GET INVOLVED <span aria-hidden="true">↗</span></a>
+      <details class="mobile-nav">
+        <summary aria-label="Toggle navigation"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span class="sr-only">Menu</span></summary>
+        <nav class="mobile-links" aria-label="Mobile navigation"><a href="/">Home</a><a href="/#mission">The mission</a><a href="/#principles">Principles</a><a href="/#work">Roadmap</a><a href="https://github.com/Parallax-Web-Services/spacezh" target="_blank" rel="noopener noreferrer">Get involved ↗</a></nav>
+      </details>
+    </div>
+  </header>
+  <main>
+    <section class="proposal-hero" aria-labelledby="proposal-title">
+      <div class="container proposal-hero-inner">
+        <div class="proposal-eyebrow"><span class="tiny-dot" aria-hidden="true"></span>GLOBAL DEFENSE OF UKRAINE <span aria-hidden="true">/</span> PUBLIC FOUNDING PROPOSAL</div>
+        <h1 class="proposal-title" id="proposal-title">Built for Ukraine.<br><span class="gold">Open to the world.</span></h1>
+        <p class="proposal-dek">SpaceЖ proposes verifiable satellite intelligence, open ground infrastructure, and resilient communications research. Ukraine's defense is why we begin. The work, constraints, finances, and assumptions are published for public scrutiny.</p>
+        <div class="proposal-actions">
+          <a class="button button-primary" href="#proposal-body">READ THE PLAN <span class="arrow" aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="https://github.com/Parallax-Web-Services/spacezh/blob/master/docs/FOUNDING_PROPOSAL.md" target="_blank" rel="noopener noreferrer">SOURCE MARKDOWN <span class="arrow" aria-hidden="true">↗</span></a>
+        </div>
+        <div class="proposal-facts" aria-label="Illustrative proposal at a glance">
+          <div><small>FIRST 90 DAYS</small><strong class="emphasis">$50,000</strong><span>Illustrative kickoff budget</span></div>
+          <div><small>YEAR ONE</small><strong>$300,000</strong><span>Illustrative target, kickoff included</span></div>
+          <div><small>WORKSTREAMS</small><strong>4 PHASES</strong><span>Atlas · Node · Link · Orbit</span></div>
+        </div>
+        <p class="hero-note mono">WORKING PROPOSAL · VERSION 0.2 · OCT 2026 · NO OPERATIONAL DEFENSE OR WARNING SYSTEM</p>
+      </div>
+    </section>
+    <div class="container proposal-layout">
+      <aside class="proposal-contents" aria-label="Page contents">
+        <p class="proposal-contents-label mono">IN THIS PROPOSAL</p>
+        <nav class="proposal-toc-list" aria-label="Proposal sections"><a href="#section-01"><span>01</span>Executive thesis</a>
+<a href="#section-02"><span>02</span>The public-interest opportunity</a>
+<a href="#section-03"><span>03</span>The open architecture</a>
+<a href="#section-04"><span>04</span>Delivery roadmap and gates</a>
+<a href="#section-05"><span>05</span>Funding and sustainability</a>
+<a href="#section-06"><span>06</span>Governance people can trust</a>
+<a href="#section-07"><span>07</span>Regulatory and execution realities</a>
+<a href="#section-08"><span>08</span>Sources and assumptions</a>
+<a href="#section-09"><span>09</span>THE CALL TO ARMS</a></nav>
+        <div class="proposal-sidebar-note"><strong>Working draft.</strong> This is a public research proposal, not a deployed satellite network, nonprofit, or live warning system. <a href="https://github.com/Parallax-Web-Services/spacezh/blob/master/docs/FOUNDING_PROPOSAL.md" target="_blank" rel="noopener noreferrer">View the Markdown source ↗</a></div>
+      </aside>
+      <article id="proposal-body" class="proposal-document" aria-label="Complete SpaceЖ public founding proposal">
+<blockquote><p>Working proposal for public comment. SpaceЖ is not represented here as an established nonprofit, an operational satellite constellation, or an approved securities offering.</p></blockquote>
+<blockquote><p><strong>A call to build</strong> — SpaceЖ begins with the global defense of Ukraine: an invitation to engineers, radio operators, researchers, Ukrainian civic groups, universities, and funders to help build auditable public infrastructure. No outside organization is presumed to have endorsed this proposal.</p></blockquote>
+<hr class="proposal-rule" aria-hidden="true">
+<h2 id="section-01">01  |  Executive thesis</h2>
+<p><strong>Ukraine is why SpaceЖ exists.</strong> Its founding mission is the <strong>global defense of Ukraine</strong> through verifiable space intelligence, open technical infrastructure, and resilient communications research. This is a call for international technical cooperation—not a claim that we operate a satellite constellation, military warning system, or emergency communications network.</p>
+<p><strong>Our premise:</strong> Ukraine&#39;s defense and civilian resilience should not depend entirely on opaque, single-provider space infrastructure. The public deserves an interoperable alternative to concentrated private control of space-based communications and data. <strong>We can begin building that alternative without pretending we can launch a broadband constellation tomorrow.</strong></p>
+<p>SpaceЖ is a proposed open-source, public-interest initiative with Ukraine at the center of its purpose and international collaboration at the center of its approach. It would start by connecting trustworthy, licensed public satellite observations; producing an auditable orbital intelligence platform; and making community-operated ground infrastructure easier to deploy and use. Longer-term, it would pursue interoperable communications experiments and independently governed orbital capacity—only after engineering, regulatory, and financial milestones are met.</p>
+<blockquote><p><strong>One-sentence strategy</strong> — Open the data. Federate the ground. Prove the protocols. Earn the orbit.</p></blockquote>
+<h3 id="the-first-concrete-product">The first concrete product</h3>
+<p>A live public atlas of satellites and observations, paired with SpaceЖ Node: reproducible open software and documentation for compliant, opt-in ground stations. The product is useful on day one for educators, researchers, operators, journalists, and civic organizations.</p>
+<h3 id="our-founding-promises">Our founding promises</h3>
+<ul><li>Open work by default: source code, design discussions, milestones, and financial reporting are public, subject to security and privacy limits.</li><li>Public-benefit stewardship: donors may sponsor deliverables but may not purchase exclusive control of the mission.</li><li>Interoperability first: build on SatNOGS and other established open projects; do not create a proprietary replacement simply to own the ecosystem.</li><li>Defense through public infrastructure: support Ukraine&#39;s civilian resilience, independent information access, scientific transparency, and lawful open-source verification—not tactical targeting or claims of real-time missile detection.</li><li>Ukraine-informed priorities: seek requirements and critical review from consenting Ukrainian researchers, civil-society, and humanitarian participants; no partnership or endorsement is assumed.</li><li>No false deadlines: orbital broadband is a distant ambition, not a funded or presently feasible deliverable.</li></ul>
+<h3 id="what-this-publication-asks">What this publication asks</h3>
+<p>It seeks founding contributors, technical reviewers, station operators, institutional pilot hosts, governance stewards, and nonbinding financial expressions of interest. The goal is to build a credible public working group and a 90-day proof of work.</p>
+<hr class="proposal-rule" aria-hidden="true">
+<h2 id="section-02">02  |  The public-interest opportunity</h2>
+<p>The International Telecommunication Union estimated that 2.2 billion people remained offline in 2025. Coverage, affordability, and meaningful access remain uneven. [1] Resilient communications matter during outages, disasters, displacement, and infrastructure failures. These are genuine public problems—but they do not imply that an amateur satellite network can provide consumer broadband at commercial constellation speeds.</p>
+<h3 id="existing-work-we-should-strengthen-not-appropriate">Existing work we should strengthen, not appropriate</h3>
+<ul><li><strong>Libre Space Foundation / SatNOGS</strong> An established open-source ground-station network with public observations and open hardware/software. SpaceЖ should interoperate with it rather than reinvent its receiver infrastructure. [2]</li><li><strong>OpenSatCom</strong> A European Space Agency activity implemented by Libre Space Foundation and collaborators to advance open-source development approaches for satellite communications. It provides relevant research and ecosystem experience—not an endorsement of SpaceЖ. [3]</li><li><strong>SatNOGS Optical</strong> An independently developed, open optical-observation project with published measurement data. It illustrates how public observatories can complement radio tracking. [4]</li></ul>
+<h3 id="the-gap-spaceж-could-fill">The gap SpaceЖ could fill</h3>
+<p>Ukraine&#39;s defense is the founding purpose; public, inspectable infrastructure is the lasting international benefit. There is room for a cohesive, user-facing layer that makes open space observations discoverable, attributable, replayable, and useful to non-specialists, while connecting that software to a practical ground-node and future communications roadmap. SpaceЖ should win adoption through clarity, reliability, integrations, documentation, and accountable governance—not novelty claims.</p>
+<blockquote><p><strong>Scope boundary</strong> — Public orbital data and observations do not constitute a military-grade launch-detection or early-warning system. Community ground stations and terrestrial mesh links do not constitute a Starlink-class broadband replacement.</p></blockquote>
+<h3 id="who-benefits-first">Who benefits first</h3>
+<ul><li>Ukrainian researchers, civil-society and humanitarian groups seeking verifiable open-source context and lawful resilience technology, with privacy and safety safeguards.</li><li>Universities, schools, and amateur-radio clubs that need accessible educational tooling.</li><li>Researchers and journalists who need source-linked timelines and reproducible visualizations.</li><li>Humanitarian and disaster-resilience organizations evaluating lawful, redundant communication options.</li><li>Operators and makers who want interoperable equipment, software, test data, and clear contribution paths.</li></ul>
+<hr class="proposal-rule" aria-hidden="true">
+<h2 id="section-03">03  |  The open architecture</h2>
+<h3 id="four-workstreams-sequenced-by-proof">Four workstreams, sequenced by proof</h3>
+<ul><li><strong>SPACEЖ ATLAS</strong> Public orbital-intelligence software: catalog ingestion, licensed observation feeds, 3D orbital visualization, historical playback, event provenance, uncertainty, and accessible APIs.</li><li><strong>SPACEЖ NODE</strong> Reproducible node packages: ground-station setup, equipment profiles, health telemetry, privacy controls, hardware documentation, and SatNOGS-compatible contributions wherever licensing permits.</li><li><strong>SPACEЖ LINK</strong> An interoperable communications testbed, beginning with lawful terrestrial transport, delay-tolerant messaging, simulation, and interoperability evaluation. Actual satellite messaging depends on separately authorized links.</li><li><strong>SPACEЖ ORBIT</strong> A gated feasibility track for a hosted payload or small satellite with a qualified mission partner. No launch contract, satellite capacity, or service availability is assumed.</li></ul>
+<h3 id="suggested-technology-foundation">Suggested technology foundation</h3>
+<p>Laravel for application APIs, ingest orchestration, access controls, queues, and a public ledger; React for research and operational interfaces; Babylon.js for immersive 3D orbit replay; PostgreSQL/PostGIS for spatial/event data; commodity object storage for versioned evidence; open exports and signed change history. These are implementation preferences, not claimed completed features.</p>
+<h3 id="trust-is-the-actual-product">Trust is the actual product</h3>
+<ul><li>Every observation carries a source, capture time, ingest time, license, checksum, and any transformation history.</li><li>Separate measurements, predicted orbits, reporting, analysis, and simulation; never quietly promote inference to fact.</li><li>Honor dataset redistribution licenses, source rate limits, opt-in station consent, and any operator location privacy.</li><li>Keep an offline-capable documentation and deployment path; open standards and exportable data minimize lock-in.</li></ul>
+<blockquote><p><strong>Design test</strong> — Could an independent university fork the software, operate an authorized station, and validate one published observation without our permission? If not, we have not built a public alternative.</p></blockquote>
+<hr class="proposal-rule" aria-hidden="true">
+<h2 id="section-04">04  |  Delivery roadmap and gates</h2>
+<h3 id="days-130-publish-the-work">Days 1–30  •  Publish the work</h3>
+<ul><li>Open a public repository, contribution guide, architecture RFC, source/license inventory, and issue tracker.</li><li>Publish an initial 3D orbit viewer with clearly labeled predictions, source links, and replayable event examples.</li><li>Recruit an interim advisory group covering ground stations, spectrum regulation, security, and nonprofit governance.</li><li>Publish a donation/contracting policy draft before accepting organizational funds.</li></ul>
+<h3 id="days-3190-prove-the-first-value">Days 31–90  •  Prove the first value</h3>
+<ul><li>Release SpaceЖ Atlas alpha with a reproducible ingestion pipeline and downloadable evidence records.</li><li>Document and demonstrate three authorized receiver/node pilots, using existing open projects where practical.</li><li>Run an independent reproducibility review and publish an error log and privacy assessment.</li><li>Publish monthly financial and technical updates, even if money raised is zero.</li></ul>
+<h3 id="months-412-earn-a-community">Months 4–12  •  Earn a community</h3>
+<ul><li>Targets—not commitments: 20 opt-in pilot stations, 50 external code/documentation contributions, and two nonprofit or academic demonstrations.</li><li>Stable public APIs, accessibility and localization, interoperability tests, and independent governance input.</li><li>Demonstrate a store-and-forward communications prototype on authorized terrestrial links, explicitly without claiming orbital capacity.</li></ul>
+<h3 id="months-1230-assess-an-orbital-mission">Months 12–30  •  Assess an orbital mission</h3>
+<ul><li>Publish link budgets, spectrum plan, deorbit plan, security design, independent technical review, and fully costed vendor/partner options.</li><li>Proceed only if required approvals, appropriate partners, funds, operational responsibilities, and mission safety are demonstrably in place.</li></ul>
+<blockquote><p><strong>Go / no-go rule</strong> — No orbital procurement on the strength of a viral post. The first release must be reproducible, useful, and independently reviewable before any spacecraft commitment.</p></blockquote>
+<hr class="proposal-rule" aria-hidden="true">
+<h2 id="section-05">05  |  Funding and sustainability</h2>
+<p>The illustrative first-year funding target is $300,000, including a $50,000 kickoff tranche for a 90-day proof of work. These are planning assumptions, not quotes, commitments, or evidence that the initiative is already staffed. They rely on a lean paid core complemented by voluntary contributions and in-kind support.</p>
+<h3 id="90-day-kickoff-50000-total">90-day kickoff  •  $50,000 total</h3>
+<div class="proposal-table-wrap" role="region" aria-label="Scrollable proposal data table" tabindex="0"><table><thead><tr><th scope="col">Use</th><th scope="col">Planning amount</th></tr></thead><tbody><tr><td>Engineering / integration</td><td>$25,000</td></tr><tr><td>Prototype ground hardware</td><td>$8,000</td></tr><tr><td>Hosting / security / data</td><td>$5,000</td></tr><tr><td>Legal and regulatory review</td><td>$7,000</td></tr><tr><td>Documentation and outreach</td><td>$3,000</td></tr><tr><td>Contingency</td><td>$2,000</td></tr><tr><td>TOTAL</td><td>$50,000</td></tr></tbody></table></div>
+<h3 id="12-month-envelope-300000-total-kickoff-included">12-month envelope  •  $300,000 total (kickoff included)</h3>
+<div class="proposal-table-wrap" role="region" aria-label="Scrollable proposal data table" tabindex="0"><table><thead><tr><th scope="col">Use</th><th scope="col">Planning amount</th></tr></thead><tbody><tr><td>Software, protocol engineering, maintenance</td><td>$164,000</td></tr><tr><td>Ground equipment and pilots</td><td>$36,000</td></tr><tr><td>Hosting, data, security, audits</td><td>$21,000</td></tr><tr><td>Legal, spectrum, export reviews</td><td>$31,000</td></tr><tr><td>Community, translation, documentation</td><td>$24,000</td></tr><tr><td>Contingency</td><td>$24,000</td></tr><tr><td>TOTAL</td><td>$300,000</td></tr></tbody></table></div>
+<p>The 12-month amount excludes spacecraft manufacturing, launch, insurance, commercial spectrum acquisition, constellation operations, and any promise of satellite internet service. Those require separate feasibility work and potentially much larger financing.</p>
+<h3 id="how-the-commons-pays-its-bills">How the commons pays its bills</h3>
+<p>Early support would be philanthropic grants, sponsorship of named milestones, in-kind hosting and hardware, and university collaborations. Long-term options include optional managed hosting, commercial support and training—never exclusive ownership of the open core or undisclosed resale of user-location or surveillance data.</p>
+<p>Any accepted donations, tax status, and payment channels depend on a properly established legal vehicle and professional review. The publication itself is a call for collaborators and nonbinding expressions of support.</p>
+<hr class="proposal-rule" aria-hidden="true">
+<h2 id="section-06">06  |  Governance people can trust</h2>
+<h3 id="proposed-legal-shape">Proposed legal shape</h3>
+<p>SpaceЖ begins as a public working proposal, not as an already incorporated foundation. The preferred destination is an independent nonprofit or comparable public-benefit steward with transparent rules and a separately contracted service ecosystem. The eventual jurisdiction and entity type need legal review.</p>
+<ul><li>An interim steering committee with public minutes; transition to an independent board when legally formed.</li><li>A majority of governors independent of any single sponsor or commercial vendor; conflicts disclosed and recusal required.</li><li>No purchasing of board votes or veto powers through philanthropy; donor support does not confer control.</li><li>Public roadmap votes and RFCs for non-sensitive technical decisions; legally reserved decisions remain with accountable human officers/directors.</li><li>Published transactions, contributor compensation, procurement conflicts, and annual reports when operational.</li></ul>
+<h3 id="proposed-openness-policy">Proposed openness policy</h3>
+<p>Adopt OSI-approved software licenses, with Apache-2.0 considered for libraries/SDKs and AGPL-3.0 considered for network-hosted core services. Consider CERN-OHL-S v2 for original open hardware. Data licenses must follow upstream terms (including attribution/share-alike where required), privacy commitments, and contributor permissions. No final license policy is adopted merely by this proposal. [5]</p>
+<h3 id="civic-and-scientific-safeguards">Civic and scientific safeguards</h3>
+<ul><li>SpaceЖ supports the global defense of Ukraine through lawful public-interest technology. Public releases focus on civilian resilience, humanitarian, educational, and scientific uses; they will not provide direct tactical targeting or live threat cueing.</li><li>Do not publish exact positions of sensitive volunteer stations without informed consent.</li><li>Disclose uncertainty and correct errors visibly; public claims require source links and a defined confidence standard.</li><li>Conduct security review before launching messaging features, especially those used in crisis conditions.</li><li>Release public documentation without assuming all radio transmissions, encryption practices, or cross-border hardware transfers are permitted.</li></ul>
+<blockquote><p><strong>Governance promise</strong> — The right to inspect, reproduce, and improve the work must survive the founders, funders, and any commercial operator.</p></blockquote>
+<hr class="proposal-rule" aria-hidden="true">
+<h2 id="section-07">07  |  Regulatory and execution realities</h2>
+<h3 id="licensing-is-not-optional">Licensing is not optional</h3>
+<p>U.S.-jurisdiction spacecraft and earth-station activities can involve FCC authorizations, including Part 25 and streamlined small-satellite pathways when eligible; global satellite radio systems involve national administrations and International Telecommunication Union coordination. Launch providers and operators must satisfy the relevant launch rules. Export-controlled hardware, technical data, and cross-border collaborations demand case-specific legal review. [6–9]</p>
+<h3 id="major-risks-and-responses">Major risks and responses</h3>
+<div class="proposal-table-wrap" role="region" aria-label="Scrollable proposal data table" tabindex="0"><table><thead><tr><th scope="col">Risk</th><th scope="col">Operating response</th></tr></thead><tbody><tr><td>Confusing observation with broadband</td><td>Publish a capability matrix on every milestone; no unsupported service claims.</td></tr><tr><td>Spectrum/launch barriers</td><td>Gate spaceflight on qualified legal and engineering reviews; use licensed partners.</td></tr><tr><td>Misleading or sensitive OSINT</td><td>Label predictions vs observations; preserve provenance and privacy defaults.</td></tr><tr><td>Duplicating existing open projects</td><td>Build adapters and upstream improvements before creating competing stacks.</td></tr><tr><td>Single-donor capture</td><td>Cap donor control; publish conflicts, funding concentration and procurement.</td></tr><tr><td>Volunteer burnout / security debt</td><td>Fund maintainers and documentation; maintain security and incident processes.</td></tr></tbody></table></div>
+<h3 id="first-year-public-scorecard">First-year public scorecard</h3>
+<ul><li>Public repository and license inventory, visible issue backlog, documented builds, and monthly published progress.</li><li>Three reproducible node pilots and a source-linked atlas alpha within the first 90 days (targets).</li><li>20 opt-in pilot stations, 50 external contributions, and two documented institutional demos by month 12 (targets).</li><li>A public source-quality report, privacy policy, maintenance/security response plan, and proposed governance charter.</li><li>Ukrainian-language resources and voluntarily solicited input from Ukrainian research and civic contributors, without implying any endorsement before confirmation.</li></ul>
+<blockquote><p><strong>What success is not</strong> — Success is not a valuation, an impressive rendering, an unverified satellite map, or a promise to challenge commercial constellation throughput without a credible link budget.</p></blockquote>
+<hr class="proposal-rule" aria-hidden="true">
+<h2 id="section-08">08  |  Sources and assumptions</h2>
+<p>The external facts below support the problem framing, existing open ecosystem, and regulatory discussion. All forecasts, budget ranges, adoption targets, governance choices, and implementation details elsewhere in this proposal are SpaceЖ planning assumptions—not verified third-party commitments.</p>
+<ol><li><a href="https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx" target="_blank" rel="noopener noreferrer">ITU — Facts and Figures 2025 (2.2 billion offline in 2025)<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://www.libre.space/projects/satnogs/" target="_blank" rel="noopener noreferrer">Libre Space Foundation — SatNOGS project<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://opensatcom.org/about-us/" target="_blank" rel="noopener noreferrer">OpenSatCom — About the ESA-supported activity<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://www.libre.space/projects/satnogs-optical/" target="_blank" rel="noopener noreferrer">Libre Space Foundation — SatNOGS Optical<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://opensource.org/licenses" target="_blank" rel="noopener noreferrer">Open Source Initiative — Approved licenses<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://www.fcc.gov/space/small-satellite-and-small-spacecraft-licensing-process" target="_blank" rel="noopener noreferrer">U.S. FCC — Small satellite and spacecraft licensing<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://www.itu.int/en/mediacentre/backgrounders/Pages/Regulation-of-Satellite-Systems.aspx" target="_blank" rel="noopener noreferrer">ITU — Regulation of satellite systems<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://www.faa.gov/space/licenses" target="_blank" rel="noopener noreferrer">U.S. FAA — Commercial space launch licensing<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://www.bis.gov/regulations/ear/734" target="_blank" rel="noopener noreferrer">U.S. BIS — Export Administration Regulations, Part 734<span class="sr-only"> (opens in a new tab)</span></a></li></ol>
+<h3 id="publication-notes">Publication notes</h3>
+<p>Date of preparation: 16 October 2026. Named external organizations have not endorsed SpaceЖ merely because they are referenced here. No billionaires, government agencies, universities, or foundations are represented as committed supporters. The working name, governance model, legal status, trademark, and financing strategy are subject to public review.</p>
+<p>SpaceЖ is presented as a proposed open public infrastructure initiative. The document is not a claim of completed construction, reliable communications coverage, planned missile detection, tax-deductible donation eligibility, or an investment opportunity.</p>
+<hr class="proposal-rule" aria-hidden="true">
+<h2 id="section-09">09  |  THE CALL TO ARMS</h2>
+<p><strong>Ukraine is why we begin. The world is invited to build.</strong> The global defense of Ukraine also needs enduring, independent public knowledge and resilient infrastructure. SpaceЖ seeks verifiable contributions to that foundation, with honest limits on present capabilities.</p>
+<p>A terminal. An antenna. A soldering iron. A laboratory. A classroom. A team. A contribution that can be audited.</p>
+<p>If you build software, take ownership of an issue. If you know RF, review the node specification. If you run a university, host a research team. If you operate a station, bring it to the standards conversation. If you can fund public-interest work, sponsor a milestone without purchasing control. If you see a flaw in this plan, publish the critique.</p>
+<h3 id="the-immediate-ask-a-30-day-commitment">The immediate ask: a 30-day commitment</h3>
+<ul><li>Contribute: choose a task you can complete or review within 30 days.</li><li>Validate: test the assumptions, licensing pathways, and technical architecture.</li><li>Host: offer lab time, space, a permitted ground station, or educational pilots.</li><li>Support: offer a nonbinding pledge toward the independently administered $50,000 kickoff.</li><li>Govern: help design an independent, auditable public-benefit charter.</li></ul>
+<blockquote><p><strong>How to respond</strong> — Reply to the public release with your role, an email or safe contact method, and the specific first-month deliverable you can own. Never post passwords, exact sensitive site coordinates, or other private details publicly.</p></blockquote>
+<hr class="proposal-rule" aria-hidden="true">
+<h2 id="the-call-to-arms">THE CALL TO ARMS</h2>
+<p><strong>Built for Ukraine&#39;s defense. Open to the world.</strong></p>
+<p>This is a call for public engineering, independent verification, and civilian resilience—not a claim of deployed defense capabilities or a request for targeting support.</p>
+<p>A terminal. An antenna. A soldering iron. A laboratory. A classroom. A team. A contribution that can be audited.</p>
+<p>If you build software, take ownership of an issue. If you know RF, review the node specification. If you run a university, host a research team. If you operate a station, bring it to the standards conversation. If you can fund public-interest work, sponsor a milestone without purchasing control. If you see a flaw in this plan, publish the critique.</p>
+<p><strong>The immediate ask: a 30-day commitment.</strong></p>
+<p>Reply to the public release with your role, a safe contact method, and the specific first-month deliverable you can own.</p>
+<p><strong>TO ARMS. TO WORK. TO ORBIT.</strong></p>
+<p><strong>SPACEЖ — THE SKY BELONGS TO EVERYONE.</strong></p>
+      </article>
+    </div>
+    <section class="proposal-end">
+      <div class="container">
+        <p class="section-tag">THE NEXT 30 DAYS</p>
+        <h2>Bring your skills.<br><span class="accent">Build in public.</span></h2>
+        <p>Global defense of Ukraine is the mission behind this open-infrastructure proposal. Technical scrutiny, Ukrainian civil-society perspectives, lawful radio expertise, software, documentation, and reproducible contributions are welcome. Financial checkout is not live.</p>
+        <a class="button button-primary" href="https://github.com/Parallax-Web-Services/spacezh" target="_blank" rel="noopener noreferrer">JOIN THE PUBLIC WORK <span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div>
+          <a class="logo" href="/" aria-label="Space Zh home">SPACE<span class="logo-zh" lang="uk">Ж</span></a>
+          <p><strong style="color:#e1eaf8">Life. Freedom. Science.</strong><br>Initiated by Varta Industries · A division of Tryzantha LLC · Independent public-benefit stewardship proposed.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation"><a href="/">Home</a><a href="/#mission">Mission</a><a href="https://github.com/Parallax-Web-Services/spacezh/blob/master/docs/FOUNDING_PROPOSAL.md" target="_blank" rel="noopener noreferrer">Source Markdown ↗</a><a href="https://github.com/Parallax-Web-Services/spacezh" target="_blank" rel="noopener noreferrer">Contribute ↗</a></nav>
+      </div>
+      <div class="footer-bottom mono">
+        <span>RESEARCH-STAGE PUBLIC PROPOSAL · INDEPENDENT OF SPACEX · NO OPERATIONAL BROADBAND, MILITARY WARNING, OR EMERGENCY RESPONSE SERVICE.</span>
+        <span>© 2026 SPACE<span lang="uk">Ж</span> · Ж = ZH</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
