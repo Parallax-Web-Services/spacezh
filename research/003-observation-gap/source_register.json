@@ -1,0 +1,56 @@
+{
+  "title": "SpaceЖ Research 003 public-source capability register",
+  "review_date": "2026-10-16",
+  "assertion": "No reviewed primary public source establishes an existing, independently validated, authorized 60-second ballistic launch detection capability available to SpaceЖ for Ukraine. This does not prove no nonpublic capability exists.",
+  "scope": "High-level public programme maturity and service classification; excludes sensor implementation, sites, threat tracks, or classified capability claims.",
+  "records": [
+    {
+      "id": "euspa_sst", "name": "EU Space Surveillance and Tracking (EU SST)",
+      "service_class": "orbital_space_safety", "published_maturity": "operational for listed space-object services",
+      "published_scope": "collision avoidance, fragmentation analysis, uncontrolled re-entry",
+      "establishes_independent_60_second_launch_observation": false,
+      "evidence_url": "https://www.euspa.europa.eu/eu-space-programme/ssa/eu-sst",
+      "reason": "The published service portfolio is not a ballistic-launch verification service."
+    },
+    {
+      "id": "odins_eye_ii", "name": "ODIN'S EYE II",
+      "service_class": "future_missile_early_warning", "published_maturity": "study and design funded under EDF 2022",
+      "published_scope": "architectural development for European space-based missile early warning",
+      "establishes_independent_60_second_launch_observation": false,
+      "evidence_url": "https://defence-industry-space.ec.europa.eu/system/files/2023-06/ODINS%27EYE%20II-Factsheet_EDF22.pdf",
+      "reason": "Selected-project studies and design do not establish operational launch observations."
+    },
+    {
+      "id": "jewel", "name": "JEWEL — Franco-German initiative",
+      "service_class": "future_missile_early_warning", "published_maturity": "early warning project launched October 2025; initial space component targeted for early 2030s",
+      "published_scope": "planned European space-based early warning capability",
+      "establishes_independent_60_second_launch_observation": false,
+      "evidence_url": "https://www.defense.gouv.fr/en/news/jewel-france-and-germany-lay-foundation-european-early-warning-capability",
+      "reason": "A future capability target is not present-day sensor access or performance evidence."
+    },
+    {
+      "id": "france_law_2026", "name": "French military programming law 2026, Article 57",
+      "service_class": "national_future_capability_roadmap", "published_maturity": "programme roadmap; precursor radar work before 2030 and infrared spacecraft component before 2035",
+      "published_scope": "French participation in the JEWEL early-warning initiative",
+      "establishes_independent_60_second_launch_observation": false,
+      "evidence_url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054694924",
+      "reason": "Legislated programme intentions are not evidence of a current 60-second observation service."
+    },
+    {
+      "id": "govsatcom", "name": "EU GOVSATCOM Hub",
+      "service_class": "government_satellite_communications", "published_maturity": "initial operational communications hub since January 2026",
+      "published_scope": "pooled secure government satellite communications",
+      "establishes_independent_60_second_launch_observation": false,
+      "evidence_url": "https://www.euspa.europa.eu/pressroom/press-releases/cyprus-completes-first-operational-use-eu-govsatcom-hub-services-marking",
+      "reason": "Communications capacity is not an observation sensor or launch detection guarantee."
+    },
+    {
+      "id": "uk_ukraine_mou", "name": "UK Space Agency — State Space Agency of Ukraine civil-space MoU",
+      "service_class": "civil_space_cooperation_framework", "published_maturity": "signed March 2026",
+      "published_scope": "framework for civil and commercial space cooperation and exchange of expertise",
+      "establishes_independent_60_second_launch_observation": false,
+      "evidence_url": "https://www.gov.uk/government/news/uk-space-agency-signs-landmark-agreement-with-ukraine-to-strengthen-civil-space-cooperation",
+      "reason": "A cooperation framework is not a demonstrated launch-sensing system or partnership with SpaceЖ."
+    }
+  ]
+}
