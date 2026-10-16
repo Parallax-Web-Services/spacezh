@@ -1,0 +1,201 @@
+{
+  "schema_version": "spacezh.evidence_brief.v1",
+  "record_id": "starshield-restrictions-2026-10-16",
+  "title": "Who throttled Ukraine's Starshield?",
+  "date_first_published": "2026-10-16",
+  "date_reviewed": "2026-10-16",
+  "publication_status": "sourced_public_brief",
+  "development_status": "developing_story",
+  "topic_tags": [
+    "Ukraine",
+    "Starshield",
+    "Starlink",
+    "SpaceX",
+    "satellite-connectivity",
+    "civilian-resilience",
+    "governance"
+  ],
+  "primary_subjects": [
+    "SpaceX",
+    "U.S. Department of Defense",
+    "U.S. White House",
+    "Ukraine"
+  ],
+  "organization": "SpaceЖ",
+  "canonical_public_path": "/research/briefings/starshield-restrictions/",
+  "canonical_editorial_source": "docs/evidence/2026-10-16-starshield.md",
+  "sources": [
+    {
+      "id": "telegraph-exclusive",
+      "publisher": "The Telegraph",
+      "byline": "Joe Barnes",
+      "published_date": "2026-10-16",
+      "title": "Exclusive: Musk approached Trump to slow down Starlink in Ukraine",
+      "url": "https://www.telegraph.co.uk/world-news/2026/10/16/musk-approached-trump-slow-down-starlink-help-ukraine/",
+      "source_type": "original_exclusive",
+      "notes": "Four sources familiar with reported Musk-Trump conversations. Sourced allegation, not released documentary proof."
+    },
+    {
+      "id": "telegraph-syndication",
+      "publisher": "AOL / Telegraph syndicated article",
+      "byline": "Joe Barnes",
+      "published_date": "2026-10-16",
+      "title": "Exclusive: Musk approached Trump to slow down Starlink in Ukraine",
+      "url": "https://www.aol.com/articles/exclusive-musk-approached-trump-slow-175901000.html",
+      "source_type": "licensed_syndication",
+      "notes": "Readable licensed syndication of the Telegraph's reporting; SAME journalistic investigation, not separate corroboration."
+    },
+    {
+      "id": "reuters-14",
+      "publisher": "Reuters",
+      "byline": "Yuliia Dysa and Dan Peleschuk",
+      "published_date": "2026-10-14",
+      "title": "Ukraine says SpaceX hampers drones for attack and defence, as US ties fray",
+      "url": "https://www.reuters.com/business/media-telecom/ukraine-accuses-spacex-crippling-drone-missions-ties-with-us-worsen-2026-10-14/",
+      "source_type": "independent_news_reporting",
+      "notes": "Documents Ukrainian complaints of limits, Zelensky remarks, and Musk's stated account of government control."
+    },
+    {
+      "id": "reuters-15",
+      "publisher": "Reuters",
+      "byline": "Erin Banco and Gram Slattery",
+      "published_date": "2026-10-15",
+      "title": "Order to limit Starshield for Ukraine came from inside White House, sources say",
+      "url": "https://www.reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/",
+      "source_type": "independent_exclusive",
+      "notes": "Two U.S. officials and one Western official attributed the restriction instruction to inside the White House. Officials did not identify an individual decision-maker. A senior U.S. official denied that Trump requested it."
+    },
+    {
+      "id": "reuters-16-frontline",
+      "publisher": "Reuters",
+      "byline": "Sergiy Chalyi",
+      "published_date": "2026-10-16",
+      "title": "Starlink disruptions are being felt on the front lines of Ukraine",
+      "url": "https://www.reuters.com/business/aerospace-defense/starlink-disruptions-are-being-felt-front-lines-ukraine-2026-10-16/",
+      "source_type": "field_reporting",
+      "notes": "Firsthand interviews with affected Ukrainian troops described connectivity disruptions. Provides evidence of impact, not attribution of a decision to Musk."
+    },
+    {
+      "id": "reuters-16-denial",
+      "publisher": "Reuters",
+      "byline": "Reuters",
+      "published_date": "2026-10-16",
+      "title": "Trump says neither he nor Musk responsible for Ukraine loss of Starlink access",
+      "url": "https://www.reuters.com/world/europe/trump-says-neither-he-nor-musk-responsible-ukraine-starlink-access-2026-10-16/",
+      "source_type": "on_record_denial",
+      "notes": "Documents Trump's public denial, which conflicts with the sourced White House and Telegraph accounts."
+    },
+    {
+      "id": "kyiv-independent",
+      "publisher": "The Kyiv Independent",
+      "byline": "Abbey Fenbert and Polina Moroziuk",
+      "published_date": "2026-10-16",
+      "title": "'They were both in on it' — Musk suggested Trump restrict Ukraine's Starlink service, Telegraph reports",
+      "url": "https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/",
+      "source_type": "followup_reporting",
+      "notes": "Further context, Ukrainian statements and the Telegraph claim. Its retelling of the Musk proposal does not count as a second independent investigation."
+    },
+    {
+      "id": "ap-adviser",
+      "publisher": "Associated Press",
+      "byline": "AP",
+      "published_date": "2026-10-16",
+      "title": "Presidential adviser says Ukraine is in talks to lift speed limit on military satellite network",
+      "url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+      "source_type": "independent_reporting",
+      "notes": "Ukrainian government advisers described ongoing steps to address restrictions. Article does not establish Musk-Trump deliberations."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-01",
+      "claim": "Ukrainian officials said Starshield service restrictions impaired military communications and drone operations without advance notice.",
+      "evidence_class": "reported_impact",
+      "sourcing": "reported_by_ukrainian_officials",
+      "source_ids": [
+        "reuters-14",
+        "reuters-16-frontline",
+        "ap-adviser"
+      ],
+      "caveat": "This does not identify the person who ordered the change or independently quantify every resulting loss."
+    },
+    {
+      "id": "claim-02",
+      "claim": "A Ukrainian frontline service member described significantly degraded internet and communication with headquarters during the restriction.",
+      "evidence_class": "firsthand_report",
+      "sourcing": "reuters_interview",
+      "source_ids": [
+        "reuters-16-frontline"
+      ],
+      "caveat": "A firsthand account is evidence of local impact, not proof of a systemwide extent or political motive."
+    },
+    {
+      "id": "claim-03",
+      "claim": "Reuters reported that an instruction to slow Starshield came from inside the White House, based on two U.S. and one Western official.",
+      "evidence_class": "sourced_allegation",
+      "sourcing": "anonymous_officials",
+      "source_ids": [
+        "reuters-15"
+      ],
+      "caveat": "Reuters sources did not name a specific decision-maker. A senior U.S. official denied that Trump requested it."
+    },
+    {
+      "id": "claim-04",
+      "claim": "The Telegraph reported that Musk proposed the speed restriction to Trump, citing four sources familiar with discussions; one said Trump agreed.",
+      "evidence_class": "sourced_allegation",
+      "sourcing": "four_unnamed_sources",
+      "source_ids": [
+        "telegraph-exclusive",
+        "telegraph-syndication"
+      ],
+      "caveat": "No direct recording, order document, or named source was published with this account. Other articles citing the Telegraph are not independent corroboration."
+    },
+    {
+      "id": "claim-05",
+      "claim": "Musk publicly maintained that Starshield service constraints were decided by the U.S. military and ultimately the U.S. president.",
+      "evidence_class": "on_record_position",
+      "sourcing": "musk_public_statement_as_quoted",
+      "source_ids": [
+        "reuters-14",
+        "reuters-15"
+      ],
+      "caveat": "The public statement does not conclusively answer whether Musk first suggested or advocated a restriction."
+    },
+    {
+      "id": "claim-06",
+      "claim": "Trump publicly denied that he or Musk was responsible for the loss of service, and a U.S. official denied a presidential request.",
+      "evidence_class": "on_record_denial",
+      "sourcing": "trump_statement_and_official_response",
+      "source_ids": [
+        "reuters-16-denial",
+        "reuters-15",
+        "telegraph-syndication"
+      ],
+      "caveat": "A denial is a claim for the record; it does not independently resolve the accounts from anonymous officials."
+    },
+    {
+      "id": "claim-07",
+      "claim": "The motive, legal authorization, specific signer, command chain, and scale of resulting civilian casualties have not been independently established in the public sources reviewed.",
+      "evidence_class": "unresolved",
+      "sourcing": "cross_source_gap",
+      "source_ids": [
+        "telegraph-syndication",
+        "reuters-15",
+        "reuters-16-frontline",
+        "reuters-16-denial"
+      ],
+      "caveat": "Absence of documentation here is not proof that no private record exists."
+    }
+  ],
+  "source_independence_notes": [
+    "The Telegraph original and its AOL licensed syndication are one underlying investigation, not two.",
+    "The Kyiv Independent account repeats the Telegraph claim and adds context; do not count repetition as separate verification of Musk's alleged proposal.",
+    "Reuters independently reported the restrictions, reports of impact, and separately sourced White House origin. Reuters did not independently prove that Musk proposed the restrictions.",
+    "Public denials are preserved alongside disputed allegations."
+  ],
+  "copyright_policy": "Metadata, independently authored brief text, short quoted fragments only. Do not store or republish full source articles, screenshots, copyrighted photos, or paywalled article body.",
+  "relay_integration_status": "staged_in_repository_not_imported_to_RELAY",
+  "trusted_operational_feed": false,
+  "fact_check_verdict": "no_single_verdict_multiple_claim_statuses",
+  "comment": "This record is not evidence of ballistic sensor coverage, a live warning service, or a verified command decision."
+}
