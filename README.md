@@ -6,15 +6,15 @@ Public website and founding proposal for SpaceЖ, a proposed open-source, public
 
 ## This site
 
-This is an entirely static site: `index.html`, `assets/favicon.svg`, and `assets/spacezh-hero.webp`. No build tools, npm dependencies, analytics, third-party scripts, or backend. The launch design, responsive CSS, animated synthetic scanner, and original artwork have been preserved.
+The deployable static website lives in **`public/`**: `public/index.html`, `public/assets/favicon.svg`, and `public/assets/spacezh-hero.webp`. Repository-level `docs/` and `CONTRIBUTING.md` are project documentation, not public web assets. No build tools, npm dependencies, analytics, third-party scripts, or backend. The launch design, responsive CSS, animated synthetic scanner, and original artwork have been preserved.
 
 To preview locally:
 
 ```bash
-python3 -m http.server 8080
+python3 -m http.server 8080 --directory public
 ```
 
-Visit http://localhost:8080. Publish the folder together on any static host. The live canonical domain is `https://xn--80akd1bg1j.com/`.
+Visit http://localhost:8080. **Set the hosting site's document root / publish directory to `public/`** (not the repository root), so `index.html` is served at `/` and `assets/*` resolves at `/assets/*`. For nginx, point `root` to the full filesystem path of the `public` folder; for a static host, use `public` as the publish directory with no build command. The live canonical domain is `https://xn--80akd1bg1j.com/`.
 
 ## Read before contributing
 
@@ -37,6 +37,6 @@ The first 90 days are **illustratively budgeted at $50,000**. The first-year pla
 
 ## Maintaining visual integrity
 
-The original `<style>` block has not been changed, and the image files remain untouched by this update. This change is content, metadata, links, and a **hidden** future GoFundYourself mount hook only. No visible payment form has been introduced.
+The original `<style>` block in `public/index.html` has not been changed, and `public/assets/` is retained byte-for-byte. This change is content, metadata, links, and a **hidden** future GoFundYourself mount hook only. No visible payment form has been introduced.
 
 The front-end is currently just a publication channel, not the promised orbital product. Technical workstreams, licensing, and governance are proposals for public review.
