@@ -22,7 +22,7 @@
 SpaceЖ is a proposed open-source, public-interest initiative with Ukraine at the center of its purpose and international collaboration at the center of its approach. It would start by connecting trustworthy, licensed public satellite observations; producing an auditable orbital intelligence platform; and making community-operated ground infrastructure easier to deploy and use. Longer-term, it would pursue interoperable communications experiments and independently governed orbital capacity—only after engineering, regulatory, and financial milestones are met.
 
 
-> **One-sentence strategy** — Open the data. Federate the ground. Prove the protocols. Earn the orbit.
+> **Operating sequence** — Build a public satellite-observation atlas; test opt-in ground stations; evaluate authorized communications links; consider orbital hardware only after independent review.
 
 
 ### The first concrete product
@@ -92,7 +92,7 @@ Ukraine's defense is the founding purpose; public, inspectable infrastructure is
 Laravel for application APIs, ingest orchestration, access controls, queues, and a public ledger; React for research and operational interfaces; Babylon.js for immersive 3D orbit replay; PostgreSQL/PostGIS for spatial/event data; commodity object storage for versioned evidence; open exports and signed change history. These are implementation preferences, not claimed completed features.
 
 
-### Trust is the actual product
+### Source provenance and verification
 
 - Every observation carries a source, capture time, ingest time, license, checksum, and any transformation history.
 - Separate measurements, predicted orbits, reporting, analysis, and simulation; never quietly promote inference to fact.
@@ -122,7 +122,7 @@ Laravel for application APIs, ingest orchestration, access controls, queues, and
 - Run an independent reproducibility review and publish an error log and privacy assessment.
 - Publish monthly financial and technical updates, even if money raised is zero.
 
-### Months 4–12  •  Earn a community
+### Months 4–12  •  Validate community pilots
 
 - Targets—not commitments: 20 opt-in pilot stations, 50 external code/documentation contributions, and two nonprofit or academic demonstrations.
 - Stable public APIs, accessibility and localization, interoperability tests, and independent governance input.
@@ -182,7 +182,7 @@ Any accepted donations, tax status, and payment channels depend on a properly es
 ---
 
 
-## 06  |  Governance people can trust
+## 06  |  Governance and accountability
 
 
 ### Proposed legal shape
