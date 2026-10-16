@@ -56,6 +56,8 @@ This episode reinforces the need for **auditable provenance, independent alterna
 6. **Reuters, 16 October 2026:** [Trump says neither he nor Musk responsible](https://www.reuters.com/world/europe/trump-says-neither-he-nor-musk-responsible-ukraine-starlink-access-2026-10-16/) — on-the-record denial.
 7. **The Kyiv Independent, 16 October 2026:** [Telegraph report and Ukrainian context](https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/) — secondary account with further reporting, **not corroboration of the private Musk–Trump conversation**.
 
+8. **Associated Press, 16 October 2026:** [Ukrainian adviser on the Starshield speed restriction](https://apnews.com/article/385eb944f6c34990bdf21f624416b820) — separate reporting on ongoing restriction concerns, **not independent corroboration of the alleged Musk–Trump conversation**.
+
 Machine-readable, claim-level metadata: [`data/evidence/starshield-restrictions-2026-10-16.json`](../../data/evidence/starshield-restrictions-2026-10-16.json).
 
 **Update policy:** Add new attributed evidence, on-the-record responses, or corrections with an updated date. No copyrighted photographs, Instagram screenshots, full article bodies, private sources, unverified damage estimates, or operational sensor/defense data are stored in this repository. This registry is **staged for future RELAY ingestion**, not a claim that RELAY has imported or independently verified the sources.

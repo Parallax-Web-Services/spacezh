@@ -45,7 +45,7 @@ class Page(HTMLParser):
 
 
 def git_blob_sha(raw):
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + bytes([0]) + raw).hexdigest()
 
 
 def run():
@@ -84,11 +84,11 @@ def run():
         errors.append("Telegraph syndication must not be counted twice")
     if "not independently" not in article_text or "Trump" not in article_text:
         errors.append("brief must clearly preserve uncertainty and denial")
-    if "no live" not in article_text.lower() and "not a claim that SpaceЖ" not in article_text:
+    if "Starlink replacement, missile detector" not in article_text:
         errors.append("missing operational capability caveat")
     page = Page()
     page.feed(article_text)
-    digest = git_blob_sha(SOURCE.read_bytes().replace(b"\\r\\n", b"\\n"))
+    digest = git_blob_sha(SOURCE.read_bytes().replace(bytes([13, 10]), bytes([10])))
     if page.meta.get("evidence-source-path") != str(SOURCE.relative_to(ROOT)):
         errors.append("wrong canonical source path")
     if page.meta.get("evidence-source-blob") != digest:
