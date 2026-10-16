@@ -1,0 +1,68 @@
+{
+  "classification": "SYNTHETIC_ONLY",
+  "description": "Invented data to test the scoring code; not a Ukrainian attack log or sensor performance.",
+  "known_launches": [
+    {
+      "observed": true,
+      "verified_detection_s": 29,
+      "official_notice_s": 45
+    },
+    {
+      "observed": true,
+      "verified_detection_s": 42,
+      "official_notice_s": 73
+    },
+    {
+      "observed": false,
+      "verified_detection_s": null,
+      "official_notice_s": null
+    },
+    {
+      "observed": true,
+      "verified_detection_s": 65,
+      "official_notice_s": 87
+    },
+    {
+      "observed": true,
+      "verified_detection_s": null,
+      "official_notice_s": null
+    },
+    {
+      "observed": true,
+      "verified_detection_s": 12,
+      "official_notice_s": 27
+    },
+    {
+      "observed": false,
+      "verified_detection_s": null,
+      "official_notice_s": null
+    },
+    {
+      "observed": true,
+      "verified_detection_s": 58,
+      "official_notice_s": 85
+    }
+  ],
+  "quiet_control_windows": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+  ]
+}
