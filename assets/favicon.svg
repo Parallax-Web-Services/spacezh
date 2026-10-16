@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Space Zh">
+  <rect width="128" height="128" rx="22" fill="#071221"/>
+  <path d="M10 10h54v5H10z" fill="#0057b7"/><path d="M64 10h54v5H64z" fill="#ffd700"/>
+  <text x="64" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="94" font-weight="900" fill="#ffd700">Ж</text>
+</svg>
