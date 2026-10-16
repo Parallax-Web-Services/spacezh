@@ -90,3 +90,11 @@ The [research page](public/research/index.html) links to the full on-site versio
 GitHub remains the home of source code and test suites, not the required publication viewer.
 
 **Maintainer rule:** when a Markdown study changes, update its corresponding on-site HTML and re-run `python3 scripts/check_research_publication.py`. The published pages include a content fingerprint of the canonical Markdown source, so CI will fail if the source changes without updating the website. This is a source-consistency check, not a scientific result or proof that a browser renders well; mobile and desktop layout still need visual QA.
+
+## Featured source reporting
+
+- [On-site SpaceЖ evidence brief: Who throttled Ukraine's Starshield?](public/research/briefings/starshield-restrictions/index.html) — a dated source-by-source explanation separating Telegraph's allegation, Reuters' independently sourced reporting, public denials and Ukrainian frontline impact.
+- [Canonical original editorial source](docs/evidence/2026-10-16-starshield.md).
+- [Machine-readable claim and source register](data/evidence/starshield-restrictions-2026-10-16.json) — source IDs, per-claim classifications, denials, independence and copyright notes.
+
+The public website features this reporting on both the homepage and `/research/`. **This is a sourced editorial brief, not an independently verified finding that a named individual ordered the restriction.** The original publishers retain their articles and imagery. The JSON is **staged for future RELAY import but has not been ingested into a connected RELAY service**. Review, corrections and date updates are required as new reporting emerges.
