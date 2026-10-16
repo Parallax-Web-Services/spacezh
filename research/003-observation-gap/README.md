@@ -97,6 +97,6 @@ The immediate deliverable is an **independently reviewed evidence register and v
 - [EU Agency for the Space Programme — EU SST services](https://www.euspa.europa.eu/eu-space-programme/ssa/eu-sst)
 - [European Defence Fund — ODIN'S EYE II factsheet (study/design)](https://defence-industry-space.ec.europa.eu/system/files/2023-06/ODINS%27EYE%20II-Factsheet_EDF22.pdf)
 - [French Ministry of Armed Forces — JEWEL, 24 October 2025](https://www.defense.gouv.fr/en/news/jewel-france-and-germany-lay-foundation-european-early-warning-capability)
-- [Légifrance — Military programming law, 16 August 2026, Article 57](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054694924)
+- [Légifrance — Loi n° 2026-791 du 16 août 2026 (military programming update), annexed report approved by Article 1, section « Alerte avancée »](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054694924) — accessible copy: [Assemblée nationale, texte adopté n° 325](https://www.assemblee-nationale.fr/dyn/opendata/PRJLANR5L17BTA0325.html). Article 57 of the law itself only ratifies earlier ordinances.
 - [EUSPA — GOVSATCOM initial operations, March 2026](https://www.euspa.europa.eu/pressroom/press-releases/cyprus-completes-first-operational-use-eu-govsatcom-hub-services-marking)
 - [UK Space Agency — UK–Ukraine civil-space agreement, March 2026](https://www.gov.uk/government/news/uk-space-agency-signs-landmark-agreement-with-ukraine-to-strengthen-civil-space-cooperation)

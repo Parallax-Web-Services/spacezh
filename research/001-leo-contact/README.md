@@ -89,5 +89,5 @@ Six deterministic tests passed on 16 October 2026 and the reference model output
 
 ### Sources
 - [NASA — Small Spacecraft Ground Data Systems and Mission Operations](https://www.nasa.gov/smallsat-institute/sst-soa/ground-data-systems-and-mission-operations/)
-- [CelesTrak — Orbital coordinate and observer geometry](https://www.celestrak.org/columns/v02n02/)
+- [CelesTrak — Orbital Coordinate Systems, Part III (observer look angles: azimuth, elevation, range)](https://celestrak.org/columns/v02n03/)
 - [NASA/JPL — Deep Space Network Telecommunications Link Design Handbook](https://deepspace.jpl.nasa.gov/dsndocs/810-005/)

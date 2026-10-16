@@ -63,7 +63,9 @@ def check_reader(slug: str) -> list[str]:
     html_path = ROOT / "public" / "research" / slug / "index.html"
     if not md_path.exists() or not html_path.exists():
         return [f"{slug}: missing source or reading page"]
-    source = md_path.read_bytes()
+    # Hash the bytes as git stores them (LF). A checkout with core.autocrlf=true
+    # rewrites the working tree to CRLF, which must not change the fingerprint.
+    source = md_path.read_bytes().replace(b"\r\n", b"\n")
     html = html_path.read_text(encoding="utf-8")
     parser = LinksAndIds()
     parser.feed(html)

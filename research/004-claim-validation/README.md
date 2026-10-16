@@ -130,7 +130,7 @@ Until a real independent observation route is documented and vetted, further eff
 ## References
 
 1. [NIST — Exact binomial confidence limits](https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbino.htm) — small-sample exact one-sided binomial uncertainty.
-2. [Cochrane Handbook §16.9.4 — Confidence intervals when no events are observed](https://training-noproxy.cochrane.org/handbook/archive/v5.0.2/chapter_16/16_9_4_confidence_intervals_when_no_events_are_observed.htm) — zero-event rate upper limits and Poisson approximations.
+2. [Hanley JA, Lippman-Hand A. "If nothing goes wrong, is everything all right? Interpreting zero numerators." JAMA 1983;249(13):1743–1745](https://pubmed.ncbi.nlm.nih.gov/6827763/) — zero-event confidence bounds (the "rule of three"), the exact form of which is used above.
 3. [ISO 22322:2022 — Emergency management, guidelines for public warning](https://committee.iso.org/standard/84558.html) — context for responsible warning governance; this research is **not** a claim of compliance.
 4. [SpaceЖ Research 003 — Independence, correlation and timestamp limitations](../003-observation-gap/README.md).
 
