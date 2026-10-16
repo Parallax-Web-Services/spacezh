@@ -1,0 +1,183 @@
+{
+  "schema_version": "spacezh-researched-organizations-v0.1",
+  "prepared_at": "2026-10-16",
+  "notice": "Public research candidates only. Inclusion does not establish a SpaceЖ relationship, and this data must not generate partnership/endorsement edges in Plexus.",
+  "records": [
+    {
+      "id": "org-space-research-ua",
+      "name": "Space Research Institute (NASU / SSAU)",
+      "lane": "UKRAINIAN SCIENCE",
+      "wave": 1,
+      "source_url": "https://www.nas.gov.ua/en/institutions/institut-kosmicnix-doslidzen-nacionalnoyi-akademiyi-nauk-ukrayini-ta-derzavnogo-kosmicnogo-agentstva-ukrayini-107",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-kyiv-polytechnic",
+      "name": "Igor Sikorsky Kyiv Polytechnic Institute / PolyITAN",
+      "lane": "UKRAINIAN ACADEMIA",
+      "wave": 1,
+      "source_url": "https://kpi.ua/en/2024-PolyITAN",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-lviv-it-cluster",
+      "name": "Lviv IT Cluster",
+      "lane": "UKRAINIAN ENGINEERING",
+      "wave": 1,
+      "source_url": "https://itcluster.lviv.ua/en/about-cluster/",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-libre-space",
+      "name": "Libre Space Foundation / SatNOGS",
+      "lane": "OPEN SPACE",
+      "wave": 1,
+      "source_url": "https://www.libre.space/projects/satnogs/",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-isoc-ukraine",
+      "name": "Internet Society — Ukraine Chapter",
+      "lane": "CIVILIAN CONNECTIVITY",
+      "wave": 1,
+      "source_url": "https://www.internetsociety.org/chapters/",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-razom",
+      "name": "Razom for Ukraine",
+      "lane": "CIVIC RESILIENCE",
+      "wave": 1,
+      "source_url": "https://www.razomforukraine.org/contact/",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-united24",
+      "name": "UNITED24",
+      "lane": "Ukrainian-led networks",
+      "wave": 2,
+      "source_url": "https://u24.gov.ua/ambassador",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-khai",
+      "name": "National Aerospace University KhAI",
+      "lane": "Ukrainian research",
+      "wave": 2,
+      "source_url": "https://khai.edu/en/international-projects",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-cir",
+      "name": "Centre for Information Resilience",
+      "lane": "Source verification",
+      "wave": 2,
+      "source_url": "https://www.info-res.org/contact/",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-bellingcat",
+      "name": "Bellingcat Investigative Tech",
+      "lane": "Source verification",
+      "wave": 2,
+      "source_url": "https://www.bellingcat.com/contact-the-bellingcat-tech-team/",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "program-opensatcom",
+      "name": "OpenSatCom research activity",
+      "lane": "Space interoperability",
+      "wave": 2,
+      "source_url": "https://opensatcom.org/about-us/",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-uwc",
+      "name": "Ukrainian World Congress",
+      "lane": "Ukrainian diaspora",
+      "wave": 2,
+      "source_url": "https://www.ukrainianworldcongress.org/contact/",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-oscollective",
+      "name": "Open Source Collective",
+      "lane": "Fiscal governance",
+      "wave": 2,
+      "source_url": "https://docs.oscollective.org/how-to-apply",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-isoc-foundation",
+      "name": "Internet Society / Internet Society Foundation",
+      "lane": "Community network research",
+      "wave": 2,
+      "source_url": "https://www.internetsociety.org/our-work/connectivity/community-centered-connectivity/",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-dpga",
+      "name": "Digital Public Goods Alliance",
+      "lane": "Public-good standards",
+      "wave": 3,
+      "source_url": "https://www.digitalpublicgoods.net/eligibility",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-usf",
+      "name": "Ukrainian Startup Fund",
+      "lane": "Ukrainian innovation",
+      "wave": 3,
+      "source_url": "https://usf.com.ua/en/contacts",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-ukspace",
+      "name": "UK–Ukraine civil-space cooperation framework",
+      "lane": "Civil space collaboration",
+      "wave": 3,
+      "source_url": "https://www.gov.uk/government/news/uk-space-agency-signs-landmark-agreement-with-ukraine-to-strengthen-civil-space-cooperation",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-virgin-unite",
+      "name": "Virgin Unite",
+      "lane": "Later philanthropy",
+      "wave": 3,
+      "source_url": "https://unite.virgin.com/",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-gates",
+      "name": "Gates Foundation",
+      "lane": "Later public-infrastructure research",
+      "wave": 4,
+      "source_url": "https://www.gatesfoundation.org/our-work/programs/global-growth-and-opportunity/digital-public-infrastructure",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-amazon-leo",
+      "name": "Amazon Leo",
+      "lane": "Later commercial interoperability research",
+      "wave": 4,
+      "source_url": "https://www.aboutamazon.com/what-we-do/devices-services/amazon-leo",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-brave1",
+      "name": "Brave1 Ukraine",
+      "lane": "Conditional regulatory boundary review",
+      "wave": 4,
+      "source_url": "https://www.brave1.gov.ua/en/international-projects",
+      "affiliation_status": "not_established"
+    },
+    {
+      "id": "org-sfconservancy",
+      "name": "Software Freedom Conservancy",
+      "lane": "Later open-source governance",
+      "wave": 4,
+      "source_url": "https://sfconservancy.org/projects/apply/",
+      "affiliation_status": "not_established"
+    }
+  ]
+}
