@@ -25,3 +25,7 @@ The site's HTML and CSS are public for inspection. Project-wide and individual c
 For a public technical review, use the [SpaceЖ coalition-interest issue template](https://github.com/Parallax-Web-Services/spacezh/issues/new?template=coalition-interest.yml). Please describe one specific, verifiable question or deliverable. GitHub issues are **public**: never post sensitive locations, personal contact information, unpublished defense information, credentials or private introductions.
 
 See the [coalition strategy](docs/COALITION_STRATEGY.md). Being named as a research candidate does not establish a relationship with SpaceЖ. Formal collaboration announcements require affirmative permission and evidence. All actual prospect contact history belongs in a private, access-controlled Plexus workspace.
+
+## Scientific contributions
+
+Review the [research programme](research/README.md). Proposals should include falsifiable assumptions, provenance and reproducible tests. Never commit sensitive sensor configurations, military tracking data, credentials, unpublished defense information, or unauthorized emergency alerts. SpaceЖ Research 002 is a civilian-safety feasibility study; no working launch detector or public alert service is represented by these files.
