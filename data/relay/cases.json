@@ -5,6 +5,1074 @@
   "trusted_operational_feed": false,
   "cases": [
     {
+      "id": "ukraine-energy-civilian-resilience-2024",
+      "title": "UNHCR winter aid: targets and reported delivery",
+      "kind": "public_case",
+      "visibility": "public",
+      "status": "documented",
+      "summary": "UNHCR reported winter cash assistance for 258,345 people against a 550,000-person target. Compare cash, insulation, essential items and generators with the original plan, and inspect the figures still missing.",
+      "boundary_note": "Ukraine, winter 2024-2025. Results are UNHCR and partner self-reports, not an independent audit. Counts use the units and reporting periods shown below; they do not measure all aid received from other providers.",
+      "publication_note": "Updated from official documents on 17 October 2026. Review records identify the AI checks performed for this revision. No named human editorial approval is recorded. The earlier published claims are preserved in the version history.",
+      "tags": [
+        "Ukraine",
+        "UNHCR",
+        "winter assistance",
+        "targets and delivery",
+        "civilian resilience",
+        "energy",
+        "historical public evidence"
+      ],
+      "provenance": {
+        "label": "UNHCR winter plan and delivery reports",
+        "url": "https://data.unhcr.org/en/documents/download/118022",
+        "note": "Plan and reported results were checked against official PDFs, including their tables and footnotes. Earlier UN/OHCHR and IAEA context remains in the case. Source documents and beneficiary photos are linked, not republished."
+      },
+      "sources": [
+        {
+          "id": "hrmmu-energy-september-2024",
+          "title": "Attacks on Ukraine's Energy Infrastructure: Harm to the Civilian Population",
+          "publisher": "Office of the UN High Commissioner for Human Rights",
+          "byline": "UN Human Rights Monitoring Mission in Ukraine",
+          "published_date": "2024-09-18",
+          "source_type": "primary_monitoring_report",
+          "url": "https://ukraine.ohchr.org/sites/default/files/2024-09/ENG%20Attacks%20on%20Ukraine%E2%80%99s%20Energy%20Infrastructure-%20%20Harm%20to%20the%20Civilian%20Population.pdf",
+          "notes": "Methods: printed p. 2. Report page: 18 September; separate news announcement: 19 September.",
+          "rights": "Linked official report; short independently written paraphrases and metadata only. No report pages, photos, or long excerpts republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "reviewed_url": "https://ukraine.ohchr.org/sites/default/files/2024-09/ENG%20Attacks%20on%20Ukraine%E2%80%99s%20Energy%20Infrastructure-%20%20Harm%20to%20the%20Civilian%20Population.pdf",
+            "locator": "Printed p. 1, executive summary; p. 2, Methodology; p. 4, Civilian casualties resulting from strikes; p. 6, Water distribution systems. PDF pages are printed pages plus one.",
+            "note": "Official PDF downloaded and text extracted; report date cross-checked against its official landing page. Review checks attribution and scope, not a fresh field investigation."
+          }
+        },
+        {
+          "id": "iaea-update-247",
+          "title": "Update 247 - IAEA Director General Statement on Situation in Ukraine",
+          "publisher": "International Atomic Energy Agency",
+          "byline": "IAEA Director General Rafael Mariano Grossi",
+          "published_date": "2024-08-29",
+          "source_type": "primary_nuclear_safety_statement",
+          "url": "https://www.iaea.org/newscenter/pressreleases/update-247-iaea-director-general-statement-on-situation-in-ukraine",
+          "notes": "A contemporaneous nuclear safety account. It does not supply household outage totals or humanitarian assistance outcomes.",
+          "rights": "Linked official statement; short independently written paraphrase and metadata only. No full statement republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "reviewed_url": "https://www.iaea.org/newscenter/pressreleases/update-247-iaea-director-general-statement-on-situation-in-ukraine",
+            "locator": "Closing substantive section: paragraphs beginning 'Widespread attacks on the country's energy infrastructure' and 'Although no complete loss of off-site power'.",
+            "note": "Read the official dated statement, including its qualification that affected sites did not completely lose off-site power. Plant-specific details are omitted from the case."
+          }
+        },
+        {
+          "id": "unhcr-winter-plan-2024-25",
+          "title": "Ukraine Winter Response Plan 2024-2025, updated September 2024",
+          "publisher": "UNHCR",
+          "byline": "UNHCR Ukraine",
+          "published_date": "2024-09-03",
+          "source_type": "primary_humanitarian_response_plan",
+          "url": "https://data.unhcr.org/en/documents/download/110943",
+          "notes": "The official data portal entry records publication and upload on 3 September 2024. This is a response plan with targets and financial requirements; it does not establish subsequent delivery.",
+          "rights": "Linked official plan; short independently written paraphrase and metadata only. No plan pages or beneficiary images republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "reviewed_url": "https://data.unhcr.org/en/documents/download/110943",
+            "locator": "PDF p. 1, Main response areas: '1. Cash support for additional winter needs' and '2. Alternative energy support'. Date metadata: https://data.unhcr.org/en/documents/details/110943.",
+            "note": "Official PDF downloaded and text extracted. The cash target and alternative-energy budget were checked directly. Delivery totals require later operational reporting."
+          }
+        },
+        {
+          "id": "unhcr-delivery-april-2025",
+          "title": "UNHCR Ukraine Delivery Updates - 14 April 2025",
+          "publisher": "UNHCR",
+          "byline": "UNHCR Ukraine",
+          "published_date": "2025-04-14",
+          "source_type": "primary_humanitarian_delivery_report",
+          "url": "https://data.unhcr.org/en/documents/download/115718",
+          "notes": "The April infographic reports 110 generators. The later July monitoring report lists 186; neither document explains the change. People reached are subject to cleaning and retroactive corrections. Portal metadata: https://data.unhcr.org/en/documents/details/115718.",
+          "rights": "Official document linked for verification. Only brief original paraphrases, figures and locators are published; no document pages or beneficiary images are republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T21:02:22Z",
+            "method": "primary_source_pdf_review",
+            "reviewed_url": "https://data.unhcr.org/en/documents/download/115718",
+            "locator": "PDF pp. 3-4: cash period October 2024-March 2025; winter-response infographic as of 31 March 2025.",
+            "note": "PDF downloaded, text inspected and relevant table/footnotes visually checked by Codex. This checks what UNHCR reports; it does not independently verify delivery to recipients."
+          }
+        },
+        {
+          "id": "unhcr-winter-pdm-july-2025",
+          "title": "UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)",
+          "publisher": "UNHCR",
+          "byline": "UNHCR Ukraine",
+          "published_date": "2025-08-11",
+          "source_type": "primary_post_distribution_monitoring_report",
+          "url": "https://data.unhcr.org/en/documents/download/118022",
+          "notes": "The document is dated July 2025; the portal publication/upload date is 11 August 2025. The people-reached footnote covers September 2024-March 2025. The generator box says during the winter period without a separate cutoff. Figures remain subject to verification and retroactive correction. Portal metadata: https://data.unhcr.org/en/documents/details/118022.",
+          "rights": "Official document linked for verification. Only brief original paraphrases, figures and locators are published; no document pages or beneficiary images are republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T21:02:22Z",
+            "method": "primary_source_pdf_review",
+            "reviewed_url": "https://data.unhcr.org/en/documents/download/118022",
+            "locator": "PDF p. 1, winterization summary and both footnotes; p. 4, Alternative Energy Support box.",
+            "note": "PDF downloaded, text inspected and relevant table/footnotes visually checked by Codex. This checks what UNHCR reports; it does not independently verify delivery to recipients."
+          }
+        },
+        {
+          "id": "unhcr-cash-q2-2025",
+          "title": "UNHCR Ukraine Cash Assistance Factsheet - June 2025 (Q2 2025)",
+          "publisher": "UNHCR",
+          "byline": "UNHCR Ukraine",
+          "published_date": "2025-08-12",
+          "source_type": "primary_cash_assistance_factsheet",
+          "url": "https://data.unhcr.org/en/documents/download/118031",
+          "notes": "The document is labelled Q2 2025 and the portal title says June 2025; it was published/uploaded on 12 August 2025. The winter 2024-25 row reports 258,345 individuals and $75.8 million disbursed. It is not the MPCA 2025 total. Portal metadata: https://data.unhcr.org/en/documents/details/118031.",
+          "rights": "Official document linked for verification. Only brief original paraphrases, figures and locators are published; no document pages or beneficiary images are republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T21:02:22Z",
+            "method": "primary_source_pdf_review",
+            "reviewed_url": "https://data.unhcr.org/en/documents/download/118031",
+            "locator": "PDF p. 1, Targets and achievements: Winter 2024-25 row, distinct from MPCA 2024/2025 and Winter 2025-26.",
+            "note": "PDF downloaded, text inspected and relevant table/footnotes visually checked by Codex. This checks what UNHCR reports; it does not independently verify delivery to recipients."
+          }
+        }
+      ],
+      "artifacts": [],
+      "claims": [
+        {
+          "id": "energy-claim-01",
+          "kind": "report",
+          "status": "supported",
+          "text": "HRMMU documented nine waves of Russian armed forces' attacks on Ukraine's electricity system between 22 March and 31 August 2024.",
+          "caveat": "This is the report's historical scope, not a current incident count.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ],
+          "locator": "Scope: printed p. 1, executive summary item 1."
+        },
+        {
+          "id": "energy-claim-02",
+          "kind": "report",
+          "status": "supported",
+          "text": "HRMMU recorded at least 18 civilians killed and 84 injured near the electricity-infrastructure strikes covered by its report.",
+          "caveat": "These are direct casualties in that reporting scope, not a total for indirect harm.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ],
+          "locator": "Direct-casualty figures: printed p. 4."
+        },
+        {
+          "id": "energy-claim-03",
+          "kind": "report",
+          "status": "supported",
+          "text": "HRMMU described loss of water and sanitation access in high-rise buildings without independent generators when electricity cuts stopped water pumps.",
+          "caveat": "This identifies a civilian service dependency; it does not count affected households.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ],
+          "locator": "Water dependency: printed p. 6, second bullet."
+        },
+        {
+          "id": "energy-claim-04",
+          "kind": "report",
+          "status": "supported",
+          "text": "On 29 August 2024, the IAEA reported temporary reactor shutdowns or disconnections after energy attacks destabilized Ukraine's grid; affected sites retained some off-site power.",
+          "caveat": "The statement does not report a nuclear accident or a complete off-site-power loss at those sites. HRMMU later cites this same IAEA statement.",
+          "source_ids": [
+            "iaea-update-247"
+          ],
+          "locator": "The national-grid-instability paragraphs report the effects and explicitly preserve the off-site-power qualification."
+        },
+        {
+          "id": "energy-claim-05",
+          "kind": "report",
+          "status": "supported",
+          "text": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and requested $10 million for alternative energy support.",
+          "caveat": "These are planned reach and requested funding for winter 2024-2025, not proof of funding received or money spent. Later reported delivery is compared below.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25"
+          ],
+          "locator": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement."
+        },
+        {
+          "id": "energy-claim-06",
+          "kind": "report",
+          "status": "supported",
+          "text": "UNHCR reported winter cash assistance for 258,345 people from October 2024 through March 2025, against the original 550,000-person target.",
+          "caveat": "This is 46.97% of the original people target, a difference of 291,655 people. It does not establish that those people received no aid from other providers. Do not compare a people count directly with the 263,000-household target.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-delivery-april-2025",
+            "unhcr-winter-pdm-july-2025",
+            "unhcr-cash-q2-2025"
+          ],
+          "locator": "Plan p. 1, cash support; April update p. 3 and p. 4; July monitoring p. 1; Q2 cash factsheet p. 1, Winter 2024-25 row."
+        },
+        {
+          "id": "energy-claim-07",
+          "kind": "report",
+          "status": "supported",
+          "text": "UNHCR reported insulation assistance for 21,336 people against the original target of approximately 41,400 people.",
+          "caveat": "The July monitoring summary covers people reached with partners between September 2024 and March 2025. This is 51.54% of the original people target; household totals and independent recipient verification are not established here.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-winter-pdm-july-2025"
+          ],
+          "locator": "Plan p. 1, shelter/housing; July monitoring p. 1, Shelter/Housing row and footnotes."
+        },
+        {
+          "id": "energy-claim-08",
+          "kind": "report",
+          "status": "supported",
+          "text": "UNHCR reported essential winter items for 34,319 people against the original target of approximately 33,600 people.",
+          "caveat": "This is 102.14% of the original people target. Category counts may overlap and must not be added as unique beneficiaries. UNHCR flags verification and possible retroactive correction.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-winter-pdm-july-2025"
+          ],
+          "locator": "Plan p. 1, essential items; July monitoring p. 1, Essential Items row and footnotes."
+        },
+        {
+          "id": "energy-claim-09",
+          "kind": "report",
+          "status": "supported",
+          "text": "UNHCR reported 186 generators distributed during the winter period in its July monitoring report, compared with 420 planned. Its April update had reported 110 as of 31 March 2025.",
+          "caveat": "The later figure is 44.29% of the original generator target. The July box has no separate cutoff date and does not explain the difference from April. Generators are distinct from the 2,400 planned portable power stations; no delivered power-station total was found in the reviewed documents.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-delivery-april-2025",
+            "unhcr-winter-pdm-july-2025"
+          ],
+          "locator": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box."
+        },
+        {
+          "id": "energy-claim-10",
+          "kind": "report",
+          "status": "supported",
+          "text": "UNHCR reported $75.8 million disbursed for winter 2024-2025 cash assistance in its Q2 2025 factsheet; the original plan had a $140 million cash requirement.",
+          "caveat": "A requirement is not secured funding, and cash disbursement is not total programme expenditure. Both dollar figures are rounded. This does not establish spending against the separate $10 million alternative-energy requirement.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-cash-q2-2025"
+          ],
+          "locator": "Plan p. 1, cash requirement; Q2 cash factsheet p. 1, Winter 2024-25 row."
+        }
+      ],
+      "evidence_links": [
+        {
+          "claim_id": "energy-claim-01",
+          "source_id": "hrmmu-energy-september-2024",
+          "relationship": "supports",
+          "rationale": "Scope: printed p. 1, executive summary item 1."
+        },
+        {
+          "claim_id": "energy-claim-02",
+          "source_id": "hrmmu-energy-september-2024",
+          "relationship": "supports",
+          "rationale": "Direct-casualty figures: printed p. 4."
+        },
+        {
+          "claim_id": "energy-claim-03",
+          "source_id": "hrmmu-energy-september-2024",
+          "relationship": "supports",
+          "rationale": "Water dependency: printed p. 6, second bullet."
+        },
+        {
+          "claim_id": "energy-claim-04",
+          "source_id": "iaea-update-247",
+          "relationship": "supports",
+          "rationale": "The national-grid-instability paragraphs report the effects and explicitly preserve the off-site-power qualification."
+        },
+        {
+          "claim_id": "energy-claim-05",
+          "source_id": "unhcr-winter-plan-2024-25",
+          "relationship": "supports",
+          "rationale": "Plan p. 1 states the cash target and alternative-energy financial requirement. A requested budget does not show that funds were allocated, received or spent."
+        },
+        {
+          "claim_id": "energy-claim-06",
+          "source_id": "unhcr-winter-plan-2024-25",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, cash support; April update p. 3 and p. 4; July monitoring p. 1; Q2 cash factsheet p. 1, Winter 2024-25 row. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-06",
+          "source_id": "unhcr-delivery-april-2025",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, cash support; April update p. 3 and p. 4; July monitoring p. 1; Q2 cash factsheet p. 1, Winter 2024-25 row. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-06",
+          "source_id": "unhcr-winter-pdm-july-2025",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, cash support; April update p. 3 and p. 4; July monitoring p. 1; Q2 cash factsheet p. 1, Winter 2024-25 row. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-06",
+          "source_id": "unhcr-cash-q2-2025",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, cash support; April update p. 3 and p. 4; July monitoring p. 1; Q2 cash factsheet p. 1, Winter 2024-25 row. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-07",
+          "source_id": "unhcr-winter-plan-2024-25",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, shelter/housing; July monitoring p. 1, Shelter/Housing row and footnotes. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-07",
+          "source_id": "unhcr-winter-pdm-july-2025",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, shelter/housing; July monitoring p. 1, Shelter/Housing row and footnotes. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-08",
+          "source_id": "unhcr-winter-plan-2024-25",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, essential items; July monitoring p. 1, Essential Items row and footnotes. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-08",
+          "source_id": "unhcr-winter-pdm-july-2025",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, essential items; July monitoring p. 1, Essential Items row and footnotes. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-09",
+          "source_id": "unhcr-winter-plan-2024-25",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-09",
+          "source_id": "unhcr-delivery-april-2025",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-09",
+          "source_id": "unhcr-winter-pdm-july-2025",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-10",
+          "source_id": "unhcr-winter-plan-2024-25",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, cash requirement; Q2 cash factsheet p. 1, Winter 2024-25 row. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-10",
+          "source_id": "unhcr-cash-q2-2025",
+          "relationship": "supports",
+          "rationale": "Plan p. 1, cash requirement; Q2 cash factsheet p. 1, Winter 2024-25 row. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2024-08-29",
+          "label": "IAEA publishes its safety statement",
+          "detail": "A contemporaneous official source, separate from later RELAY ingestion.",
+          "source_ids": [
+            "iaea-update-247"
+          ]
+        },
+        {
+          "date": "2024-09-03",
+          "label": "UNHCR publishes its updated winter plan",
+          "detail": "Publication date from the official data portal; the document is labelled updated September 2024.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25"
+          ]
+        },
+        {
+          "date": "2024-09-18",
+          "label": "HRMMU report appears on its official report page",
+          "detail": "Source publication date, not a RELAY release or review event.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ]
+        },
+        {
+          "date": "2025-04-14",
+          "label": "UNHCR reports delivery as of 31 March",
+          "detail": "April update reports winter cash reach and the first reviewed generator total of 110.",
+          "source_ids": [
+            "unhcr-delivery-april-2025"
+          ]
+        },
+        {
+          "date": "2025-08-11",
+          "label": "July monitoring report published on the portal",
+          "detail": "People totals remain 258,345 for cash, 21,336 for insulation and 34,319 for items. Generator box gives 186 without reconciling the earlier 110.",
+          "source_ids": [
+            "unhcr-winter-pdm-july-2025"
+          ]
+        },
+        {
+          "date": "2025-08-12",
+          "label": "Q2 cash factsheet published on the portal",
+          "detail": "Winter 2024-25 row repeats 258,345 people and reports $75.8 million disbursed. The report period and upload date differ.",
+          "source_ids": [
+            "unhcr-cash-q2-2025"
+          ]
+        },
+        {
+          "date": "2026-10-17T21:02:22Z",
+          "label": "RELAY adds delivery comparison and wording clarification",
+          "detail": "Actual source review and version history recorded. No human signoff is asserted.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-delivery-april-2025",
+            "unhcr-winter-pdm-july-2025",
+            "unhcr-cash-q2-2025"
+          ],
+          "review_id": "energy-source-review-20261017",
+          "revision_id": "energy-revision-2"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "energy-source-review-20261017",
+          "kind": "ai_assisted",
+          "reviewer_type": "ai",
+          "reviewer": "Codex primary-source review",
+          "reviewed_at": "2026-10-17T21:06:10Z",
+          "decision": "reviewed",
+          "method": "Official PDF text and visual table review; portal publication metadata checked.",
+          "scope": "UNHCR plan versus reported winter delivery; units, dates, arithmetic, later generator count, missing expenditure and limits. Earlier HRMMU/IAEA claims retained.",
+          "rationale": "Checked the plan, April delivery table, July monitoring summary and generator box, and Q2 cash factsheet. Comparisons preserve source periods and distinguish requested funding from disbursement.",
+          "conflicts": "Performed by the implementation agent. This is an AI source check, not independent human approval or a recipient audit.",
+          "revision_id": "energy-revision-2",
+          "snapshot_sha256": "8744dbf41a6e2213df3c2805d09041e224c0c3cf3b8242fcaaf074e8bd63ab54"
+        },
+        {
+          "id": "energy-second-pass-review-20261017",
+          "kind": "ai_assisted",
+          "reviewer_type": "ai",
+          "reviewer": "Codex source-research agent: second-pass content review",
+          "reviewed_at": "2026-10-17T21:06:47Z",
+          "decision": "reviewed",
+          "method": "Separate-agent check against downloaded official PDFs and rendered tables; prior version checked with git show. Classification included in the final hash check.",
+          "scope": "Claims 05-10 and classification of all ten claims; seven comparison rows, source dates and reporting periods, source-dependency notes, and all six change records. The SHA-256 below covers claim snapshots; source and comparison metadata were checked separately.",
+          "rationale": "No substantive revisions requested. Confirmed cash denominator, later 186-generator count alongside earlier 110, unknown values, seasonal cash disbursement, authentic baseline and distinction between clarification and added evidence. Final classification check reproduces the prior reviewed content exactly.",
+          "conflicts": "Reviewer supplied initial source findings and the evidence note within the same AI implementation team. This is not an independent commissioned audit, human approval, or verification with recipients.",
+          "revision_id": "energy-revision-2",
+          "snapshot_sha256": "8744dbf41a6e2213df3c2805d09041e224c0c3cf3b8242fcaaf074e8bd63ab54"
+        }
+      ],
+      "revisions": [
+        {
+          "id": "energy-revision-1",
+          "parent_revision_id": null,
+          "published_at": "2026-10-17T20:52:30.313791+00:00",
+          "recorded_at": "2026-10-17T21:02:22Z",
+          "historical_import": true,
+          "source_commit": "dd67d14ca52eea17a8d6c1a12a5c31d80c66370e",
+          "source_path": "data/relay/cases.json",
+          "import_note": "Imported without retroactive approval from the actual prior public release. The displayed timestamp is the recorded HTTPS verification observation in production-http.json, not an invented exact activation time. The original five claim snapshots are preserved.",
+          "review_ids": [],
+          "change_note": "Previously published energy case, preserved from the verified release.",
+          "claim_snapshots": [
+            {
+              "claim_id": "energy-claim-01",
+              "text": "HRMMU documented nine waves of Russian armed forces' attacks on Ukraine's electricity system between 22 March and 31 August 2024.",
+              "status": "supported",
+              "caveat": "This is the report's historical scope, not a current incident count.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Scope: printed p. 1, executive summary item 1.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-02",
+              "text": "HRMMU recorded at least 18 civilians killed and 84 injured near the electricity-infrastructure strikes covered by its report.",
+              "status": "supported",
+              "caveat": "These are direct casualties in that reporting scope, not a total for indirect harm.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Direct-casualty figures: printed p. 4.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-03",
+              "text": "HRMMU described loss of water and sanitation access in high-rise buildings without independent generators when electricity cuts stopped water pumps.",
+              "status": "supported",
+              "caveat": "This identifies a civilian service dependency; it does not count affected households.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Water dependency: printed p. 6, second bullet.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-04",
+              "text": "On 29 August 2024, the IAEA reported temporary reactor shutdowns or disconnections after energy attacks destabilized Ukraine's grid; affected sites retained some off-site power.",
+              "status": "supported",
+              "caveat": "The statement does not report a nuclear accident or a complete off-site-power loss at those sites. HRMMU later cites this same IAEA statement.",
+              "source_ids": [
+                "iaea-update-247"
+              ],
+              "locator": "The national-grid-instability paragraphs report the effects and explicitly preserve the off-site-power qualification.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-05",
+              "text": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and allocated $10 million in requirements for alternative energy support.",
+              "status": "supported",
+              "caveat": "These are planned reach and financial requirements for winter 2024-2025, not people reached or money disbursed. Outcomes remain unverified in this case.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25"
+              ],
+              "locator": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement.",
+              "kind": "report"
+            }
+          ]
+        },
+        {
+          "id": "energy-revision-2",
+          "parent_revision_id": "energy-revision-1",
+          "published_at": "2026-10-17T21:07:15Z",
+          "recorded_at": "2026-10-17T21:07:15Z",
+          "publication_basis": "user_authorized",
+          "review_ids": [
+            "energy-source-review-20261017",
+            "energy-second-pass-review-20261017"
+          ],
+          "change_note": "Clarify requested alternative-energy funding; add UNHCR winter delivery comparisons and documented source limits. Revision date records preparation; production activation is recorded separately.",
+          "claim_snapshots": [
+            {
+              "claim_id": "energy-claim-01",
+              "text": "HRMMU documented nine waves of Russian armed forces' attacks on Ukraine's electricity system between 22 March and 31 August 2024.",
+              "status": "supported",
+              "caveat": "This is the report's historical scope, not a current incident count.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Scope: printed p. 1, executive summary item 1.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-02",
+              "text": "HRMMU recorded at least 18 civilians killed and 84 injured near the electricity-infrastructure strikes covered by its report.",
+              "status": "supported",
+              "caveat": "These are direct casualties in that reporting scope, not a total for indirect harm.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Direct-casualty figures: printed p. 4.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-03",
+              "text": "HRMMU described loss of water and sanitation access in high-rise buildings without independent generators when electricity cuts stopped water pumps.",
+              "status": "supported",
+              "caveat": "This identifies a civilian service dependency; it does not count affected households.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Water dependency: printed p. 6, second bullet.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-04",
+              "text": "On 29 August 2024, the IAEA reported temporary reactor shutdowns or disconnections after energy attacks destabilized Ukraine's grid; affected sites retained some off-site power.",
+              "status": "supported",
+              "caveat": "The statement does not report a nuclear accident or a complete off-site-power loss at those sites. HRMMU later cites this same IAEA statement.",
+              "source_ids": [
+                "iaea-update-247"
+              ],
+              "locator": "The national-grid-instability paragraphs report the effects and explicitly preserve the off-site-power qualification.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-05",
+              "text": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and requested $10 million for alternative energy support.",
+              "status": "supported",
+              "caveat": "These are planned reach and requested funding for winter 2024-2025, not proof of funding received or money spent. Later reported delivery is compared below.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25"
+              ],
+              "locator": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-06",
+              "text": "UNHCR reported winter cash assistance for 258,345 people from October 2024 through March 2025, against the original 550,000-person target.",
+              "status": "supported",
+              "caveat": "This is 46.97% of the original people target, a difference of 291,655 people. It does not establish that those people received no aid from other providers. Do not compare a people count directly with the 263,000-household target.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-delivery-april-2025",
+                "unhcr-winter-pdm-july-2025",
+                "unhcr-cash-q2-2025"
+              ],
+              "locator": "Plan p. 1, cash support; April update p. 3 and p. 4; July monitoring p. 1; Q2 cash factsheet p. 1, Winter 2024-25 row.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-07",
+              "text": "UNHCR reported insulation assistance for 21,336 people against the original target of approximately 41,400 people.",
+              "status": "supported",
+              "caveat": "The July monitoring summary covers people reached with partners between September 2024 and March 2025. This is 51.54% of the original people target; household totals and independent recipient verification are not established here.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-winter-pdm-july-2025"
+              ],
+              "locator": "Plan p. 1, shelter/housing; July monitoring p. 1, Shelter/Housing row and footnotes.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-08",
+              "text": "UNHCR reported essential winter items for 34,319 people against the original target of approximately 33,600 people.",
+              "status": "supported",
+              "caveat": "This is 102.14% of the original people target. Category counts may overlap and must not be added as unique beneficiaries. UNHCR flags verification and possible retroactive correction.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-winter-pdm-july-2025"
+              ],
+              "locator": "Plan p. 1, essential items; July monitoring p. 1, Essential Items row and footnotes.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-09",
+              "text": "UNHCR reported 186 generators distributed during the winter period in its July monitoring report, compared with 420 planned. Its April update had reported 110 as of 31 March 2025.",
+              "status": "supported",
+              "caveat": "The later figure is 44.29% of the original generator target. The July box has no separate cutoff date and does not explain the difference from April. Generators are distinct from the 2,400 planned portable power stations; no delivered power-station total was found in the reviewed documents.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-delivery-april-2025",
+                "unhcr-winter-pdm-july-2025"
+              ],
+              "locator": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box.",
+              "kind": "report"
+            },
+            {
+              "claim_id": "energy-claim-10",
+              "text": "UNHCR reported $75.8 million disbursed for winter 2024-2025 cash assistance in its Q2 2025 factsheet; the original plan had a $140 million cash requirement.",
+              "status": "supported",
+              "caveat": "A requirement is not secured funding, and cash disbursement is not total programme expenditure. Both dollar figures are rounded. This does not establish spending against the separate $10 million alternative-energy requirement.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-cash-q2-2025"
+              ],
+              "locator": "Plan p. 1, cash requirement; Q2 cash factsheet p. 1, Winter 2024-25 row.",
+              "kind": "report"
+            }
+          ]
+        }
+      ],
+      "corrections": [
+        {
+          "id": "energy-clarification-20261017",
+          "kind": "clarification",
+          "from_revision_id": "energy-revision-1",
+          "to_revision_id": "energy-revision-2",
+          "claim_id": "energy-claim-05",
+          "recorded_at": "2026-10-17T21:07:15Z",
+          "cause": "Replace ambiguous 'allocated' with 'requested': the plan states a financial requirement, not a confirmed allocation. Original target figures were accurate. Remove the superseded statement that delivery outcomes had not been checked in this case.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25"
+          ],
+          "before": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and allocated $10 million in requirements for alternative energy support.",
+          "after": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and requested $10 million for alternative energy support.",
+          "before_status": "supported",
+          "after_status": "supported",
+          "before_snapshot": {
+            "claim_id": "energy-claim-05",
+            "text": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and allocated $10 million in requirements for alternative energy support.",
+            "status": "supported",
+            "caveat": "These are planned reach and financial requirements for winter 2024-2025, not people reached or money disbursed. Outcomes remain unverified in this case.",
+            "source_ids": [
+              "unhcr-winter-plan-2024-25"
+            ],
+            "locator": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement.",
+            "kind": "report"
+          },
+          "after_snapshot": {
+            "claim_id": "energy-claim-05",
+            "text": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and requested $10 million for alternative energy support.",
+            "status": "supported",
+            "caveat": "These are planned reach and requested funding for winter 2024-2025, not proof of funding received or money spent. Later reported delivery is compared below.",
+            "source_ids": [
+              "unhcr-winter-plan-2024-25"
+            ],
+            "locator": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement.",
+            "kind": "report"
+          }
+        },
+        {
+          "id": "energy-update-06-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-1",
+          "to_revision_id": "energy-revision-2",
+          "claim_id": "energy-claim-06",
+          "recorded_at": "2026-10-17T21:07:15Z",
+          "cause": "Add a newly reviewed delivery result from official UNHCR reporting; this is new case evidence, not a correction of a previously false result.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-delivery-april-2025",
+            "unhcr-winter-pdm-july-2025",
+            "unhcr-cash-q2-2025"
+          ],
+          "before": null,
+          "after": "UNHCR reported winter cash assistance for 258,345 people from October 2024 through March 2025, against the original 550,000-person target.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-06",
+            "text": "UNHCR reported winter cash assistance for 258,345 people from October 2024 through March 2025, against the original 550,000-person target.",
+            "status": "supported",
+            "caveat": "This is 46.97% of the original people target, a difference of 291,655 people. It does not establish that those people received no aid from other providers. Do not compare a people count directly with the 263,000-household target.",
+            "source_ids": [
+              "unhcr-winter-plan-2024-25",
+              "unhcr-delivery-april-2025",
+              "unhcr-winter-pdm-july-2025",
+              "unhcr-cash-q2-2025"
+            ],
+            "locator": "Plan p. 1, cash support; April update p. 3 and p. 4; July monitoring p. 1; Q2 cash factsheet p. 1, Winter 2024-25 row.",
+            "kind": "report"
+          }
+        },
+        {
+          "id": "energy-update-07-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-1",
+          "to_revision_id": "energy-revision-2",
+          "claim_id": "energy-claim-07",
+          "recorded_at": "2026-10-17T21:07:15Z",
+          "cause": "Add a newly reviewed delivery result from official UNHCR reporting; this is new case evidence, not a correction of a previously false result.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-winter-pdm-july-2025"
+          ],
+          "before": null,
+          "after": "UNHCR reported insulation assistance for 21,336 people against the original target of approximately 41,400 people.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-07",
+            "text": "UNHCR reported insulation assistance for 21,336 people against the original target of approximately 41,400 people.",
+            "status": "supported",
+            "caveat": "The July monitoring summary covers people reached with partners between September 2024 and March 2025. This is 51.54% of the original people target; household totals and independent recipient verification are not established here.",
+            "source_ids": [
+              "unhcr-winter-plan-2024-25",
+              "unhcr-winter-pdm-july-2025"
+            ],
+            "locator": "Plan p. 1, shelter/housing; July monitoring p. 1, Shelter/Housing row and footnotes.",
+            "kind": "report"
+          }
+        },
+        {
+          "id": "energy-update-08-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-1",
+          "to_revision_id": "energy-revision-2",
+          "claim_id": "energy-claim-08",
+          "recorded_at": "2026-10-17T21:07:15Z",
+          "cause": "Add a newly reviewed delivery result from official UNHCR reporting; this is new case evidence, not a correction of a previously false result.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-winter-pdm-july-2025"
+          ],
+          "before": null,
+          "after": "UNHCR reported essential winter items for 34,319 people against the original target of approximately 33,600 people.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-08",
+            "text": "UNHCR reported essential winter items for 34,319 people against the original target of approximately 33,600 people.",
+            "status": "supported",
+            "caveat": "This is 102.14% of the original people target. Category counts may overlap and must not be added as unique beneficiaries. UNHCR flags verification and possible retroactive correction.",
+            "source_ids": [
+              "unhcr-winter-plan-2024-25",
+              "unhcr-winter-pdm-july-2025"
+            ],
+            "locator": "Plan p. 1, essential items; July monitoring p. 1, Essential Items row and footnotes.",
+            "kind": "report"
+          }
+        },
+        {
+          "id": "energy-update-09-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-1",
+          "to_revision_id": "energy-revision-2",
+          "claim_id": "energy-claim-09",
+          "recorded_at": "2026-10-17T21:07:15Z",
+          "cause": "Add a newly reviewed delivery result from official UNHCR reporting; this is new case evidence, not a correction of a previously false result.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-delivery-april-2025",
+            "unhcr-winter-pdm-july-2025"
+          ],
+          "before": null,
+          "after": "UNHCR reported 186 generators distributed during the winter period in its July monitoring report, compared with 420 planned. Its April update had reported 110 as of 31 March 2025.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-09",
+            "text": "UNHCR reported 186 generators distributed during the winter period in its July monitoring report, compared with 420 planned. Its April update had reported 110 as of 31 March 2025.",
+            "status": "supported",
+            "caveat": "The later figure is 44.29% of the original generator target. The July box has no separate cutoff date and does not explain the difference from April. Generators are distinct from the 2,400 planned portable power stations; no delivered power-station total was found in the reviewed documents.",
+            "source_ids": [
+              "unhcr-winter-plan-2024-25",
+              "unhcr-delivery-april-2025",
+              "unhcr-winter-pdm-july-2025"
+            ],
+            "locator": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box.",
+            "kind": "report"
+          }
+        },
+        {
+          "id": "energy-update-10-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-1",
+          "to_revision_id": "energy-revision-2",
+          "claim_id": "energy-claim-10",
+          "recorded_at": "2026-10-17T21:07:15Z",
+          "cause": "Add a newly reviewed delivery result from official UNHCR reporting; this is new case evidence, not a correction of a previously false result.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-cash-q2-2025"
+          ],
+          "before": null,
+          "after": "UNHCR reported $75.8 million disbursed for winter 2024-2025 cash assistance in its Q2 2025 factsheet; the original plan had a $140 million cash requirement.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-10",
+            "text": "UNHCR reported $75.8 million disbursed for winter 2024-2025 cash assistance in its Q2 2025 factsheet; the original plan had a $140 million cash requirement.",
+            "status": "supported",
+            "caveat": "A requirement is not secured funding, and cash disbursement is not total programme expenditure. Both dollar figures are rounded. This does not establish spending against the separate $10 million alternative-energy requirement.",
+            "source_ids": [
+              "unhcr-winter-plan-2024-25",
+              "unhcr-cash-q2-2025"
+            ],
+            "locator": "Plan p. 1, cash requirement; Q2 cash factsheet p. 1, Winter 2024-25 row.",
+            "kind": "report"
+          }
+        }
+      ],
+      "open_questions": [
+        {
+          "question": "What explains the difference between the original cash target and reported reach?",
+          "why_it_matters": "Reported reach is 291,655 people below the original target. The reviewed figures alone do not establish funding, access, eligibility or other causes, nor whether other providers assisted them.",
+          "needed_evidence": "A published target-revision history or explanation linking funding, eligibility, access and final deduplicated winter cash results.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-delivery-april-2025",
+            "unhcr-winter-pdm-july-2025",
+            "unhcr-cash-q2-2025"
+          ]
+        },
+        {
+          "question": "How many portable power stations were delivered, and how much was spent on alternative energy?",
+          "why_it_matters": "The plan lists 2,400 portable power stations and a $10 million funding requirement. The reviewed reports do not provide comparable final delivery and expenditure totals.",
+          "needed_evidence": "Published procurement/distribution totals separating generators from portable stations, with reporting dates, plus alternative-energy expenditure and funding received.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-winter-pdm-july-2025"
+          ]
+        },
+        {
+          "question": "Why did the reported generator count change from 110 to 186?",
+          "why_it_matters": "April reports 110 as of 31 March; the July report says 186 during the winter period without explaining the difference. It may reflect timing or data revision; the case does not choose an explanation.",
+          "needed_evidence": "A dated reconciliation specifying coverage, delivery cutoff and any retroactive corrections.",
+          "source_ids": [
+            "unhcr-delivery-april-2025",
+            "unhcr-winter-pdm-july-2025"
+          ]
+        },
+        {
+          "question": "Which published assessments measure the indirect civilian harm left outside HRMMU's direct-casualty figures?",
+          "why_it_matters": "The monitoring report documents direct casualties and broader disruptions; indirect health and livelihood losses cannot be reduced to its direct-casualty minimum.",
+          "needed_evidence": "Published follow-up health and civilian-impact assessments with methods and attribution limits.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ]
+        },
+        {
+          "question": "Which subsequent reports track restoration of household water access without disclosing sensitive facility information?",
+          "why_it_matters": "Documenting disruption does not establish recovery or current service availability.",
+          "needed_evidence": "Dated, aggregated water-access and recovery reports that preserve household and sensitive-facility privacy.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ]
+        }
+      ],
+      "source_independence_notes": [
+        "UNHCR plan, delivery, monitoring and cash publications are the same institution's reporting. Agreement between them is a consistency check, not independent corroboration.",
+        "The July monitoring summary counts multisectoral services. Its category counts may overlap; 314,000 services must not be relabelled as unique beneficiaries.",
+        "Cash uses the original 550,000-person target, not 263,000 households. Other people targets are approximate. Periods and later changes remain visible in the comparison.",
+        "Three institutional publishers provide different scopes: human rights monitoring, nuclear safety, and humanitarian planning. They are not three independent confirmations of every claim.",
+        "HRMMU cites IAEA Update 247 in footnote 28. Repetition of that account in HRMMU is not a second nuclear-safety investigation.",
+        "HRMMU reviewed other agencies' technical assessments. Its secondary technical inputs must not be treated as independent measurements by HRMMU."
+      ],
+      "source_checked_at": "2026-10-17",
+      "comparisons": [
+        {
+          "id": "winter-cash-people",
+          "metric": "Winter cash assistance",
+          "target": {
+            "value": 550000,
+            "unit": "people",
+            "source_id": "unhcr-winter-plan-2024-25",
+            "locator": "PDF p. 1, cash support",
+            "period": "Winter 2024-2025; September 2024 plan"
+          },
+          "actual": {
+            "value": 258345,
+            "unit": "people",
+            "source_id": "unhcr-winter-pdm-july-2025",
+            "locator": "PDF p. 1, Cash Assistance row and footnotes",
+            "period": "September 2024-March 2025 summary; April cash narrative specifies October-March"
+          },
+          "assessment": "46.97% of original people target",
+          "calculation": "258,345 / 550,000 × 100 = 46.97%; difference: 291,655 people.",
+          "note": "The plan also gives 263,000 households. That is a different unit, not the denominator used here. Figures are UNHCR self-reports and remain subject to verification."
+        },
+        {
+          "id": "winter-insulation-people",
+          "metric": "Home insulation",
+          "target": {
+            "value": 41400,
+            "unit": "people",
+            "source_id": "unhcr-winter-plan-2024-25",
+            "locator": "PDF p. 1, shelter/housing",
+            "period": "Winter 2024-2025; September 2024 plan"
+          },
+          "actual": {
+            "value": 21336,
+            "unit": "people",
+            "source_id": "unhcr-winter-pdm-july-2025",
+            "locator": "PDF p. 1, Shelter/Housing row and footnotes",
+            "period": "People reached September 2024-March 2025"
+          },
+          "assessment": "51.54% of original people target",
+          "calculation": "21,336 / 41,400 × 100 = 51.54%; difference: 20,064 people.",
+          "note": "The original people target is approximate. No deduplicated total across assistance categories is established."
+        },
+        {
+          "id": "winter-items-people",
+          "metric": "Essential winter items",
+          "target": {
+            "value": 33600,
+            "unit": "people",
+            "source_id": "unhcr-winter-plan-2024-25",
+            "locator": "PDF p. 1, essential items",
+            "period": "Winter 2024-2025; September 2024 plan"
+          },
+          "actual": {
+            "value": 34319,
+            "unit": "people",
+            "source_id": "unhcr-winter-pdm-july-2025",
+            "locator": "PDF p. 1, Essential Items row and footnotes",
+            "period": "People reached September 2024-March 2025"
+          },
+          "assessment": "102.14% of original people target",
+          "calculation": "34,319 / 33,600 × 100 = 102.14%; difference: 719 people above target.",
+          "note": "Do not add category counts as unique recipients. These are reported distributions, not measured household outcomes."
+        },
+        {
+          "id": "winter-generators",
+          "metric": "Generators",
+          "target": {
+            "value": 420,
+            "unit": "generators",
+            "source_id": "unhcr-winter-plan-2024-25",
+            "locator": "PDF p. 1, alternative energy",
+            "period": "Winter 2024-2025; September 2024 plan"
+          },
+          "actual": {
+            "value": 186,
+            "unit": "generators",
+            "source_id": "unhcr-winter-pdm-july-2025",
+            "locator": "PDF p. 4, Alternative Energy Support box",
+            "period": "Winter period; July 2025 report, box gives no separate cutoff"
+          },
+          "assessment": "44.29% of original generator target",
+          "calculation": "186 / 420 × 100 = 44.29%; difference: 234 generators.",
+          "note": "The April update reported 110 as of 31 March. The later report gives 186 without explaining the change. This row uses the later count, not a reconciled delivery chronology."
+        },
+        {
+          "id": "winter-power-stations",
+          "metric": "Portable power stations",
+          "target": {
+            "value": 2400,
+            "unit": "portable power stations",
+            "source_id": "unhcr-winter-plan-2024-25",
+            "locator": "PDF p. 1, alternative energy",
+            "period": "Winter 2024-2025; September 2024 plan"
+          },
+          "actual": {
+            "value": null,
+            "unit": "portable power stations",
+            "source_id": "unhcr-winter-pdm-july-2025",
+            "locator": "PDF p. 4, Alternative Energy Support box mentions power banks but gives no delivered count",
+            "period": "July 2025 monitoring report reviewed"
+          },
+          "assessment": "Delivery total not established",
+          "calculation": "No completion percentage can be calculated.",
+          "note": "A missing total is unknown, not zero. Generator counts cannot stand in for portable power stations."
+        },
+        {
+          "id": "winter-alternative-energy-finance",
+          "metric": "Alternative-energy funding requirement and expenditure",
+          "target": {
+            "value": 10000000,
+            "unit": "USD",
+            "source_id": "unhcr-winter-plan-2024-25",
+            "locator": "PDF p. 1, alternative energy requirement",
+            "period": "Winter 2024-2025; September 2024 plan"
+          },
+          "actual": {
+            "value": null,
+            "unit": "USD",
+            "source_id": "unhcr-winter-pdm-july-2025",
+            "locator": "PDF p. 4, Alternative Energy Support box gives outputs, not expenditure",
+            "period": "July 2025 monitoring report reviewed"
+          },
+          "assessment": "Expenditure not established",
+          "calculation": "No spending or funding percentage can be calculated.",
+          "note": "The $10 million was requested funding. Neither generator counts nor cash-assistance disbursement establish how much was spent on alternative energy."
+        },
+        {
+          "id": "winter-cash-finance",
+          "metric": "Winter cash requirement and disbursement",
+          "target": {
+            "value": 140000000,
+            "unit": "USD",
+            "source_id": "unhcr-winter-plan-2024-25",
+            "locator": "PDF p. 1, cash support requirement",
+            "period": "Winter 2024-2025; September 2024 plan"
+          },
+          "actual": {
+            "value": 75800000,
+            "unit": "USD",
+            "source_id": "unhcr-cash-q2-2025",
+            "locator": "PDF p. 1, Targets and achievements, Winter 2024-25 row",
+            "period": "Winter 2024-2025 total reported in Q2 2025 factsheet"
+          },
+          "assessment": "Requirement compared with reported cash disbursement",
+          "calculation": "No completion rate: these measures have different meanings.",
+          "note": "Both amounts are rounded. The requirement is not funds received; cash paid to recipients is not the full programme cost or a measure of alternative-energy spending."
+        }
+      ]
+    },
+    {
       "id": "starshield-restrictions-2026-10-16",
       "title": "Who throttled Ukraine's Starshield?",
       "kind": "public_snapshot",
@@ -497,239 +1565,6 @@
         }
       ],
       "source_checked_at": "2026-10-17"
-    },
-    {
-      "id": "ukraine-energy-civilian-resilience-2024",
-      "title": "How Ukraine's 2024 energy attacks disrupted civilian life",
-      "kind": "public_case",
-      "visibility": "public",
-      "status": "documented",
-      "summary": "A historical case connecting documented civilian harm, nuclear safety effects, and a humanitarian winter response plan. Five bounded claims link directly to three official primary documents.",
-      "boundary_note": "Historical public evidence from 2024, reviewed on 17 October 2026. This case contains no current facility coordinates, operational status, or individual witness records. Source publication is evidence of the attributed account; it is not independent RELAY field verification.",
-      "publication_note": "Source content reviewed by the coding agent against official documents. No human editorial approval, independent expert signoff, or prior RELAY publication history is asserted. Humanitarian targets are plans, not delivery totals.",
-      "tags": [
-        "Ukraine",
-        "civilian resilience",
-        "energy",
-        "water",
-        "winter assistance",
-        "historical public evidence"
-      ],
-      "provenance": {
-        "label": "Official UN human rights, IAEA, and UNHCR documents",
-        "url": "https://ukraine.ohchr.org/en/Attacks-on-Ukraines-Energy-Infrastructure-Harm-to-the-Civilian-Population",
-        "note": "Original source documents were inspected on 17 October 2026. Only metadata, brief paraphrases, exact section locators, and limits are published here. No publisher document bodies are republished."
-      },
-      "sources": [
-        {
-          "id": "hrmmu-energy-september-2024",
-          "title": "Attacks on Ukraine's Energy Infrastructure: Harm to the Civilian Population",
-          "publisher": "Office of the UN High Commissioner for Human Rights",
-          "byline": "UN Human Rights Monitoring Mission in Ukraine",
-          "published_date": "2024-09-18",
-          "source_type": "primary_monitoring_report",
-          "url": "https://ukraine.ohchr.org/sites/default/files/2024-09/ENG%20Attacks%20on%20Ukraine%E2%80%99s%20Energy%20Infrastructure-%20%20Harm%20to%20the%20Civilian%20Population.pdf",
-          "notes": "Methods: printed p. 2. Report page: 18 September; separate news announcement: 19 September.",
-          "rights": "Linked official report; short independently written paraphrases and metadata only. No report pages, photos, or long excerpts republished.",
-          "verification": {
-            "status": "content_reviewed",
-            "checked_at": "2026-10-17",
-            "method": "web_review",
-            "reviewed_url": "https://ukraine.ohchr.org/sites/default/files/2024-09/ENG%20Attacks%20on%20Ukraine%E2%80%99s%20Energy%20Infrastructure-%20%20Harm%20to%20the%20Civilian%20Population.pdf",
-            "locator": "Printed p. 1, executive summary; p. 2, Methodology; p. 4, Civilian casualties resulting from strikes; p. 6, Water distribution systems. PDF pages are printed pages plus one.",
-            "note": "Official PDF downloaded and text extracted; report date cross-checked against its official landing page. Review checks attribution and scope, not a fresh field investigation."
-          }
-        },
-        {
-          "id": "iaea-update-247",
-          "title": "Update 247 - IAEA Director General Statement on Situation in Ukraine",
-          "publisher": "International Atomic Energy Agency",
-          "byline": "IAEA Director General Rafael Mariano Grossi",
-          "published_date": "2024-08-29",
-          "source_type": "primary_nuclear_safety_statement",
-          "url": "https://www.iaea.org/newscenter/pressreleases/update-247-iaea-director-general-statement-on-situation-in-ukraine",
-          "notes": "A contemporaneous nuclear safety account. It does not supply household outage totals or humanitarian assistance outcomes.",
-          "rights": "Linked official statement; short independently written paraphrase and metadata only. No full statement republished.",
-          "verification": {
-            "status": "content_reviewed",
-            "checked_at": "2026-10-17",
-            "method": "web_review",
-            "reviewed_url": "https://www.iaea.org/newscenter/pressreleases/update-247-iaea-director-general-statement-on-situation-in-ukraine",
-            "locator": "Closing substantive section: paragraphs beginning 'Widespread attacks on the country's energy infrastructure' and 'Although no complete loss of off-site power'.",
-            "note": "Read the official dated statement, including its qualification that affected sites did not completely lose off-site power. Plant-specific details are omitted from the case."
-          }
-        },
-        {
-          "id": "unhcr-winter-plan-2024-25",
-          "title": "Ukraine Winter Response Plan 2024-2025, updated September 2024",
-          "publisher": "UNHCR",
-          "byline": "UNHCR Ukraine",
-          "published_date": "2024-09-03",
-          "source_type": "primary_humanitarian_response_plan",
-          "url": "https://data.unhcr.org/en/documents/download/110943",
-          "notes": "The official data portal entry records publication and upload on 3 September 2024. This is a response plan with targets and financial requirements; it does not establish subsequent delivery.",
-          "rights": "Linked official plan; short independently written paraphrase and metadata only. No plan pages or beneficiary images republished.",
-          "verification": {
-            "status": "content_reviewed",
-            "checked_at": "2026-10-17",
-            "method": "web_review",
-            "reviewed_url": "https://data.unhcr.org/en/documents/download/110943",
-            "locator": "PDF p. 1, Main response areas: '1. Cash support for additional winter needs' and '2. Alternative energy support'. Date metadata: https://data.unhcr.org/en/documents/details/110943.",
-            "note": "Official PDF downloaded and text extracted. The cash target and alternative-energy budget were checked directly. Delivery totals require later operational reporting."
-          }
-        }
-      ],
-      "artifacts": [],
-      "claims": [
-        {
-          "id": "energy-claim-01",
-          "kind": "report",
-          "status": "supported",
-          "text": "HRMMU documented nine waves of Russian armed forces' attacks on Ukraine's electricity system between 22 March and 31 August 2024.",
-          "caveat": "This is the report's historical scope, not a current incident count.",
-          "source_ids": [
-            "hrmmu-energy-september-2024"
-          ],
-          "locator": "Scope: printed p. 1, executive summary item 1."
-        },
-        {
-          "id": "energy-claim-02",
-          "kind": "report",
-          "status": "supported",
-          "text": "HRMMU recorded at least 18 civilians killed and 84 injured near the electricity-infrastructure strikes covered by its report.",
-          "caveat": "These are direct casualties in that reporting scope, not a total for indirect harm.",
-          "source_ids": [
-            "hrmmu-energy-september-2024"
-          ],
-          "locator": "Direct-casualty figures: printed p. 4."
-        },
-        {
-          "id": "energy-claim-03",
-          "kind": "report",
-          "status": "supported",
-          "text": "HRMMU described loss of water and sanitation access in high-rise buildings without independent generators when electricity cuts stopped water pumps.",
-          "caveat": "This identifies a civilian service dependency; it does not count affected households.",
-          "source_ids": [
-            "hrmmu-energy-september-2024"
-          ],
-          "locator": "Water dependency: printed p. 6, second bullet."
-        },
-        {
-          "id": "energy-claim-04",
-          "kind": "report",
-          "status": "supported",
-          "text": "On 29 August 2024, the IAEA reported temporary reactor shutdowns or disconnections after energy attacks destabilized Ukraine's grid; affected sites retained some off-site power.",
-          "caveat": "The statement does not report a nuclear accident or a complete off-site-power loss at those sites. HRMMU later cites this same IAEA statement.",
-          "source_ids": [
-            "iaea-update-247"
-          ],
-          "locator": "The national-grid-instability paragraphs report the effects and explicitly preserve the off-site-power qualification."
-        },
-        {
-          "id": "energy-claim-05",
-          "kind": "report",
-          "status": "supported",
-          "text": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and allocated $10 million in requirements for alternative energy support.",
-          "caveat": "These are planned reach and financial requirements for winter 2024-2025, not people reached or money disbursed. Outcomes remain unverified in this case.",
-          "source_ids": [
-            "unhcr-winter-plan-2024-25"
-          ],
-          "locator": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement."
-        }
-      ],
-      "evidence_links": [
-        {
-          "claim_id": "energy-claim-01",
-          "source_id": "hrmmu-energy-september-2024",
-          "relationship": "supports",
-          "rationale": "Scope: printed p. 1, executive summary item 1."
-        },
-        {
-          "claim_id": "energy-claim-02",
-          "source_id": "hrmmu-energy-september-2024",
-          "relationship": "supports",
-          "rationale": "Direct-casualty figures: printed p. 4."
-        },
-        {
-          "claim_id": "energy-claim-03",
-          "source_id": "hrmmu-energy-september-2024",
-          "relationship": "supports",
-          "rationale": "Water dependency: printed p. 6, second bullet."
-        },
-        {
-          "claim_id": "energy-claim-04",
-          "source_id": "iaea-update-247",
-          "relationship": "supports",
-          "rationale": "The national-grid-instability paragraphs report the effects and explicitly preserve the off-site-power qualification."
-        },
-        {
-          "claim_id": "energy-claim-05",
-          "source_id": "unhcr-winter-plan-2024-25",
-          "relationship": "supports",
-          "rationale": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement."
-        }
-      ],
-      "timeline": [
-        {
-          "date": "2024-08-29",
-          "label": "IAEA publishes its safety statement",
-          "detail": "A contemporaneous official source, separate from later RELAY ingestion.",
-          "source_ids": [
-            "iaea-update-247"
-          ]
-        },
-        {
-          "date": "2024-09-03",
-          "label": "UNHCR publishes its updated winter plan",
-          "detail": "Publication date from the official data portal; the document is labelled updated September 2024.",
-          "source_ids": [
-            "unhcr-winter-plan-2024-25"
-          ]
-        },
-        {
-          "date": "2024-09-18",
-          "label": "HRMMU report appears on its official report page",
-          "detail": "Source publication date, not a RELAY release or review event.",
-          "source_ids": [
-            "hrmmu-energy-september-2024"
-          ]
-        }
-      ],
-      "reviews": [],
-      "revisions": [],
-      "corrections": [],
-      "open_questions": [
-        {
-          "question": "Which later UNHCR operational reports establish delivery against the 2024-2025 plan, with comparable units and dates?",
-          "why_it_matters": "A planned target is not a delivered result. The public case must distinguish financing requests from assistance actually received.",
-          "needed_evidence": "Later UNHCR operational reports with delivery totals, reporting periods and comparable units.",
-          "source_ids": [
-            "unhcr-winter-plan-2024-25"
-          ]
-        },
-        {
-          "question": "Which published assessments measure the indirect civilian harm left outside HRMMU's direct-casualty figures?",
-          "why_it_matters": "The monitoring report documents direct casualties and broader disruptions; indirect health and livelihood losses cannot be reduced to its direct-casualty minimum.",
-          "needed_evidence": "Published follow-up health and civilian-impact assessments with methods and attribution limits.",
-          "source_ids": [
-            "hrmmu-energy-september-2024"
-          ]
-        },
-        {
-          "question": "Which subsequent reports track restoration of household water access without disclosing sensitive facility information?",
-          "why_it_matters": "Documenting disruption does not establish recovery or current service availability.",
-          "needed_evidence": "Dated, aggregated water-access and recovery reports that preserve household and sensitive-facility privacy.",
-          "source_ids": [
-            "hrmmu-energy-september-2024"
-          ]
-        }
-      ],
-      "source_independence_notes": [
-        "Three institutional publishers provide different scopes: human rights monitoring, nuclear safety, and humanitarian planning. They are not three independent confirmations of every claim.",
-        "HRMMU cites IAEA Update 247 in footnote 28. Repetition of that account in HRMMU is not a second nuclear-safety investigation.",
-        "HRMMU reviewed other agencies' technical assessments. Its secondary technical inputs must not be treated as independent measurements by HRMMU.",
-        "UNHCR's plan establishes its own intended response. It does not independently verify casualties or demonstrate assistance delivery."
-      ]
     }
   ],
   "public_data_only": true

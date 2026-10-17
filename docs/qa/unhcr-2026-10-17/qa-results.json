@@ -1,0 +1,44 @@
+{
+  "preview": "http://127.0.0.1:8086/relay/?case=ukraine-energy-civilian-resilience-2024#comparisons",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1425
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 805
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 375
+    }
+  ],
+  "comparisonCards": 7,
+  "unknownReportedValues": 2,
+  "changeRecords": 6,
+  "aiReviewRecords": 2,
+  "blankBeforeBlocks": 0,
+  "checks": [
+    "Responsive cards and no page overflow",
+    "Plan/report source links and keyboard activation",
+    "Imported revision retains five original claims and real source commit",
+    "Clarification preserves before/after wording, caveats and sources",
+    "New claims have explicit no-earlier-wording labels",
+    "Deep links open update disclosures",
+    "Case switching hides comparison section for Starshield",
+    "Clear filters keeps selected case when still matching",
+    "Console warnings and errors empty"
+  ],
+  "screenshots": [
+    "comparisons-1440.jpg",
+    "comparisons-820.jpg",
+    "comparisons-390.jpg",
+    "history-1440.jpg",
+    "history-390.jpg",
+    "reviews-1440.jpg"
+  ]
+}

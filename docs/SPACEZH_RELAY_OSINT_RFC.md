@@ -30,7 +30,7 @@ The six wider ecosystem roles are proposed: **Slipstream** for scoped engineerin
 
 ## First release and data flow
 
-The first deliverable is a static public evidence workspace at `/relay/`, implemented locally for review. Two real cases contain 12 claims and 11 sources: the developing Starshield dossier opens first, followed by a historical civilian-energy case drawing on UN/OHCHR, IAEA, and UNHCR material. The Evidence Ledger supports browsing/filtering; Claim Details expose classifications, caveats, source locators, and content-review notes; the Case Timeline distinguishes reported events from publication dates; the Corrections Log records actual edits and reasons. A six-question verification queue makes unresolved work explicit. There is no browser authoring, authentication, upload, tipline, ingestion endpoint, or alert action.
+The current static publication is at `/relay/`. Two real cases contain 17 claims, 14 source records and eight open questions. The UNHCR winter-aid comparison opens first; the Starshield dossier remains available. Readers can inspect claims, sources, reporting periods, target/result comparisons, AI review records and actual edits. Missing delivery or expenditure values remain unknown. There is no browser authoring, authentication, upload, tipline, ingestion endpoint or alert action.
 
 ```text
 Real public-source cases + content-review notes
@@ -49,6 +49,8 @@ public/relay/data/{cases,retrievals,manifest}.json
                      |
        Read-only /relay/ browser experience
 ```
+
+Real `public_case` histories now preserve the full wording, status, caveat, citations and locator of each claim. The first history entry can import an actual previously published Git commit; the validator reads that object and rejects a fabricated baseline. This import carries no retroactive approval. New revisions link actual review records to the SHA-256 of their claim snapshots. AI reviews use `reviewed`; a human publication approval must identify a human reviewer. Date ordering, changed claims and explicit before/after records are checked. Additions use `update`; wording clarifications and factual corrections remain distinct. The UNHCR history records a real terminology clarification and new evidence, without inventing a past numerical error.
 
 Publication records are immutable at runtime. A later correction must describe an actual repository edit and rebuild, with affected versions and prior revision records retained. No reviewer identity, approval, or correction history is fabricated to populate the interface. Git history and deterministic exports support inspection; neither guarantees tamper-proof storage, legal admissibility, or the truth of a source's statement. Never place restricted fields in a public file and rely on a hidden view or client-side filter to protect them.
 
@@ -116,7 +118,7 @@ The public case platform must not originate warnings, turn unverified sightings 
 
 - **A — Site presentation:** preserve the original hero, add accurately labeled solidarity artwork, retain Ukrainian tryzub prominence, and verify responsive/accessibility behavior.
 - **B — Canonical architecture:** synchronize this RFC, the implementation plan, founding proposal, and rendered `/plan/`; preserve budgets, governance, and existing safety limits.
-- **C — Public-data v0.1:** two real-source cases, source locators, separate content reviews and actual HTTP receipts, six unresolved verification questions, read-only local assets, and reproducible validation/build. No fictional public case, fabricated reviewer/correction history, secrets, or networked intake. Integrated checks and visual review precede any deployment decision.
+- **C — Public-data v0.1:** two real-source cases, source locators, separate content reviews and actual HTTP receipts, eight unresolved verification questions, read-only local assets, and reproducible validation/build. No fictional public case, fabricated reviewer/correction history, secrets, or networked intake. Integrated checks and visual review precede any deployment decision.
 - **C follow-on — Authoring architecture:** assess actual Parallax RELAY reuse, then separately scope a Laravel + React/Inertia + PostgreSQL application, access controls, review separation, audit history, safe exports, backups and funded operations. Do not scaffold it into `public/` now.
 - **D — Sensitive features:** confidential intake or civilian-safety routing requires expert review and separately authorized operating capacity. There is no launch date or commitment.
 

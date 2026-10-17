@@ -1,5 +1,19 @@
 # SPACEЖ RELAY — real-source verification record
 
+## UNHCR delivery update and plain-language pass
+
+The current registry has two real cases, 17 claims, 14 source records and eight open questions. The UNHCR comparison opens first. It adds seven plan/result comparisons, preserving the earlier 110-generator report alongside the later 186, and keeps unreported power-station and expenditure totals as unknown.
+
+Two actual AI source reviews identify their methods, timestamps, scope and same-team limits. A Git-verified five-claim baseline carries no retrospective approval. Current snapshots preserve classification, wording, status, caveats, citations and locators. The log records one funding-wording clarification and five new evidence additions; it does not invent numerical mistakes or human approval.
+
+Validation completed for this update: **46 tests passed**, deterministic export and source/history checks passed, the existing evidence brief and four research readers remain synchronized, and browser JavaScript syntax passed. A new real retrieval run attempted 18 public URLs: 11 retrieved and seven unavailable. Response bodies are not republished.
+
+The UI now uses direct headings, including “Public evidence and source checks,” “Cases,” “Open questions,” and “Updates and corrections.” Comparisons retain units, periods and source locators. New claims explicitly have no earlier wording; imported and current revisions and AI review records are distinguishable.
+
+Browser checks passed at 390, 820 and 1440 CSS pixels: no page overflow or console errors. Seven comparisons, two unknown totals, six actual changes, two AI reviews, source links and revision links were checked. [Desktop comparison](qa/unhcr-2026-10-17/comparisons-1440.jpg), [mobile comparison](qa/unhcr-2026-10-17/comparisons-390.jpg), [history](qa/unhcr-2026-10-17/history-1440.jpg), [reviews](qa/unhcr-2026-10-17/reviews-1440.jpg), and [browser results](qa/unhcr-2026-10-17/qa-results.json) record this pass.
+
+The initial release below is preserved as a dated record. Its counts and screenshots describe that earlier release.
+
 **Updated:** 17 October 2026. **Branch:** `codex/relay-public-evidence`.
 
 The fictional library case has been removed from the published registry. Synthetic records remain only in unit tests. The workbench opens on the real Starshield source dossier and also includes a historical civilian-energy case grounded in HRMMU, IAEA and UNHCR documents: **2 cases, 12 claims, 11 source records, 6 open verification questions**. Source records are not a count of independent investigations.

@@ -112,9 +112,11 @@ The public website features this reporting on both the homepage and `/research/`
 
 ## SPACEЖ RELAY public evidence workspace
 
-The dependency-free `/relay/` application is a **read-only public evidence workspace**, implemented locally for review. The published registry contains two real cases, 12 claims, and 11 sources: the developing Starshield restrictions dossier opens first, followed by a historical civilian-energy case drawing on UN/OHCHR, IAEA, and UNHCR material. The fictional public-notice case and simulated reviewers have been removed from the published bundle. Minimal synthetic records remain only in unit tests.
+The `/relay/` site publishes two real cases with **17 claims, 14 source records and 8 open questions**. The UNHCR winter-aid comparison opens first: it compares the September 2024 plan with later reported delivery, preserves the earlier figures and identifies results still missing. The Starshield dossier remains available with allegations, denials and source dependencies intact.
 
-The workspace provides claim-level citations and source locators, a six-question verification queue, timelines, publication revisions, and a corrections log. AI-assisted content reviews dated 17 October 2026 identify exactly which originals, syndications, republications, or indexed content were read; they are not human editorial signoff. The Telegraph original was inaccessible during content review, and Reuters reporting was reviewed through accessible republications. HTTP access receipts are a separate record: a successful response does not verify a claim. No reviewer approval or correction history is fabricated; future corrections must describe actual edits and affected versions.
+The UNHCR case includes seven comparisons, two recorded AI source reviews, a Git-verified baseline, one wording clarification and five evidence additions. Reviews are bound to exact claim snapshots; they do not claim human approval or independent verification with recipients. See the [source comparison](docs/evidence/2026-10-17-unhcr-winter-delivery.md) and [history rules](docs/SPACEZH_RELAY_OSINT_RFC.md).
+
+The interface uses direct labels: Cases, Claims and supporting sources, Open questions, Updates and corrections. It displays reporting periods, source locators, missing results and the difference between content review and HTTP access.
 
 - [Architecture RFC and source-protection boundaries](docs/SPACEZH_RELAY_OSINT_RFC.md)
 - [Concrete implementation plan and next release gates](docs/RELAY_IMPLEMENTATION_PLAN.md)
@@ -124,7 +126,9 @@ The workspace provides claim-level citations and source locators, a six-question
 - [Explicit source access checker](scripts/ingest_relay_sources.py), [publication builder](scripts/build_relay_publication.py), and generated [cases](public/relay/data/cases.json), [receipts](public/relay/data/retrievals.json), and [SHA-256 manifest](public/relay/data/manifest.json).
 - App: `public/relay/index.html`, `public/assets/relay.css`, `public/assets/relay.js`.
 
-To refresh source access receipts, explicitly run `python scripts/ingest_relay_sources.py`. It makes HTTPS GET requests only to allowlisted public publishers, records actual timestamps, status codes, byte counts, and response hashes, and appends a run to `data/relay/retrievals.json`. It hashes response bodies in memory without archiving or republishing full articles. This is a manual command, not a background daemon or a factual verdict. The 17 October run attempted 15 URLs: eight returned HTTP 200; seven were unavailable (four Reuters 401 responses, Telegraph 402, AP 403, and IAEA 403). Web-research content access is recorded separately and may differ from this command's transport results.
+To refresh source access receipts, explicitly run `python scripts/ingest_relay_sources.py`. It makes HTTPS GET requests only to allowlisted public publishers, records actual timestamps, status codes, byte counts, and response hashes, and appends a run to `data/relay/retrievals.json`. It hashes response bodies in memory without archiving or republishing full articles. This is a manual command, not a background daemon or a factual verdict. The latest 17 October run attempted 18 URLs: eleven returned HTTP 200; seven were unavailable (four Reuters 401 responses, Telegraph 402, AP 403, and IAEA 403). Web-research content access is recorded separately and may differ from this command's transport results.
+
+History validation reads the preserved baseline Git object. Use a full clone, or fetch that recorded commit before checking a shallow checkout. CI checks out full history.
 
 After a case, source review, or receipt change, regenerate and verify the publication:
 
