@@ -1,7 +1,7 @@
 /* Additive brand and product styling. Original SpaceЖ artwork is unchanged. */
 .logo { display:inline-flex; align-items:center; gap:12px; }
 .logo-word { display:inline-block; white-space:nowrap; }
-.logo-tryzub { display:block; width:22px; height:31px; flex:none; object-fit:contain; filter:drop-shadow(0 0 7px rgba(255,218,71,.13)); }
+.logo-tryzub { display:block; width:24px; height:34px; flex:none; object-fit:contain; }
 .footer-main .logo-tryzub { width:25px; height:35px; }
 .hero-identity { display:inline-flex; align-items:center; gap:16px; max-width:100%; margin-top:24px; padding:13px 19px 13px 13px; border:1px solid rgba(125,174,234,.29); border-left:2px solid #ffda47; background:rgba(15,35,62,.58); }
 .hero-identity img { display:block; width:41px; height:57px; flex:none; object-fit:contain; }
@@ -13,6 +13,8 @@
 .spacezh-product h3 { text-transform:uppercase; }
 .spacezh-product .product-kind { color:#83c9ff; font:800 10px/1.6 ui-monospace,Consolas,monospace; letter-spacing:.14em; text-transform:uppercase; margin:-4px 0 12px; }
 .spacezh-product .product-stage { margin-top:auto; padding-top:20px; color:#8d9fb8; font:750 10px/1.5 ui-monospace,Consolas,monospace; letter-spacing:.09em; }
+.product-prototype-link { display:inline-flex; align-items:center; gap:10px; align-self:flex-start; margin-top:20px; padding-block:8px; color:#83c9ff; font:800 11px/1.5 ui-monospace,Consolas,monospace; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px; }
+.product-prototype-link:hover { color:#ffda47; }
 .product-stage::before { content:"○"; color:#ffda47; margin-right:9px; font-size:14px; }
 .platform { position:relative; padding:108px 0 116px; border-block:1px solid rgba(160,191,228,.17); background:radial-gradient(ellipse at 80% 110%,rgba(28,77,152,.17),transparent 65%),#0a1221; }
 .platform-heading { display:flex; align-items:end; justify-content:space-between; gap:38px; }
@@ -26,7 +28,7 @@
 .platform-note strong { color:#dce7f8; }
 @media(max-width:1000px) { .platform-heading { display:block; } .platform-heading .section-lede { margin-top:22px; } .platform-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 @media(max-width:750px) {
- .logo { gap:9px; } .logo-tryzub { width:18px; height:26px; } .footer-main .logo-tryzub { width:22px; height:31px; }
+ .logo { gap:9px; } .logo-tryzub { width:22px; height:31px; } .footer-main .logo-tryzub { width:24px; height:34px; }
  .hero-identity { margin-top:20px; padding:11px 13px; gap:13px; } .hero-identity img { width:33px; height:46px; } .hero-identity .identity-message { font-size:11px; }
  .platform { padding:65px 0 72px; } .platform-grid { gap:12px; margin-top:29px; } .platform-card { min-height:0; padding:24px 22px; } .platform-card h3 { margin-top:16px; }
 }

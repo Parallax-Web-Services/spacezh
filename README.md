@@ -1,6 +1,6 @@
 # SpaceЖ — The sky belongs to everyone
 
-Public site and founding proposal for SpaceЖ, an open-source public-interest initiative proposed in support of the **global defense of Ukraine** through auditable satellite intelligence and resilient communications research.
+Public site and founding proposal for SpaceЖ, an open-source public-interest initiative proposed in support of the **global defense of Ukraine** through public-source evidence, auditable satellite intelligence and resilient communications research.
 
 **Status:** public working proposal, not an established nonprofit, operational satellite network, or live warning service. No donations are being accepted through this repository.
 
@@ -8,7 +8,7 @@ Public site and founding proposal for SpaceЖ, an open-source public-interest in
 
 The homepage at `/` links to the designed public proposal at **`/plan/`** and the public coalition research/invitation at **`/coalition/`**. The [Markdown proposal](docs/FOUNDING_PROPOSAL.md) and [coalition strategy](docs/COALITION_STRATEGY.md) remain editable source documents. No live payment processing is implemented.
 
-The deployable static website lives in **`public/`**: `public/index.html`, `public/plan/index.html`, `public/coalition/index.html`, `public/assets/favicon.svg`, and `public/assets/spacezh-hero.webp`. Repository-level `docs/` and `CONTRIBUTING.md` are project documentation, not public web assets. No build tools, npm dependencies, analytics, third-party scripts, or backend. The launch design, responsive CSS, animated synthetic scanner, and original artwork have been preserved.
+The deployable static website lives in **`public/`**: `public/index.html`, `public/plan/index.html`, `public/coalition/index.html`, `public/assets/favicon.svg`, and `public/assets/spacezh-hero.webp`. Repository-level `docs/` and `CONTRIBUTING.md` are project documentation, not public web assets. No npm dependencies, analytics, third-party scripts, or backend. RELAY uses local JavaScript, a deterministic Python publication export, and an explicitly run public-source access checker. The launch design, responsive CSS, animated synthetic scanner, and original artwork have been preserved.
 
 To preview locally:
 
@@ -26,11 +26,11 @@ Visit http://localhost:8080, http://localhost:8080/plan/, and http://localhost:8
 
 A PDF copy of the proposal was produced separately and can be uploaded to the repository once an approved binary-file publishing route is available.
 
-## Roadmap
+## Workstreams
 
 1. **SpaceЖ Echo:** Source-linked orbital intelligence, 3D observations, provenance, and playback.
 2. **SpaceЖ Array:** Reproducible, opt-in ground-station tools interoperable with established open projects.
-3. **SpaceЖ Relay:** Authorized terrestrial communications testbeds and simulation.
+3. **SpaceЖ Relay:** Public-interest investigations, evidence review, source-linked cases and corrections; Transport / Interoperability is a separately gated research area.
 4. **SpaceЖ Parallax:** Separately gated feasibility research for a hosted payload or spacecraft.
 
 ### Bootstrap funding discipline
@@ -43,13 +43,13 @@ Paid labor, professional reviews, regulated operations, and flight hardware are 
 
 The SpaceЖ wordmark remains **SPACEЖ**. A Ukrainian **tryzub** now accompanies the header and footer wordmarks across the static website, with a larger, labeled emblem on the homepage. The public-domain vector is stored locally in `public/assets/tryzub.svg`, adapted from [Wikimedia Commons — Coat of Arms of Ukraine](https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Ukraine.svg). This represents solidarity with Ukraine, **not** government affiliation, endorsement, or official status. The original SpaceЖ favicon and Earth artwork are preserved.
 
-The homepage presents the four SpaceЖ workstreams as **proposed products**: **ECHO**, **ARRAY**, **RELAY**, and **PARALLAX**, preserving their research-stage and feasibility gates. A separate Parallax technology section describes possible infrastructure roles for **Slipstream**, **Plexus**, **Positronic**, **RELAY**, **HOLO**, and **Continuum**. Parallax RELAY is a general-purpose ingestion/publication product, separate from the SpaceЖ RELAY communications workstream. These are intended integrations, not claims of operational services.
+The homepage presents the four SpaceЖ workstreams as **proposed products**: **ECHO**, **ARRAY**, **RELAY**, and **PARALLAX**, preserving their research-stage and feasibility gates. A separate Parallax technology section describes possible infrastructure roles for **Slipstream**, **Plexus**, **Positronic**, **RELAY**, **HOLO**, and **Continuum**. Parallax RELAY is a general-purpose ingestion/publication product, separate from the SpaceЖ RELAY investigation and evidence platform. Transport / Interoperability remains a separately gated SpaceЖ RELAY research area. These are intended integrations, not claims of operational services.
 
 The new shared stylesheet, `public/assets/brand-products.css`, keeps tryzub and wordmark treatment consistent throughout the homepage, public proposal, coalition page, research index, research readers and evidence brief. No external scripts or assets, intake forms, or payment processing were added.
 
 ## Maintaining visual integrity
 
-The original artwork and `public/assets/` are retained. The bilingual ribbon separators now pair Ukrainian with English using equals signs, and its intermediate-width rule keeps pairs together. The future GoFundYourself mount remains **hidden**; no payment form has been introduced.
+The original artwork and `public/assets/` are retained. The bilingual ribbon separators now pair Ukrainian with English using equals signs, and its intermediate-width rule keeps pairs together. The supplied anti-war / EU solidarity artwork is displayed in a separate, labeled feature; the original Earth/Ukraine hero is retained. All three Ukrainian/English ribbon pairs remain visible on mobile. See [asset provenance](docs/ASSET_SOURCES.md). The future GoFundYourself mount remains **hidden**; no payment form has been introduced.
 
 The front-end is currently just a publication channel, not the promised orbital product. Technical workstreams, licensing, and governance are proposals for public review.
 
@@ -68,11 +68,11 @@ The front-end is currently just a publication channel, not the promised orbital 
 
 No emails have been sent, no Plexus import has been performed, and no affiliation has been established through this repo update. The separate 24-candidate **private** prospecting package was deliberately not committed to the public repository.
 
-**Important:** A public check on 16 October 2026 still returned the older parody version of the live domain, even though `master` had already been updated. Verify deployment of the `public/` folder and fresh content at all three routes before sharing partner links.
+**Deployment:** The existing production host and nginx document root were verified on 17 October 2026. See the [production deployment record](docs/PRODUCTION_DEPLOYMENT.md) for the observed release, publication checks and rollback procedure. Verify the intended commit and fresh public content before sharing links; a GitHub push alone does not establish that a new release is live.
 
 ## Mobile layout and copy
 
-The original embedded desktop CSS and design assets are preserved. A separate [mobile polish stylesheet](public/assets/mobile-polish.css), loaded after each page's existing styles, adjusts layouts **only at widths of 750px and below**. It removes the overflowing ribbon on phones, reduces section/card spacing, preserves 44px menu tap targets, and improves hero, buttons and proposal reading typography.
+The original embedded desktop CSS and design assets are preserved. A separate [mobile polish stylesheet](public/assets/mobile-polish.css), loaded after each page's existing styles, adjusts phone layouts, preserves the bilingual ribbon through tablet widths, and stacks the hero/navigation at 1000px and below. It wraps the bilingual ribbon on phones, reduces section/card spacing, preserves 44px menu tap targets, and improves hero, buttons and proposal reading typography.
 
 Public headlines and explanatory copy have been revised to describe the actual scope and proposed partnership work rather than rely on generic startup slogans. The main "The sky belongs to everyone" identity is retained.
 
@@ -107,4 +107,36 @@ GitHub remains the home of source code and test suites, not the required publica
 - [Canonical original editorial source](docs/evidence/2026-10-16-starshield.md).
 - [Machine-readable claim and source register](data/evidence/starshield-restrictions-2026-10-16.json) — source IDs, per-claim classifications, denials, independence and copyright notes.
 
-The public website features this reporting on both the homepage and `/research/`. **This is a sourced editorial brief, not an independently verified finding that a named individual ordered the restriction.** The original publishers retain their articles and imagery. The JSON is **staged for future RELAY import but has not been ingested into a connected RELAY service**. Review, corrections and date updates are required as new reporting emerges.
+The public website features this reporting on both the homepage and `/research/`. **This is a sourced editorial brief, not an independently verified finding that a named individual ordered the restriction.** The original publishers retain their articles and imagery. The JSON is **staged for future Parallax RELAY import but has not been ingested into a connected RELAY service**. Review, corrections and date updates are required as new reporting emerges.
+
+
+## SPACEЖ RELAY public evidence workspace
+
+The dependency-free `/relay/` application is a **read-only public evidence workspace**, implemented locally for review. The published registry contains two real cases, 12 claims, and 11 sources: the developing Starshield restrictions dossier opens first, followed by a historical civilian-energy case drawing on UN/OHCHR, IAEA, and UNHCR material. The fictional public-notice case and simulated reviewers have been removed from the published bundle. Minimal synthetic records remain only in unit tests.
+
+The workspace provides claim-level citations and source locators, a six-question verification queue, timelines, publication revisions, and a corrections log. AI-assisted content reviews dated 17 October 2026 identify exactly which originals, syndications, republications, or indexed content were read; they are not human editorial signoff. The Telegraph original was inaccessible during content review, and Reuters reporting was reviewed through accessible republications. HTTP access receipts are a separate record: a successful response does not verify a claim. No reviewer approval or correction history is fabricated; future corrections must describe actual edits and affected versions.
+
+- [Architecture RFC and source-protection boundaries](docs/SPACEZH_RELAY_OSINT_RFC.md)
+- [Concrete implementation plan and next release gates](docs/RELAY_IMPLEMENTATION_PLAN.md)
+- [Local verification record and before/after screenshots](docs/RELAY_QA.md)
+- [Original owner-supplied planning draft](docs/reference/spacezh-relay-planning-rfc.md)
+- [Canonical case registry](data/relay/cases.json), [source content reviews](data/relay/source-reviews.json), and [actual HTTP access receipts](data/relay/retrievals.json).
+- [Explicit source access checker](scripts/ingest_relay_sources.py), [publication builder](scripts/build_relay_publication.py), and generated [cases](public/relay/data/cases.json), [receipts](public/relay/data/retrievals.json), and [SHA-256 manifest](public/relay/data/manifest.json).
+- App: `public/relay/index.html`, `public/assets/relay.css`, `public/assets/relay.js`.
+
+To refresh source access receipts, explicitly run `python scripts/ingest_relay_sources.py`. It makes HTTPS GET requests only to allowlisted public publishers, records actual timestamps, status codes, byte counts, and response hashes, and appends a run to `data/relay/retrievals.json`. It hashes response bodies in memory without archiving or republishing full articles. This is a manual command, not a background daemon or a factual verdict. The 17 October run attempted 15 URLs: eight returned HTTP 200; seven were unavailable (four Reuters 401 responses, Telegraph 402, AP 403, and IAEA 403). Web-research content access is recorded separately and may differ from this command's transport results.
+
+After a case, source review, or receipt change, regenerate and verify the publication:
+
+```bash
+python scripts/build_relay_publication.py
+python scripts/check_relay_publication.py
+python -m unittest discover -s tests -v
+python scripts/check_research_publication.py
+python scripts/check_evidence_brief.py
+python -m http.server 8080 --directory public
+```
+
+Open `http://localhost:8080/relay/`. Browser filters and shareable case/claim URLs do not save or publish edits. The builder attaches access receipts to sources and emits static public JSON. Hashes identify response or export bytes, not truth or reviewer approval. Actual revision records and Git support inspection; they do not form a tamper-proof evidence vault. Validation rejects fictional public cases, restricted records, unknown references, and inconsistent revision/correction history.
+
+No confidential intake, continuous ingestion service, public tipline, operational warnings, external tracking, access-control backend, payments, or production deployment is implemented. A later Laravel + React/Inertia application with Postgres, authenticated review and tested public projection belongs in a separately deployable project; see the RFC before extending this static workspace.

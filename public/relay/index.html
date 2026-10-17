@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070c17">
+  <meta name="description" content="SPACEЖ RELAY public evidence workbench. Inspect real primary documents, attributed claims, source access receipts, and unresolved questions.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/relay.css">
+  <script src="/assets/relay.js" defer></script>
+  <title>RELAY — Public evidence workbench | SPACEЖ</title>
+</head>
+<body>
+  <a class="skip-link" href="#registry">Skip to case registry</a>
+  <div class="flag-line" aria-hidden="true"></div>
+  <header class="site-header"><div class="container header-inner">
+    <a class="logo" href="/" aria-label="SpaceЖ home"><img src="/assets/tryzub.svg" width="23" height="32" alt=""><span>SPACE<span class="gold">Ж</span><span class="word-divider">/</span><span class="ice">RELAY</span></span></a>
+    <nav aria-label="Main navigation"><a href="/research/">Research</a><a href="/plan/">Founding proposal</a><a href="/">Back to SpaceЖ <span aria-hidden="true">↗</span></a></nav>
+  </div></header>
+  <main>
+    <section class="intro container" aria-labelledby="page-title">
+      <div><p class="eyebrow">Public-interest investigations / public records</p><h1 id="page-title">Evidence, with<br><span class="ice">its workings visible.</span></h1><p class="lede">Follow a claim back to its source. Read the uncertainty. Work the unanswered questions.</p></div>
+      <aside class="workbench-notice" aria-label="Workbench scope"><span class="status-marker">PUBLIC EVIDENCE WORKBENCH</span><p>Real public documents, explicit claim limits, and recorded source checks.</p><p id="source-check-summary">Source-check dates appear with each source. Retrieval records document access, not factual verification.</p><p>Read-only publication; no confidential intake or warning service. No automated factual verdict.</p></aside>
+    </section>
+    <section class="registry-section" id="registry" aria-labelledby="registry-title"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">01 / Case registry</p><h2 id="registry-title">Open the record.</h2></div><p class="section-note">Source links remain attached to every claim.<br>Publication is a revision, never a final verdict.</p></div>
+      <form class="filters" id="case-filters" role="search" aria-label="Search and filter cases">
+        <div class="search-field"><label for="case-search">Search cases, claims, or sources</label><input id="case-search" name="q" type="search" placeholder="Try a document, publisher, or claim" autocomplete="off"></div>
+        <div><label for="case-kind">Record type</label><select id="case-kind" name="kind"><option value="all">All records</option><option value="public_case">Primary-source case</option><option value="public_snapshot">Editorial source review</option></select></div>
+        <div><label for="case-status">Case status</label><select id="case-status" name="status"><option value="all">All statuses</option><option value="developing">Developing</option><option value="documented">Documented</option><option value="under_review">Under review</option></select></div>
+        <button class="reset-button" type="reset">Clear filters</button>
+      </form>
+      <p class="results-count" id="results-count" role="status" aria-live="polite">Loading local case data…</p>
+      <div id="case-list" class="case-list" aria-label="Cases"></div>
+      <div id="load-error" class="empty-state" role="alert" hidden><h3>Case data could not be loaded.</h3><p>The workbench needs a static HTTP server and its generated public data file. It does not work by opening an HTML file directly.</p><button type="button" id="retry-load">Try loading again</button><a href="/research/briefings/starshield-restrictions/">Read the existing public brief</a></div>
+      <noscript><div class="empty-state"><h3>Enable JavaScript to explore the evidence workbench.</h3><p>The existing <a href="/research/briefings/starshield-restrictions/">Starshield public brief</a> and <a href="/plan/">founding proposal</a> remain available without JavaScript.</p></div></noscript>
+    </div></section>
+    <section class="case-workspace container" id="case-workspace" aria-labelledby="case-title" hidden>
+      <div id="case-overview"></div>
+      <nav class="case-nav" aria-label="Case sections"><a href="#claims">Claims <span id="claim-count"></span></a><a href="#evidence">Evidence ledger</a><a href="#verification-queue">Verification queue</a><a href="#timeline">Timeline</a><a href="#corrections">Corrections & revisions</a><a href="#provenance">Provenance</a></nav>
+      <section class="workspace-section" id="claims" aria-labelledby="claims-title"><div class="section-heading"><div><p class="eyebrow">02 / Claim details</p><h2 id="claims-title">Separate the assertion<br>from the evidence.</h2></div><p class="section-note">A source reporting a claim does not<br>establish the underlying event.</p></div><div class="claim-key"><span>Observation</span><span>Report</span><span>Allegation</span><span>Denial</span><span>Inference</span></div><div id="claim-list" class="claim-list"></div></section>
+      <section class="workspace-section" id="evidence" aria-labelledby="evidence-title"><div class="section-heading"><div><p class="eyebrow">03 / Evidence ledger</p><h2 id="evidence-title">Keep the connections.</h2></div><p class="section-note">“Supports” describes the stated proposition.<br>It is not a universal truth score.</p></div><div class="ledger-controls"><label for="relationship-filter">Relationship</label><select id="relationship-filter"><option value="all">All relationships</option><option value="supports">Supports</option><option value="contradicts">Contradicts</option><option value="ambiguous">Ambiguous</option></select><span id="ledger-count" role="status" aria-live="polite"></span></div><div class="ledger-wrap" tabindex="0" role="region" aria-label="Evidence relationships, horizontally scrollable on small screens"><table class="ledger"><thead><tr><th scope="col">Claim</th><th scope="col">Relationship</th><th scope="col">Source & rationale</th></tr></thead><tbody id="evidence-body"></tbody></table></div><p id="ledger-empty" class="empty-state" hidden>No evidence relationships match this filter.</p></section>
+      <section class="workspace-section" id="verification-queue" aria-labelledby="queue-title"><div class="section-heading"><div><p class="eyebrow">04 / Verification queue</p><h2 id="queue-title">What would resolve the gap?</h2></div><p class="section-note">Open questions name the missing evidence.<br>They do not imply an unverified answer.</p></div><div id="question-list" class="question-list"></div></section>
+      <div class="history-grid"><section class="workspace-section" id="timeline" aria-labelledby="timeline-title"><p class="eyebrow">05 / Case timeline</p><h2 id="timeline-title">The record develops.</h2><ol id="timeline-list" class="timeline"></ol></section><section class="workspace-section" id="corrections" aria-labelledby="corrections-title"><p class="eyebrow">06 / Corrections & revisions</p><h2 id="corrections-title">Nothing quietly erased.</h2><div id="correction-list"></div><div id="revision-list" class="revision-list"></div></section></div>
+      <section class="workspace-section" id="provenance" aria-labelledby="provenance-title"><p class="eyebrow">07 / Provenance</p><h2 id="provenance-title">Inspect the source record.</h2><div id="provenance-summary" class="provenance-summary"></div><div id="source-list" class="source-list"></div><div class="reviews-block"><h3>Review attribution</h3><div id="review-list"></div></div></section>
+    </section>
+    <section class="method container" aria-labelledby="method-title"><div><p class="eyebrow">A public record, carefully bounded</p><h2 id="method-title">Work from the documents.</h2></div><p>Each case distinguishes what a document says from what its evidence can establish. Source-content review, retrieval receipts, and named editorial signoff are separate records. HTTP access and a response hash do not establish truth. This read-only workbench has no confidential-source intake, sensor feed, or emergency-warning capability.</p></section>
+  </main>
+  <footer class="container"><a class="footer-home" href="/">SPACE<span class="gold">Ж</span></a><p>ЖИТТЯ = LIFE <span aria-hidden="true">/</span> ВОЛЯ = FREEDOM <span aria-hidden="true">/</span> НАУКА = SCIENCE</p><a href="/plan/">Read the public proposal <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>

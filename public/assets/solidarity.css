@@ -1,0 +1,25 @@
+/* A separate solidarity feature keeps the original Earth/Ukraine hero intact. */
+.solidarity { padding: 96px 0; border-bottom: 1px solid var(--line); background: #080f1c; }
+.solidarity-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(32px, 5vw, 76px); align-items: center; }
+.solidarity-copy { min-width: 0; }
+.solidarity-identity { display: flex; align-items: center; gap: 19px; margin: 28px 0 24px; }
+.solidarity-identity img { width: 64px; height: 90px; flex: none; object-fit: contain; }
+.solidarity-identity p { margin: 0; color: var(--ice); font-size: 11px; font-weight: 800; line-height: 1.8; letter-spacing: .1em; }
+.solidarity-identity p span { color: var(--gold); font-size: 16px; }
+.solidarity h2 { margin: 0 0 23px; font-size: clamp(36px, 4vw, 56px); line-height: 1.08; letter-spacing: -.055em; }
+.solidarity-copy > p:not(.section-tag) { color: var(--muted); font-size: 16px; line-height: 1.8; }
+.solidarity-copy > p.solidarity-context { margin-top: 23px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13px; line-height: 1.75; }
+.solidarity-art { min-width: 0; margin: 0; border: 1px solid rgba(156,197,248,.3); background: var(--bg-deep); }
+.solidarity-art > img { width: 100%; height: auto; aspect-ratio: 4 / 3; }
+.solidarity-art figcaption { padding: 16px 19px; border-top: 1px solid var(--line); color: #afbed5; font-size: 10px; font-weight: 750; line-height: 1.7; letter-spacing: .08em; }
+@media (max-width: 1000px) {
+  .solidarity-grid { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .solidarity-copy { max-width: 650px; }
+  .solidarity-art { width: 100%; max-width: 740px; }
+}
+@media (max-width: 750px) {
+  .solidarity { padding: 62px 0 68px; }
+  .solidarity-copy > p:not(.section-tag) { font-size: 15px; line-height: 1.7; }
+  .solidarity-copy > p.solidarity-context { font-size: 13px; }
+  .solidarity-art figcaption { padding: 13px 16px; font-size: 9px; }
+}

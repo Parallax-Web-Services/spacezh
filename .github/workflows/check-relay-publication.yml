@@ -1,0 +1,42 @@
+name: RELAY public publication integrity
+
+on:
+  push:
+    paths:
+      - ".gitattributes"
+      - "data/relay/**"
+      - "data/evidence/**"
+      - "public/relay/**"
+      - "public/assets/relay.*"
+      - "docs/FOUNDING_PROPOSAL.md"
+      - "public/plan/index.html"
+      - "scripts/*relay*"
+      - "tests/**"
+      - ".github/workflows/check-relay-publication.yml"
+  pull_request:
+    paths:
+      - ".gitattributes"
+      - "data/relay/**"
+      - "data/evidence/**"
+      - "public/relay/**"
+      - "public/assets/relay.*"
+      - "docs/FOUNDING_PROPOSAL.md"
+      - "public/plan/index.html"
+      - "scripts/*relay*"
+      - "tests/**"
+      - ".github/workflows/check-relay-publication.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify-publication:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check fixture lifecycle and export consistency
+        run: python3 scripts/check_relay_publication.py
+      - name: Test provenance and correction integrity
+        run: python3 -m unittest discover -s tests -v
+      - name: Check browser script syntax
+        run: node --check public/assets/relay.js

@@ -1,0 +1,48 @@
+[
+  {
+    "clientWidth": 375,
+    "loaded": "2 of 2 records.",
+    "outside": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "clientWidth": 735,
+    "loaded": "2 of 2 records.",
+    "outside": [],
+    "scrollWidth": 735,
+    "width": 750
+  },
+  {
+    "clientWidth": 805,
+    "loaded": "2 of 2 records.",
+    "outside": [],
+    "scrollWidth": 805,
+    "width": 820
+  },
+  {
+    "clientWidth": 1009,
+    "loaded": "2 of 2 records.",
+    "outside": [],
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "clientWidth": 1425,
+    "loaded": "2 of 2 records.",
+    "outside": [],
+    "scrollWidth": 1425,
+    "width": 1440
+  }
+]

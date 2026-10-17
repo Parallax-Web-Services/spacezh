@@ -2,7 +2,7 @@
 
 **Global defense of Ukraine. Open infrastructure for the world.**
 
-**Public founding proposal | Version 0.3 | 17 October 2026**
+**Public founding proposal | Version 0.4 | 17 October 2026**
 
 > Working proposal for public comment. SpaceЖ is not represented here as an established nonprofit, an operational satellite constellation, or an approved securities offering.
 
@@ -19,15 +19,15 @@
 
 **Our premise:** Ukraine's defense and civilian resilience should not depend entirely on opaque, single-provider space infrastructure. The public deserves an interoperable alternative to concentrated private control of space-based communications and data. **We can begin building that alternative without pretending we can launch a broadband constellation tomorrow.**
 
-SpaceЖ is a proposed open-source, public-interest initiative with Ukraine at the center of its purpose and international collaboration at the center of its approach. It would start by connecting trustworthy, licensed public satellite observations; producing an auditable orbital intelligence platform; and making community-operated ground infrastructure easier to deploy and use. Longer-term, it would pursue interoperable communications experiments and independently governed orbital capacity—only after engineering, regulatory, and financial milestones are met.
+SpaceЖ is a proposed open-source, public-interest initiative with Ukraine at the center of its purpose and international collaboration at the center of its approach. It would start with SPACEЖ RELAY: a civilian public-interest investigation and evidence platform for journalists, human-rights monitors, researchers, and verification teams. Its first release uses real public-source cases with claim-level citations, source locators, access receipts, and unresolved verification questions. SPACEЖ ECHO would add auditable orbital intelligence, and SPACEЖ ARRAY would make lawful, opt-in ground infrastructure easier to reproduce. Longer-term, separately gated communications experiments and orbital capacity depend on engineering, regulatory, and financial milestones.
 
 
-> **Operating sequence** — Build a public satellite-observation atlas; test opt-in ground stations; evaluate authorized communications links; consider orbital hardware only after independent review.
+> **Operating sequence** — Publish one revisable public evidence case; prove source provenance and human review; extend orbital intelligence and opt-in ground-station research; evaluate authorized communications links; consider orbital hardware only after independent review.
 
 
 ### The first concrete product
 
-A live public atlas of satellites and observations, paired with SpaceЖ Array: reproducible open software and documentation for compliant, opt-in ground stations. The product is useful on day one for educators, researchers, operators, journalists, and civic organizations.
+SPACEЖ RELAY v0.1 is a read-only public evidence workspace implemented locally for review: two real cases, 12 claims, and 11 sources. The developing Starshield dossier opens first, followed by a historical civilian-energy case drawing on UN/OHCHR, IAEA, and UNHCR material. Claim details, source locators, timelines, access evidence, and a six-question verification queue expose both the evidence and remaining gaps. No reviewer approval or correction history is fabricated; future corrections must document actual edits and affected versions. The architecture and delivery plan are recorded in [the RELAY OSINT RFC](SPACEZH_RELAY_OSINT_RFC.md) and [the implementation plan](RELAY_IMPLEMENTATION_PLAN.md).
 
 
 ### Our founding promises
@@ -60,7 +60,7 @@ The International Telecommunication Union estimated that 2.2 billion people rema
 
 ### The gap SpaceЖ could fill
 
-Ukraine's defense is the founding purpose; public, inspectable infrastructure is the lasting international benefit. There is room for a cohesive, user-facing layer that makes open space observations discoverable, attributable, replayable, and useful to non-specialists, while connecting that software to a practical ground-node and future communications roadmap. SpaceЖ should win adoption through clarity, reliability, integrations, documentation, and accountable governance—not novelty claims.
+Ukraine's defense is the founding purpose; public, inspectable infrastructure is the lasting international benefit. There is room for a cohesive layer that makes public evidence discoverable, attributable, contestable, and revisable for non-specialists, while connecting source-linked orbital research to a practical ground-node and future communications roadmap. SPACEЖ RELAY would document authoritarian abuses, information suppression, disinformation, and civilian-safety concerns through evidence and accountable review. SpaceЖ should win adoption through clarity, reliability, integrations, documentation, and accountable governance—not novelty claims.
 
 
 > **Scope boundary** — Public orbital data and observations do not constitute a military-grade launch-detection or early-warning system. Community ground stations and terrestrial mesh links do not constitute a Starlink-class broadband replacement.
@@ -69,6 +69,7 @@ Ukraine's defense is the founding purpose; public, inspectable infrastructure is
 ### Who benefits first
 
 - Ukrainian researchers, civil-society and humanitarian groups seeking verifiable open-source context and lawful resilience technology, with privacy and safety safeguards.
+- Journalists, human-rights monitors, verification teams, and public-interest investigators who need claim-level evidence, visible disputes, and corrections.
 - Universities, schools, and amateur-radio clubs that need accessible educational tooling.
 - Researchers and journalists who need source-linked timelines and reproducible visualizations.
 - Humanitarian and disaster-resilience organizations evaluating lawful, redundant communication options.
@@ -84,12 +85,28 @@ Ukraine's defense is the founding purpose; public, inspectable infrastructure is
 
 - **SPACEЖ ECHO** Public orbital-intelligence software: catalog ingestion, licensed observation feeds, 3D orbital visualization, historical playback, event provenance, uncertainty, and accessible APIs.
 - **SPACEЖ ARRAY** Reproducible node packages: ground-station setup, equipment profiles, health telemetry, privacy controls, hardware documentation, and SatNOGS-compatible contributions wherever licensing permits.
-- **SPACEЖ RELAY** An interoperable communications testbed, beginning with lawful terrestrial transport, delay-tolerant messaging, simulation, and interoperability evaluation. Actual satellite messaging depends on separately authorized links.
+- **SPACEЖ RELAY** A proposed civilian investigation, evidence, human-review, controlled-sharing, and public-corrections platform. The first release uses real public-source cases; minimal synthetic records remain only in unit tests. Transport/Interoperability remains an optional, separately gated research area for lawful terrestrial transport, delay-tolerant messaging, simulation, and authorized-link evaluation; no satellite connectivity is assumed.
 - **SPACEЖ PARALLAX** A gated feasibility track for a hosted payload or small satellite with a qualified mission partner. No launch contract, satellite capacity, or service availability is assumed.
 
 ### Suggested technology foundation
 
-Laravel for application APIs, ingest orchestration, access controls, queues, and a public ledger; React for research and operational interfaces; Babylon.js for immersive 3D orbit replay; PostgreSQL/PostGIS for spatial/event data; commodity object storage for versioned evidence; open exports and signed change history. These are implementation preferences, not claimed completed features.
+Start with a static, read-only public case prototype at `/relay/`, using real public-source records and local assets. It supports browsing, source links and locators, claim details, unresolved verification work, timelines, and actual revision history without a backend or confidential intake. A later authoring application may be separately deployable with Laravel, React/Inertia, PostgreSQL, explicit access controls, and versioned evidence storage; Babylon.js and PostGIS remain possible tools for orbital research. These are implementation preferences, not claimed deployed services.
+
+The explicit source access checker makes allowlisted public HTTPS GET requests and appends actual timestamps, HTTP status, byte counts, and response hashes. The 17 October 2026 run attempted 15 URLs: eight returned HTTP 200; seven were unavailable (four Reuters 401 responses, Telegraph 402, AP 403, and IAEA 403). Response bodies are hashed in memory without full-article archiving or republication. This manual command is not a background daemon or a factual verdict. AI-assisted content reviews dated 17 October 2026 separately record what was read through originals, syndications, republications, or indexed content; they are not human editorial signoff. The publication builder attaches receipts to sources and exports cases, receipts, and a manifest.
+
+The [real-source registry](../data/relay/cases.json), [source content reviews](../data/relay/source-reviews.json), [HTTP access receipts](../data/relay/retrievals.json), and [source access checker](../scripts/ingest_relay_sources.py) make that work inspectable. The fictional public case and simulated reviewers have been removed from the published bundle.
+
+### SPACEЖ RELAY and the Parallax ecosystem
+
+SPACEЖ RELAY owns the investigation product, editorial decisions, case access policy, and publication review. **Parallax RELAY** is the intended reusable ingestion, normalization, provenance, and publication layer beneath it. Reuse documented interfaces and export formats before duplicating that machinery; no connected integration is claimed by the static prototype.
+
+The six proposed ecosystem roles remain distinct: **Slipstream** for scoped engineering and review gates; **Plexus** for permissioned identity and collaboration; **Positronic** for structured analysis; **Parallax RELAY** for reusable ingestion/publication; **HOLO** for permitted preservation and media; and **Continuum** for human-owned approval and institutional stewardship. These are intended relationships, not deployed integrations, partnerships, or public affiliation claims.
+
+### Editorial and source-protection boundaries
+
+Separate what a source observed, what it claims, and what an analyst infers. Record supporting, contradicting, and ambiguous evidence without counting syndication as independent corroboration. Human review precedes publication; updates, corrections, and withdrawals preserve an attributable revision history. AI may propose clustering and cross-references, but cannot declare truth or approve publication.
+
+Confidential voluntary submissions are outside v0.1. Do not collect secret tips, expose contributor identities or sensitive locations, or copy restricted material into a public graph or static bundle. Any future intake requires a separate source-protection threat model, expert security/privacy/legal review, trained operations, and a decision about a professionally operated submission system or trusted partner. No anonymity guarantee, government affiliation, or warning capability is made. Independent early-warning research remains a separate safety-critical track under authorized civilian-protection review.
 
 
 ### Source provenance and verification
@@ -101,6 +118,8 @@ Laravel for application APIs, ingest orchestration, access controls, queues, and
 
 > **Design test** — Could an independent university fork the software, operate an authorized station, and validate one published observation without our permission? If not, we have not built a public alternative.
 
+For the first RELAY release, an independent reader must be able to trace each key proposition to source locators, inspect contrary evidence and unresolved questions, distinguish AI-assisted content review from HTTP access and human editorial signoff, and understand every actual correction.
+
 
 ---
 
@@ -110,22 +129,23 @@ Laravel for application APIs, ingest orchestration, access controls, queues, and
 
 ### Days 1–30  •  Publish the work
 
-- Open a public repository, contribution guide, architecture RFC, source/license inventory, and issue tracker.
-- Publish an initial 3D orbit viewer with clearly labeled predictions, source links, and replayable event examples.
+- Maintain the public repository, contribution guide, source/license inventory, and issue tracker; reconcile the founding proposal with the RELAY architecture RFC and implementation plan.
+- Maintain the static real-source RELAY v0.1 with two source-linked cases, claim classifications, explicit disputes, source locators, access receipts, and unresolved verification questions. Record only actual revisions and corrections; report missing human editorial signoff honestly.
 - Recruit an interim advisory group covering ground stations, spectrum regulation, security, and nonprofit governance.
 - Publish a donation/contracting policy draft before accepting organizational funds.
 
 ### Days 31–90  •  Prove the first value
 
-- Release SpaceЖ Echo alpha with a reproducible ingestion pipeline and downloadable evidence records.
-- Publish a reproducible SpaceЖ Array receiver recipe and validate it with one consenting host or a simulated receiver before scaling further.
-- Run an independent reproducibility review and publish an error log and privacy assessment.
+- Seek independent editorial and reproducibility review of the first RELAY case; publish the error log, source-quality assessment, correction policy, and privacy limits.
+- Evaluate documented Parallax RELAY interfaces before planning a separately deployable authoring application; do not open confidential intake or invent a live ingestion service.
+- Scope SpaceЖ Echo's source-linked orbital alpha and a SpaceЖ Array receiver recipe as subsequent proof-based milestones; validate permitted inputs and a consenting host or simulation before scaling.
 - Publish monthly financial and technical updates, even if money raised is zero.
 
 ### Months 4–12  •  Validate community pilots
 
 - Expand pilots and demonstrations only as willing hosts, maintained software, and separately approved resources become available.
-- Stable public APIs, accessibility and localization, interoperability tests, and independent governance input.
+- Extend RELAY only after public-case review: permissioned authoring, reviewed publication exports, accessible/localized views, and documented open interfaces, with funding and security ownership in place.
+- Develop Echo/Array pilots, stable public APIs, interoperability tests, and independent governance input as separately scoped work.
 - Demonstrate a store-and-forward communications prototype on authorized terrestrial links, explicitly without claiming orbital capacity.
 
 ### Months 12–30  •  Assess an orbital mission
@@ -238,7 +258,7 @@ U.S.-jurisdiction spacecraft and earth-station activities can involve FCC author
 ### First-year public scorecard
 
 - Public repository and license inventory, visible issue backlog, documented builds, and monthly published progress.
-- A reproducible SpaceЖ Array receiver recipe and source-linked SpaceЖ Echo alpha within the first 90 days (targets).
+- Real public-source SPACEЖ RELAY cases first; report review provenance, actual access evidence, unresolved questions, and actual correction history. Echo alpha and an Array receiver recipe follow their own approved proof gates.
 - Report actual pilot installations, external reviews, and institutional demonstrations as achieved instead of promising adoption quotas.
 - A public source-quality report, privacy policy, maintenance/security response plan, and proposed governance charter.
 - Ukrainian-language resources and voluntarily solicited input from Ukrainian research and civic contributors, without implying any endorsement before confirmation.

@@ -1,0 +1,183 @@
+{
+  "runs": [
+    {
+      "completed_at": "2026-10-17T19:22:30Z",
+      "receipts": [
+        {
+          "body_sha256": null,
+          "bytes": null,
+          "content_type": null,
+          "error": "Publisher returned HTTP 403",
+          "final_url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+          "http_status": 403,
+          "method": "public_https_get",
+          "requested_url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+          "retrieved_at": "2026-10-17T19:22:26Z",
+          "status": "unavailable"
+        },
+        {
+          "body_sha256": "952c312a2d82ff1c28189c9aa527d36d301b0855b34816cae1f888218c0f6999",
+          "bytes": 831848,
+          "content_type": "pdf",
+          "final_url": "https://data.unhcr.org/en/documents/download/110943",
+          "http_status": 200,
+          "method": "public_https_get",
+          "requested_url": "https://data.unhcr.org/en/documents/download/110943",
+          "retrieved_at": "2026-10-17T19:22:26Z",
+          "status": "retrieved"
+        },
+        {
+          "body_sha256": "a923ae654a4447fd0cb780a6f520e429e4d0796435ac4c43673c69b79f89e911",
+          "bytes": 282947,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/",
+          "http_status": 200,
+          "method": "public_https_get",
+          "requested_url": "https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/",
+          "retrieved_at": "2026-10-17T19:22:26Z",
+          "status": "retrieved"
+        },
+        {
+          "body_sha256": "a13d171ccdec8866f5a21b1794a0497d1da01ccd7198189318812afc1c12116a",
+          "bytes": 22890567,
+          "content_type": "application/pdf",
+          "final_url": "https://ukraine.ohchr.org/sites/default/files/2024-09/ENG%20Attacks%20on%20Ukraine%E2%80%99s%20Energy%20Infrastructure-%20%20Harm%20to%20the%20Civilian%20Population.pdf",
+          "http_status": 200,
+          "method": "public_https_get",
+          "requested_url": "https://ukraine.ohchr.org/sites/default/files/2024-09/ENG%20Attacks%20on%20Ukraine%E2%80%99s%20Energy%20Infrastructure-%20%20Harm%20to%20the%20Civilian%20Population.pdf",
+          "retrieved_at": "2026-10-17T19:22:26Z",
+          "status": "retrieved"
+        },
+        {
+          "body_sha256": "4130c360ef00c70ffd28509233bac66efa8c065e34afe8540adb2baad4560d33",
+          "bytes": 817691,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://www.aol.com/articles/exclusive-musk-approached-trump-slow-175901000.html",
+          "http_status": 200,
+          "method": "public_https_get",
+          "requested_url": "https://www.aol.com/articles/exclusive-musk-approached-trump-slow-175901000.html",
+          "retrieved_at": "2026-10-17T19:22:27Z",
+          "status": "retrieved"
+        },
+        {
+          "body_sha256": null,
+          "bytes": null,
+          "content_type": null,
+          "error": "Publisher returned HTTP 403",
+          "final_url": "https://www.iaea.org/newscenter/pressreleases/update-247-iaea-director-general-statement-on-situation-in-ukraine",
+          "http_status": 403,
+          "method": "public_https_get",
+          "requested_url": "https://www.iaea.org/newscenter/pressreleases/update-247-iaea-director-general-statement-on-situation-in-ukraine",
+          "retrieved_at": "2026-10-17T19:22:27Z",
+          "status": "unavailable"
+        },
+        {
+          "body_sha256": "0adfb7317c28037969febe50a414190a15204f67886043f383926ca85f11b9bb",
+          "bytes": 99277,
+          "content_type": "text/html; charset=UTF-8",
+          "final_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukraine-accuses-spacex-of-crippling-drone-missions-as-ties-with-us-worsen",
+          "http_status": 200,
+          "method": "public_https_get",
+          "requested_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukraine-accuses-spacex-of-crippling-drone-missions-as-ties-with-us-worsen",
+          "retrieved_at": "2026-10-17T19:22:27Z",
+          "status": "retrieved"
+        },
+        {
+          "body_sha256": "4fd28f7f879f5f2da11bb18d966762cbef5d6a8e010b0e32cd7f0b45f96abe20",
+          "bytes": 96305,
+          "content_type": "text/html; charset=UTF-8",
+          "final_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/exclusive-order-to-limit-starshield-for-ukraine-came-from-inside-white-house-sources-say",
+          "http_status": 200,
+          "method": "public_https_get",
+          "requested_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/exclusive-order-to-limit-starshield-for-ukraine-came-from-inside-white-house-sources-say",
+          "retrieved_at": "2026-10-17T19:22:27Z",
+          "status": "retrieved"
+        },
+        {
+          "body_sha256": "1028b6a3a3c7267ed3bb07d6ee271ee9938eb5b1231f72ee4733bc69715db716",
+          "bytes": 91394,
+          "content_type": "text/html; charset=UTF-8",
+          "final_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/starlink-disruptions-are-being-felt-on-the-front-lines-of-ukraine",
+          "http_status": 200,
+          "method": "public_https_get",
+          "requested_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/starlink-disruptions-are-being-felt-on-the-front-lines-of-ukraine",
+          "retrieved_at": "2026-10-17T19:22:27Z",
+          "status": "retrieved"
+        },
+        {
+          "body_sha256": "cf60493b3f74e07b2509fc1a6a60703ace49b1b3fd4f8928b902642bac42bc38",
+          "bytes": 86435,
+          "content_type": "text/html; charset=UTF-8",
+          "final_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/trump-says-neither-he-nor-musk-responsible-for-ukraine-starlink-access",
+          "http_status": 200,
+          "method": "public_https_get",
+          "requested_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/trump-says-neither-he-nor-musk-responsible-for-ukraine-starlink-access",
+          "retrieved_at": "2026-10-17T19:22:28Z",
+          "status": "retrieved"
+        },
+        {
+          "body_sha256": null,
+          "bytes": null,
+          "content_type": null,
+          "error": "Publisher returned HTTP 401",
+          "final_url": "https://www.reuters.com/business/aerospace-defense/starlink-disruptions-are-being-felt-front-lines-ukraine-2026-10-16/",
+          "http_status": 401,
+          "method": "public_https_get",
+          "requested_url": "https://www.reuters.com/business/aerospace-defense/starlink-disruptions-are-being-felt-front-lines-ukraine-2026-10-16/",
+          "retrieved_at": "2026-10-17T19:22:28Z",
+          "status": "unavailable"
+        },
+        {
+          "body_sha256": null,
+          "bytes": null,
+          "content_type": null,
+          "error": "Publisher returned HTTP 401",
+          "final_url": "https://www.reuters.com/business/media-telecom/ukraine-accuses-spacex-crippling-drone-missions-ties-with-us-worsen-2026-10-14/",
+          "http_status": 401,
+          "method": "public_https_get",
+          "requested_url": "https://www.reuters.com/business/media-telecom/ukraine-accuses-spacex-crippling-drone-missions-ties-with-us-worsen-2026-10-14/",
+          "retrieved_at": "2026-10-17T19:22:28Z",
+          "status": "unavailable"
+        },
+        {
+          "body_sha256": null,
+          "bytes": null,
+          "content_type": null,
+          "error": "Publisher returned HTTP 401",
+          "final_url": "https://www.reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/",
+          "http_status": 401,
+          "method": "public_https_get",
+          "requested_url": "https://www.reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/",
+          "retrieved_at": "2026-10-17T19:22:28Z",
+          "status": "unavailable"
+        },
+        {
+          "body_sha256": null,
+          "bytes": null,
+          "content_type": null,
+          "error": "Publisher returned HTTP 401",
+          "final_url": "https://www.reuters.com/world/europe/trump-says-neither-he-nor-musk-responsible-ukraine-starlink-access-2026-10-16/",
+          "http_status": 401,
+          "method": "public_https_get",
+          "requested_url": "https://www.reuters.com/world/europe/trump-says-neither-he-nor-musk-responsible-ukraine-starlink-access-2026-10-16/",
+          "retrieved_at": "2026-10-17T19:22:28Z",
+          "status": "unavailable"
+        },
+        {
+          "body_sha256": null,
+          "bytes": null,
+          "content_type": null,
+          "error": "Publisher returned HTTP 402",
+          "final_url": "https://www.telegraph.co.uk/world-news/2026/10/16/musk-approached-trump-slow-down-starlink-help-ukraine/",
+          "http_status": 402,
+          "method": "public_https_get",
+          "requested_url": "https://www.telegraph.co.uk/world-news/2026/10/16/musk-approached-trump-slow-down-starlink-help-ukraine/",
+          "retrieved_at": "2026-10-17T19:22:28Z",
+          "status": "unavailable"
+        }
+      ],
+      "started_at": "2026-10-17T19:22:26Z"
+    }
+  ],
+  "schema_version": "spacezh.relay.retrievals.v1"
+}

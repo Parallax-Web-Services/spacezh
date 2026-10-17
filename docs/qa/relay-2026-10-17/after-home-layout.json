@@ -1,0 +1,177 @@
+[
+  {
+    "clientWidth": 375,
+    "heroGrid": "339.2px",
+    "heroImageVisible": true,
+    "outside": [],
+    "ribbon": "block",
+    "ribbonWords": [
+      {
+        "display": "block",
+        "text": "ЖИТТЯ"
+      },
+      {
+        "display": "block",
+        "text": "LIFE"
+      },
+      {
+        "display": "block",
+        "text": "ВОЛЯ"
+      },
+      {
+        "display": "block",
+        "text": "FREEDOM"
+      },
+      {
+        "display": "block",
+        "text": "НАУКА"
+      },
+      {
+        "display": "block",
+        "text": "SCIENCE"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "clientWidth": 735,
+    "heroGrid": "675.2px",
+    "heroImageVisible": true,
+    "outside": [],
+    "ribbon": "block",
+    "ribbonWords": [
+      {
+        "display": "block",
+        "text": "ЖИТТЯ"
+      },
+      {
+        "display": "block",
+        "text": "LIFE"
+      },
+      {
+        "display": "block",
+        "text": "ВОЛЯ"
+      },
+      {
+        "display": "block",
+        "text": "FREEDOM"
+      },
+      {
+        "display": "block",
+        "text": "НАУКА"
+      },
+      {
+        "display": "block",
+        "text": "SCIENCE"
+      }
+    ],
+    "scrollWidth": 735,
+    "width": 750
+  },
+  {
+    "clientWidth": 805,
+    "heroGrid": "744.8px",
+    "heroImageVisible": true,
+    "outside": [],
+    "ribbon": "block",
+    "ribbonWords": [
+      {
+        "display": "block",
+        "text": "ЖИТТЯ"
+      },
+      {
+        "display": "block",
+        "text": "LIFE"
+      },
+      {
+        "display": "block",
+        "text": "ВОЛЯ"
+      },
+      {
+        "display": "block",
+        "text": "FREEDOM"
+      },
+      {
+        "display": "block",
+        "text": "НАУКА"
+      },
+      {
+        "display": "block",
+        "text": "SCIENCE"
+      }
+    ],
+    "scrollWidth": 805,
+    "width": 820
+  },
+  {
+    "clientWidth": 1009,
+    "heroGrid": "496.688px 423.112px",
+    "heroImageVisible": true,
+    "outside": [],
+    "ribbon": "block",
+    "ribbonWords": [
+      {
+        "display": "block",
+        "text": "ЖИТТЯ"
+      },
+      {
+        "display": "block",
+        "text": "LIFE"
+      },
+      {
+        "display": "block",
+        "text": "ВОЛЯ"
+      },
+      {
+        "display": "block",
+        "text": "FREEDOM"
+      },
+      {
+        "display": "block",
+        "text": "НАУКА"
+      },
+      {
+        "display": "block",
+        "text": "SCIENCE"
+      }
+    ],
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "clientWidth": 1425,
+    "heroGrid": "627.688px 534.713px",
+    "heroImageVisible": true,
+    "outside": [],
+    "ribbon": "block",
+    "ribbonWords": [
+      {
+        "display": "block",
+        "text": "ЖИТТЯ"
+      },
+      {
+        "display": "block",
+        "text": "LIFE"
+      },
+      {
+        "display": "block",
+        "text": "ВОЛЯ"
+      },
+      {
+        "display": "block",
+        "text": "FREEDOM"
+      },
+      {
+        "display": "block",
+        "text": "НАУКА"
+      },
+      {
+        "display": "block",
+        "text": "SCIENCE"
+      }
+    ],
+    "scrollWidth": 1425,
+    "width": 1440
+  }
+]

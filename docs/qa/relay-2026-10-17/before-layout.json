@@ -1,0 +1,52 @@
+[
+  {
+    "heroImage": {
+      "right": 357.20001220703125,
+      "width": 339.20001220703125,
+      "x": 18
+    },
+    "ribbonVisible": false,
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "heroImage": {
+      "right": 705.2000122070312,
+      "width": 297.26251220703125,
+      "x": 407.9375
+    },
+    "ribbonVisible": true,
+    "scrollWidth": 735,
+    "width": 750
+  },
+  {
+    "heroImage": {
+      "right": 774.7999877929688,
+      "width": 329.2749938964844,
+      "x": 445.5249938964844
+    },
+    "ribbonVisible": true,
+    "scrollWidth": 805,
+    "width": 820
+  },
+  {
+    "heroImage": {
+      "right": 978.8000183105468,
+      "width": 423.1125183105469,
+      "x": 555.6875
+    },
+    "ribbonVisible": true,
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heroImage": {
+      "right": 1322.4000244140625,
+      "width": 534.7125244140625,
+      "x": 787.6875
+    },
+    "ribbonVisible": true,
+    "scrollWidth": 1425,
+    "width": 1440
+  }
+]

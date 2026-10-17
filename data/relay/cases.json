@@ -1,0 +1,736 @@
+{
+  "schema_version": "spacezh.relay.prototype.v1",
+  "prototype": true,
+  "confidential_intake": false,
+  "trusted_operational_feed": false,
+  "cases": [
+    {
+      "id": "starshield-restrictions-2026-10-16",
+      "title": "Who throttled Ukraine's Starshield?",
+      "kind": "public_snapshot",
+      "visibility": "public",
+      "status": "developing",
+      "summary": "Source-reviewed dossier on the October 2026 Starshield restrictions: reporting on Ukrainian communications disruption, contested attribution, public denials and unresolved evidence gaps.",
+      "boundary_note": "PUBLIC REPORTING: Seven reports were inspected through accessible originals, syndications, republications or indexed AP content on 17 October 2026. The Telegraph original and Reuters original URLs were inaccessible through the web research tool. A reviewed report documents its attributed account; it does not independently prove anonymous-source allegations.",
+      "publication_note": "The original editorial register dates to 16 October 2026. A separate AI-assisted source access/content review was performed on 17 October 2026. No human editorial signoff, new original interview or verified command decision is asserted.",
+      "tags": [
+        "Ukraine",
+        "Starshield",
+        "Starlink",
+        "SpaceX",
+        "satellite-connectivity",
+        "civilian-resilience",
+        "governance"
+      ],
+      "provenance": {
+        "label": "Existing SpaceЖ public brief",
+        "url": "/research/briefings/starshield-restrictions/",
+        "note": "The original claim wording, caveats, source IDs and source-dependency notes are preserved from the dated editorial register. Supplemental source reviews identify exactly which public copies were inspected and which originals were inaccessible. HTTP receipts and content review are separate records."
+      },
+      "source_record": "data/evidence/starshield-restrictions-2026-10-16.json",
+      "sources": [
+        {
+          "id": "telegraph-exclusive",
+          "publisher": "The Telegraph",
+          "byline": "Joe Barnes",
+          "published_date": "2026-10-16",
+          "title": "Exclusive: Musk approached Trump to slow down Starlink in Ukraine",
+          "url": "https://www.telegraph.co.uk/world-news/2026/10/16/musk-approached-trump-slow-down-starlink-help-ukraine/",
+          "source_type": "original_exclusive",
+          "notes": "Four sources familiar with reported Musk-Trump conversations. Sourced allegation, not released documentary proof.",
+          "rights": "Metadata, independently authored brief text, short quoted fragments only. Do not store or republish full source articles, screenshots, copyrighted photos, or paywalled article body.",
+          "verification": {
+            "status": "not_accessible",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "access_note": "The exact Telegraph URL could not be opened. A search attempt reported a robots.txt block. This is an access limitation, not a confirmed 404 or a finding that the article does not exist.",
+            "reviewed_url": "https://www.telegraph.co.uk/world-news/2026/10/16/musk-approached-trump-slow-down-starlink-help-ukraine/",
+            "locator": "Original article unavailable in the review tool; matching Joe Barnes report reviewed at the AOL syndication URL.",
+            "note": "The accessible AOL copy identifies the matching title, Joe Barnes, and an October 16 publication date. It reports an allegation based on four sources; it does not provide a released order, recording, or named source establishing Musk's proposal. AOL and the Telegraph represent the same underlying investigation. The original Telegraph page's content and metadata were not directly verified."
+          },
+          "alternate_url": "https://www.aol.com/articles/exclusive-musk-approached-trump-slow-175901000.html"
+        },
+        {
+          "id": "telegraph-syndication",
+          "publisher": "AOL / Telegraph syndicated article",
+          "byline": "Joe Barnes",
+          "published_date": "2026-10-16",
+          "title": "Exclusive: Musk approached Trump to slow down Starlink in Ukraine",
+          "url": "https://www.aol.com/articles/exclusive-musk-approached-trump-slow-175901000.html",
+          "source_type": "licensed_syndication",
+          "notes": "Readable licensed syndication of the Telegraph's reporting; SAME journalistic investigation, not separate corroboration.",
+          "rights": "Metadata, independently authored brief text, short quoted fragments only. Do not store or republish full source articles, screenshots, copyrighted photos, or paywalled article body.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "access_note": "The exact AOL URL opened and returned article text, title, byline, and publication timestamp.",
+            "reviewed_url": "https://www.aol.com/articles/exclusive-musk-approached-trump-slow-175901000.html",
+            "locator": "Title and Joe Barnes byline; October 16, 2026 at 17:59 UTC; opening account and subsequent denials.",
+            "note": "Supports the attributed statement that the Telegraph reported Musk proposed restrictions, citing four sources. The article also reports Trump's denial and an official denial of a presidential request. These are competing reported accounts, not a resolved finding of personal responsibility. The article describes roughly 160 km/h restrictions and attributed Zelensky remarks. It is a syndication of one investigation, not independent corroboration of the Telegraph."
+          }
+        },
+        {
+          "id": "reuters-14",
+          "publisher": "Reuters",
+          "byline": "Yuliia Dysa and Dan Peleschuk",
+          "published_date": "2026-10-14",
+          "title": "Ukraine says SpaceX hampers drones for attack and defence, as US ties fray",
+          "url": "https://www.reuters.com/business/media-telecom/ukraine-accuses-spacex-crippling-drone-missions-ties-with-us-worsen-2026-10-14/",
+          "source_type": "independent_news_reporting",
+          "notes": "Documents Ukrainian complaints of limits, Zelensky remarks, and Musk's stated account of government control.",
+          "rights": "Metadata, independently authored brief text, short quoted fragments only. Do not store or republish full source articles, screenshots, copyrighted photos, or paywalled article body.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "access_note": "The exact Reuters URL returned a non-retryable access error. The underlying Reuters report was read in the accessible English text of an Internazionale republication; original URL access remains unverified.",
+            "reviewed_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukraine-accuses-spacex-of-crippling-drone-missions-as-ties-with-us-worsen",
+            "locator": "Matching headline; Yuliia Dysa and Dan Peleschuk; Kyiv, October 14 Reuters dateline; section on lack of warning before restrictions and Musk's public statement.",
+            "note": "Reports Ukrainian officials' complaints that restrictions arrived without warning and disrupted missions. Attributes a 160 km/h limit to adviser Serhiy Beskrestnov and reports a Defense Ministry source describing losses of connection below half that speed. Also reports Musk's stated account that limits were controlled by U.S. military and presidential decisions. This verifies the attributed reporting, not a technical measurement or identification of the person who ordered a change."
+          },
+          "alternate_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukraine-accuses-spacex-of-crippling-drone-missions-as-ties-with-us-worsen"
+        },
+        {
+          "id": "reuters-15",
+          "publisher": "Reuters",
+          "byline": "Erin Banco and Gram Slattery",
+          "published_date": "2026-10-15",
+          "title": "Order to limit Starshield for Ukraine came from inside White House, sources say",
+          "url": "https://www.reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/",
+          "source_type": "independent_exclusive",
+          "notes": "Two U.S. officials and one Western official attributed the restriction instruction to inside the White House. Officials did not identify an individual decision-maker. A senior U.S. official denied that Trump requested it.",
+          "rights": "Metadata, independently authored brief text, short quoted fragments only. Do not store or republish full source articles, screenshots, copyrighted photos, or paywalled article body.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "access_note": "The exact Reuters URL returned a non-retryable access error. The underlying Reuters report was read in an Internazionale republication. The host date is October 16; the Reuters dateline is October 15.",
+            "reviewed_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/exclusive-order-to-limit-starshield-for-ukraine-came-from-inside-white-house-sources-say",
+            "locator": "Erin Banco and Gram Slattery; New York/Washington, October 15 Reuters dateline; opening attribution, senior U.S. official response, and Musk account.",
+            "note": "Supports the precise attribution that two U.S. officials and a Western official said the instruction came from inside the White House. The officials did not identify a decision-maker or person implementing the order. The report preserves a senior U.S. official's denial that the president requested it and says the White House did not answer questions about other officials. It also reports a Defense Ministry account of a 160 km/h ceiling and Musk's public government-control account. It does not independently establish Musk proposed the restriction."
+          },
+          "alternate_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/exclusive-order-to-limit-starshield-for-ukraine-came-from-inside-white-house-sources-say"
+        },
+        {
+          "id": "reuters-16-frontline",
+          "publisher": "Reuters",
+          "byline": "Sergiy Chalyi",
+          "published_date": "2026-10-16",
+          "title": "Starlink disruptions are being felt on the front lines of Ukraine",
+          "url": "https://www.reuters.com/business/aerospace-defense/starlink-disruptions-are-being-felt-front-lines-ukraine-2026-10-16/",
+          "source_type": "field_reporting",
+          "notes": "Firsthand interviews with affected Ukrainian troops described connectivity disruptions. Provides evidence of impact, not attribution of a decision to Musk.",
+          "rights": "Metadata, independently authored brief text, short quoted fragments only. Do not store or republish full source articles, screenshots, copyrighted photos, or paywalled article body.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "access_note": "The exact Reuters URL returned a non-retryable access error. The underlying Reuters report was read in an Internazionale republication.",
+            "reviewed_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/starlink-disruptions-are-being-felt-on-the-front-lines-of-ukraine",
+            "locator": "Matching headline; Sergiy Chalyi; Donetsk region, October 16 Reuters dateline; interview with service member identified by callsign Ukrlan.",
+            "note": "Reports Ukrlan's account of significantly degraded internet and headquarters communications at his position. The account supports local reported impact, not an independently measured systemwide outage or attribution to Musk. The article also reports Zelensky's statement that services had improved but were not fully restored, and preserves a U.S. official denial of a presidential order."
+          },
+          "alternate_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/starlink-disruptions-are-being-felt-on-the-front-lines-of-ukraine"
+        },
+        {
+          "id": "reuters-16-denial",
+          "publisher": "Reuters",
+          "byline": "Reuters",
+          "published_date": "2026-10-16",
+          "title": "Trump says neither he nor Musk responsible for Ukraine loss of Starlink access",
+          "url": "https://www.reuters.com/world/europe/trump-says-neither-he-nor-musk-responsible-ukraine-starlink-access-2026-10-16/",
+          "source_type": "on_record_denial",
+          "notes": "Documents Trump's public denial, which conflicts with the sourced White House and Telegraph accounts.",
+          "rights": "Metadata, independently authored brief text, short quoted fragments only. Do not store or republish full source articles, screenshots, copyrighted photos, or paywalled article body.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "access_note": "The exact Reuters URL returned a non-retryable access error. The underlying Reuters report was read in an Internazionale republication with a shortened version of the registered headline.",
+            "reviewed_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/trump-says-neither-he-nor-musk-responsible-for-ukraine-starlink-access",
+            "locator": "Washington, October 16 dateline; opening denial and subsequent remarks; reporting credits Trevor Hunnicutt, Steve Holland, and Jasper Ward.",
+            "note": "Reports Trump's public denial that he or Musk was responsible for the loss of access and his claim that the United States had not imposed a limit. This establishes that Reuters reported the denial, not that the denial resolves responsibility. The republication provides detailed reporting credits beyond the source register's generic Reuters byline."
+          },
+          "alternate_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/trump-says-neither-he-nor-musk-responsible-for-ukraine-starlink-access"
+        },
+        {
+          "id": "kyiv-independent",
+          "publisher": "The Kyiv Independent",
+          "byline": "Abbey Fenbert and Polina Moroziuk",
+          "published_date": "2026-10-16",
+          "title": "'They were both in on it' — Musk suggested Trump restrict Ukraine's Starlink service, Telegraph reports",
+          "url": "https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/",
+          "source_type": "followup_reporting",
+          "notes": "Further context, Ukrainian statements and the Telegraph claim. Its retelling of the Musk proposal does not count as a second independent investigation.",
+          "rights": "Metadata, independently authored brief text, short quoted fragments only. Do not store or republish full source articles, screenshots, copyrighted photos, or paywalled article body.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "access_note": "The exact Kyiv Independent URL opened and returned the article, author names, and publication/update metadata.",
+            "reviewed_url": "https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/",
+            "locator": "Matching headline; Abbey Fenbert and Polina Moroziuk; October 16 at 21:19, updated 22:00; attributed Telegraph account, Zelensky remarks, and Defense Ministry source account.",
+            "note": "Retells the Telegraph's four-source allegation and Reuters' White House account; those repetitions are not additional independent investigations of Musk's alleged proposal. Adds attributed Zelensky comments and a Defense Ministry source account of restoration with continuing uneven performance. Identifies October 14 as the date restrictions were implemented and attributes a roughly 70 km/h limit for some systems to Zelensky; those details differ from other accounts and require reconciliation."
+          }
+        },
+        {
+          "id": "ap-adviser",
+          "publisher": "Associated Press",
+          "byline": "AP",
+          "published_date": "2026-10-16",
+          "title": "Presidential adviser says Ukraine is in talks to lift speed limit on military satellite network",
+          "url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+          "source_type": "independent_reporting",
+          "notes": "Ukrainian government advisers described ongoing steps to address restrictions. Article does not establish Musk-Trump deliberations.",
+          "rights": "Metadata, independently authored brief text, short quoted fragments only. Do not store or republish full source articles, screenshots, copyrighted photos, or paywalled article body.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review_search",
+            "access_note": "Direct opening of the exact AP URL was unavailable. Public web search returned the matching AP article at that exact URL, including article text and a timestamp of October 16, 2026 at 19:26:40 UTC. Review used that search result, not a successful direct page fetch.",
+            "reviewed_url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+            "locator": "Matching headline and AP dateline; named interviewee Serhii Beskrestnov; sections on restrictions, negotiations, and Trump's denial.",
+            "note": "AP reports Beskrestnov's account of a speed cap, communication outages, and talks with SpaceX, the Pentagon, and the U.S. government. It reports Trump's denial but does not identify who ordered restrictions. It places imposition early Thursday, unlike the October 14 date in Kyiv Independent. This is verification of a reported interview and competing statements, not independent network measurement or proof of command responsibility."
+          }
+        }
+      ],
+      "artifacts": [],
+      "claims": [
+        {
+          "id": "claim-01",
+          "kind": "report",
+          "status": "supported",
+          "text": "Ukrainian officials said Starshield service restrictions impaired military communications and drone operations without advance notice.",
+          "caveat": "This does not identify the person who ordered the change or independently quantify every resulting loss.",
+          "source_ids": [
+            "reuters-14",
+            "reuters-16-frontline",
+            "ap-adviser"
+          ],
+          "original_evidence_class": "reported_impact",
+          "sourcing": "reported_by_ukrainian_officials",
+          "locator": "Reuters October 14 report, Ukrainian officials' complaints; AP interview with Serhii Beskrestnov."
+        },
+        {
+          "id": "claim-02",
+          "kind": "report",
+          "status": "supported",
+          "text": "A Ukrainian frontline service member described significantly degraded internet and communication with headquarters during the restriction.",
+          "caveat": "A firsthand account is evidence of local impact, not proof of a systemwide extent or political motive.",
+          "source_ids": [
+            "reuters-16-frontline"
+          ],
+          "original_evidence_class": "firsthand_report",
+          "sourcing": "reuters_interview",
+          "locator": "Reuters October 16 frontline report, service member interview; accessible Reuters republication linked in source record."
+        },
+        {
+          "id": "claim-03",
+          "kind": "allegation",
+          "status": "unresolved",
+          "text": "Reuters reported that an instruction to slow Starshield came from inside the White House, based on two U.S. and one Western official.",
+          "caveat": "Reuters sources did not name a specific decision-maker. A senior U.S. official denied that Trump requested it.",
+          "source_ids": [
+            "reuters-15"
+          ],
+          "original_evidence_class": "sourced_allegation",
+          "sourcing": "anonymous_officials",
+          "locator": "Reuters White House-origin report, opening anonymous-official attribution and senior U.S. official response."
+        },
+        {
+          "id": "claim-04",
+          "kind": "allegation",
+          "status": "unresolved",
+          "text": "The Telegraph reported that Musk proposed the speed restriction to Trump, citing four sources familiar with discussions; one said Trump agreed.",
+          "caveat": "No direct recording, order document, or named source was published with this account. Other articles citing the Telegraph are not independent corroboration.",
+          "source_ids": [
+            "telegraph-exclusive",
+            "telegraph-syndication"
+          ],
+          "original_evidence_class": "sourced_allegation",
+          "sourcing": "four_unnamed_sources",
+          "locator": "AOL/Telegraph Joe Barnes article, opening four-source allegation and subsequent denials; same investigation as Telegraph original."
+        },
+        {
+          "id": "claim-05",
+          "kind": "report",
+          "status": "supported",
+          "text": "Musk publicly maintained that Starshield service constraints were decided by the U.S. military and ultimately the U.S. president.",
+          "caveat": "The public statement does not conclusively answer whether Musk first suggested or advocated a restriction.",
+          "source_ids": [
+            "reuters-14",
+            "reuters-15"
+          ],
+          "original_evidence_class": "on_record_position",
+          "sourcing": "musk_public_statement_as_quoted",
+          "locator": "Reuters October 14 and White House-origin reports, Musk's publicly stated account of government control."
+        },
+        {
+          "id": "claim-06",
+          "kind": "denial",
+          "status": "supported",
+          "text": "Trump publicly denied that he or Musk was responsible for the loss of service, and a U.S. official denied a presidential request.",
+          "caveat": "A denial is a claim for the record; it does not independently resolve the accounts from anonymous officials.",
+          "source_ids": [
+            "reuters-16-denial",
+            "reuters-15",
+            "telegraph-syndication"
+          ],
+          "original_evidence_class": "on_record_denial",
+          "sourcing": "trump_statement_and_official_response",
+          "locator": "Reuters October 16 denial report, opening Trump statement; Reuters White House-origin report, official response."
+        },
+        {
+          "id": "claim-07",
+          "kind": "inference",
+          "status": "unresolved",
+          "text": "The motive, legal authorization, specific signer, command chain, and scale of resulting civilian casualties have not been independently established in the public sources reviewed.",
+          "caveat": "Absence of documentation here is not proof that no private record exists.",
+          "source_ids": [
+            "telegraph-syndication",
+            "reuters-15",
+            "reuters-16-frontline",
+            "reuters-16-denial"
+          ],
+          "original_evidence_class": "unresolved",
+          "sourcing": "cross_source_gap",
+          "locator": "Cross-source editorial gap; not a direct observation. Compare the source locators for allegations, impact reports and denials."
+        }
+      ],
+      "evidence_links": [
+        {
+          "claim_id": "claim-01",
+          "source_id": "reuters-14",
+          "relationship": "supports",
+          "rationale": "Preserves the existing brief's source attribution for this reported statement. This does not identify the person who ordered the change or independently quantify every resulting loss."
+        },
+        {
+          "claim_id": "claim-01",
+          "source_id": "reuters-16-frontline",
+          "relationship": "supports",
+          "rationale": "Preserves the existing brief's source attribution for this reported statement. This does not identify the person who ordered the change or independently quantify every resulting loss."
+        },
+        {
+          "claim_id": "claim-01",
+          "source_id": "ap-adviser",
+          "relationship": "supports",
+          "rationale": "Preserves the existing brief's source attribution for this reported statement. This does not identify the person who ordered the change or independently quantify every resulting loss."
+        },
+        {
+          "claim_id": "claim-02",
+          "source_id": "reuters-16-frontline",
+          "relationship": "supports",
+          "rationale": "Preserves the existing brief's source attribution for this reported statement. A firsthand account is evidence of local impact, not proof of a systemwide extent or political motive."
+        },
+        {
+          "claim_id": "claim-03",
+          "source_id": "reuters-15",
+          "relationship": "supports",
+          "rationale": "Supports the existence of the attributed reporting in the frozen brief. It does not independently prove the underlying allegation. Reuters sources did not name a specific decision-maker. A senior U.S. official denied that Trump requested it."
+        },
+        {
+          "claim_id": "claim-04",
+          "source_id": "telegraph-exclusive",
+          "relationship": "supports",
+          "rationale": "Supports the existence of the attributed reporting in the frozen brief. It does not independently prove the underlying allegation. No direct recording, order document, or named source was published with this account. Other articles citing the Telegraph are not independent corroboration."
+        },
+        {
+          "claim_id": "claim-04",
+          "source_id": "telegraph-syndication",
+          "relationship": "supports",
+          "rationale": "Supports the existence of the attributed reporting in the frozen brief. It does not independently prove the underlying allegation. No direct recording, order document, or named source was published with this account. Other articles citing the Telegraph are not independent corroboration."
+        },
+        {
+          "claim_id": "claim-05",
+          "source_id": "reuters-14",
+          "relationship": "supports",
+          "rationale": "Preserves the existing brief's source attribution for this reported statement. The public statement does not conclusively answer whether Musk first suggested or advocated a restriction."
+        },
+        {
+          "claim_id": "claim-05",
+          "source_id": "reuters-15",
+          "relationship": "supports",
+          "rationale": "Preserves the existing brief's source attribution for this reported statement. The public statement does not conclusively answer whether Musk first suggested or advocated a restriction."
+        },
+        {
+          "claim_id": "claim-06",
+          "source_id": "reuters-16-denial",
+          "relationship": "supports",
+          "rationale": "Records the public denial as attributed in the existing brief. A denial is not an independent resolution. A denial is a claim for the record; it does not independently resolve the accounts from anonymous officials."
+        },
+        {
+          "claim_id": "claim-06",
+          "source_id": "reuters-15",
+          "relationship": "supports",
+          "rationale": "Records the public denial as attributed in the existing brief. A denial is not an independent resolution. A denial is a claim for the record; it does not independently resolve the accounts from anonymous officials."
+        },
+        {
+          "claim_id": "claim-06",
+          "source_id": "telegraph-syndication",
+          "relationship": "supports",
+          "rationale": "Records the public denial as attributed in the existing brief. A denial is not an independent resolution. A denial is a claim for the record; it does not independently resolve the accounts from anonymous officials."
+        },
+        {
+          "claim_id": "claim-07",
+          "source_id": "telegraph-syndication",
+          "relationship": "ambiguous",
+          "rationale": "The existing editorial brief identifies a cross-source gap; the listed material does not establish the missing facts. Absence of documentation here is not proof that no private record exists."
+        },
+        {
+          "claim_id": "claim-07",
+          "source_id": "reuters-15",
+          "relationship": "ambiguous",
+          "rationale": "The existing editorial brief identifies a cross-source gap; the listed material does not establish the missing facts. Absence of documentation here is not proof that no private record exists."
+        },
+        {
+          "claim_id": "claim-07",
+          "source_id": "reuters-16-frontline",
+          "relationship": "ambiguous",
+          "rationale": "The existing editorial brief identifies a cross-source gap; the listed material does not establish the missing facts. Absence of documentation here is not proof that no private record exists."
+        },
+        {
+          "claim_id": "claim-07",
+          "source_id": "reuters-16-denial",
+          "relationship": "ambiguous",
+          "rationale": "The existing editorial brief identifies a cross-source gap; the listed material does not establish the missing facts. Absence of documentation here is not proof that no private record exists."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-14",
+          "label": "Reuters reports Ukrainian complaints",
+          "detail": "A Reuters report with an October 14 dateline records Ukrainian complaints and Musk's public account. This dates the reporting, not a reconciled start time for every restriction.",
+          "source_ids": [
+            "reuters-14"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "label": "Reuters account attributes instruction to the White House",
+          "detail": "The reviewed Reuters republication carries an October 15 dateline and an October 16 host publication date. It reports anonymous officials' attribution and a senior official's denial of a presidential request.",
+          "source_ids": [
+            "reuters-15"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "label": "Telegraph allegation and public denials reported",
+          "detail": "The Joe Barnes report is accessible through AOL syndication. Reuters also reports Trump's denial. These documents record competing accounts; they do not resolve the decision chain.",
+          "source_ids": [
+            "telegraph-syndication",
+            "reuters-16-denial"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "label": "Impact and negotiations reported",
+          "detail": "Reuters reports a local service member's account; AP reports a named adviser's description of restrictions and negotiations. Their timing and technical descriptions require reconciliation.",
+          "source_ids": [
+            "reuters-16-frontline",
+            "ap-adviser",
+            "kyiv-independent"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "label": "Public sources checked for this registry",
+          "detail": "AI-assisted content review and a separate HTTPS retrieval run were recorded. Original access failures remain visible alongside accessible syndications and republications. This is not human editorial signoff.",
+          "source_ids": [
+            "telegraph-exclusive",
+            "telegraph-syndication",
+            "reuters-14",
+            "reuters-15",
+            "reuters-16-frontline",
+            "reuters-16-denial",
+            "kyiv-independent",
+            "ap-adviser"
+          ]
+        }
+      ],
+      "reviews": [],
+      "revisions": [],
+      "corrections": [],
+      "source_independence_notes": [
+        "The Telegraph original and its AOL licensed syndication are one underlying investigation, not two.",
+        "The Kyiv Independent account repeats the Telegraph claim and adds context; do not count repetition as separate verification of Musk's alleged proposal.",
+        "Reuters independently reported the restrictions, reports of impact, and separately sourced White House origin. Reuters did not independently prove that Musk proposed the restrictions.",
+        "Public denials are preserved alongside disputed allegations."
+      ],
+      "original_publication_status": "sourced_public_brief",
+      "original_date_first_published": "2026-10-16",
+      "original_date_reviewed": "2026-10-16",
+      "open_questions": [
+        {
+          "question": "When did each speed restriction and communication outage begin?",
+          "why_it_matters": "AP places imposition early Thursday, while Kyiv Independent identifies October 14 and Reuters October 14 already reports complaints. These may describe different changes or imprecise reporting; the reviewed sources do not establish one reconciled event time.",
+          "needed_evidence": "Dated provider change notices, service logs, an official incident chronology, or a published clarification distinguishing cap changes from outages.",
+          "source_ids": [
+            "ap-adviser",
+            "kyiv-independent",
+            "reuters-14"
+          ]
+        },
+        {
+          "question": "What restrictions applied to which terminals, subscriptions, and periods?",
+          "why_it_matters": "Sources describe an approximately 160 km/h threshold, reported failures below half that speed, and an attributed roughly 70 km/h limit for some systems. These accounts cannot be collapsed into one independently verified technical specification.",
+          "needed_evidence": "Provider service terms or change records, dated reproducible measurements with terminal and subscription context, or a technical investigation distinguishing speed caps from degraded connectivity.",
+          "source_ids": [
+            "telegraph-syndication",
+            "reuters-14",
+            "reuters-15",
+            "kyiv-independent",
+            "ap-adviser"
+          ]
+        },
+        {
+          "question": "Who proposed, authorized, transmitted, and implemented the restriction?",
+          "why_it_matters": "The Telegraph allegation, Reuters' anonymous-official account, Musk's public position, and public denials describe competing or incomplete accounts. Reading the articles does not resolve the decision chain.",
+          "needed_evidence": "A released order, authenticated decision records, an on-record account from a participant with direct knowledge, or a documented independent investigation.",
+          "source_ids": [
+            "telegraph-syndication",
+            "reuters-15",
+            "reuters-16-denial",
+            "kyiv-independent",
+            "ap-adviser"
+          ]
+        }
+      ],
+      "source_checked_at": "2026-10-17"
+    },
+    {
+      "id": "ukraine-energy-civilian-resilience-2024",
+      "title": "How Ukraine's 2024 energy attacks disrupted civilian life",
+      "kind": "public_case",
+      "visibility": "public",
+      "status": "documented",
+      "summary": "A historical case connecting documented civilian harm, nuclear safety effects, and a humanitarian winter response plan. Five bounded claims link directly to three official primary documents.",
+      "boundary_note": "Historical public evidence from 2024, reviewed on 17 October 2026. This case contains no current facility coordinates, operational status, or individual witness records. Source publication is evidence of the attributed account; it is not independent RELAY field verification.",
+      "publication_note": "Source content reviewed by the coding agent against official documents. No human editorial approval, independent expert signoff, or prior RELAY publication history is asserted. Humanitarian targets are plans, not delivery totals.",
+      "tags": [
+        "Ukraine",
+        "civilian resilience",
+        "energy",
+        "water",
+        "winter assistance",
+        "historical public evidence"
+      ],
+      "provenance": {
+        "label": "Official UN human rights, IAEA, and UNHCR documents",
+        "url": "https://ukraine.ohchr.org/en/Attacks-on-Ukraines-Energy-Infrastructure-Harm-to-the-Civilian-Population",
+        "note": "Original source documents were inspected on 17 October 2026. Only metadata, brief paraphrases, exact section locators, and limits are published here. No publisher document bodies are republished."
+      },
+      "sources": [
+        {
+          "id": "hrmmu-energy-september-2024",
+          "title": "Attacks on Ukraine's Energy Infrastructure: Harm to the Civilian Population",
+          "publisher": "Office of the UN High Commissioner for Human Rights",
+          "byline": "UN Human Rights Monitoring Mission in Ukraine",
+          "published_date": "2024-09-18",
+          "source_type": "primary_monitoring_report",
+          "url": "https://ukraine.ohchr.org/sites/default/files/2024-09/ENG%20Attacks%20on%20Ukraine%E2%80%99s%20Energy%20Infrastructure-%20%20Harm%20to%20the%20Civilian%20Population.pdf",
+          "notes": "Methods: printed p. 2. Report page: 18 September; separate news announcement: 19 September.",
+          "rights": "Linked official report; short independently written paraphrases and metadata only. No report pages, photos, or long excerpts republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "reviewed_url": "https://ukraine.ohchr.org/sites/default/files/2024-09/ENG%20Attacks%20on%20Ukraine%E2%80%99s%20Energy%20Infrastructure-%20%20Harm%20to%20the%20Civilian%20Population.pdf",
+            "locator": "Printed p. 1, executive summary; p. 2, Methodology; p. 4, Civilian casualties resulting from strikes; p. 6, Water distribution systems. PDF pages are printed pages plus one.",
+            "note": "Official PDF downloaded and text extracted; report date cross-checked against its official landing page. Review checks attribution and scope, not a fresh field investigation."
+          }
+        },
+        {
+          "id": "iaea-update-247",
+          "title": "Update 247 - IAEA Director General Statement on Situation in Ukraine",
+          "publisher": "International Atomic Energy Agency",
+          "byline": "IAEA Director General Rafael Mariano Grossi",
+          "published_date": "2024-08-29",
+          "source_type": "primary_nuclear_safety_statement",
+          "url": "https://www.iaea.org/newscenter/pressreleases/update-247-iaea-director-general-statement-on-situation-in-ukraine",
+          "notes": "A contemporaneous nuclear safety account. It does not supply household outage totals or humanitarian assistance outcomes.",
+          "rights": "Linked official statement; short independently written paraphrase and metadata only. No full statement republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "reviewed_url": "https://www.iaea.org/newscenter/pressreleases/update-247-iaea-director-general-statement-on-situation-in-ukraine",
+            "locator": "Closing substantive section: paragraphs beginning 'Widespread attacks on the country's energy infrastructure' and 'Although no complete loss of off-site power'.",
+            "note": "Read the official dated statement, including its qualification that affected sites did not completely lose off-site power. Plant-specific details are omitted from the case."
+          }
+        },
+        {
+          "id": "unhcr-winter-plan-2024-25",
+          "title": "Ukraine Winter Response Plan 2024-2025, updated September 2024",
+          "publisher": "UNHCR",
+          "byline": "UNHCR Ukraine",
+          "published_date": "2024-09-03",
+          "source_type": "primary_humanitarian_response_plan",
+          "url": "https://data.unhcr.org/en/documents/download/110943",
+          "notes": "The official data portal entry records publication and upload on 3 September 2024. This is a response plan with targets and financial requirements; it does not establish subsequent delivery.",
+          "rights": "Linked official plan; short independently written paraphrase and metadata only. No plan pages or beneficiary images republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17",
+            "method": "web_review",
+            "reviewed_url": "https://data.unhcr.org/en/documents/download/110943",
+            "locator": "PDF p. 1, Main response areas: '1. Cash support for additional winter needs' and '2. Alternative energy support'. Date metadata: https://data.unhcr.org/en/documents/details/110943.",
+            "note": "Official PDF downloaded and text extracted. The cash target and alternative-energy budget were checked directly. Delivery totals require later operational reporting."
+          }
+        }
+      ],
+      "artifacts": [],
+      "claims": [
+        {
+          "id": "energy-claim-01",
+          "kind": "report",
+          "status": "supported",
+          "text": "HRMMU documented nine waves of Russian armed forces' attacks on Ukraine's electricity system between 22 March and 31 August 2024.",
+          "caveat": "This is the report's historical scope, not a current incident count.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ],
+          "locator": "Scope: printed p. 1, executive summary item 1."
+        },
+        {
+          "id": "energy-claim-02",
+          "kind": "report",
+          "status": "supported",
+          "text": "HRMMU recorded at least 18 civilians killed and 84 injured near the electricity-infrastructure strikes covered by its report.",
+          "caveat": "These are direct casualties in that reporting scope, not a total for indirect harm.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ],
+          "locator": "Direct-casualty figures: printed p. 4."
+        },
+        {
+          "id": "energy-claim-03",
+          "kind": "report",
+          "status": "supported",
+          "text": "HRMMU described loss of water and sanitation access in high-rise buildings without independent generators when electricity cuts stopped water pumps.",
+          "caveat": "This identifies a civilian service dependency; it does not count affected households.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ],
+          "locator": "Water dependency: printed p. 6, second bullet."
+        },
+        {
+          "id": "energy-claim-04",
+          "kind": "report",
+          "status": "supported",
+          "text": "On 29 August 2024, the IAEA reported temporary reactor shutdowns or disconnections after energy attacks destabilized Ukraine's grid; affected sites retained some off-site power.",
+          "caveat": "The statement does not report a nuclear accident or a complete off-site-power loss at those sites. HRMMU later cites this same IAEA statement.",
+          "source_ids": [
+            "iaea-update-247"
+          ],
+          "locator": "The national-grid-instability paragraphs report the effects and explicitly preserve the off-site-power qualification."
+        },
+        {
+          "id": "energy-claim-05",
+          "kind": "report",
+          "status": "supported",
+          "text": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and allocated $10 million in requirements for alternative energy support.",
+          "caveat": "These are planned reach and financial requirements for winter 2024-2025, not people reached or money disbursed. Outcomes remain unverified in this case.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25"
+          ],
+          "locator": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement."
+        }
+      ],
+      "evidence_links": [
+        {
+          "claim_id": "energy-claim-01",
+          "source_id": "hrmmu-energy-september-2024",
+          "relationship": "supports",
+          "rationale": "Scope: printed p. 1, executive summary item 1."
+        },
+        {
+          "claim_id": "energy-claim-02",
+          "source_id": "hrmmu-energy-september-2024",
+          "relationship": "supports",
+          "rationale": "Direct-casualty figures: printed p. 4."
+        },
+        {
+          "claim_id": "energy-claim-03",
+          "source_id": "hrmmu-energy-september-2024",
+          "relationship": "supports",
+          "rationale": "Water dependency: printed p. 6, second bullet."
+        },
+        {
+          "claim_id": "energy-claim-04",
+          "source_id": "iaea-update-247",
+          "relationship": "supports",
+          "rationale": "The national-grid-instability paragraphs report the effects and explicitly preserve the off-site-power qualification."
+        },
+        {
+          "claim_id": "energy-claim-05",
+          "source_id": "unhcr-winter-plan-2024-25",
+          "relationship": "supports",
+          "rationale": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2024-08-29",
+          "label": "IAEA publishes its safety statement",
+          "detail": "A contemporaneous official source, separate from later RELAY ingestion.",
+          "source_ids": [
+            "iaea-update-247"
+          ]
+        },
+        {
+          "date": "2024-09-03",
+          "label": "UNHCR publishes its updated winter plan",
+          "detail": "Publication date from the official data portal; the document is labelled updated September 2024.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25"
+          ]
+        },
+        {
+          "date": "2024-09-18",
+          "label": "HRMMU report appears on its official report page",
+          "detail": "Source publication date, not a RELAY release or review event.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ]
+        }
+      ],
+      "reviews": [],
+      "revisions": [],
+      "corrections": [],
+      "open_questions": [
+        {
+          "question": "Which later UNHCR operational reports establish delivery against the 2024-2025 plan, with comparable units and dates?",
+          "why_it_matters": "A planned target is not a delivered result. The public case must distinguish financing requests from assistance actually received.",
+          "needed_evidence": "Later UNHCR operational reports with delivery totals, reporting periods and comparable units.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25"
+          ]
+        },
+        {
+          "question": "Which published assessments measure the indirect civilian harm left outside HRMMU's direct-casualty figures?",
+          "why_it_matters": "The monitoring report documents direct casualties and broader disruptions; indirect health and livelihood losses cannot be reduced to its direct-casualty minimum.",
+          "needed_evidence": "Published follow-up health and civilian-impact assessments with methods and attribution limits.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ]
+        },
+        {
+          "question": "Which subsequent reports track restoration of household water access without disclosing sensitive facility information?",
+          "why_it_matters": "Documenting disruption does not establish recovery or current service availability.",
+          "needed_evidence": "Dated, aggregated water-access and recovery reports that preserve household and sensitive-facility privacy.",
+          "source_ids": [
+            "hrmmu-energy-september-2024"
+          ]
+        }
+      ],
+      "source_independence_notes": [
+        "Three institutional publishers provide different scopes: human rights monitoring, nuclear safety, and humanitarian planning. They are not three independent confirmations of every claim.",
+        "HRMMU cites IAEA Update 247 in footnote 28. Repetition of that account in HRMMU is not a second nuclear-safety investigation.",
+        "HRMMU reviewed other agencies' technical assessments. Its secondary technical inputs must not be treated as independent measurements by HRMMU.",
+        "UNHCR's plan establishes its own intended response. It does not independently verify casualties or demonstrate assistance delivery."
+      ]
+    }
+  ],
+  "public_data_only": true
+}

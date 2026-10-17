@@ -1,0 +1,2 @@
+# These bytes are served with a SHA-256 manifest; keep them identical on every OS.
+public/relay/data/*.json text eol=lf

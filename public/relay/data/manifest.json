@@ -1,0 +1,8 @@
+{
+  "case_count": 2,
+  "dataset_sha256": "9184f95575eb439f4b1b344b48981fda26e24fe50819c1d3781e343306536337",
+  "integrity_note": "Dataset hashes identify published bytes. Source response hashes identify bytes fetched at the recorded time; source bodies are not archived. Neither proves factual truth or editorial approval.",
+  "retrieval_log_sha256": "9c563468f4a8c647e238cbc339566ec01fbb59845a5068c958883166a54271cf",
+  "schema_version": "spacezh.relay.prototype.v1",
+  "source_path": "data/relay/cases.json"
+}

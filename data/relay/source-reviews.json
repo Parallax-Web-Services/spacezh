@@ -1,0 +1,135 @@
+{
+  "checked_at": "2026-10-17",
+  "method": "AI-assisted public-web content review; no human editorial signoff",
+  "sources": [
+    {
+      "case_id": "starshield-restrictions-2026-10-16",
+      "source_id": "telegraph-exclusive",
+      "verification": {
+        "status": "not_accessible",
+        "checked_at": "2026-10-17",
+        "method": "web_review",
+        "access_note": "The exact Telegraph URL could not be opened. A search attempt reported a robots.txt block. This is an access limitation, not a confirmed 404 or a finding that the article does not exist.",
+        "reviewed_url": "https://www.telegraph.co.uk/world-news/2026/10/16/musk-approached-trump-slow-down-starlink-help-ukraine/",
+        "locator": "Original article unavailable in the review tool; matching Joe Barnes report reviewed at the AOL syndication URL.",
+        "note": "The accessible AOL copy identifies the matching title, Joe Barnes, and an October 16 publication date. It reports an allegation based on four sources; it does not provide a released order, recording, or named source establishing Musk's proposal. AOL and the Telegraph represent the same underlying investigation. The original Telegraph page's content and metadata were not directly verified."
+      },
+      "alternate_url": "https://www.aol.com/articles/exclusive-musk-approached-trump-slow-175901000.html"
+    },
+    {
+      "case_id": "starshield-restrictions-2026-10-16",
+      "source_id": "telegraph-syndication",
+      "verification": {
+        "status": "content_reviewed",
+        "checked_at": "2026-10-17",
+        "method": "web_review",
+        "access_note": "The exact AOL URL opened and returned article text, title, byline, and publication timestamp.",
+        "reviewed_url": "https://www.aol.com/articles/exclusive-musk-approached-trump-slow-175901000.html",
+        "locator": "Title and Joe Barnes byline; October 16, 2026 at 17:59 UTC; opening account and subsequent denials.",
+        "note": "Supports the attributed statement that the Telegraph reported Musk proposed restrictions, citing four sources. The article also reports Trump's denial and an official denial of a presidential request. These are competing reported accounts, not a resolved finding of personal responsibility. The article describes roughly 160 km/h restrictions and attributed Zelensky remarks. It is a syndication of one investigation, not independent corroboration of the Telegraph."
+      }
+    },
+    {
+      "case_id": "starshield-restrictions-2026-10-16",
+      "source_id": "reuters-14",
+      "verification": {
+        "status": "content_reviewed",
+        "checked_at": "2026-10-17",
+        "method": "web_review",
+        "access_note": "The exact Reuters URL returned a non-retryable access error. The underlying Reuters report was read in the accessible English text of an Internazionale republication; original URL access remains unverified.",
+        "reviewed_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukraine-accuses-spacex-of-crippling-drone-missions-as-ties-with-us-worsen",
+        "locator": "Matching headline; Yuliia Dysa and Dan Peleschuk; Kyiv, October 14 Reuters dateline; section on lack of warning before restrictions and Musk's public statement.",
+        "note": "Reports Ukrainian officials' complaints that restrictions arrived without warning and disrupted missions. Attributes a 160 km/h limit to adviser Serhiy Beskrestnov and reports a Defense Ministry source describing losses of connection below half that speed. Also reports Musk's stated account that limits were controlled by U.S. military and presidential decisions. This verifies the attributed reporting, not a technical measurement or identification of the person who ordered a change."
+      },
+      "alternate_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukraine-accuses-spacex-of-crippling-drone-missions-as-ties-with-us-worsen"
+    },
+    {
+      "case_id": "starshield-restrictions-2026-10-16",
+      "source_id": "reuters-15",
+      "verification": {
+        "status": "content_reviewed",
+        "checked_at": "2026-10-17",
+        "method": "web_review",
+        "access_note": "The exact Reuters URL returned a non-retryable access error. The underlying Reuters report was read in an Internazionale republication. The host date is October 16; the Reuters dateline is October 15.",
+        "reviewed_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/exclusive-order-to-limit-starshield-for-ukraine-came-from-inside-white-house-sources-say",
+        "locator": "Erin Banco and Gram Slattery; New York/Washington, October 15 Reuters dateline; opening attribution, senior U.S. official response, and Musk account.",
+        "note": "Supports the precise attribution that two U.S. officials and a Western official said the instruction came from inside the White House. The officials did not identify a decision-maker or person implementing the order. The report preserves a senior U.S. official's denial that the president requested it and says the White House did not answer questions about other officials. It also reports a Defense Ministry account of a 160 km/h ceiling and Musk's public government-control account. It does not independently establish Musk proposed the restriction."
+      },
+      "alternate_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/exclusive-order-to-limit-starshield-for-ukraine-came-from-inside-white-house-sources-say"
+    },
+    {
+      "case_id": "starshield-restrictions-2026-10-16",
+      "source_id": "reuters-16-frontline",
+      "verification": {
+        "status": "content_reviewed",
+        "checked_at": "2026-10-17",
+        "method": "web_review",
+        "access_note": "The exact Reuters URL returned a non-retryable access error. The underlying Reuters report was read in an Internazionale republication.",
+        "reviewed_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/starlink-disruptions-are-being-felt-on-the-front-lines-of-ukraine",
+        "locator": "Matching headline; Sergiy Chalyi; Donetsk region, October 16 Reuters dateline; interview with service member identified by callsign Ukrlan.",
+        "note": "Reports Ukrlan's account of significantly degraded internet and headquarters communications at his position. The account supports local reported impact, not an independently measured systemwide outage or attribution to Musk. The article also reports Zelensky's statement that services had improved but were not fully restored, and preserves a U.S. official denial of a presidential order."
+      },
+      "alternate_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/starlink-disruptions-are-being-felt-on-the-front-lines-of-ukraine"
+    },
+    {
+      "case_id": "starshield-restrictions-2026-10-16",
+      "source_id": "reuters-16-denial",
+      "verification": {
+        "status": "content_reviewed",
+        "checked_at": "2026-10-17",
+        "method": "web_review",
+        "access_note": "The exact Reuters URL returned a non-retryable access error. The underlying Reuters report was read in an Internazionale republication with a shortened version of the registered headline.",
+        "reviewed_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/trump-says-neither-he-nor-musk-responsible-for-ukraine-starlink-access",
+        "locator": "Washington, October 16 dateline; opening denial and subsequent remarks; reporting credits Trevor Hunnicutt, Steve Holland, and Jasper Ward.",
+        "note": "Reports Trump's public denial that he or Musk was responsible for the loss of access and his claim that the United States had not imposed a limit. This establishes that Reuters reported the denial, not that the denial resolves responsibility. The republication provides detailed reporting credits beyond the source register's generic Reuters byline."
+      },
+      "alternate_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/trump-says-neither-he-nor-musk-responsible-for-ukraine-starlink-access"
+    },
+    {
+      "case_id": "starshield-restrictions-2026-10-16",
+      "source_id": "kyiv-independent",
+      "verification": {
+        "status": "content_reviewed",
+        "checked_at": "2026-10-17",
+        "method": "web_review",
+        "access_note": "The exact Kyiv Independent URL opened and returned the article, author names, and publication/update metadata.",
+        "reviewed_url": "https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/",
+        "locator": "Matching headline; Abbey Fenbert and Polina Moroziuk; October 16 at 21:19, updated 22:00; attributed Telegraph account, Zelensky remarks, and Defense Ministry source account.",
+        "note": "Retells the Telegraph's four-source allegation and Reuters' White House account; those repetitions are not additional independent investigations of Musk's alleged proposal. Adds attributed Zelensky comments and a Defense Ministry source account of restoration with continuing uneven performance. Identifies October 14 as the date restrictions were implemented and attributes a roughly 70 km/h limit for some systems to Zelensky; those details differ from other accounts and require reconciliation."
+      }
+    },
+    {
+      "case_id": "starshield-restrictions-2026-10-16",
+      "source_id": "ap-adviser",
+      "verification": {
+        "status": "content_reviewed",
+        "checked_at": "2026-10-17",
+        "method": "web_review_search",
+        "access_note": "Direct opening of the exact AP URL was unavailable. Public web search returned the matching AP article at that exact URL, including article text and a timestamp of October 16, 2026 at 19:26:40 UTC. Review used that search result, not a successful direct page fetch.",
+        "reviewed_url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+        "locator": "Matching headline and AP dateline; named interviewee Serhii Beskrestnov; sections on restrictions, negotiations, and Trump's denial.",
+        "note": "AP reports Beskrestnov's account of a speed cap, communication outages, and talks with SpaceX, the Pentagon, and the U.S. government. It reports Trump's denial but does not identify who ordered restrictions. It places imposition early Thursday, unlike the October 14 date in Kyiv Independent. This is verification of a reported interview and competing statements, not independent network measurement or proof of command responsibility."
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "When did each speed restriction and communication outage begin?",
+      "why_it_matters": "AP places imposition early Thursday, while Kyiv Independent identifies October 14 and Reuters October 14 already reports complaints. These may describe different changes or imprecise reporting; the reviewed sources do not establish one reconciled event time.",
+      "needed_evidence": "Dated provider change notices, service logs, an official incident chronology, or a published clarification distinguishing cap changes from outages.",
+      "source_ids": ["ap-adviser", "kyiv-independent", "reuters-14"]
+    },
+    {
+      "question": "What restrictions applied to which terminals, subscriptions, and periods?",
+      "why_it_matters": "Sources describe an approximately 160 km/h threshold, reported failures below half that speed, and an attributed roughly 70 km/h limit for some systems. These accounts cannot be collapsed into one independently verified technical specification.",
+      "needed_evidence": "Provider service terms or change records, dated reproducible measurements with terminal and subscription context, or a technical investigation distinguishing speed caps from degraded connectivity.",
+      "source_ids": ["telegraph-syndication", "reuters-14", "reuters-15", "kyiv-independent", "ap-adviser"]
+    },
+    {
+      "question": "Who proposed, authorized, transmitted, and implemented the restriction?",
+      "why_it_matters": "The Telegraph allegation, Reuters' anonymous-official account, Musk's public position, and public denials describe competing or incomplete accounts. Reading the articles does not resolve the decision chain.",
+      "needed_evidence": "A released order, authenticated decision records, an on-record account from a participant with direct knowledge, or a documented independent investigation.",
+      "source_ids": ["telegraph-syndication", "reuters-15", "reuters-16-denial", "kyiv-independent", "ap-adviser"]
+    }
+  ]
+}

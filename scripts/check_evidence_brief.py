@@ -89,7 +89,7 @@ def run():
     page = Page()
     page.feed(article_text)
     digest = git_blob_sha(SOURCE.read_bytes().replace(bytes([13, 10]), bytes([10])))
-    if page.meta.get("evidence-source-path") != str(SOURCE.relative_to(ROOT)):
+    if page.meta.get("evidence-source-path") != SOURCE.relative_to(ROOT).as_posix():
         errors.append("wrong canonical source path")
     if page.meta.get("evidence-source-blob") != digest:
         errors.append("canonical editorial Markdown changed without updating site reader")
