@@ -9,7 +9,7 @@ The SpaceЖ site is the mission, education, and trust layer. GoFundYourself is p
 ## Funnel
 
 1. **Discover:** social posts, public proposal, academic and community referrals land on SpaceЖ.
-2. **Understand:** visitors see the mission, concrete Atlas/Node/Link/Orbit milestones, risks, governance, budget, and published evidence.
+2. **Understand:** visitors see the mission, concrete Echo/Array/Relay/Parallax milestones, risks, governance, budget, and published evidence.
 3. **Choose:** the visitor may contribute code, propose an institutional pilot, share the proposal, or **support financially when permitted**.
 4. **Support:** approved campaign checkout is hosted/embedded by GoFundYourself. The SpaceЖ static site must not process or store card data.
 5. **Confirm:** processor-backed server webhook records transaction status; return visitors to a neutral thank-you page and provide receipt/refund contact. Never count redirects alone as payments.
@@ -35,7 +35,7 @@ A suitable campaign payload might include *public non-sensitive* fields like `ca
 ## Public-impact disclosures to show before checkout
 
 - Legal payee and sponsor/beneficiary relationship, whether support is a donation or purchase, and **whether it is tax deductible** (do not assume so).
-- The $50,000 90-day kickoff and $300,000 year-one **illustrative** budgets (kickoff included), with no satellite fabrication/launch included.
+- A first-90-days discretionary cash allowance of **up to $2,000**, not a fundraising target, with **no preset annual fundraising ask**. Paid labor, regulated communications, and orbital hardware require separately funded and approved scopes.
 - Processor and platform fees, recurring billing terms and cancellation, refund/contact policy.
 - Contributor privacy, opt-in recognition, no equity/debt/SAFE/voting rights, and no purchase of control by sponsors.
 - Any related-party consulting or founder compensation/reimbursements disclosed separately as incurred.

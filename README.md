@@ -28,18 +28,20 @@ A PDF copy of the proposal was produced separately and can be uploaded to the re
 
 ## Roadmap
 
-1. **Atlas:** A public, source-linked 3D atlas of satellite observations and predictions.
-2. **Node:** Reproducible, opt-in ground-station tools interoperable with established open projects.
-3. **Link:** Authorized terrestrial communications testbeds and simulation.
-4. **Orbit:** Separately gated feasibility research for a hosted payload or spacecraft.
+1. **SpaceЖ Echo:** Source-linked orbital intelligence, 3D observations, provenance, and playback.
+2. **SpaceЖ Array:** Reproducible, opt-in ground-station tools interoperable with established open projects.
+3. **SpaceЖ Relay:** Authorized terrestrial communications testbeds and simulation.
+4. **SpaceЖ Parallax:** Separately gated feasibility research for a hosted payload or spacecraft.
 
-### Proposed funding envelope
+### Bootstrap funding discipline
 
-The first 90 days are **illustratively budgeted at $50,000**. The first-year planning envelope is **$300,000, inclusive of kickoff**. These are estimates, not existing funding or offers of tax-deductible donation. GoFundYourself support checkout will be enabled only after legal and payment arrangements are approved and published.
+The first 90 days have an **up-to-$2,000 discretionary cash spending ceiling**, not a fundraising commitment or assumption that money is available. Begin with open tools, public datasets, and available infrastructure. There is no arbitrary year-one fundraising target: price and approve concrete milestones before spending, and publish actual receipts, expenses, in-kind support, and progress.
+
+Paid labor, professional reviews, regulated operations, and flight hardware are **outside** this startup cash allowance and require separately funded approved scopes. No donations or GoFundYourself checkout are live; payment, tax, and governance arrangements must be settled first.
 
 ## Maintaining visual integrity
 
-The original `<style>` block in `public/index.html` has not been changed, and `public/assets/` is retained byte-for-byte. This change is content, metadata, links, and a **hidden** future GoFundYourself mount hook only. No visible payment form has been introduced.
+The original artwork and `public/assets/` are retained. The bilingual ribbon separators now pair Ukrainian with English using equals signs, and its intermediate-width rule keeps pairs together. The future GoFundYourself mount remains **hidden**; no payment form has been introduced.
 
 The front-end is currently just a publication channel, not the promised orbital product. Technical workstreams, licensing, and governance are proposals for public review.
 

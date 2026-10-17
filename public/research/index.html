@@ -272,7 +272,7 @@
       .hero-media { max-width: 610px; width: 100%; margin: auto; }
       .ribbon-inner { justify-content: center; }
       .ribbon-word { font-size: 13px; }
-      .ribbon-inner .ribbon-word:nth-of-type(5), .ribbon-inner .ribbon-sep:nth-of-type(6) { display: none; }
+      .ribbon-inner > span:nth-child(n+8) { display: none; }
       .mission { padding: 89px 0 97px; }
       .mission-grid { grid-template-columns: 1fr; gap: 42px; }
       .mission .section-title { max-width: 570px; }
@@ -378,7 +378,7 @@
       <a class="button button-primary" href="/research/briefings/starshield-restrictions/">READ THE EVIDENCE <span class="arrow" aria-hidden="true">↗</span></a>
     </div>
   </section>
-  <div class="ribbon" aria-label="Life, freedom, science"><div class="container ribbon-inner" aria-hidden="true"><span class="ribbon-word">ЖИТТЯ</span><span class="ribbon-sep">✦</span><span class="ribbon-word">LIFE</span><span class="ribbon-sep">✦</span><span class="ribbon-word">ВОЛЯ</span><span class="ribbon-sep">✦</span><span class="ribbon-word">FREEDOM</span><span class="ribbon-sep">✦</span><span class="ribbon-word">НАУКА</span><span class="ribbon-sep">✦</span><span class="ribbon-word">SCIENCE</span></div></div>
+  <div class="ribbon" aria-label="Життя equals Life; Воля equals Freedom; Наука equals Science"><div class="container ribbon-inner" aria-hidden="true"><span class="ribbon-word">ЖИТТЯ</span><span class="ribbon-sep ribbon-equals">=</span><span class="ribbon-word">LIFE</span><span class="ribbon-sep">✦</span><span class="ribbon-word">ВОЛЯ</span><span class="ribbon-sep ribbon-equals">=</span><span class="ribbon-word">FREEDOM</span><span class="ribbon-sep">✦</span><span class="ribbon-word">НАУКА</span><span class="ribbon-sep ribbon-equals">=</span><span class="ribbon-word">SCIENCE</span></div></div>
   <section class="work" id="studies" aria-labelledby="studies-title"><div class="container">
     <div class="work-top"><div><p class="section-tag">01 / PUBLISHED STUDIES</p><h2 class="section-title" id="studies-title">Read every study here.</h2></div><p>Each study opens on SpaceЖ with readable math, research graphs, original data tables and full citations. GitHub remains available for code and tests.</p></div>
     <div class="work-grid">
@@ -400,7 +400,7 @@
         <p style="margin-top:18px"><a href="/research/002-independent-early-warning/" target="_blank" rel="noopener noreferrer" style="color:var(--ice);text-decoration:underline">Open the study and graphs →</a></p>
       </article>
       <article class="work-card"><div class="work-card-top"><span class="work-glyph" aria-hidden="true">001</span><span class="work-label mono">MODEL / HYPOTHETICAL</span></div>
-        <h3>What can a low-orbit satellite contact actually carry?</h3><p>A first-order model of an authorized, cooperative 550 km satellite downlink with radio-link budget, link margin and elevation sensitivity. Part of the SpaceЖ Link (communications) workstream, not the early-warning track; published here because the same standard applies.</p>
+        <h3>What can a low-orbit satellite contact actually carry?</h3><p>A first-order model of an authorized, cooperative 550 km satellite downlink with radio-link budget, link margin and elevation sensitivity. Part of the SpaceЖ Relay (communications) workstream, not the early-warning track; published here because the same standard applies.</p>
         <p style="margin-top:16px;color:var(--gold);font-weight:750">Result: 6.49 minutes ideal contact; 8.7 dB link margin; 467 kB raw, about 374 kB useful. Not field-tested.</p>
         <p style="margin-top:18px"><a href="/research/001-leo-contact/" target="_blank" rel="noopener noreferrer" style="color:var(--ice);text-decoration:underline">Open the study and graphs →</a></p>
       </article>
