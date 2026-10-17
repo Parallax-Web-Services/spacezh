@@ -322,17 +322,18 @@
   </style>
   <link rel="stylesheet" href="/assets/evidence-brief.css">
   <link rel="stylesheet" href="/assets/mobile-polish.css">
+  <link rel="stylesheet" href="/assets/brand-products.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="flag-line" aria-hidden="true"></div>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="logo" href="#top" aria-label="Space Zh home">SPACE<span class="logo-zh" lang="uk">Ж</span></a>
+      <a class="logo" href="#top" aria-label="Space Zh home"><span class="logo-word">SPACE<span class="logo-zh" lang="uk">Ж</span></span><img class="logo-tryzub" src="/assets/tryzub.svg" alt="" aria-hidden="true" width="22" height="31"></a>
       <nav class="desktop-nav" aria-label="Main navigation">
         <a href="#mission">THE MISSION</a>
         <a href="/research/">RESEARCH</a>
-        <a href="#work">ROADMAP</a>
+        <a href="#work">PRODUCTS</a>
         <a href="/coalition/">COALITION</a>
       </nav>
       <a class="nav-cta" href="#join">GET INVOLVED <span aria-hidden="true">↗</span></a>
@@ -344,7 +345,7 @@
         <nav class="mobile-links" aria-label="Mobile navigation">
           <a href="#mission">The mission</a>
           <a href="/research/">Research</a>
-          <a href="#work">Roadmap</a>
+          <a href="#work">Products</a>
           <a href="/coalition/">Coalition</a>
           <a href="#join">Get involved</a>
           <a href="#faq">FAQ</a>
@@ -362,10 +363,12 @@
           <h1 id="hero-title"><span class="h1-soft">The sky belongs</span><span class="h1-live">to everyone.</span></h1>
           <p class="hero-subtitle">OSINT and communications research in support of Ukraine.</p>
           <p class="hero-description">We propose a public satellite-observation atlas and software for opt-in ground stations. The engineering plan, budget, and limitations are open for review. No live warning or broadband service exists yet.</p>
+          <div class="hero-identity"><img src="/assets/tryzub.svg" width="41" height="57" alt="Coat of arms of Ukraine: the golden tryzub on a blue shield"><div><span class="identity-overline mono" lang="uk">УКРАЇНА / UKRAINE</span><span class="identity-message">United for life, freedom and science.</span></div></div>
           <div class="hero-buttons">
             <a href="/plan/" class="button button-primary" target="_blank" rel="noopener noreferrer">READ THE PUBLIC PLAN <span class="arrow" aria-hidden="true">↗</span></a>
             <a href="/research/" class="button button-secondary">READ THE RESEARCH <span class="arrow" aria-hidden="true">→</span></a>
           </div>
+          <a class="hero-products-link mono" href="#work">EXPLORE THE SPACEЖ PRODUCTS ↘</a>
           <p class="hero-note mono"><strong>Ж = ZH</strong> · LIFE / FREEDOM / SCIENCE &nbsp; // &nbsp; PUBLIC FOUNDING PROPOSAL · OCT 2026</p>
         </div>
         <div class="hero-media">
@@ -459,32 +462,62 @@
     <section class="work" id="work" aria-labelledby="work-title">
       <div class="container">
         <div class="work-top">
-          <div><p class="section-tag">03 / OPEN WORKSTREAMS</p><h2 id="work-title" class="section-title">Technical <span class="blue">roadmap.</span></h2></div>
-          <p>Satellite observations and ground-station software first. Communications testing follows; orbital hardware requires separate funding and approvals.</p>
+          <div><p class="section-tag">03 / SPACEЖ PRODUCTS</p><h2 id="work-title" class="section-title">Four systems.<br><span class="blue">One mission.</span></h2></div>
+          <p>Meet our four proposed SpaceЖ products. Orbital intelligence and reproducible ground stations come first; communications testing follows, with spacecraft feasibility separately gated.</p>
         </div>
         <div class="work-grid">
-          <article class="work-card">
+          <article class="work-card spacezh-product">
             <div class="work-card-top"><span class="work-glyph" aria-hidden="true">◎</span><span class="work-label mono">PHASE 01</span></div>
             <h3>SpaceЖ Echo</h3>
+            <p class="product-kind mono">ORBITAL INTELLIGENCE</p>
             <p>A public orbital atlas for source-linked observations, predicted orbits, 3D exploration, and historical replay—with provenance and uncertainty visible.</p>
+          
+            <div class="product-stage mono">PRODUCT 01 · PROPOSED</div>
           </article>
-          <article class="work-card">
+          <article class="work-card spacezh-product">
             <div class="work-card-top"><span class="work-glyph" aria-hidden="true">◇</span><span class="work-label mono">PHASE 02</span></div>
             <h3>SpaceЖ Array</h3>
+            <p class="product-kind mono">GROUND STATION SOFTWARE</p>
             <p>Reproducible, privacy-conscious software for opt-in ground stations, designed to interoperate with established open projects such as SatNOGS.</p>
+          
+            <div class="product-stage mono">PRODUCT 02 · PROPOSED</div>
           </article>
-          <article class="work-card">
+          <article class="work-card spacezh-product">
             <div class="work-card-top"><span class="work-glyph" aria-hidden="true">◌</span><span class="work-label mono">PHASE 03</span></div>
             <h3>SpaceЖ Relay</h3>
+            <p class="product-kind mono">COMMUNICATIONS TESTBED</p>
             <p>An interoperable communications testbed, beginning with licensed terrestrial links, delay-tolerant messaging, and simulations.</p>
+          
+            <div class="product-stage mono">PRODUCT 03 · PROPOSED</div>
           </article>
-          <article class="work-card">
+          <article class="work-card spacezh-product">
             <div class="work-card-top"><span class="work-glyph" aria-hidden="true">⌘</span><span class="work-label mono">FEASIBILITY</span></div>
             <h3>SpaceЖ Parallax</h3>
+            <p class="product-kind mono">ORBITAL FEASIBILITY</p>
             <p>A future hosted-payload or small-satellite feasibility track, gated by technical review, funding, licensed partners, and regulatory approval.</p>
+          
+            <div class="product-stage mono">FUTURE FEASIBILITY · GATED</div>
           </article>
         </div>
         <p class="roadmap-note"><b aria-hidden="true">✳</b><span>These are proposed milestones, not deployed services. Public observations do not constitute live missile detection, emergency alerts, or satellite broadband. <a href="/research/" style="color:var(--ice);text-decoration:underline">Read the published research →</a></span></p>
+      </div>
+    </section>
+
+    <section class="platform" id="platform" aria-labelledby="platform-title">
+      <div class="container">
+        <div class="platform-heading">
+          <div><p class="section-tag">04 / PARALLAX PRODUCT ECOSYSTEM</p><h2 id="platform-title" class="section-title">The engine <span class="accent">behind SpaceЖ.</span></h2></div>
+          <p class="section-lede">SpaceЖ is a public-interest proving ground for the Parallax toolchain. These products have distinct roles in the intended architecture.</p>
+        </div>
+        <div class="platform-grid">
+          <article class="platform-card"><span class="platform-role mono">ENGINEERING &amp; ORCHESTRATION</span><h3>Slipstream</h3><p>Human-owned scope, coordinated AI engineering, review gates and reproducible delivery.</p></article>
+          <article class="platform-card"><span class="platform-role mono">PEOPLE &amp; COLLABORATION</span><h3>Plexus</h3><p>Opt-in contributor networks, research collaboration, trust and institutional continuity.</p></article>
+          <article class="platform-card"><span class="platform-role mono">DATA &amp; REASONING</span><h3>Positronic</h3><p>Structured observations, normalization, processing and traceable analysis.</p></article>
+          <article class="platform-card"><span class="platform-role mono">INGESTION &amp; PUBLICATION</span><h3>RELAY</h3><p>Ingest public sources, preserve provenance, normalize records and distribute research outputs.</p></article>
+          <article class="platform-card"><span class="platform-role mono">ARCHIVES &amp; MEDIA</span><h3>HOLO</h3><p>Durable research media, source artifacts and retrievable evidence histories.</p></article>
+          <article class="platform-card"><span class="platform-role mono">STEWARDSHIP &amp; OPERATIONS</span><h3>Continuum</h3><p>Coordinate work, approvals, institutional handoffs and long-term accountability.</p></article>
+        </div>
+        <p class="platform-note"><strong>Architecture, not a launch claim.</strong> These are proposed roles for existing Parallax product lines; their integration into SpaceЖ is not represented as complete. Parallax <strong>RELAY</strong> (data ingest and publication) is distinct from <strong>SpaceЖ Relay</strong> (the proposed communications testbed). No operational warning or satellite service is implied.</p>
       </div>
     </section>
 
@@ -513,7 +546,7 @@
 
     <section class="join" id="join" aria-labelledby="join-title">
       <div class="container"><div class="join-content">
-        <p class="section-tag" style="color:#b9dcff">04 / A CALL TO BUILD</p>
+        <p class="section-tag" style="color:#b9dcff">05 / A CALL TO BUILD</p>
         <h2 id="join-title" class="section-title">Contribute to <span class="accent">SpaceЖ.</span></h2>
         <p>We need technical reviews from Ukrainian researchers, satellite-data engineers, radio operators, and civil-society experts. Choose a specific problem to review or a small deliverable you can verify.</p>
         <a class="button button-primary" href="/coalition/">SEE HOW TO CONTRIBUTE <span class="arrow" aria-hidden="true">↗</span></a>
@@ -526,7 +559,7 @@
 
     <section class="faq" id="faq" aria-labelledby="faq-title">
       <div class="container faq-grid">
-        <div><p class="section-tag">05 / THE FINE PRINT</p><h2 id="faq-title">Questions and limits.</h2></div>
+        <div><p class="section-tag">06 / THE FINE PRINT</p><h2 id="faq-title">Questions and limits.</h2></div>
         <div>
           <details class="faq-item"><summary>Why Ukraine?</summary><p>SpaceЖ was conceived to contribute to the global defense of Ukraine. Its initial work is public satellite intelligence and lawful, resilient infrastructure for independent verification and civilian preparedness. It is not an operational targeting or early-warning service.</p></details>
           <details class="faq-item"><summary>Is SpaceЖ affiliated with SpaceX?</summary><p>No. SpaceЖ is independent of SpaceX and existing constellation operators. None has endorsed or committed to this proposal.</p></details>
@@ -543,10 +576,10 @@
     <div class="container">
       <div class="footer-main">
         <div>
-          <a class="logo" href="#top" aria-label="Space Zh home">SPACE<span class="logo-zh" lang="uk">Ж</span></a>
+          <a class="logo" href="#top" aria-label="Space Zh home"><span class="logo-word">SPACE<span class="logo-zh" lang="uk">Ж</span></span><img class="logo-tryzub" src="/assets/tryzub.svg" alt="" aria-hidden="true" width="22" height="31"></a>
           <p><strong style="color:#e1eaf8">Life. Freedom. Science.</strong><br>Initiated by Parallax Web Services, Inc. · Independent public-benefit stewardship proposed.</p>
         </div>
-        <nav class="footer-links" aria-label="Footer navigation"><a href="#mission">Mission</a><a href="#principles">Principles</a><a href="#work">Roadmap</a><a href="/research/">Research</a><a href="/coalition/">Coalition</a><a href="/plan/" target="_blank" rel="noopener noreferrer">Public plan ↗</a></nav>
+        <nav class="footer-links" aria-label="Footer navigation"><a href="#mission">Mission</a><a href="#principles">Principles</a><a href="#work">Products</a><a href="#platform">Parallax stack</a><a href="/research/">Research</a><a href="/coalition/">Coalition</a><a href="/plan/" target="_blank" rel="noopener noreferrer">Public plan ↗</a></nav>
       </div>
       <div class="footer-bottom mono">
         <span>INDEPENDENT PUBLIC WORKING PROPOSAL · NOT AFFILIATED WITH SPACEX · NO OPERATIONAL SATELLITE INTERNET OR EMERGENCY WARNING SERVICE.</span>
