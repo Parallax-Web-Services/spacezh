@@ -1,0 +1,33 @@
+/* Additive brand and product styling. Original SpaceЖ artwork is unchanged. */
+.logo { display:inline-flex; align-items:center; gap:12px; }
+.logo-word { display:inline-block; white-space:nowrap; }
+.logo-tryzub { display:block; width:22px; height:31px; flex:none; object-fit:contain; filter:drop-shadow(0 0 7px rgba(255,218,71,.13)); }
+.footer-main .logo-tryzub { width:25px; height:35px; }
+.hero-identity { display:inline-flex; align-items:center; gap:16px; max-width:100%; margin-top:24px; padding:13px 19px 13px 13px; border:1px solid rgba(125,174,234,.29); border-left:2px solid #ffda47; background:rgba(15,35,62,.58); }
+.hero-identity img { display:block; width:41px; height:57px; flex:none; object-fit:contain; }
+.hero-identity .identity-overline { display:block; color:#83c9ff; font-size:10px; font-weight:800; letter-spacing:.17em; }
+.hero-identity .identity-message { display:block; margin-top:7px; color:#e6edfb; font-size:12px; font-weight:700; letter-spacing:.035em; }
+.hero-products-link { display:inline-flex; margin-top:15px; padding:4px 0; font-size:11px; font-weight:800; color:#83c9ff; letter-spacing:.09em; border-bottom:1px solid rgba(131,201,255,.58); }
+.hero-products-link:hover { color:#ffda47; border-color:#ffda47; }
+.spacezh-product { display:flex; flex-direction:column; }
+.spacezh-product h3 { text-transform:uppercase; }
+.spacezh-product .product-kind { color:#83c9ff; font:800 10px/1.6 ui-monospace,Consolas,monospace; letter-spacing:.14em; text-transform:uppercase; margin:-4px 0 12px; }
+.spacezh-product .product-stage { margin-top:auto; padding-top:20px; color:#8d9fb8; font:750 10px/1.5 ui-monospace,Consolas,monospace; letter-spacing:.09em; }
+.product-stage::before { content:"○"; color:#ffda47; margin-right:9px; font-size:14px; }
+.platform { position:relative; padding:108px 0 116px; border-block:1px solid rgba(160,191,228,.17); background:radial-gradient(ellipse at 80% 110%,rgba(28,77,152,.17),transparent 65%),#0a1221; }
+.platform-heading { display:flex; align-items:end; justify-content:space-between; gap:38px; }
+.platform-heading .section-lede { max-width:460px; margin:0; }
+.platform-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:44px; }
+.platform-card { min-height:208px; padding:27px 28px; border:1px solid rgba(160,191,228,.17); background:linear-gradient(146deg,rgba(21,40,69,.76),rgba(8,17,31,.85)); }
+.platform-card .platform-role { color:#83c9ff; font:800 10px/1.6 ui-monospace,Consolas,monospace; letter-spacing:.15em; text-transform:uppercase; }
+.platform-card h3 { margin:24px 0 11px; font-size:27px; letter-spacing:-.05em; }
+.platform-card p { margin:0; color:#a7b5ca; font-size:14px; line-height:1.75; }
+.platform-note { margin:26px 0 0; max-width:910px; color:#95a8c2; font-size:12px; line-height:1.75; }
+.platform-note strong { color:#dce7f8; }
+@media(max-width:1000px) { .platform-heading { display:block; } .platform-heading .section-lede { margin-top:22px; } .platform-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:750px) {
+ .logo { gap:9px; } .logo-tryzub { width:18px; height:26px; } .footer-main .logo-tryzub { width:22px; height:31px; }
+ .hero-identity { margin-top:20px; padding:11px 13px; gap:13px; } .hero-identity img { width:33px; height:46px; } .hero-identity .identity-message { font-size:11px; }
+ .platform { padding:65px 0 72px; } .platform-grid { gap:12px; margin-top:29px; } .platform-card { min-height:0; padding:24px 22px; } .platform-card h3 { margin-top:16px; }
+}
+@media(max-width:560px) { .platform-grid { grid-template-columns:1fr; } }
