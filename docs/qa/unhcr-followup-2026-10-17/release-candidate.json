@@ -1,0 +1,18 @@
+{
+  "payload_commit": "9880f84728de63889bb7c3a5f5e78e4058cbcd28",
+  "public_tree": "d80bfacb7ecff2ba08a1cb335c84e277e4d19fc1",
+  "previous_production_release": "80483855",
+  "previous_production_commit": "232f36b547a91ad0137f1ca6dc992b7f7afcdde3",
+  "checks": {
+    "unit_tests": 49,
+    "relay_publication": "passed",
+    "evidence_brief": "passed",
+    "research_readers": 4,
+    "javascript_syntax": "passed",
+    "desktop_phone_browser": "passed"
+  },
+  "ci": [
+    "https://github.com/Parallax-Web-Services/spacezh/actions/runs/39070901411",
+    "https://github.com/Parallax-Web-Services/spacezh/actions/runs/39070901495"
+  ]
+}

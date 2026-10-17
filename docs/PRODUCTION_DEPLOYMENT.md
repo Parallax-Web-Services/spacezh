@@ -1,5 +1,17 @@
 # Production deployment
 
+## UNHCR cash and generator follow-up: verified production payload
+
+Verified at 2026-10-17T21:26:41.239562+00:00. Forge automatically activated release `80484376` for commit `9880f84728de63889bb7c3a5f5e78e4058cbcd28`, with public tree `d80bfacb7ecff2ba08a1cb335c84e277e4d19fc1`. The preceding release `80483855` (`232f36b`) remains available for rollback. These identify the verified payload; a later documentation-only release may share the same public tree.
+
+Both CI checks passed: [RELAY publication integrity](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39070901411) and [research publication integrity](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39070901495). The release passed 49 unit tests, publication/export checks, research-reader and evidence-brief checks, and JavaScript syntax validation.
+
+[Live HTTP receipts](qa/unhcr-followup-2026-10-17/production-http.json) record 18 critical routes/assets returning HTTP 200 with bytes matching that exact commit. This includes the source registry, retrieval receipts, manifest, browser script and synchronized public plan. The case adds sourced cash funding and rollout context, corrects the unsupported generator cutoff and retains the unresolved causes and 76-unit difference. Five actual AI reviews and three revisions are published with reviewer conflicts and earlier wording preserved.
+
+[Live case](https://xn--80akd1bg1j.com/relay/?case=ukraine-energy-civilian-resilience-2024#comparisons), [source note](evidence/2026-10-17-unhcr-followup.md), [release receipt](qa/unhcr-followup-2026-10-17/release-candidate.json).
+
+Live browser checks passed at 1440px and 390px: both follow-ups and their source anchors work; the actual generator correction expands with preserved earlier wording; all three revisions and five AI reviews are visible. There was no page overflow or console warning/error. See [live browser findings](qa/unhcr-followup-2026-10-17/production-findings.json) and the production screenshots alongside that receipt.
+
 ## UNHCR delivery update: verified production payload
 
 Verified at 2026-10-17T21:11:20.705667+00:00. Forge automatically activated release `80483794` for commit `a4e248e802700dfb5938060cbb67b5258eb76665`; the previous release `80483094` (`88afa7e`) remained available for rollback. These are the payload identifiers observed during this check; a documentation-only publication may produce a later release with the same `public/` tree.

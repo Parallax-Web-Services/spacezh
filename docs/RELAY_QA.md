@@ -8,7 +8,7 @@ Revision 3 adds three claims and corrects our unsupported generator cutoff wordi
 
 Validation passed: 49 unit tests, RELAY publication and deterministic export checks, cited evidence brief check, four research-reader checks, JavaScript syntax and whitespace checks. Three tests cover sourced comparison follow-ups and reject malformed or unknown citations. The latest explicit access check records 21 attempts, 12 retrieved responses and nine unavailable responses; transport results do not overwrite separate content-access methods.
 
-The [source note](evidence/2026-10-17-unhcr-followup.md) records the bounded findings and access limits. The [baseline receipt](qa/unhcr-followup-2026-10-17/baseline.json) identifies the prior deployed bytes. Browser and production verification are recorded with the release receipts below.
+The [source note](evidence/2026-10-17-unhcr-followup.md) records the bounded findings and access limits. The [baseline receipt](qa/unhcr-followup-2026-10-17/baseline.json) identifies the prior deployed bytes. Local browser verification passed at 1440px and 390px, including source anchors, the expanded before/after correction and no page overflow or console warnings/errors. See [browser findings](qa/unhcr-followup-2026-10-17/local-findings.json). [Production verification](PRODUCTION_DEPLOYMENT.md) records the exact active payload and 18 matching public HTTP responses. The same desktop and phone checks passed live; see [production browser findings](qa/unhcr-followup-2026-10-17/production-findings.json).
 
 ## UNHCR delivery update and plain-language pass
 

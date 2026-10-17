@@ -1,0 +1,59 @@
+{
+  "correction_expanded": true,
+  "correction_text": "CORRECTION\nenergy-claim-09\n17 Oct 2026 · 21:23 UTC\n\nOur earlier wording assigned the people-specific 31 March footnote to generator units. Remove that unsupported cutoff; keep both accurate reported counts and the unresolved difference. The comparison note and April timeline wording are corrected too.\n\nenergy-revision-2 → energy-revision-3\n\nEARLIER WORDING\nUNHCR reported 186 generators distributed during the winter period in its July monitoring report, compared with 420 planned. Its April update had reported 110 as of 31 March 2025.\n\nStatus: Supported by cited source\n\nLimits\nThe later figure is 44.29% of the original generator target. The July box has no separate cutoff date and does not explain the difference from April. Generators are distinct from the 2,400 planned portable power stations; no delivered power-station total was found in the reviewed documents.\n\nPlan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box.\n\nSources: UNHCR · UNHCR · UNHCR\n\nCORRECTED WORDING\nUNHCR's April 2025 report lists 110 generators; its July monitoring report lists 186 distributed during the winter period, against 420 planned.\n\nStatus: Supported by cited source\n\nLimits\nThe reports differ by 76 units without explaining the change. The April footnote dates people reached, not generator units; neither report supplies a separate comparable generator cutoff. Additional deliveries, changed coverage and revised records remain unconfirmed explanations. No delivered portable-power-station total was established.\n\nPlan p. 1, alternative energy; April update p. 4, Generators row and people-specific footnote; July monitoring p. 4, Alternative Energy Support box.\n\nSources: UNHCR · UNHCR · UNHCR\n\nSources for this change: UNHCR · UNHCR · UNHCR\n\nRead current claim ↑",
+  "observed_at": "2026-10-17T21:25:48.738Z",
+  "reviews": [
+    {
+      "id": "review-energy-source-review-20261017",
+      "kind": "AI-assisted review",
+      "sha": "8744dbf41a6e2213df3c2805d09041e224c0c3cf3b8242fcaaf074e8bd63ab54"
+    },
+    {
+      "id": "review-energy-second-pass-review-20261017",
+      "kind": "AI-assisted review",
+      "sha": "8744dbf41a6e2213df3c2805d09041e224c0c3cf3b8242fcaaf074e8bd63ab54"
+    },
+    {
+      "id": "review-energy-followup-source-review-20261017",
+      "kind": "AI-assisted review",
+      "sha": "6d5282be603b3b77e616f9cdf222bbca1f273e436f3bfbf86d97b13f31297ad1"
+    },
+    {
+      "id": "review-energy-followup-cash-check-20261017",
+      "kind": "AI-assisted review",
+      "sha": "6d5282be603b3b77e616f9cdf222bbca1f273e436f3bfbf86d97b13f31297ad1"
+    },
+    {
+      "id": "review-energy-followup-generator-check-20261017",
+      "kind": "AI-assisted review",
+      "sha": "6d5282be603b3b77e616f9cdf222bbca1f273e436f3bfbf86d97b13f31297ad1"
+    }
+  ],
+  "revisions": [
+    "revision-energy-revision-1",
+    "revision-energy-revision-2",
+    "revision-energy-revision-3"
+  ],
+  "url": "http://127.0.0.1:8086/relay/?case=ukraine-energy-civilian-resilience-2024#correction-energy-generator-cutoff-correction-20261017",
+  "viewport": {
+    "document_width": 375,
+    "height": 844,
+    "page_overflow": false,
+    "width": 390
+  },
+  "desktop": {
+    "width": 1440,
+    "height": 1000,
+    "document_width": 1425,
+    "page_overflow": false
+  },
+  "checks": {
+    "cash_and_generator_followups_visible": true,
+    "title_labelled_source_anchors_resolve": true,
+    "cash_annual_source_clicked": true,
+    "generator_april_source_clicked": true,
+    "earlier_cutoff_preserved_in_correction": true,
+    "corrected_people_only_footnote_visible": true
+  },
+  "console": []
+}

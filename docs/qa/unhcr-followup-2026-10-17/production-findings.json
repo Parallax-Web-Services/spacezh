@@ -1,0 +1,78 @@
+{
+  "desktop": {
+    "document_width": 1425,
+    "height": 1000,
+    "page_overflow": false,
+    "width": 1440
+  },
+  "followups": [
+    "Follow-upThe full cash ambition depended on funding. UNHCR announced narrower household programme components and reported countrywide resource constraints. The sources do not quantify how funding, access, eligibility or enrolment contributed to the 291,655-person gap; the original people target remains the comparison denominator.",
+    "Follow-upCorrection: the April footnote dates people reached to 31 March, not generator units. The 76-unit difference cannot be assigned to later deliveries, wider coverage or revised records without a ledger or revision notice. Neither total is labelled final here."
+  ],
+  "observed_at": "2026-10-17T21:26:49.023Z",
+  "reviews": 5,
+  "revisions": 3,
+  "source_links": [
+    {
+      "target": true,
+      "text": "UNHCR: Ukraine Winter Response Plan 2024-2025, updated September 2024"
+    },
+    {
+      "target": true,
+      "text": "UNHCR: UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)"
+    },
+    {
+      "target": true,
+      "text": "Cash assistance helps people survive winter in frontline villages"
+    },
+    {
+      "target": true,
+      "text": "Ukraine Annual Results Report 2024"
+    },
+    {
+      "target": true,
+      "text": "UNHCR Ukraine Cash Assistance Factsheet - December 2024"
+    },
+    {
+      "target": true,
+      "text": "UNHCR: Ukraine Winter Response Plan 2024-2025, updated September 2024"
+    },
+    {
+      "target": true,
+      "text": "UNHCR: UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)"
+    },
+    {
+      "target": true,
+      "text": "UNHCR Ukraine Delivery Updates - 14 April 2025"
+    },
+    {
+      "target": true,
+      "text": "UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)"
+    }
+  ],
+  "url": "https://xn--80akd1bg1j.com/relay/?case=ukraine-energy-civilian-resilience-2024&release=9880f84#comparisons",
+  "cash_source_clicked": {
+    "hash": "#source-unhcr-ukraine-annual-results-2024",
+    "title": "Ukraine Annual Results Report 2024"
+  },
+  "generator_source_clicked": {
+    "hash": "#source-unhcr-delivery-april-2025",
+    "title": "UNHCR Ukraine Delivery Updates - 14 April 2025"
+  },
+  "generator_correction": "CORRECTION\nenergy-claim-09\n17 Oct 2026 · 21:23 UTC\n\nOur earlier wording assigned the people-specific 31 March footnote to generator units. Remove that unsupported cutoff; keep both accurate reported counts and the unresolved difference. The comparison note and April timeline wording are corrected too.\n\nenergy-revision-2 → energy-revision-3\n\nEARLIER WORDING\nUNHCR reported 186 generators distributed during the winter period in its July monitoring report, compared with 420 planned. Its April update had reported 110 as of 31 March 2025.\n\nStatus: Supported by cited source\n\nLimits\nThe later figure is 44.29% of the original generator target. The July box has no separate cutoff date and does not explain the difference from April. Generators are distinct from the 2,400 planned portable power stations; no delivered power-station total was found in the reviewed documents.\n\nPlan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box.\n\nSources: UNHCR · UNHCR · UNHCR\n\nCORRECTED WORDING\nUNHCR's April 2025 report lists 110 generators; its July monitoring report lists 186 distributed during the winter period, against 420 planned.\n\nStatus: Supported by cited source\n\nLimits\nThe reports differ by 76 units without explaining the change. The April footnote dates people reached, not generator units; neither report supplies a separate comparable generator cutoff. Additional deliveries, changed coverage and revised records remain unconfirmed explanations. No delivered portable-power-station total was established.\n\nPlan p. 1, alternative energy; April update p. 4, Generators row and people-specific footnote; July monitoring p. 4, Alternative Energy Support box.\n\nSources: UNHCR · UNHCR · UNHCR\n\nSources for this change: UNHCR · UNHCR · UNHCR\n\nRead current claim ↑",
+  "phone": {
+    "document_width": 375,
+    "height": 844,
+    "page_overflow": false,
+    "width": 390
+  },
+  "console": [],
+  "release": "9880f84728de63889bb7c3a5f5e78e4058cbcd28",
+  "reviews_sha": [
+    "8744dbf41a6e2213df3c2805d09041e224c0c3cf3b8242fcaaf074e8bd63ab54",
+    "8744dbf41a6e2213df3c2805d09041e224c0c3cf3b8242fcaaf074e8bd63ab54",
+    "6d5282be603b3b77e616f9cdf222bbca1f273e436f3bfbf86d97b13f31297ad1",
+    "6d5282be603b3b77e616f9cdf222bbca1f273e436f3bfbf86d97b13f31297ad1",
+    "6d5282be603b3b77e616f9cdf222bbca1f273e436f3bfbf86d97b13f31297ad1"
+  ]
+}
