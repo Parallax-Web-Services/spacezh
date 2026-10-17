@@ -1,0 +1,96 @@
+{
+  "cash_followup": "Winter cash assistance\nPLAN\n\n550,000 people\n\nPeriod\nWinter 2024-2025; September 2024 plan\n\nUNHCR: Ukraine Winter Response Plan 2024-2025, updated September 2024\n\nWhere to find it\nPDF p. 1, cash support\n\nUNHCR REPORTED\n\n258,345 people\n\nPeriod\nSeptember 2024-March 2025 summary; April cash narrative specifies October-March\n\nUNHCR: UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)\n\nWhere to find it\nPDF p. 1, Cash Assistance row and footnotes\n\nAssessment\n46.97% of original people target\n\nThe plan also gives 263,000 households. That is a different unit, not the denominator used here. Figures are UNHCR self-reports and remain subject to verification.\n\nFollow-up\nKharkiv's official reported a resource ceiling and 170 households awaiting bank checks in January 2025. Separately, the Ministry said technical difficulties prevented some 2024 UNHCR payments. These identify specific constraints, but do not apportion the national 291,655-person gap. Household figures cannot replace people, and the later regional payment total does not reconcile the pending cases. A later global report's two cohort figures also need reconciliation with the seasonal total; neither is silently substituted.\n\nSources: Households in frontline regions to receive additional funds for heating season · Why fewer than half of Kharkiv winter-cash applicants received UAH 21,000 · Kharkiv regional administration update: winter cash delivery paragraph · Cash assistance in 2025: Main outcomes from post distribution monitoring\n\nCalculation\n258,345 / 550,000 × 100 = 46.97%; difference: 291,655 people.",
+  "desktop": {
+    "document_width": 1425,
+    "page_overflow": false,
+    "width": 1440
+  },
+  "global_source": "UNHCR / Not established (2025 report)\nCash assistance in 2025: Main outcomes from post distribution monitoring\n\nprimary global monitoring report · UNHCR\n\nGlobal monitoring publication with a Ukraine winter case study on p. 7. Exact publication date not established; the file path includes 2026-03. This is distinct from the 19-page Ukraine regular-MPCA report 123671.\n\nRead source ↗\n\nOfficial source linked with brief original paraphrases and locators. No full report, article body, photographs or recipient records republished.\n\nSource-content check\nCONTENT REVIEWED\n\nChecked 17 Oct 2026 · 21:38 UTC\nMethod: web search pdf text\n\nWhere to find it\nPrinted PDF p. 7, UKRAINE: UNHCR cash and government social protection addressed harsh winter conditions, opening programme paragraph.\n\nMatching official PDF page text and the official media-record title reviewed through web search. Direct PDF retrieval returned 403 and web opening returned 429; a local download or rendered page check was unavailable.\n\nAccess check: original source\nCOULD NOT RETRIEVE\n\nAttempted 17 Oct 2026 · 21:39 UTC\nMethod: public https get\nHTTP status: 403\n\nOpen response URL ↗\n\nNo response fingerprint recorded.\n\nPublisher returned HTTP 403\n\nThis access check does not verify the source’s claims.",
+  "last_three_review_hashes": [
+    "f8d4c689b0bc48c8c80820ddc526ffbdb0dc8a4fa8f496836f7f42f0dd2ace56",
+    "f8d4c689b0bc48c8c80820ddc526ffbdb0dc8a4fa8f496836f7f42f0dd2ace56",
+    "f8d4c689b0bc48c8c80820ddc526ffbdb0dc8a4fa8f496836f7f42f0dd2ace56"
+  ],
+  "latest_updates": [
+    "updateenergy-claim-1417 Oct 2026 · 21:39 UTC",
+    "updateenergy-claim-1517 Oct 2026 · 21:39 UTC",
+    "updateenergy-claim-1617 Oct 2026 · 21:39 UTC",
+    "updateenergy-claim-1717 Oct 2026 · 21:39 UTC",
+    "updateenergy-claim-1817 Oct 2026 · 21:39 UTC"
+  ],
+  "observed_at": "2026-10-17T21:40:04.578Z",
+  "reviews": 8,
+  "revisions": 4,
+  "url": "http://127.0.0.1:8086/relay/?case=ukraine-energy-civilian-resilience-2024#comparison-winter-cash-people",
+  "new_claims": [
+    {
+      "id": "claim-energy-claim-14",
+      "open": true,
+      "source_links": [
+        {
+          "label": "Ministry of Social Policy, Family and Unity of Ukraine",
+          "target": true
+        }
+      ]
+    },
+    {
+      "id": "claim-energy-claim-15",
+      "open": true,
+      "source_links": [
+        {
+          "label": "Suspilne Kharkiv / Ukrainian Radio Kharkiv",
+          "target": true
+        }
+      ]
+    },
+    {
+      "id": "claim-energy-claim-16",
+      "open": true,
+      "source_links": [
+        {
+          "label": "Suspilne Kharkiv / Ukrainian Radio Kharkiv",
+          "target": true
+        },
+        {
+          "label": "Kharkiv Regional Military Administration",
+          "target": true
+        }
+      ]
+    },
+    {
+      "id": "claim-energy-claim-17",
+      "open": true,
+      "source_links": [
+        {
+          "label": "UNHCR",
+          "target": true
+        },
+        {
+          "label": "UNHCR",
+          "target": true
+        }
+      ]
+    },
+    {
+      "id": "claim-energy-claim-18",
+      "open": true,
+      "source_links": [
+        {
+          "label": "Ministry of Social Policy of Ukraine",
+          "target": true
+        }
+      ]
+    }
+  ],
+  "global_anchor": {
+    "hash": "#source-unhcr-global-cash-pdm-2025",
+    "title": "Cash assistance in 2025: Main outcomes from post distribution monitoring"
+  },
+  "phone": {
+    "document_width": 375,
+    "height": 844,
+    "page_overflow": false,
+    "width": 390
+  },
+  "console": []
+}

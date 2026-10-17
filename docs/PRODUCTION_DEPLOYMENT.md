@@ -1,5 +1,17 @@
 # Production deployment
 
+## UNHCR additional cash records: verified production payload
+
+Verified at 2026-10-17T21:42:04.174401+00:00. Forge activated release `80484916` for commit `009d507be59a04288f9bf9cbd193a0d785b331a1`, public tree `af4cd2aa7f557544a6bc4eab39cdb2aa2c0c0ebf`. Previous release `80484431` (`2f83567`) remained available for rollback. A later documentation-only release may share this same public tree.
+
+Both CI checks passed: [RELAY publication integrity](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39071976784) and [research publication integrity](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39071976761). The change passed 52 unit tests, publication/export, cited-evidence and research-reader checks, plus JavaScript syntax validation. The four new exact publisher hosts retain all existing request and redirect restrictions.
+
+[Live HTTP receipts](qa/unhcr-cash-records-2026-10-17/production-http.json) record 18 critical public routes/assets returning HTTP 200 with bytes matching the pushed commit. The case now includes five additional attributed claims, five source records, three actual AI checks and the fourth revision. Specific regional cash constraints and dated component records are published with their limits; the national causal split, the 9,326-person cohort difference and the 76-unit generator difference are not represented as resolved. The prepared records request remains unsent pending explicit email authorization.
+
+[Live case](https://xn--80akd1bg1j.com/relay/?case=ukraine-energy-civilian-resilience-2024#comparisons), [research note](evidence/2026-10-17-unhcr-cash-records.md), [release receipt](qa/unhcr-cash-records-2026-10-17/release-candidate.json).
+
+Live browser verification passed at 1440px and 390px: readable follow-up, source anchors, claims 17-18 with scope caveats, accurate unknown publication date and HTTP 403, four revisions and eight AI reviews. No page overflow or console warning/error. See [live browser findings](qa/unhcr-cash-records-2026-10-17/production-findings.json), [desktop proof](qa/unhcr-cash-records-2026-10-17/production-cash-followup-1440.jpg) and [phone proof](qa/unhcr-cash-records-2026-10-17/production-cash-followup-390.jpg).
+
 ## UNHCR cash and generator follow-up: verified production payload
 
 Verified at 2026-10-17T21:26:41.239562+00:00. Forge automatically activated release `80484376` for commit `9880f84728de63889bb7c3a5f5e78e4058cbcd28`, with public tree `d80bfacb7ecff2ba08a1cb335c84e277e4d19fc1`. The preceding release `80483855` (`232f36b`) remains available for rollback. These identify the verified payload; a later documentation-only release may share the same public tree.

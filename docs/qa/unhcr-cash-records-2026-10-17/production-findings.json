@@ -1,0 +1,143 @@
+{
+  "release": "009d507be59a04288f9bf9cbd193a0d785b331a1",
+  "forge_release": "80484916",
+  "url": "https://xn--80akd1bg1j.com/relay/?case=ukraine-energy-civilian-resilience-2024&release=009d507#comparisons",
+  "result": "pass",
+  "desktop": {
+    "documentWidth": 1425,
+    "height": 1000,
+    "width": 1440
+  },
+  "mobile": {
+    "documentWidth": 375,
+    "height": 844,
+    "width": 390
+  },
+  "cash_followup": "Winter cash assistance\nPLAN\n\n550,000 people\n\nPeriod\nWinter 2024-2025; September 2024 plan\n\nUNHCR: Ukraine Winter Response Plan 2024-2025, updated September 2024\n\nWhere to find it\nPDF p. 1, cash support\n\nUNHCR REPORTED\n\n258,345 people\n\nPeriod\nSeptember 2024-March 2025 summary; April cash narrative specifies October-March\n\nUNHCR: UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)\n\nWhere to find it\nPDF p. 1, Cash Assistance row and footnotes\n\nAssessment\n46.97% of original people target\n\nThe plan also gives 263,000 households. That is a different unit, not the denominator used here. Figures are UNHCR self-reports and remain subject to verification.\n\nFollow-up\nKharkiv's official reported a resource ceiling and 170 households awaiting bank checks in January 2025. Separately, the Ministry said technical difficulties prevented some 2024 UNHCR payments. These identify specific constraints, but do not apportion the national 291,655-person gap. Household figures cannot replace people, and the later regional payment total does not reconcile the pending cases. A later global report's two cohort figures also need reconciliation with the seasonal total; neither is silently substituted.\n\nSources: Households in frontline regions to receive additional funds for heating season · Why fewer than half of Kharkiv winter-cash applicants received UAH 21,000 · Kharkiv regional administration update: winter cash delivery paragraph · Cash assistance in 2025: Main outcomes from post distribution monitoring\n\nCalculation\n258,345 / 550,000 × 100 = 46.97%; difference: 291,655 people.",
+  "source_anchors": [
+    {
+      "href": "#source-unhcr-winter-plan-2024-25",
+      "targetExists": true,
+      "title": "UNHCR: Ukraine Winter Response Plan 2024-2025, updated September 2024"
+    },
+    {
+      "href": "#source-unhcr-winter-pdm-july-2025",
+      "targetExists": true,
+      "title": "UNHCR: UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)"
+    },
+    {
+      "href": "#source-ukraine-msp-winter-payment-failures-2025",
+      "targetExists": true,
+      "title": "Households in frontline regions to receive additional funds for heating season"
+    },
+    {
+      "href": "#source-kharkiv-winter-cash-interview-2025",
+      "targetExists": true,
+      "title": "Why fewer than half of Kharkiv winter-cash applicants received UAH 21,000"
+    },
+    {
+      "href": "#source-kharkiv-ova-winter-cash-delivery-2025",
+      "targetExists": true,
+      "title": "Kharkiv regional administration update: winter cash delivery paragraph"
+    },
+    {
+      "href": "#source-unhcr-global-cash-pdm-2025",
+      "targetExists": true,
+      "title": "Cash assistance in 2025: Main outcomes from post distribution monitoring"
+    }
+  ],
+  "claims_17_18": [
+    {
+      "id": "claim-energy-claim-17",
+      "links": [
+        {
+          "href": "#source-unhcr-global-cash-pdm-2025",
+          "targetExists": true,
+          "title": "UNHCR"
+        },
+        {
+          "href": "#source-unhcr-winter-pdm-july-2025",
+          "targetExists": true,
+          "title": "UNHCR"
+        },
+        {
+          "href": "/relay/?case=ukraine-energy-civilian-resilience-2024#claim-energy-claim-17",
+          "targetExists": true,
+          "title": "Permanent claim link"
+        },
+        {
+          "href": "#evidence",
+          "targetExists": true,
+          "title": "See evidence links ↓"
+        }
+      ],
+      "open": true,
+      "text": "REPORT\nSUPPORTED BY CITED SOURCE\nUNHCR's global 2025 cash monitoring report lists 152,382 people assisted with the Ministry of Reintegration and 96,637 through Social Policy/Pension Fund, with payments batched from October 2024 to February 2025.\n\nLimits\nThose cohort figures sum to 249,019, which is 9,326 below the separate 258,345 seasonal total. The reviewed records do not reconcile the difference. Neither total is silently substituted, and this does not explain the target shortfall.\n\nWhere to find it\nGlobal cash PDM report p. 7, Ukraine case study, opening paragraph; July winter summary p. 1 for the separate seasonal total.\n\nSupporting and conflicting sources\nEach link applies to the wording of this claim.\n\nsupports · UNHCR\nGlobal cash PDM report p. 7, Ukraine case study, opening paragraph; July winter summary p. 1 for the separate seasonal total. Preserves differing programme scopes and does not imply a reconciled national total.\nsupports · UNHCR\nGlobal cash PDM report p. 7, Ukraine case study, opening paragraph; July winter summary p. 1 for the separate seasonal total. Preserves differing programme scopes and does not imply a reconciled national total.\nPermanent claim link\nSee evidence links ↓"
+    },
+    {
+      "id": "claim-energy-claim-18",
+      "links": [
+        {
+          "href": "#source-msp-winter-cash-component-december-2024",
+          "targetExists": true,
+          "title": "Ministry of Social Policy of Ukraine"
+        },
+        {
+          "href": "/relay/?case=ukraine-energy-civilian-resilience-2024#claim-energy-claim-18",
+          "targetExists": true,
+          "title": "Permanent claim link"
+        },
+        {
+          "href": "#evidence",
+          "targetExists": true,
+          "title": "See evidence links ↓"
+        }
+      ],
+      "open": true,
+      "text": "REPORT\nSUPPORTED BY CITED SOURCE\nOn 26 December 2024, the Ministry of Social Policy reported UAH 1.02 billion in UNHCR-backed solid-fuel payments for 47,000 households, with payments still continuing.\n\nLimits\nThis is an interim component result, separate from state-budget support and the national winter-cash total. It is not funding received from donors, a final reach figure or proof that the difference from the 57,000-household ambition represents failed payments.\n\nWhere to find it\nOpening programme figures, UNHCR-funded row and immediately following continuing-payments qualification in the dated Ministry article.\n\nSupporting and conflicting sources\nEach link applies to the wording of this claim.\n\nsupports · Ministry of Social Policy of Ukraine\nOpening programme figures, UNHCR-funded row and immediately following continuing-payments qualification in the dated Ministry article. Preserves differing programme scopes and does not imply a reconciled national total.\nPermanent claim link\nSee evidence links ↓"
+    }
+  ],
+  "latest_updates": [
+    "UPDATE\nenergy-claim-14\n17 Oct 2026 · 21:39 UTC",
+    "UPDATE\nenergy-claim-15\n17 Oct 2026 · 21:39 UTC",
+    "UPDATE\nenergy-claim-16\n17 Oct 2026 · 21:39 UTC",
+    "UPDATE\nenergy-claim-17\n17 Oct 2026 · 21:39 UTC",
+    "UPDATE\nenergy-claim-18\n17 Oct 2026 · 21:39 UTC"
+  ],
+  "revisions": [
+    "revision-energy-revision-1",
+    "revision-energy-revision-2",
+    "revision-energy-revision-3",
+    "revision-energy-revision-4"
+  ],
+  "review_count": 8,
+  "latest_review_hashes": [
+    {
+      "id": "review-energy-records-source-review-20261017",
+      "sha256": "f8d4c689b0bc48c8c80820ddc526ffbdb0dc8a4fa8f496836f7f42f0dd2ace56"
+    },
+    {
+      "id": "review-energy-records-cash-check-20261017",
+      "sha256": "f8d4c689b0bc48c8c80820ddc526ffbdb0dc8a4fa8f496836f7f42f0dd2ace56"
+    },
+    {
+      "id": "review-energy-records-scope-check-20261017",
+      "sha256": "f8d4c689b0bc48c8c80820ddc526ffbdb0dc8a4fa8f496836f7f42f0dd2ace56"
+    }
+  ],
+  "global_source": {
+    "publication_date": "Not established (2025 report)",
+    "locator": "p. 7 Ukraine case study",
+    "content_review_method": "web search pdf text",
+    "direct_http_status": 403,
+    "local_download_or_render_claimed": false,
+    "anchor_click_hash": "#source-unhcr-global-cash-pdm-2025"
+  },
+  "console_warn_error": [],
+  "visual_inspection": "Readable desktop and mobile cash follow-up; source-card publication date stays explicitly unknown; no horizontal overflow.",
+  "screenshots": [
+    "production-cash-followup-1440.jpg",
+    "production-global-source-1440.jpg",
+    "production-cash-followup-390.jpg"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "payload_commit": "009d507be59a04288f9bf9cbd193a0d785b331a1",
+  "public_tree": "af4cd2aa7f557544a6bc4eab39cdb2aa2c0c0ebf",
+  "previous_production_release": "80484431",
+  "previous_production_commit": "2f835672fdaf3bd1379ac8545f81f7123f9bc84f",
+  "unit_tests": 52,
+  "local_browser_widths": [
+    1440,
+    390
+  ],
+  "ci": [
+    "https://github.com/Parallax-Web-Services/spacezh/actions/runs/39071976784",
+    "https://github.com/Parallax-Web-Services/spacezh/actions/runs/39071976761"
+  ],
+  "records_request_status": "Prepared; not sent; explicit email authorization pending"
+}
