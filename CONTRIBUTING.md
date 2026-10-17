@@ -4,7 +4,7 @@ SpaceЖ is a proposed public-infrastructure contribution to the **global defense
 
 ## Concrete places to begin
 
-- **Engineering:** review the proposed Atlas ingestion, provenance, uncertainty, and reproducibility model.
+- **Engineering:** review the proposed SpaceЖ Echo ingestion, provenance, uncertainty, and reproducibility model.
 - **Radio operators:** propose lawful, opt-in ground-station pilot designs compatible with existing networks where possible.
 - **Scientists and educators:** propose reproducible use cases with redistributable data, including uses relevant to Ukraine's civilian resilience.
 - **Ukrainian civic and research groups:** review priorities and identify safe public-interest requirements; no endorsement is assumed.

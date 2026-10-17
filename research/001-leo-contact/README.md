@@ -6,7 +6,7 @@
 
 Can one **authorized, cooperating** low-Earth-orbit satellite downlink deliver enough low-rate data during a pass to be useful for telemetry or small store-and-forward messages? This is **not** a Starlink replacement, a satellite service, a statement of spacecraft availability, or evidence of a built communications network.
 
-This study belongs to the SpaceЖ Link (communications) workstream. It is published beside the early-warning studies because the same publication standard applies, not because a telemetry link detects anything.
+This study belongs to the SpaceЖ Relay (communications) workstream. It is published beside the early-warning studies because the same publication standard applies, not because a telemetry link detects anything.
 
 ### Hypothetical assumptions
 

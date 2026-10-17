@@ -272,7 +272,7 @@
       .hero-media { max-width: 610px; width: 100%; margin: auto; }
       .ribbon-inner { justify-content: center; }
       .ribbon-word { font-size: 13px; }
-      .ribbon-inner .ribbon-word:nth-of-type(5), .ribbon-inner .ribbon-sep:nth-of-type(6) { display: none; }
+      .ribbon-inner > span:nth-child(n+8) { display: none; }
       .mission { padding: 89px 0 97px; }
       .mission-grid { grid-template-columns: 1fr; gap: 42px; }
       .mission .section-title { max-width: 570px; }
@@ -393,13 +393,13 @@
       </div>
     </section>
 
-    <div class="ribbon" aria-label="Life, freedom, science">
+    <div class="ribbon" aria-label="Життя equals Life; Воля equals Freedom; Наука equals Science">
       <div class="container ribbon-inner" aria-hidden="true">
-        <span class="ribbon-word">ЖИТТЯ</span><span class="ribbon-sep">✦</span>
+        <span class="ribbon-word">ЖИТТЯ</span><span class="ribbon-sep ribbon-equals">=</span>
         <span class="ribbon-word">LIFE</span><span class="ribbon-sep">✦</span>
-        <span class="ribbon-word">ВОЛЯ</span><span class="ribbon-sep">✦</span>
+        <span class="ribbon-word">ВОЛЯ</span><span class="ribbon-sep ribbon-equals">=</span>
         <span class="ribbon-word">FREEDOM</span><span class="ribbon-sep">✦</span>
-        <span class="ribbon-word">НАУКА</span><span class="ribbon-sep">✦</span>
+        <span class="ribbon-word">НАУКА</span><span class="ribbon-sep ribbon-equals">=</span>
         <span class="ribbon-word">SCIENCE</span>
       </div>
     </div>
@@ -465,22 +465,22 @@
         <div class="work-grid">
           <article class="work-card">
             <div class="work-card-top"><span class="work-glyph" aria-hidden="true">◎</span><span class="work-label mono">PHASE 01</span></div>
-            <h3>SpaceЖ Atlas</h3>
+            <h3>SpaceЖ Echo</h3>
             <p>A public orbital atlas for source-linked observations, predicted orbits, 3D exploration, and historical replay—with provenance and uncertainty visible.</p>
           </article>
           <article class="work-card">
             <div class="work-card-top"><span class="work-glyph" aria-hidden="true">◇</span><span class="work-label mono">PHASE 02</span></div>
-            <h3>SpaceЖ Node</h3>
+            <h3>SpaceЖ Array</h3>
             <p>Reproducible, privacy-conscious software for opt-in ground stations, designed to interoperate with established open projects such as SatNOGS.</p>
           </article>
           <article class="work-card">
             <div class="work-card-top"><span class="work-glyph" aria-hidden="true">◌</span><span class="work-label mono">PHASE 03</span></div>
-            <h3>SpaceЖ Link</h3>
+            <h3>SpaceЖ Relay</h3>
             <p>An interoperable communications testbed, beginning with licensed terrestrial links, delay-tolerant messaging, and simulations.</p>
           </article>
           <article class="work-card">
             <div class="work-card-top"><span class="work-glyph" aria-hidden="true">⌘</span><span class="work-label mono">FEASIBILITY</span></div>
-            <h3>SpaceЖ Orbit</h3>
+            <h3>SpaceЖ Parallax</h3>
             <p>A future hosted-payload or small-satellite feasibility track, gated by technical review, funding, licensed partners, and regulatory approval.</p>
           </article>
         </div>
@@ -517,7 +517,7 @@
         <h2 id="join-title" class="section-title">Contribute to <span class="accent">SpaceЖ.</span></h2>
         <p>We need technical reviews from Ukrainian researchers, satellite-data engineers, radio operators, and civil-society experts. Choose a specific problem to review or a small deliverable you can verify.</p>
         <a class="button button-primary" href="/coalition/">SEE HOW TO CONTRIBUTE <span class="arrow" aria-hidden="true">↗</span></a>
-        <span class="join-small mono">ILLUSTRATIVE FUNDING: $50,000 / FIRST 90 DAYS · $300,000 / YEAR ONE (INCLUDES KICKOFF).<br>
+        <span class="join-small mono">BOOTSTRAP: UP TO $2,000 DISCRETIONARY CASH / FIRST 90 DAYS · NO ANNUAL FUNDRAISING ASK.<br>
           <a href="/plan/" target="_blank" rel="noopener noreferrer"><u>READ THE PUBLIC PROPOSAL ↗</u></a> · <a href="/coalition/"><u>PARTNERSHIP RESEARCH ↗</u></a> · GOFUNDYOURSELF SUPPORT CHECKOUT PLANNED, NOT LIVE.</span>
         <!-- Future GoFundYourself embedded checkout is mounted here only after governance, disclosures, and payment review. -->
         <div id="gofundyourself-funnel" hidden data-provider="gofundyourself" data-campaign="spacezh"></div>
@@ -533,7 +533,7 @@
           <details class="faq-item"><summary>Does SpaceЖ operate a satellite network or warning service?</summary><p>No. There is no operational SpaceЖ broadband constellation, satellite link, launch-detection system, or emergency warning service. The experience lab is synthetic.</p></details>
           <details class="faq-item"><summary>Is SpaceЖ open source?</summary><p>The website and founding proposal are public. The plan is to use OSI-approved software licenses and publish technical work as it becomes ready; individual component licenses have not all been chosen.</p></details>
           <details class="faq-item"><summary>Who is behind SpaceЖ?</summary><p>Parallax Web Services, Inc. is initiating this public working proposal. The preferred long-term steward is an independent nonprofit or comparable public-benefit entity; none is claimed to exist yet.</p></details>
-          <details class="faq-item"><summary>Can I contribute financially?</summary><p>We are seeking collaborators and nonbinding expressions of support. The proposed $50,000 kickoff and $300,000 first-year figures are planning estimates, not funded commitments. GoFundYourself checkout is not live; any future campaign must publish its legal recipient, fee disclosures, and refund terms before processing contributions.</p></details>
+          <details class="faq-item"><summary>Can I contribute financially?</summary><p>We are seeking collaborators and nonbinding expressions of support. Our first-90-days plan has an up-to-$2,000 discretionary cash spending ceiling, not a fundraising target; there is no preset annual ask. GoFundYourself checkout is not live. Any future milestone sponsorship must disclose its legal recipient, fees, tax status, and refund terms before accepting funds.</p></details>
         </div>
       </div>
     </section>

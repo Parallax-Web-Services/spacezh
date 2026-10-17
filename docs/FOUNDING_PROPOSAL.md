@@ -2,7 +2,7 @@
 
 **Global defense of Ukraine. Open infrastructure for the world.**
 
-**Public founding proposal | Version 0.2 | 16 October 2026**
+**Public founding proposal | Version 0.3 | 17 October 2026**
 
 > Working proposal for public comment. SpaceЖ is not represented here as an established nonprofit, an operational satellite constellation, or an approved securities offering.
 
@@ -27,7 +27,7 @@ SpaceЖ is a proposed open-source, public-interest initiative with Ukraine at th
 
 ### The first concrete product
 
-A live public atlas of satellites and observations, paired with SpaceЖ Node: reproducible open software and documentation for compliant, opt-in ground stations. The product is useful on day one for educators, researchers, operators, journalists, and civic organizations.
+A live public atlas of satellites and observations, paired with SpaceЖ Array: reproducible open software and documentation for compliant, opt-in ground stations. The product is useful on day one for educators, researchers, operators, journalists, and civic organizations.
 
 
 ### Our founding promises
@@ -82,10 +82,10 @@ Ukraine's defense is the founding purpose; public, inspectable infrastructure is
 
 ### Four workstreams, sequenced by proof
 
-- **SPACEЖ ATLAS** Public orbital-intelligence software: catalog ingestion, licensed observation feeds, 3D orbital visualization, historical playback, event provenance, uncertainty, and accessible APIs.
-- **SPACEЖ NODE** Reproducible node packages: ground-station setup, equipment profiles, health telemetry, privacy controls, hardware documentation, and SatNOGS-compatible contributions wherever licensing permits.
-- **SPACEЖ LINK** An interoperable communications testbed, beginning with lawful terrestrial transport, delay-tolerant messaging, simulation, and interoperability evaluation. Actual satellite messaging depends on separately authorized links.
-- **SPACEЖ ORBIT** A gated feasibility track for a hosted payload or small satellite with a qualified mission partner. No launch contract, satellite capacity, or service availability is assumed.
+- **SPACEЖ ECHO** Public orbital-intelligence software: catalog ingestion, licensed observation feeds, 3D orbital visualization, historical playback, event provenance, uncertainty, and accessible APIs.
+- **SPACEЖ ARRAY** Reproducible node packages: ground-station setup, equipment profiles, health telemetry, privacy controls, hardware documentation, and SatNOGS-compatible contributions wherever licensing permits.
+- **SPACEЖ RELAY** An interoperable communications testbed, beginning with lawful terrestrial transport, delay-tolerant messaging, simulation, and interoperability evaluation. Actual satellite messaging depends on separately authorized links.
+- **SPACEЖ PARALLAX** A gated feasibility track for a hosted payload or small satellite with a qualified mission partner. No launch contract, satellite capacity, or service availability is assumed.
 
 ### Suggested technology foundation
 
@@ -117,14 +117,14 @@ Laravel for application APIs, ingest orchestration, access controls, queues, and
 
 ### Days 31–90  •  Prove the first value
 
-- Release SpaceЖ Atlas alpha with a reproducible ingestion pipeline and downloadable evidence records.
-- Document and demonstrate three authorized receiver/node pilots, using existing open projects where practical.
+- Release SpaceЖ Echo alpha with a reproducible ingestion pipeline and downloadable evidence records.
+- Publish a reproducible SpaceЖ Array receiver recipe and validate it with one consenting host or a simulated receiver before scaling further.
 - Run an independent reproducibility review and publish an error log and privacy assessment.
 - Publish monthly financial and technical updates, even if money raised is zero.
 
 ### Months 4–12  •  Validate community pilots
 
-- Targets—not commitments: 20 opt-in pilot stations, 50 external code/documentation contributions, and two nonprofit or academic demonstrations.
+- Expand pilots and demonstrations only as willing hosts, maintained software, and separately approved resources become available.
 - Stable public APIs, accessibility and localization, interoperability tests, and independent governance input.
 - Demonstrate a store-and-forward communications prototype on authorized terrestrial links, explicitly without claiming orbital capacity.
 
@@ -141,43 +141,44 @@ Laravel for application APIs, ingest orchestration, access controls, queues, and
 
 ## 05  |  Funding and sustainability
 
-The illustrative first-year funding target is $300,000, including a $50,000 kickoff tranche for a 90-day proof of work. These are planning assumptions, not quotes, commitments, or evidence that the initiative is already staffed. They rely on a lean paid core complemented by voluntary contributions and in-kind support.
+### Bootstrap first. Scale when justified.
 
+SpaceЖ does not need a funding round to begin. It needs working software, credible research, committed contributors, and independently reproducible results. Start with open-source software, public datasets, commodity computing, available infrastructure, and voluntarily contributed expertise—not hypothetical financing.
 
-### 90-day kickoff  •  $50,000 total
+**Our operating principle: prove it, then pay for it.** This is a proposed plan, not a claim that funds, equipment, sponsors, or contributors have been secured.
 
-| Use | Planning amount |
+### First 90 days  •  Up to $2,000 discretionary cash
+
+The immediate deliverable is a source-linked public software demonstration, reproducible tests, and documentation. We are not promising a deployed warning system, commissioned ground-station network, satellite link, or spacecraft.
+
+| Use | Discretionary cash allowance |
 | --- | --- |
-| Engineering / integration | $25,000 |
-| Prototype ground hardware | $8,000 |
-| Hosting / security / data | $5,000 |
-| Legal and regulatory review | $7,000 |
-| Documentation and outreach | $3,000 |
-| Contingency | $2,000 |
-| TOTAL | $50,000 |
+| Source control, documentation, collaboration | $0 |
+| Public datasets and simulation tools | $0 |
+| Development infrastructure and compute | $0–$300 |
+| Demo hosting and storage | $0–$300 |
+| Optional prototype and testing equipment | $0–$1,000 |
+| Contingency | $0–$400 |
+| **MAXIMUM discretionary cash spend** | **$2,000** |
 
+These are **spending ceilings, not money raised or purchase commitments**. The default is $0 wherever available resources suffice. The cap excludes the economic value of contributed labor. Paid engineering, professional legal or security review, regulated communications activities, field deployments, and orbital hardware must have separately funded and approved scopes before proceeding.
 
-### 12-month envelope  •  $300,000 total (kickoff included)
+### Funding follows demonstrated progress
 
-| Use | Planning amount |
-| --- | --- |
-| Software, protocol engineering, maintenance | $164,000 |
-| Ground equipment and pilots | $36,000 |
-| Hosting, data, security, audits | $21,000 |
-| Legal, spectrum, export reviews | $31,000 |
-| Community, translation, documentation | $24,000 |
-| Contingency | $24,000 |
-| TOTAL | $300,000 |
+1. **Build with what we have.** Release source, data provenance, repeatable simulations, and documentation before buying equipment.
+2. **Sponsor specific milestones.** Price an auditable integration, permitted ground-station pilot, independent review, dataset, or equipment purchase before asking anyone to fund it. Show deliverables and outcomes.
+3. **Earn revenue where appropriate.** Optional engineering services, integrations, hosted infrastructure, deployment assistance, training, support, and research contracts can support maintainers while the open-source core remains accessible.
+4. **Expand only when funded.** Larger hardware pilots, paid positions, regulated radio work, and orbital feasibility require secured resources, qualified reviews, and legal approvals—not optimistic projections.
 
-The 12-month amount excludes spacecraft manufacturing, launch, insurance, commercial spectrum acquisition, constellation operations, and any promise of satellite internet service. Those require separate feasibility work and potentially much larger financing.
+### Year one  •  No imaginary runway
 
+There is **no arbitrary annual fundraising target**. Publish actual receipts, approved expenditures, donated infrastructure, milestones, and outcomes. Each new project should have its own scope, budget, responsible party, and go/no-go review. Volunteer time is valuable but not an unlimited free staffing plan; compensate contributors when funding permits and disclose compensation and related-party transactions.
 
-### How the commons pays its bills
+Open software, portable infrastructure, clear documentation, and replaceable vendors keep the project useful even if a sponsor disappears. Public-interest access must not depend on a paid relationship, and any revenue or sponsorship must not buy exclusive control of the open core.
 
-Early support would be philanthropic grants, sponsorship of named milestones, in-kind hosting and hardware, and university collaborations. Long-term options include optional managed hosting, commercial support and training—never exclusive ownership of the open core or undisclosed resale of user-location or surveillance data.
+No contributions or checkout are live through this publication. Any future donation or sponsorship acceptance must identify the legal recipient, payment and refund terms, tax status, and required disclosures beforehand.
 
-Any accepted donations, tax status, and payment channels depend on a properly established legal vehicle and professional review. The publication itself is a call for collaborators and nonbinding expressions of support.
-
+**We do not need permission to begin. We need proof worth supporting.**
 
 ---
 
@@ -237,8 +238,8 @@ U.S.-jurisdiction spacecraft and earth-station activities can involve FCC author
 ### First-year public scorecard
 
 - Public repository and license inventory, visible issue backlog, documented builds, and monthly published progress.
-- Three reproducible node pilots and a source-linked atlas alpha within the first 90 days (targets).
-- 20 opt-in pilot stations, 50 external contributions, and two documented institutional demos by month 12 (targets).
+- A reproducible SpaceЖ Array receiver recipe and source-linked SpaceЖ Echo alpha within the first 90 days (targets).
+- Report actual pilot installations, external reviews, and institutional demonstrations as achieved instead of promising adoption quotas.
 - A public source-quality report, privacy policy, maintenance/security response plan, and proposed governance charter.
 - Ukrainian-language resources and voluntarily solicited input from Ukrainian research and civic contributors, without implying any endorsement before confirmation.
 
@@ -286,7 +287,7 @@ If you build software, take ownership of an issue. If you know RF, review the no
 - Contribute: choose a task you can complete or review within 30 days.
 - Validate: test the assumptions, licensing pathways, and technical architecture.
 - Host: offer lab time, space, a permitted ground station, or educational pilots.
-- Support: offer a nonbinding pledge toward the independently administered $50,000 kickoff.
+- Support: offer in-kind resources or discuss sponsorship of a priced milestone once a legal recipient exists.
 - Govern: help design an independent, auditable public-benefit charter.
 
 > **How to respond** — Reply to the public release with your role, an email or safe contact method, and the specific first-month deliverable you can own. Never post passwords, exact sensitive site coordinates, or other private details publicly.
