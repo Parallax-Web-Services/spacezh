@@ -26,7 +26,12 @@
     "evidence_brief": "passed",
     "research_publication": "passed",
     "javascript_syntax": "passed",
-    "git_diff_check": "passed"
+    "git_diff_check": "passed",
+    "source_date_precision": {
+      "checks": 6,
+      "passed": 6,
+      "method": "Executed the actual date formatter in Node vm against partial/qualified source dates, ISO date and UTC timestamp."
+    }
   },
   "source_access_run": {
     "started_at": "2026-10-17T22:12:58Z",
@@ -40,5 +45,6 @@
     "National cause-by-cause allocation of the 291,655-person winter cash target gap",
     "9,326-person difference between the two cohort sum and seasonal total",
     "76-unit difference between published generator totals; one transfer cannot be assigned to it"
-  ]
+  ],
+  "display_fix": "Browser QA caught false day precision for month-only publication dates. Formatter now preserves all non-ISO source date strings verbatim; related-record links use accurate generic labels."
 }

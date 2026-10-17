@@ -10,6 +10,7 @@
   const date = (value) => {
     if (!value) return 'Date not supplied';
     if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return new Date(`${value}T00:00:00Z`).toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
+    if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(value)) return value;
     const parsed = new Date(value);
     return Number.isNaN(parsed.valueOf()) ? value : `${parsed.toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric',timeZone:'UTC'})} · ${parsed.toLocaleTimeString('en-GB', {hour:'2-digit',minute:'2-digit',timeZone:'UTC'})} UTC`;
   };
@@ -66,7 +67,7 @@
   function publicCopyLinks(source) {
     const reviewedUrl = source.verification?.reviewed_url;
     const reviewedLink = reviewedUrl && reviewedUrl !== source.url ? `<a href="${escape(safeUrl(reviewedUrl))}">Read the public copy checked ↗</a>` : '';
-    const alternateLink = source.alternate_url && source.alternate_url !== source.url && source.alternate_url !== reviewedUrl ? `<a href="${escape(safeUrl(source.alternate_url))}">Read the republished article ↗</a>` : '';
+    const alternateLink = source.alternate_url && source.alternate_url !== source.url && source.alternate_url !== reviewedUrl ? `<a href="${escape(safeUrl(source.alternate_url))}">Open related public record ↗</a>` : '';
     return reviewedLink || alternateLink ? `<div class="public-copy-links">${reviewedLink}${alternateLink}</div>` : '';
   }
 
@@ -74,7 +75,7 @@
     const review = source.verification;
     const reviewLabel = review?.status === 'content_reviewed' ? 'Content reviewed' : review?.status === 'not_accessible' ? 'Content not accessible' : 'Content review unknown';
     const reviewBlock = `<section class="source-check" aria-label="Source-content check"><h4>Source-content check</h4>${badge(reviewLabel, review?.status || 'unknown')}<p>${review?.checked_at ? `Checked ${escape(date(review.checked_at))}` : 'No source-check date recorded.'}${review?.method ? `<br>Method: ${escape(label(review.method))}` : ''}</p>${review?.locator ? `<p><strong>Where to find it</strong><br>${escape(review.locator)}</p>` : ''}<p>${escape(review?.note || 'No content check is recorded for this source.')}</p>${review?.access_note ? `<p><strong>Access note</strong><br>${escape(review.access_note)}</p>` : ''}</section>`;
-    return `<div class="source-checks">${reviewBlock}${retrievalReceipt(source.retrieval)}${source.alternate_retrieval ? retrievalReceipt(source.alternate_retrieval, 'Access check: public copy') : ''}</div>`;
+    return `<div class="source-checks">${reviewBlock}${retrievalReceipt(source.retrieval)}${source.alternate_retrieval ? retrievalReceipt(source.alternate_retrieval, 'Access check: alternate public link') : ''}</div>`;
   }
 
   function renderCheckSummary() {
