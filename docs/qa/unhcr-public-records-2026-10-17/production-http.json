@@ -1,0 +1,181 @@
+{
+  "verified_at": "2026-10-17T22:19:56.108710+00:00",
+  "payload_commit": "e6f0a1caf3c82eb8a22b594aba6908f6f82ad54a",
+  "active_release": "80486095",
+  "public_tree": "d475477ef92680de713fbff155656cb4698e7f01",
+  "previous_release_observed": "80484993",
+  "checks": [
+    {
+      "path": "index.html",
+      "url": "https://xn--80akd1bg1j.com/?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 49721,
+      "sha256": "0f1b55b59af80a11d50c5bb0461cf0d678a6dba3f306313ae31c75925f319c8c",
+      "expected_sha256": "0f1b55b59af80a11d50c5bb0461cf0d678a6dba3f306313ae31c75925f319c8c",
+      "matches_commit": true
+    },
+    {
+      "path": "plan/index.html",
+      "url": "https://xn--80akd1bg1j.com/plan/?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 74217,
+      "sha256": "33fce2e45baaa928907937d3f8851e6bff84ca8a1ad8e70fe7aae90905fc1bb3",
+      "expected_sha256": "33fce2e45baaa928907937d3f8851e6bff84ca8a1ad8e70fe7aae90905fc1bb3",
+      "matches_commit": true
+    },
+    {
+      "path": "relay/index.html",
+      "url": "https://xn--80akd1bg1j.com/relay/?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 8926,
+      "sha256": "0c7474d4e008d974189bef2dbc387ab8e2fe6e6540c2b4b197b1adcdcd9f287f",
+      "expected_sha256": "0c7474d4e008d974189bef2dbc387ab8e2fe6e6540c2b4b197b1adcdcd9f287f",
+      "matches_commit": true
+    },
+    {
+      "path": "relay/data/cases.json",
+      "url": "https://xn--80akd1bg1j.com/relay/data/cases.json?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 361496,
+      "sha256": "809506a1f8619e18d5df28a17cb333ba0a906bc2042bed3a9edc0e06817930f8",
+      "expected_sha256": "809506a1f8619e18d5df28a17cb333ba0a906bc2042bed3a9edc0e06817930f8",
+      "matches_commit": true
+    },
+    {
+      "path": "relay/data/retrievals.json",
+      "url": "https://xn--80akd1bg1j.com/relay/data/retrievals.json?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 87285,
+      "sha256": "7d06acae11f85e8048b8121d42dc36a49dd4317e709dd2ec613ddbdff8291006",
+      "expected_sha256": "7d06acae11f85e8048b8121d42dc36a49dd4317e709dd2ec613ddbdff8291006",
+      "matches_commit": true
+    },
+    {
+      "path": "relay/data/manifest.json",
+      "url": "https://xn--80akd1bg1j.com/relay/data/manifest.json?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 512,
+      "sha256": "55f0b571ba0bbecf9e1a2518fddc21daa032576d00dbbfbb1634c9d48067ac0d",
+      "expected_sha256": "55f0b571ba0bbecf9e1a2518fddc21daa032576d00dbbfbb1634c9d48067ac0d",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/relay.js",
+      "url": "https://xn--80akd1bg1j.com/assets/relay.js?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 27083,
+      "sha256": "b1763e36ac7d8d75146e35ed8fbd15e1dd2c80fb87449b6e9e6acada4220f072",
+      "expected_sha256": "b1763e36ac7d8d75146e35ed8fbd15e1dd2c80fb87449b6e9e6acada4220f072",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/relay.css",
+      "url": "https://xn--80akd1bg1j.com/assets/relay.css?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 18047,
+      "sha256": "5186019a33a817e6880b8509e8a6249fef82e3855ff31df6a2faac271fc8a3da",
+      "expected_sha256": "5186019a33a817e6880b8509e8a6249fef82e3855ff31df6a2faac271fc8a3da",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/solidarity.css",
+      "url": "https://xn--80akd1bg1j.com/assets/solidarity.css?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 1949,
+      "sha256": "cefc71efe5dd0ebb181f2db8ae1bcd97ceecfd7400152acbb92b69b2ee8366c7",
+      "expected_sha256": "cefc71efe5dd0ebb181f2db8ae1bcd97ceecfd7400152acbb92b69b2ee8366c7",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/spacezh-solidarity-flags.webp",
+      "url": "https://xn--80akd1bg1j.com/assets/spacezh-solidarity-flags.webp?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 152784,
+      "sha256": "e3e457e382203fb406e84bbe572da9f17d16f224f0ee2c6ef572037453eaa4ba",
+      "expected_sha256": "e3e457e382203fb406e84bbe572da9f17d16f224f0ee2c6ef572037453eaa4ba",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/tryzub.svg",
+      "url": "https://xn--80akd1bg1j.com/assets/tryzub.svg?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 1200,
+      "sha256": "295c0dda83cf37a0b0ae1888c6c44066bba2237429dd8f89e6e3d433d553c169",
+      "expected_sha256": "295c0dda83cf37a0b0ae1888c6c44066bba2237429dd8f89e6e3d433d553c169",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/brand-products.css",
+      "url": "https://xn--80akd1bg1j.com/assets/brand-products.css?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 3873,
+      "sha256": "d701635f707e4ae3811cf5247078608232aedd691829a3b7ab37081df79e2163",
+      "expected_sha256": "d701635f707e4ae3811cf5247078608232aedd691829a3b7ab37081df79e2163",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/mobile-polish.css",
+      "url": "https://xn--80akd1bg1j.com/assets/mobile-polish.css?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 6437,
+      "sha256": "54e2e797579a6da2978ea5b33095e9a5f861135952bd7241b2241446a928de8d",
+      "expected_sha256": "54e2e797579a6da2978ea5b33095e9a5f861135952bd7241b2241446a928de8d",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/spacezh-hero.webp",
+      "url": "https://xn--80akd1bg1j.com/assets/spacezh-hero.webp?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 218320,
+      "sha256": "9304a46d20f4e9b4142726247127dc92ecb184510323263d12b02f88caecf07a",
+      "expected_sha256": "9304a46d20f4e9b4142726247127dc92ecb184510323263d12b02f88caecf07a",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/favicon.svg",
+      "url": "https://xn--80akd1bg1j.com/assets/favicon.svg?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 381,
+      "sha256": "91edf4f9fc21008fba8b28357a59330de43d4b73168f040b52e3ba4bbe928f45",
+      "expected_sha256": "91edf4f9fc21008fba8b28357a59330de43d4b73168f040b52e3ba4bbe928f45",
+      "matches_commit": true
+    },
+    {
+      "path": "coalition/index.html",
+      "url": "https://xn--80akd1bg1j.com/coalition/?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 42383,
+      "sha256": "2f4aa4f0d66ccc193bf32350652cb43b61e96928a3187b0d4f4b8d76cbf08647",
+      "expected_sha256": "2f4aa4f0d66ccc193bf32350652cb43b61e96928a3187b0d4f4b8d76cbf08647",
+      "matches_commit": true
+    },
+    {
+      "path": "research/index.html",
+      "url": "https://xn--80akd1bg1j.com/research/?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 41071,
+      "sha256": "dfe951fb2c0a6d766652310711e2d67541619e432f6c51463c2b638cfc59fd83",
+      "expected_sha256": "dfe951fb2c0a6d766652310711e2d67541619e432f6c51463c2b638cfc59fd83",
+      "matches_commit": true
+    },
+    {
+      "path": "research/briefings/starshield-restrictions/index.html",
+      "url": "https://xn--80akd1bg1j.com/research/briefings/starshield-restrictions/?release-check=e6f0a1caf3c8",
+      "http_status": 200,
+      "bytes": 43457,
+      "sha256": "d126e25596fbccc5c6cd10b4d5103cb026e5a50aa2f69db6b99b04db2c8db0bf",
+      "expected_sha256": "d126e25596fbccc5c6cd10b4d5103cb026e5a50aa2f69db6b99b04db2c8db0bf",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/relay.js",
+      "url": "https://xn--80akd1bg1j.com/assets/relay.js?v=b1763e36ac7d",
+      "http_status": 200,
+      "bytes": 27083,
+      "sha256": "b1763e36ac7d8d75146e35ed8fbd15e1dd2c80fb87449b6e9e6acada4220f072",
+      "expected_sha256": "b1763e36ac7d8d75146e35ed8fbd15e1dd2c80fb87449b6e9e6acada4220f072",
+      "matches_commit": true
+    }
+  ],
+  "previous_release_retained": "80484993"
+}

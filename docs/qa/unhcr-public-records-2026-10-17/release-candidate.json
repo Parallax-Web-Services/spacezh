@@ -46,5 +46,32 @@
     "9,326-person difference between the two cohort sum and seasonal total",
     "76-unit difference between published generator totals; one transfer cannot be assigned to it"
   ],
-  "display_fix": "Browser QA caught false day precision for month-only publication dates. Formatter now preserves all non-ISO source date strings verbatim; related-record links use accurate generic labels."
+  "display_fix": "Browser QA caught false day precision for month-only publication dates. Formatter now preserves all non-ISO source date strings verbatim; related-record links use accurate generic labels.",
+  "payload_commit": "e6f0a1caf3c82eb8a22b594aba6908f6f82ad54a",
+  "public_tree": "d475477ef92680de713fbff155656cb4698e7f01",
+  "ci": [
+    {
+      "check": "RELAY public publication integrity",
+      "commit": "e6f0a1caf3c82eb8a22b594aba6908f6f82ad54a",
+      "result": "success",
+      "url": "https://github.com/Parallax-Web-Services/spacezh/actions/runs/39074572443"
+    },
+    {
+      "check": "Research publication integrity",
+      "commit": "e6f0a1caf3c82eb8a22b594aba6908f6f82ad54a",
+      "result": "success",
+      "url": "https://github.com/Parallax-Web-Services/spacezh/actions/runs/39074572458"
+    }
+  ],
+  "production": {
+    "active_release": "80486095",
+    "payload_commit": "e6f0a1caf3c82eb8a22b594aba6908f6f82ad54a",
+    "public_tree": "d475477ef92680de713fbff155656cb4698e7f01",
+    "http_byte_checks": {
+      "passed": 19,
+      "run": 19
+    },
+    "previous_release_retained": "80484993",
+    "receipt": "production-http.json"
+  }
 }

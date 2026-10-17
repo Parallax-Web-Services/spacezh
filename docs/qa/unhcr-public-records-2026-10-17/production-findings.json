@@ -1,0 +1,243 @@
+{
+  "checked_at_utc": "2026-10-17T22:23:24.903Z",
+  "environment": "production",
+  "url": "https://xn--80akd1bg1j.com/relay/?case=ukraine-energy-civilian-resilience-2024&release=e6f0a1c#comparisons",
+  "release": "80486095",
+  "commit": "e6f0a1caf3c82eb8a22b594aba6908f6f82ad54a",
+  "public_tree": "d475477ef92680de713fbff155656cb4698e7f01",
+  "result": "pass",
+  "counts": {
+    "changes": 20,
+    "claims": 23,
+    "reviews": 11,
+    "revisions": 5,
+    "sources": 23
+  },
+  "desktop": {
+    "viewport_width": 1440,
+    "viewport_height": 900,
+    "document_width": 1425,
+    "horizontal_overflow": false
+  },
+  "mobile": {
+    "viewport_width": 390,
+    "viewport_height": 844,
+    "document_width": 375,
+    "horizontal_overflow": false
+  },
+  "script": [
+    "/assets/relay.js?v=b1763e36ac7d"
+  ],
+  "cash_followup": "Winter cash assistance\nPLAN\n\n550,000 people\n\nPeriod\nWinter 2024-2025; September 2024 plan\n\nUNHCR: Ukraine Winter Response Plan 2024-2025, updated September 2024\n\nWhere to find it\nPDF p. 1, cash support\n\nUNHCR REPORTED\n\n258,345 people\n\nPeriod\nSeptember 2024-March 2025 summary; April cash narrative specifies October-March\n\nUNHCR: UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)\n\nWhere to find it\nPDF p. 1, Cash Assistance row and footnotes\n\nAssessment\n46.97% of original people target\n\nThe plan also gives 263,000 households. That is a different unit, not the denominator used here. Figures are UNHCR self-reports and remain subject to verification.\n\nFollow-up\nKharkiv reported a regional resource ceiling and bank-detail checks; the Ministry separately reported technical payment failures. A later appeal judgment upheld a finding that Snovsk list/control failures deprived at least 90 residents of the opportunity for aid. FCDO recommends earlier UNHCR winter funding. These are specific constraints with different scopes. No obtained record apportions the national 291,655-person gap, and residents or households cannot replace people in that calculation.\n\nSources: Why fewer than half of Kharkiv winter-cash applicants received UAH 21,000 · Households in frontline regions to receive additional funds for heating season · Snovsk winter-aid list failures: appeal judgment in case 620/6119/25 · Snovsk announces UNHCR solid-fuel assistance registration · HARP annual review, S40017629, dated 16 November 2025\n\nCalculation\n258,345 / 550,000 × 100 = 46.97%; difference: 291,655 people.",
+  "generator_followup": "Generators\nPLAN\n\n420 generators\n\nPeriod\nWinter 2024-2025; September 2024 plan\n\nUNHCR: Ukraine Winter Response Plan 2024-2025, updated September 2024\n\nWhere to find it\nPDF p. 1, alternative energy\n\nUNHCR REPORTED\n\n186 generators\n\nPeriod\nWinter period; July 2025 report, box gives no separate cutoff\n\nUNHCR: UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)\n\nWhere to find it\nPDF p. 4, Alternative Energy Support box\n\nAssessment\n44.29% of original generator target\n\nApril reports 110; July reports 186 during the winter period. The reports do not provide a reconciled delivery chronology or comparable generator cutoffs.\n\nFollow-up\nCorrection: the April footnote dates people reached to 31 March, not generator units. A signed agreement effective 28 January lists one generator, but does not identify its membership in either national count or establish its physical delivery date. The 76-unit difference still cannot be assigned to later deliveries, wider coverage or revised records. Neither total is labelled final here.\n\nSources: UNHCR Ukraine Delivery Updates - 14 April 2025 · UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025) · Signed UNHCR generator ownership-transfer agreement KYIV_GEN_18_2025\n\nCalculation\n186 / 420 × 100 = 44.29%; difference: 234 generators.",
+  "source_anchor_targets": [
+    {
+      "href": "#source-unhcr-winter-plan-2024-25",
+      "targetExists": true,
+      "text": "UNHCR: Ukraine Winter Response Plan 2024-2025, updated September 2024"
+    },
+    {
+      "href": "#source-unhcr-winter-pdm-july-2025",
+      "targetExists": true,
+      "text": "UNHCR: UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)"
+    },
+    {
+      "href": "#source-kharkiv-winter-cash-interview-2025",
+      "targetExists": true,
+      "text": "Why fewer than half of Kharkiv winter-cash applicants received UAH 21,000"
+    },
+    {
+      "href": "#source-ukraine-msp-winter-payment-failures-2025",
+      "targetExists": true,
+      "text": "Households in frontline regions to receive additional funds for heating season"
+    },
+    {
+      "href": "#source-snovsk-winter-cash-appeal-2025",
+      "targetExists": true,
+      "text": "Snovsk winter-aid list failures: appeal judgment in case 620/6119/25"
+    },
+    {
+      "href": "#source-snovsk-unhcr-winter-registration-2024",
+      "targetExists": true,
+      "text": "Snovsk announces UNHCR solid-fuel assistance registration"
+    },
+    {
+      "href": "#source-fcdo-harp-annual-review-2025",
+      "targetExists": true,
+      "text": "HARP annual review, S40017629, dated 16 November 2025"
+    },
+    {
+      "href": "#source-unhcr-winter-plan-2024-25",
+      "targetExists": true,
+      "text": "UNHCR: Ukraine Winter Response Plan 2024-2025, updated September 2024"
+    },
+    {
+      "href": "#source-unhcr-winter-pdm-july-2025",
+      "targetExists": true,
+      "text": "UNHCR: UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)"
+    },
+    {
+      "href": "#source-unhcr-delivery-april-2025",
+      "targetExists": true,
+      "text": "UNHCR Ukraine Delivery Updates - 14 April 2025"
+    },
+    {
+      "href": "#source-unhcr-winter-pdm-july-2025",
+      "targetExists": true,
+      "text": "UNHCR Ukraine Winter Response 2024-2025: Post Distribution Monitoring Key Findings (July 2025)"
+    },
+    {
+      "href": "#source-fastiv-unhcr-generator-transfer-2025",
+      "targetExists": true,
+      "text": "Signed UNHCR generator ownership-transfer agreement KYIV_GEN_18_2025"
+    }
+  ],
+  "claim_23": "REPORT\nSUPPORTED BY CITED SOURCE\nOn 5 November 2025, an appeal court upheld a finding that failures in compiling beneficiary lists, checking addresses/duplicates and notifying excluded applicants in Snovsk deprived at least 90 residents of the opportunity to receive UAH 21,000 in winter solid-fuel assistance. A contemporaneous council notice identifies the programme as UNHCR-backed.\n\nLimits\nThis is a local administrative judgment about a disciplinary measure. It concerns residents and lost opportunity, not 90 households, a criminal conviction or a verified payment ledger. The appeal was dismissed; no later cassation was located, which does not prove none exists. The record does not show how these residents map to UNHCR’s national reported reach or quantify any part of the 291,655-person target gap.\n\nWhere to find it\nAppeal judgment, findings on December lists, concluding 90-resident reasoning and operative outcome; council registration notice dated 16 December 2024, opening programme paragraph and no-guarantee warning.\n\nSupporting and conflicting sources\nEach link applies to the wording of this claim.\n\nsupports · Sixth Administrative Court of Appeal of Ukraine\nAppeal judgment, findings on December lists, concluding 90-resident reasoning and operative outcome; council registration notice dated 16 December 2024, opening programme paragraph and no-guarantee warning. The court supports the local finding and appeal outcome; the notice establishes UNHCR programme identity. Neither apportions the national cash gap.\nsupports · Snovsk City Council\nAppeal judgment, findings on December lists, concluding 90-resident reasoning and operative outcome; council registration notice dated 16 December 2024, opening programme paragraph and no-guarantee warning. The court supports the local finding and appeal outcome; the notice establishes UNHCR programme identity. Neither apportions the national cash gap.\nPermanent claim link\nSee evidence links ↓",
+  "claim_23_anchors": [
+    {
+      "href": "#source-snovsk-winter-cash-appeal-2025",
+      "targetExists": true,
+      "text": "Sixth Administrative Court of Appeal of Ukraine"
+    },
+    {
+      "href": "#source-snovsk-unhcr-winter-registration-2024",
+      "targetExists": true,
+      "text": "Snovsk City Council"
+    },
+    {
+      "href": "/relay/?case=ukraine-energy-civilian-resilience-2024#claim-energy-claim-23",
+      "targetExists": null,
+      "text": "Permanent claim link"
+    },
+    {
+      "href": "#evidence",
+      "targetExists": true,
+      "text": "See evidence links ↓"
+    }
+  ],
+  "qualified_source_dates": [
+    {
+      "id": "source-fcdo-unhcr-memorandum-2024",
+      "header": [
+        "UK Foreign, Commonwealth and Development Office / May 2025 (DevTracker listing)",
+        "FCDO–UNHCR memorandum D0007515",
+        ""
+      ],
+      "related_links": [
+        "Open related public record ↗"
+      ]
+    },
+    {
+      "id": "source-fcdo-unhcr-amendment-2025",
+      "header": [
+        "UK Foreign, Commonwealth and Development Office / May 2025 (DevTracker listing)",
+        "FCDO–UNHCR grant amendment no. 1/2025, D0007516",
+        ""
+      ],
+      "related_links": [
+        "Open related public record ↗"
+      ]
+    },
+    {
+      "id": "source-fcdo-harp-annual-review-2025",
+      "header": [
+        "UK Foreign, Commonwealth and Development Office / November 2025 (DevTracker listing)",
+        "HARP annual review, S40017629, dated 16 November 2025",
+        ""
+      ],
+      "related_links": [
+        "Open related public record ↗"
+      ]
+    },
+    {
+      "id": "source-snovsk-winter-cash-appeal-2025",
+      "header": [
+        "Sixth Administrative Court of Appeal of Ukraine / 2025-11-13 (registry public-access date)",
+        "Snovsk winter-aid list failures: appeal judgment in case 620/6119/25",
+        ""
+      ],
+      "related_links": [
+        "Open related public record ↗"
+      ]
+    },
+    {
+      "id": "source-unhcr-global-cash-pdm-2025",
+      "header": [
+        "UNHCR / Not established (2025 report)",
+        "Cash assistance in 2025: Main outcomes from post distribution monitoring",
+        ""
+      ],
+      "related_links": []
+    }
+  ],
+  "history": {
+    "changeIds": [
+      "correction-energy-clarification-20261017",
+      "correction-energy-update-06-20261017",
+      "correction-energy-update-07-20261017",
+      "correction-energy-update-08-20261017",
+      "correction-energy-update-09-20261017",
+      "correction-energy-update-10-20261017",
+      "correction-energy-generator-cutoff-correction-20261017",
+      "correction-energy-followup-energy-claim-11-20261017",
+      "correction-energy-followup-energy-claim-12-20261017",
+      "correction-energy-followup-energy-claim-13-20261017",
+      "correction-energy-records-energy-claim-14-20261017",
+      "correction-energy-records-energy-claim-15-20261017",
+      "correction-energy-records-energy-claim-16-20261017",
+      "correction-energy-records-energy-claim-17-20261017",
+      "correction-energy-records-energy-claim-18-20261017",
+      "correction-energy-public-records-energy-claim-19-20261017",
+      "correction-energy-public-records-energy-claim-20-20261017",
+      "correction-energy-public-records-energy-claim-21-20261017",
+      "correction-energy-public-records-energy-claim-22-20261017",
+      "correction-energy-public-records-energy-claim-23-20261017"
+    ],
+    "documentWidth": 375,
+    "heading": "Updates and corrections",
+    "latestReviewDigests": [
+      {
+        "digest": "8edcd0d193fad7ff461fc7a53213123787a8798c6729f78ff3e7094cc7aebc12",
+        "id": "review-energy-public-records-source-review-20261017"
+      },
+      {
+        "digest": "8edcd0d193fad7ff461fc7a53213123787a8798c6729f78ff3e7094cc7aebc12",
+        "id": "review-energy-public-records-cash-check-20261017"
+      },
+      {
+        "digest": "8edcd0d193fad7ff461fc7a53213123787a8798c6729f78ff3e7094cc7aebc12",
+        "id": "review-energy-public-records-scope-check-20261017"
+      }
+    ],
+    "revisionIds": [
+      "revision-energy-revision-1",
+      "revision-energy-revision-2",
+      "revision-energy-revision-3",
+      "revision-energy-revision-4",
+      "revision-energy-revision-5"
+    ],
+    "summary": "06 / UPDATES AND CORRECTIONS\n\nUpdates and corrections\nCLARIFICATION\nenergy-claim-05\n17 Oct 2026 · 21:07 UTC\n\nReplace ambiguous 'allocated' with 'requested': the plan states a financial requirement, not a confirmed allocation. Original target figures were accurate. Remove the superseded statement that delivery outcomes had not been checked in this case.\n\nenergy-revision-1 → energy-revision-2\n\nEARLIER WORDING\nUNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and allocated $10 million in requirements for alternative energy support.\n\nStatus: Supported by cited source\n\nLimits\nThese are planned reach and financial requirements for winter 2024-2025, not people reached or money disbursed. Outcomes remain unverified in this case.\n\nPDF p. 1, Main response areas 1 and 2, supplie",
+    "width": 390
+  },
+  "source_navigation": {
+    "keyboard": {
+      "activeTag": "BODY",
+      "documentWidth": 375,
+      "hash": "#source-snovsk-winter-cash-appeal-2025",
+      "sourceTop": 325.5500183105469,
+      "width": 390
+    },
+    "pointer_on_visible_text": {
+      "hash": "#source-snovsk-winter-cash-appeal-2025",
+      "sourceHeadingTop": 325.5500183105469
+    },
+    "automation_observation": "The locator click used the union rectangle center of a wrapped inline link, which hit its parent paragraph in the gap between lines. Keyboard activation and a pointer click on the observed text rectangle both navigated to the correct source. No application change was required."
+  },
+  "console_warnings_errors": [],
+  "screenshots": [
+    "production-cash-followup-1440.jpg",
+    "production-qualified-source-dates-1440.jpg",
+    "production-court-claim-390.jpg",
+    "production-generator-followup-390.jpg"
+  ]
+}

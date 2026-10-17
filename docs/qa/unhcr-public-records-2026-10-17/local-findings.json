@@ -1,0 +1,79 @@
+{
+  "checked_at_utc": "2026-10-17T22:20:27.016Z",
+  "environment": "local",
+  "url": "http://127.0.0.1:8086/relay/?case=ukraine-energy-civilian-resilience-2024&qa=public-records-final",
+  "candidate_commit": "e6f0a1caf3c82eb8a22b594aba6908f6f82ad54a",
+  "result": "pass",
+  "counts": {
+    "changes": 20,
+    "claims": 23,
+    "reviews": 11,
+    "revisions": 5,
+    "sources": 23
+  },
+  "desktop": {
+    "viewport_width": 1440,
+    "document_width": 1425,
+    "horizontal_overflow": false
+  },
+  "mobile": {
+    "viewport_width": 390,
+    "viewport_height": 844,
+    "document_width": 375,
+    "horizontal_overflow": false
+  },
+  "versioned_script": [
+    "/assets/relay.js?v=b1763e36ac7d"
+  ],
+  "qualified_source_dates": [
+    {
+      "id": "source-fcdo-unhcr-memorandum-2024",
+      "text": "UK Foreign, Commonwealth and Development Office / May 2025 (DevTracker listing)\nFCDO–UNHCR memorandum D0007515\n\nprimary donor grant agreement · UK Foreign, Commonwealth and Development Office\n\nHTTP 200; OpenDocument XML reviewed with text spacing restored. Activity period 15 November 2024–31 March 2025 and original £10 million ceiling cover several activities. FCDO signature block says 14 November; partner day is redacted. Later amendment refers to signature on 20 November. The final narrative/financial report required by paragraph 24 was not obtained. No page-image review is claimed.\n",
+      "related_links": [
+        "Open related public record ↗"
+      ]
+    },
+    {
+      "id": "source-fcdo-unhcr-amendment-2025",
+      "text": "UK Foreign, Commonwealth and Development Office / May 2025 (DevTracker listing)\nFCDO–UNHCR grant amendment no. 1/2025, D0007516\n\nprimary donor grant amendment · UK Foreign, Commonwealth and Development Office\n\nHTTP 200; OpenDocument XML reviewed. The ceiling increases by £1,360,738 to £11,360,738. FCDO date is 26 February 2025; partner day is redacted. A ceiling across several activities does not establish winter-cash receipts or spending. No page-image review is claimed.\n",
+      "related_links": [
+        "Open related public record ↗"
+      ]
+    },
+    {
+      "id": "source-fcdo-harp-annual-review-2025",
+      "text": "UK Foreign, Commonwealth and Development Office / November 2025 (DevTracker listing)\nHARP annual review, S40017629, dated 16 November 2025\n\nprimary donor programme review · UK Foreign, Commonwealth and Development Office\n\nHTTP 200; OpenDocument XML reviewed, including table labels. The review covers October 2024–June 2025. The 53% cash result concerns the inter-agency plan, not UNHCR alone. Data-cleansing delay is attributed particularly to URCS under another programme. Paragraph 43 summarizes UNHCR third-party monitoring; the underlying monitoring report was not obtained. No page-image review is claimed.\n",
+      "related_links": [
+        "Open related public record ↗"
+      ]
+    },
+    {
+      "id": "source-snovsk-winter-cash-appeal-2025",
+      "text": "Sixth Administrative Court of Appeal of Ukraine / 2025-11-13 (registry public-access date)\nSnovsk winter-aid list failures: appeal judgment in case 620/6119/25\n\nprimary administrative appeal judgment · Sixth Administrative Court of Appeal of Ukraine\n\nJudgment dated 5 November 2025; full text made 10 November, publicly accessible 13 November. Appeal dismissed and 18 July judgment left unchanged. Local disciplinary administrative litigation, not a criminal conviction or national UNHCR audit. No later cassation found; absence of one is not established.\n",
+      "related_links": [
+        "Open related public record ↗"
+      ]
+    },
+    {
+      "id": "source-unhcr-global-cash-pdm-2025",
+      "text": "UNHCR / Not established (2025 report)\nCash assistance in 2025: Main outcomes from post distribution monitoring\n\nprimary global monitoring report · UNHCR\n\nGlobal monitoring publication with a Ukraine winter case study on p. 7. Exact publication date not established; the file path includes 2026-03. This is distinct from the 19-page Ukraine regular-MPCA report 123671.\n",
+      "related_links": []
+    }
+  ],
+  "verified": [
+    "Cash follow-up preserves national 291,655-person gap and labels Snovsk finding as at least 90 residents losing opportunity, not households or national apportionment",
+    "Generator follow-up states 76-unit difference remains unresolved; one signed agreement does not establish handover date or national count membership",
+    "Claims 19–23 source anchors resolve, including clicked court source anchor",
+    "Five revisions, eleven AI reviews and twenty recorded changes render",
+    "Month-only FCDO listings and qualified registry access date remain verbatim; 16 November document date remains separate",
+    "Public-record alternate controls say Open related public record",
+    "Claim 23 limits render and remain readable on 390px viewport"
+  ],
+  "console_warnings_errors": [],
+  "screenshots": [
+    "local-cash-followup-1440.jpg",
+    "local-qualified-source-dates-1440.jpg",
+    "local-court-claim-390.jpg",
+    "local-generator-followup-390.jpg"
+  ]
+}

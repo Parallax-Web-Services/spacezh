@@ -2,6 +2,20 @@
 
 Current research scope, 17 October 2026: the user selected public records only. The records-request draft remains unsent; email or other outreach is not authorized. Earlier release receipts below preserve the status observed when each release was verified.
 
+## UNHCR public-record investigation: verified production payload
+
+Verified at 2026-10-17T22:19:56.108710+00:00. Forge activated release `80486095` for commit `e6f0a1caf3c82eb8a22b594aba6908f6f82ad54a`, public tree `d475477ef92680de713fbff155656cb4698e7f01`. The preceding release `80484993` at `2756602` was verified retained for rollback. A later documentation-only release may share this public tree.
+
+Both [RELAY publication integrity](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39074572443) and [research publication integrity](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39074572458) passed on the exact production payload commit. These include 54 tests and JavaScript syntax validation. Local publication, evidence-brief and research-reader checks also passed. Six direct checks of the actual date formatter confirmed that partial/qualified source dates retain their original precision. Eight exact publisher hosts were added while retaining HTTPS, credential, port, redirect and body-size restrictions.
+
+[Live HTTP receipts](qa/unhcr-public-records-2026-10-17/production-http.json) record 19 critical public routes/assets returning HTTP 200 with bytes matching the deployed commit, including the exact versioned script URL. The release adds five claims and nine sources: component budgets, a bundled donor agreement/amendment and transactions, donor findings, one signed generator transfer, and a court-upheld local registration failure. The UNHCR case now has 23 claims, 23 sources, five revisions and 11 actual AI reviews. Its 20 change records comprise one clarification, one correction and 18 evidence additions. The earlier 18 claims and all prior review/revision/change records remain unchanged. The Starshield canonical record remains unchanged.
+
+The public page states the documented local failure and preserves its limits: at least 90 residents lost the opportunity for aid, rather than 90 households or a verified national payment count. The national 291,655-person causal split, 9,326-person cohort difference and 76-unit generator difference remain unreconciled. Public records alone were used; no email, form submission or external enquiry was sent.
+
+[Live case](https://xn--80akd1bg1j.com/relay/?case=ukraine-energy-civilian-resilience-2024#comparisons), [public grant and transfer records](evidence/2026-10-17-unhcr-public-records.md), [Snovsk original court records](evidence/2026-10-17-unhcr-snovsk.md), [release receipt](qa/unhcr-public-records-2026-10-17/release-candidate.json).
+
+Live browser verification passed at 1440px and 390px: correct counts/history, the local court finding and caveats, native pointer/keyboard source navigation, generator limits, qualified source publication dates and the versioned script. No horizontal overflow or console warning/error. See [production findings](qa/unhcr-public-records-2026-10-17/production-findings.json), [desktop cash view](qa/unhcr-public-records-2026-10-17/production-cash-followup-1440.jpg), [phone court finding](qa/unhcr-public-records-2026-10-17/production-court-claim-390.jpg) and [qualified source dates](qa/unhcr-public-records-2026-10-17/production-qualified-source-dates-1440.jpg). The temporary local preview was stopped after verification.
+
 ## UNHCR additional cash records: verified production payload
 
 Verified at 2026-10-17T21:42:04.174401+00:00. Forge activated release `80484916` for commit `009d507be59a04288f9bf9cbd193a0d785b331a1`, public tree `af4cd2aa7f557544a6bc4eab39cdb2aa2c0c0ebf`. Previous release `80484431` (`2f83567`) remained available for rollback. A later documentation-only release may share this same public tree.
