@@ -1,8 +1,18 @@
 # SPACEЖ RELAY — real-source verification record
 
+## UNHCR cash and generator follow-up — 17 October 2026
+
+The registry now contains two real cases, 20 claims, 17 source records and eight open questions. The UNHCR case has 13 claims, nine sources and seven comparisons. Sourced follow-up notes appear directly on the cash and generator cards and link to their source records. The broader countrywide funding figures are not substituted for winter-cash funding coverage. The full shortfall and the 76-unit generator difference remain unresolved.
+
+Revision 3 adds three claims and corrects our unsupported generator cutoff wording. Three actual, attributed AI checks reviewed the final 13-claim snapshot `6d5282be603b3b77e616f9cdf222bbca1f273e436f3bfbf86d97b13f31297ad1`. Their same-team research and implementation roles are disclosed. The prior two reviews, two revisions and six change records match the production baseline `232f36b` exactly; the Starshield case is unchanged. The case now has five AI reviews, three revisions, one clarification, one correction and eight evidence additions.
+
+Validation passed: 49 unit tests, RELAY publication and deterministic export checks, cited evidence brief check, four research-reader checks, JavaScript syntax and whitespace checks. Three tests cover sourced comparison follow-ups and reject malformed or unknown citations. The latest explicit access check records 21 attempts, 12 retrieved responses and nine unavailable responses; transport results do not overwrite separate content-access methods.
+
+The [source note](evidence/2026-10-17-unhcr-followup.md) records the bounded findings and access limits. The [baseline receipt](qa/unhcr-followup-2026-10-17/baseline.json) identifies the prior deployed bytes. Browser and production verification are recorded with the release receipts below.
+
 ## UNHCR delivery update and plain-language pass
 
-The current registry has two real cases, 17 claims, 14 source records and eight open questions. The UNHCR comparison opens first. It adds seven plan/result comparisons, preserving the earlier 110-generator report alongside the later 186, and keeps unreported power-station and expenditure totals as unknown.
+At this earlier release, the registry had two real cases, 17 claims, 14 source records and eight open questions. The UNHCR comparison opens first. It adds seven plan/result comparisons, preserving the earlier 110-generator report alongside the later 186, and keeps unreported power-station and expenditure totals as unknown.
 
 Two actual AI source reviews identify their methods, timestamps, scope and same-team limits. A Git-verified five-claim baseline carries no retrospective approval. Current snapshots preserve classification, wording, status, caveats, citations and locators. The log records one funding-wording clarification and five new evidence additions; it does not invent numerical mistakes or human approval.
 

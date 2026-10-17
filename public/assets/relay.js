@@ -86,7 +86,7 @@
     const query = $('case-search').value.trim().toLocaleLowerCase();
     const words = query.split(/\s+/).filter(Boolean);
     const matches = bundle.cases.filter((item) => {
-      const haystack = [item.title,item.summary,item.status,...item.tags,...(item.comparisons || []).flatMap((comparison) => [comparison.metric,comparison.assessment,comparison.note,comparison.target?.period,comparison.actual?.period]),...item.claims.flatMap((claim) => [claim.text,claim.kind,claim.status,claim.caveat,claim.locator]),...item.sources.flatMap((source) => [source.title,source.publisher,source.notes,source.verification?.note]),...(item.open_questions || []).flatMap((question) => [question.question,question.why_it_matters,question.needed_evidence])].join(' ').toLocaleLowerCase();
+      const haystack = [item.title,item.summary,item.status,...item.tags,...(item.comparisons || []).flatMap((comparison) => [comparison.metric,comparison.assessment,comparison.note,comparison.followup?.summary,comparison.target?.period,comparison.actual?.period]),...item.claims.flatMap((claim) => [claim.text,claim.kind,claim.status,claim.caveat,claim.locator]),...item.sources.flatMap((source) => [source.title,source.publisher,source.notes,source.verification?.note]),...(item.open_questions || []).flatMap((question) => [question.question,question.why_it_matters,question.needed_evidence])].join(' ').toLocaleLowerCase();
       return words.every((word) => haystack.includes(word)) && ($('case-kind').value === 'all' || item.kind === $('case-kind').value) && ($('case-status').value === 'all' || item.status === $('case-status').value);
     });
     if (matches.length && !matches.some((item) => item.id === selected?.id)) selected = matches[0];
@@ -103,11 +103,17 @@
     return `<section class="comparison-value"><h4>${escape(heading)}</h4><p class="comparison-number">${escape(value)}${entry.value != null && entry.unit ? ` <span>${escape(entry.unit)}</span>` : ''}</p>${entry.period ? `<p><strong>Period</strong><br>${escape(entry.period)}</p>` : ''}${source ? `<p><a href="#source-${escape(source.id)}">${escape(source.publisher)}: ${escape(source.title)}</a></p>` : ''}${entry.locator ? `<p><strong>Where to find it</strong><br>${escape(entry.locator)}</p>` : ''}</section>`;
   }
 
+  function comparisonFollowup(followup) {
+    if (!followup || typeof followup.summary !== 'string') return '';
+    const sources = (Array.isArray(followup.source_ids) ? followup.source_ids : []).map((id) => selected.sources.find((source) => source.id === id)).filter(Boolean);
+    return `<p><strong>Follow-up</strong><br>${escape(followup.summary)}</p>${sources.length ? `<p>Sources: ${sources.map((source) => `<a href="#source-${escape(source.id)}">${escape(source.title)}</a>`).join(' · ')}</p>` : ''}`;
+  }
+
   function renderComparisons() {
     const comparisons = selected.comparisons || [];
     $('comparisons').hidden = comparisons.length === 0;
     $('comparison-nav').hidden = comparisons.length === 0;
-    $('comparison-list').innerHTML = comparisons.map((comparison) => `<article class="comparison-card" id="comparison-${escape(comparison.id)}"><h3>${escape(comparison.metric)}</h3><div class="comparison-values">${comparisonValue(comparison.target, 'Plan')}${comparisonValue(comparison.actual, 'UNHCR reported')}</div>${comparison.assessment ? `<p class="comparison-assessment"><strong>Assessment</strong><br>${escape(comparison.assessment)}</p>` : ''}${comparison.note ? `<p>${escape(comparison.note)}</p>` : ''}${comparison.calculation ? `<p class="comparison-calculation"><strong>Calculation</strong><br>${escape(comparison.calculation)}</p>` : ''}</article>`).join('');
+    $('comparison-list').innerHTML = comparisons.map((comparison) => `<article class="comparison-card" id="comparison-${escape(comparison.id)}"><h3>${escape(comparison.metric)}</h3><div class="comparison-values">${comparisonValue(comparison.target, 'Plan')}${comparisonValue(comparison.actual, 'UNHCR reported')}</div>${comparison.assessment ? `<p class="comparison-assessment"><strong>Assessment</strong><br>${escape(comparison.assessment)}</p>` : ''}${comparison.note ? `<p>${escape(comparison.note)}</p>` : ''}${comparisonFollowup(comparison.followup)}${comparison.calculation ? `<p class="comparison-calculation"><strong>Calculation</strong><br>${escape(comparison.calculation)}</p>` : ''}</article>`).join('');
   }
 
   function renderCorrections() {

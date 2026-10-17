@@ -1,7 +1,7 @@
 # SPACEЖ RELAY — public evidence and review RFC
 
 **Version:** 0.1 · **Date:** 17 October 2026  
-**Status:** local public-data prototype and proposed architecture; no operational investigation service, connected Parallax RELAY import, confidential intake, or warning capability is claimed.
+**Status:** published read-only public-data prototype and proposed architecture; no operational investigation service, connected Parallax RELAY import, confidential intake, or warning capability is claimed.
 
 This RFC translates the supplied planning draft into a bounded first implementation. The current work covers site presentation, synchronized canonical plans, and a read-only case prototype. Further infrastructure and sensitive features have separate gates. See [the implementation plan](RELAY_IMPLEMENTATION_PLAN.md) for paths, acceptance, and delivery status and [the founding proposal](FOUNDING_PROPOSAL.md) for funding, governance, and wider mission.
 
@@ -30,7 +30,7 @@ The six wider ecosystem roles are proposed: **Slipstream** for scoped engineerin
 
 ## First release and data flow
 
-The current static publication is at `/relay/`. Two real cases contain 17 claims, 14 source records and eight open questions. The UNHCR winter-aid comparison opens first; the Starshield dossier remains available. Readers can inspect claims, sources, reporting periods, target/result comparisons, AI review records and actual edits. Missing delivery or expenditure values remain unknown. There is no browser authoring, authentication, upload, tipline, ingestion endpoint or alert action.
+The current static publication is at `/relay/`. Two real cases contain 20 claims, 17 source records and eight open questions. The UNHCR winter-aid case has 13 claims and nine sources and opens first; the Starshield dossier remains available. Readers can inspect claims, sources, reporting periods, target/result comparisons, AI review records and actual edits. Missing delivery or expenditure values remain unknown. There is no browser authoring, authentication, upload, tipline, ingestion endpoint or alert action.
 
 ```text
 Real public-source cases + content-review notes
@@ -50,7 +50,7 @@ public/relay/data/{cases,retrievals,manifest}.json
        Read-only /relay/ browser experience
 ```
 
-Real `public_case` histories now preserve the full wording, status, caveat, citations and locator of each claim. The first history entry can import an actual previously published Git commit; the validator reads that object and rejects a fabricated baseline. This import carries no retroactive approval. New revisions link actual review records to the SHA-256 of their claim snapshots. AI reviews use `reviewed`; a human publication approval must identify a human reviewer. Date ordering, changed claims and explicit before/after records are checked. Additions use `update`; wording clarifications and factual corrections remain distinct. The UNHCR history records a real terminology clarification and new evidence, without inventing a past numerical error.
+Real `public_case` histories now preserve the full wording, status, caveat, citations and locator of each claim. The first history entry can import an actual previously published Git commit; the validator reads that object and rejects a fabricated baseline. This import carries no retroactive approval. New revisions link actual review records to the SHA-256 of their claim snapshots. AI reviews use `reviewed`; a human publication approval must identify a human reviewer. Date ordering, changed claims and explicit before/after records are checked. Additions use `update`; wording clarifications and factual corrections remain distinct. The UNHCR history records a terminology clarification, new evidence and an actual correction: the earlier wording had applied a people-specific cutoff to generator units. The 110 and 186 reported generator totals differ by 76 without an established reconciliation. The [follow-up note](evidence/2026-10-17-unhcr-followup.md) also distinguishes cash funding and rollout context from a quantified explanation of the shortfall.
 
 Publication records are immutable at runtime. A later correction must describe an actual repository edit and rebuild, with affected versions and prior revision records retained. No reviewer identity, approval, or correction history is fabricated to populate the interface. Git history and deterministic exports support inspection; neither guarantees tamper-proof storage, legal admissibility, or the truth of a source's statement. Never place restricted fields in a public file and rely on a hidden view or client-side filter to protect them.
 
@@ -58,7 +58,7 @@ The existing [Starshield brief](evidence/2026-10-16-starshield.md) and [source/c
 
 The published [case registry](../data/relay/cases.json) contains real public-source cases only. The fictional exercise and simulated reviewers have been removed from the public bundle; minimal synthetic records are confined to unit tests. Missing review attribution or unavailable retrieval details remain missing or explicitly described.
 
-The [source access checker](../scripts/ingest_relay_sources.py) makes an explicitly invoked HTTPS GET to each allowlisted public URL and appends actual timestamps, status codes, response byte counts, and SHA-256 hashes to [retrievals.json](../data/relay/retrievals.json). Bodies are hashed in memory without full-article preservation or republication. The 17 October run attempted 15 URLs: eight returned HTTP 200 and seven were unavailable (four Reuters 401 responses, Telegraph 402, AP 403, and IAEA 403). Readable Reuters republications are included in the registry. A content review through web research and a transport receipt from this command are distinct observations; HTTP success is not a factual verdict. This is a manual tool, not a background ingestion service. The builder attaches receipts to sources and emits public cases, receipts, and a manifest.
+The [source access checker](../scripts/ingest_relay_sources.py) makes an explicitly invoked HTTPS GET to each allowlisted public URL and appends actual timestamps, status codes, response byte counts, and SHA-256 hashes to [retrievals.json](../data/relay/retrievals.json). Bodies are hashed in memory without full-article preservation or republication. The latest 17 October run attempted 21 URLs: twelve returned HTTP 200 and nine were unavailable (four Reuters 401 responses, Telegraph 402, AP 403, IAEA 403 and two UNHCR 403 responses). Readable Reuters republications are included in the registry. A content review through web research and a transport receipt from this command are distinct observations; HTTP success is not a factual verdict. This is a manual tool, not a background ingestion service. The builder attaches receipts to sources and emits public cases, receipts, and a manifest.
 
 ## Domain model
 

@@ -389,6 +389,252 @@
           "error": "Publisher returned HTTP 402"
         }
       ]
+    },
+    {
+      "started_at": "2026-10-17T21:21:03Z",
+      "completed_at": "2026-10-17T21:21:06Z",
+      "receipts": [
+        {
+          "requested_url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+          "final_url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+          "retrieved_at": "2026-10-17T21:21:03Z",
+          "method": "public_https_get",
+          "status": "unavailable",
+          "http_status": 403,
+          "content_type": null,
+          "body_sha256": null,
+          "bytes": null,
+          "error": "Publisher returned HTTP 403"
+        },
+        {
+          "requested_url": "https://data.unhcr.org/en/documents/download/110943",
+          "final_url": "https://data.unhcr.org/en/documents/download/110943",
+          "retrieved_at": "2026-10-17T21:21:03Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "pdf",
+          "body_sha256": "952c312a2d82ff1c28189c9aa527d36d301b0855b34816cae1f888218c0f6999",
+          "bytes": 831848
+        },
+        {
+          "requested_url": "https://data.unhcr.org/en/documents/download/114376",
+          "final_url": "https://data.unhcr.org/en/documents/download/114376",
+          "retrieved_at": "2026-10-17T21:21:03Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "pdf",
+          "body_sha256": "6cccb18ca26bfe2d203769a2c89bd135883c4a58e2f05dbb132301172b54e5e4",
+          "bytes": 958293
+        },
+        {
+          "requested_url": "https://data.unhcr.org/en/documents/download/115718",
+          "final_url": "https://data.unhcr.org/en/documents/download/115718",
+          "retrieved_at": "2026-10-17T21:21:03Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "body_sha256": "546cc080f6a4c5ba43c955821df528f0a2719f7c4602f46d5071813dce940c58",
+          "bytes": 1884633
+        },
+        {
+          "requested_url": "https://data.unhcr.org/en/documents/download/118022",
+          "final_url": "https://data.unhcr.org/en/documents/download/118022",
+          "retrieved_at": "2026-10-17T21:21:03Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "pdf",
+          "body_sha256": "055fc959ffb8166608a0bc30bdf4f95d97d36606786077e67871380a9cc8d8c6",
+          "bytes": 1194671
+        },
+        {
+          "requested_url": "https://data.unhcr.org/en/documents/download/118031",
+          "final_url": "https://data.unhcr.org/en/documents/download/118031",
+          "retrieved_at": "2026-10-17T21:21:04Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "body_sha256": "cb9a7429e13c85f36d153655b2877b9c2d4a3fa865e1a30186b3d9e0ebde5a02",
+          "bytes": 1039137
+        },
+        {
+          "requested_url": "https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/",
+          "final_url": "https://kyivindependent.com/musk-asked-trump-to-restrict-ukraines-starlink-service-telegraph-reports/",
+          "retrieved_at": "2026-10-17T21:21:04Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "body_sha256": "365d6fc97914f08582cb39951c7efe945c5a41de12c09999ff54e58fca55f162",
+          "bytes": 282992
+        },
+        {
+          "requested_url": "https://ukraine.ohchr.org/sites/default/files/2024-09/ENG%20Attacks%20on%20Ukraine%E2%80%99s%20Energy%20Infrastructure-%20%20Harm%20to%20the%20Civilian%20Population.pdf",
+          "final_url": "https://ukraine.ohchr.org/sites/default/files/2024-09/ENG%20Attacks%20on%20Ukraine%E2%80%99s%20Energy%20Infrastructure-%20%20Harm%20to%20the%20Civilian%20Population.pdf",
+          "retrieved_at": "2026-10-17T21:21:04Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "body_sha256": "a13d171ccdec8866f5a21b1794a0497d1da01ccd7198189318812afc1c12116a",
+          "bytes": 22890567
+        },
+        {
+          "requested_url": "https://www.aol.com/articles/exclusive-musk-approached-trump-slow-175901000.html",
+          "final_url": "https://www.aol.com/articles/exclusive-musk-approached-trump-slow-175901000.html",
+          "retrieved_at": "2026-10-17T21:21:04Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "body_sha256": "7bb65bcf06e5fafb3f25cbd9490b7faa85a5481ce6969b9a83ba67bd3e5e60c4",
+          "bytes": 815248
+        },
+        {
+          "requested_url": "https://www.iaea.org/newscenter/pressreleases/update-247-iaea-director-general-statement-on-situation-in-ukraine",
+          "final_url": "https://www.iaea.org/newscenter/pressreleases/update-247-iaea-director-general-statement-on-situation-in-ukraine",
+          "retrieved_at": "2026-10-17T21:21:04Z",
+          "method": "public_https_get",
+          "status": "unavailable",
+          "http_status": 403,
+          "content_type": null,
+          "body_sha256": null,
+          "bytes": null,
+          "error": "Publisher returned HTTP 403"
+        },
+        {
+          "requested_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukraine-accuses-spacex-of-crippling-drone-missions-as-ties-with-us-worsen",
+          "final_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukraine-accuses-spacex-of-crippling-drone-missions-as-ties-with-us-worsen",
+          "retrieved_at": "2026-10-17T21:21:05Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "body_sha256": "f0c5eb6a4d504415c4634677cac013a3ff80c5aeeec7b4de67d8c8df251775a8",
+          "bytes": 99277
+        },
+        {
+          "requested_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/exclusive-order-to-limit-starshield-for-ukraine-came-from-inside-white-house-sources-say",
+          "final_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/exclusive-order-to-limit-starshield-for-ukraine-came-from-inside-white-house-sources-say",
+          "retrieved_at": "2026-10-17T21:21:05Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "body_sha256": "741ed7687d75ddfbb18f5f5ad13e6af51e2f4318c485ccabc8058eefec264e76",
+          "bytes": 96305
+        },
+        {
+          "requested_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/starlink-disruptions-are-being-felt-on-the-front-lines-of-ukraine",
+          "final_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/starlink-disruptions-are-being-felt-on-the-front-lines-of-ukraine",
+          "retrieved_at": "2026-10-17T21:21:05Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "body_sha256": "4eac02ff26d2088889f981b13547f69efe86f2b3f6128a48d9525f024d9be9c6",
+          "bytes": 91394
+        },
+        {
+          "requested_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/trump-says-neither-he-nor-musk-responsible-for-ukraine-starlink-access",
+          "final_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/16/trump-says-neither-he-nor-musk-responsible-for-ukraine-starlink-access",
+          "retrieved_at": "2026-10-17T21:21:05Z",
+          "method": "public_https_get",
+          "status": "retrieved",
+          "http_status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "body_sha256": "ac5204b2844fcfcad89594dcc123c75b696ead4caf0c7b0fcce752f44e41d7fe",
+          "bytes": 86435
+        },
+        {
+          "requested_url": "https://www.reuters.com/business/aerospace-defense/starlink-disruptions-are-being-felt-front-lines-ukraine-2026-10-16/",
+          "final_url": "https://www.reuters.com/business/aerospace-defense/starlink-disruptions-are-being-felt-front-lines-ukraine-2026-10-16/",
+          "retrieved_at": "2026-10-17T21:21:05Z",
+          "method": "public_https_get",
+          "status": "unavailable",
+          "http_status": 401,
+          "content_type": null,
+          "body_sha256": null,
+          "bytes": null,
+          "error": "Publisher returned HTTP 401"
+        },
+        {
+          "requested_url": "https://www.reuters.com/business/media-telecom/ukraine-accuses-spacex-crippling-drone-missions-ties-with-us-worsen-2026-10-14/",
+          "final_url": "https://www.reuters.com/business/media-telecom/ukraine-accuses-spacex-crippling-drone-missions-ties-with-us-worsen-2026-10-14/",
+          "retrieved_at": "2026-10-17T21:21:05Z",
+          "method": "public_https_get",
+          "status": "unavailable",
+          "http_status": 401,
+          "content_type": null,
+          "body_sha256": null,
+          "bytes": null,
+          "error": "Publisher returned HTTP 401"
+        },
+        {
+          "requested_url": "https://www.reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/",
+          "final_url": "https://www.reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/",
+          "retrieved_at": "2026-10-17T21:21:05Z",
+          "method": "public_https_get",
+          "status": "unavailable",
+          "http_status": 401,
+          "content_type": null,
+          "body_sha256": null,
+          "bytes": null,
+          "error": "Publisher returned HTTP 401"
+        },
+        {
+          "requested_url": "https://www.reuters.com/world/europe/trump-says-neither-he-nor-musk-responsible-ukraine-starlink-access-2026-10-16/",
+          "final_url": "https://www.reuters.com/world/europe/trump-says-neither-he-nor-musk-responsible-ukraine-starlink-access-2026-10-16/",
+          "retrieved_at": "2026-10-17T21:21:06Z",
+          "method": "public_https_get",
+          "status": "unavailable",
+          "http_status": 401,
+          "content_type": null,
+          "body_sha256": null,
+          "bytes": null,
+          "error": "Publisher returned HTTP 401"
+        },
+        {
+          "requested_url": "https://www.telegraph.co.uk/world-news/2026/10/16/musk-approached-trump-slow-down-starlink-help-ukraine/",
+          "final_url": "https://www.telegraph.co.uk/world-news/2026/10/16/musk-approached-trump-slow-down-starlink-help-ukraine/",
+          "retrieved_at": "2026-10-17T21:21:06Z",
+          "method": "public_https_get",
+          "status": "unavailable",
+          "http_status": 402,
+          "content_type": null,
+          "body_sha256": null,
+          "bytes": null,
+          "error": "Publisher returned HTTP 402"
+        },
+        {
+          "requested_url": "https://www.unhcr.org/ua/en/news/stories/cash-assistance-helps-people-survive-winter-frontline-villages",
+          "final_url": "https://www.unhcr.org/ua/en/news/stories/cash-assistance-helps-people-survive-winter-frontline-villages",
+          "retrieved_at": "2026-10-17T21:21:06Z",
+          "method": "public_https_get",
+          "status": "unavailable",
+          "http_status": 403,
+          "content_type": null,
+          "body_sha256": null,
+          "bytes": null,
+          "error": "Publisher returned HTTP 403"
+        },
+        {
+          "requested_url": "https://www.unhcr.org/uk/sites/uk/files/2025-06/Ukraine%20ARR%202024_36.pdf",
+          "final_url": "https://www.unhcr.org/uk/sites/uk/files/2025-06/Ukraine%20ARR%202024_36.pdf",
+          "retrieved_at": "2026-10-17T21:21:06Z",
+          "method": "public_https_get",
+          "status": "unavailable",
+          "http_status": 403,
+          "content_type": null,
+          "body_sha256": null,
+          "bytes": null,
+          "error": "Publisher returned HTTP 403"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "commit": "232f36b547a91ad0137f1ca6dc992b7f7afcdde3",
+  "files": [
+    {
+      "path": "data/relay/cases.json",
+      "bytes": 98778,
+      "sha256": "dca653af2d0683ba664bf61cf788387628ea9bb2e734e122cceeff8671008896"
+    },
+    {
+      "path": "public/relay/data/cases.json",
+      "bytes": 131044,
+      "sha256": "ebd60008e0d4ffae6279a1f10fdc389d21a4289d15ddcd38f7866eb8e2e69664"
+    },
+    {
+      "path": "public/relay/data/manifest.json",
+      "bytes": 512,
+      "sha256": "911c11879922226292dc2d5a8e9fd37b643f6a84872762e5d25f51259fd6a699"
+    }
+  ]
+}

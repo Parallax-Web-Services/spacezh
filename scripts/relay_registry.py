@@ -157,6 +157,14 @@ def validate_registry(data):
                 comparison_ids.add(comparison_id)
             for field in ("metric", "assessment", "note"):
                 require(isinstance(comparison.get(field), str) and bool(comparison[field].strip()), prefix + "comparison " + field + " required")
+            if "followup" in comparison:
+                followup = comparison["followup"]
+                require(isinstance(followup, dict), prefix + "comparison followup must be an object")
+                if isinstance(followup, dict):
+                    require(set(followup) == {"summary", "source_ids"}, prefix + "comparison followup requires summary and source_ids only")
+                    require(isinstance(followup.get("summary"), str) and bool(followup["summary"].strip()), prefix + "comparison followup summary must be nonempty text")
+                    cited = followup.get("source_ids")
+                    require(isinstance(cited, list) and bool(cited) and all(isinstance(source_id, str) and source_id in sources for source_id in cited), prefix + "comparison followup requires known source IDs")
             for side in ("target", "actual"):
                 measure = comparison.get(side)
                 require(isinstance(measure, dict), prefix + "comparison " + side + " must be an object")

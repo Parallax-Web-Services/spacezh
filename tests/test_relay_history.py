@@ -145,6 +145,28 @@ class RealHistoryTests(unittest.TestCase):
         self.comparison()
         self.assertEqual(validate_registry(self.data), [])
 
+    def test_comparison_followup_accepts_attributed_context(self):
+        comparison = self.comparison()
+        comparison["followup"] = {"summary": "The later source explains its reporting period, not why assistance fell short.", "source_ids": [self.case["sources"][-1]["id"]]}
+        self.assertEqual(validate_registry(self.data), [])
+
+    def test_comparison_followup_rejects_missing_or_unknown_sources(self):
+        comparison = self.comparison()
+        for cited in ([], ["unknown"], [["malformed"]], "source-id", None):
+            comparison["followup"] = {"summary": "Sourced follow-up context.", "source_ids": cited}
+            self.rejects("comparison followup requires known source IDs")
+
+    def test_comparison_followup_rejects_malformed_or_empty_content(self):
+        comparison = self.comparison()
+        for followup in (None, [], "context"):
+            comparison["followup"] = followup
+            self.rejects("comparison followup must be an object")
+        for summary in ("", "   ", [], None):
+            comparison["followup"] = {"summary": summary, "source_ids": [self.case["sources"][-1]["id"]]}
+            self.rejects("comparison followup summary must be nonempty text")
+        comparison["followup"] = {"summary": "Sourced context.", "source_ids": [self.case["sources"][-1]["id"]], "verdict": "unreviewed"}
+        self.rejects("comparison followup requires summary and source_ids only")
+
     def test_comparison_rejects_unbounded_or_mismatched_calculation(self):
         comparison = self.comparison()
         for bad in (True, -1, float("nan"), float("inf")):

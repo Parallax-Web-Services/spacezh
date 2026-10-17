@@ -10,9 +10,9 @@
       "kind": "public_case",
       "visibility": "public",
       "status": "documented",
-      "summary": "UNHCR reported winter cash assistance for 258,345 people against a 550,000-person target. Compare cash, insulation, essential items and generators with the original plan, and inspect the figures still missing.",
+      "summary": "UNHCR reported winter cash reach of 47% of its original people target. Its appeal depended on funding, but public records do not apportion the shortfall. The 110 and 186 generator totals remain unreconciled; our earlier cutoff wording is corrected.",
       "boundary_note": "Ukraine, winter 2024-2025. Results are UNHCR and partner self-reports, not an independent audit. Counts use the units and reporting periods shown below; they do not measure all aid received from other providers.",
-      "publication_note": "Updated from official documents on 17 October 2026. Review records identify the AI checks performed for this revision. No named human editorial approval is recorded. The earlier published claims are preserved in the version history.",
+      "publication_note": "Follow-up checked on 17 October 2026. Funding conditions, annual resource constraints and interim cash delivery are now sourced. The generator date overstatement is corrected while the 76-unit difference remains unresolved. Actual AI reviews and prior versions are preserved.",
       "tags": [
         "Ukraine",
         "UNHCR",
@@ -93,15 +93,15 @@
           "published_date": "2025-04-14",
           "source_type": "primary_humanitarian_delivery_report",
           "url": "https://data.unhcr.org/en/documents/download/115718",
-          "notes": "The April infographic reports 110 generators. The later July monitoring report lists 186; neither document explains the change. People reached are subject to cleaning and retroactive corrections. Portal metadata: https://data.unhcr.org/en/documents/details/115718.",
+          "notes": "The seasonal infographic lists 110 generators. Its 31 March footnote explicitly dates people reached; it gives no separate generator cutoff. The July report lists 186 without a reconciliation.",
           "rights": "Official document linked for verification. Only brief original paraphrases, figures and locators are published; no document pages or beneficiary images are republished.",
           "verification": {
             "status": "content_reviewed",
-            "checked_at": "2026-10-17T21:02:22Z",
+            "checked_at": "2026-10-17T21:20:35Z",
             "method": "primary_source_pdf_review",
             "reviewed_url": "https://data.unhcr.org/en/documents/download/115718",
-            "locator": "PDF pp. 3-4: cash period October 2024-March 2025; winter-response infographic as of 31 March 2025.",
-            "note": "PDF downloaded, text inspected and relevant table/footnotes visually checked by Codex. This checks what UNHCR reports; it does not independently verify delivery to recipients."
+            "locator": "PDF p. 3, cash period October 2024-March 2025; p. 4, Generators row and people-specific date footnote.",
+            "note": "Rechecked the PDF table and footnote visually. The people-reached date must not be assigned to generator units. Both reported generator totals are preserved."
           }
         },
         {
@@ -140,6 +140,63 @@
             "reviewed_url": "https://data.unhcr.org/en/documents/download/118031",
             "locator": "PDF p. 1, Targets and achievements: Winter 2024-25 row, distinct from MPCA 2024/2025 and Winter 2025-26.",
             "note": "PDF downloaded, text inspected and relevant table/footnotes visually checked by Codex. This checks what UNHCR reports; it does not independently verify delivery to recipients."
+          }
+        },
+        {
+          "id": "unhcr-winter-cash-december-story-2024",
+          "title": "Cash assistance helps people survive winter in frontline villages",
+          "publisher": "UNHCR",
+          "byline": "Iryna Tymchyshyn",
+          "published_date": "2024-12-17",
+          "source_type": "primary_programme_announcement",
+          "url": "https://www.unhcr.org/ua/en/news/stories/cash-assistance-helps-people-survive-winter-frontline-villages",
+          "notes": "Dated programme announcement; household ambitions and the funding condition are plans, not final delivery or a replacement for the original people target.",
+          "rights": "Official source linked. Only brief original paraphrases, figures and locators are published; no article body, report pages, photographs or recipient details are republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T21:20:35Z",
+            "method": "web_search_article_text",
+            "reviewed_url": "https://www.unhcr.org/ua/en/news/stories/cash-assistance-helps-people-survive-winter-frontline-villages",
+            "locator": "Closing programme paragraphs: over 93,000 frontline families; another 57,000 vulnerable families; 550,000-person ambition conditional on funding.",
+            "note": "The matching official article text, title, byline and date were inspected through public web search. Direct opening was unavailable in the web tool; separate GET access is recorded in the receipts."
+          }
+        },
+        {
+          "id": "unhcr-ukraine-annual-results-2024",
+          "title": "Ukraine Annual Results Report 2024",
+          "publisher": "UNHCR",
+          "byline": "UNHCR Ukraine",
+          "published_date": "2025-05-28",
+          "source_type": "primary_annual_results_report",
+          "url": "https://www.unhcr.org/uk/sites/uk/files/2025-06/Ukraine%20ARR%202024_36.pdf",
+          "notes": "Report dated 28 May 2025. Countrywide annual resources are not a winter-cash funding ledger. The p. 24 narrative says 57% funded; p. 23 separately labels 55.78% funds available as a share of budget. These measures are not treated as interchangeable.",
+          "rights": "Official source linked. Only brief original paraphrases, figures and locators are published; no article body, report pages, photographs or recipient details are republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T21:20:35Z",
+            "method": "web_pdf_text_review",
+            "reviewed_url": "https://www.unhcr.org/uk/sites/uk/files/2025-06/Ukraine%20ARR%202024_36.pdf",
+            "locator": "PDF p. 24, Resources Overview; p. 25, resource-driven prioritization; p. 6, winter cash by 31 December; pp. 7-8, general constraints.",
+            "note": "Official 27-page PDF text was inspected through the web tool, including the relevant resource and constraint paragraphs. Direct GET returned 403 in research and visual rendering was unavailable; no visual table review is claimed."
+          }
+        },
+        {
+          "id": "unhcr-cash-december-2024",
+          "title": "UNHCR Ukraine Cash Assistance Factsheet - December 2024",
+          "publisher": "UNHCR",
+          "byline": "UNHCR Ukraine",
+          "published_date": "2025-02-12",
+          "source_type": "primary_cash_assistance_factsheet",
+          "url": "https://data.unhcr.org/en/documents/download/114376",
+          "notes": "Report period December 2024; portal publication/upload 12 February 2025. Interim winter result, distinct from regular multi-purpose cash and utility support for IDP hosts. Portal: https://data.unhcr.org/en/documents/details/114376.",
+          "rights": "Official source linked. Only brief original paraphrases, figures and locators are published; no article body, report pages, photographs or recipient details are republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T21:20:35Z",
+            "method": "primary_source_pdf_review",
+            "reviewed_url": "https://data.unhcr.org/en/documents/download/114376",
+            "locator": "PDF p. 2, Cash for winter row: 550,000 people targeted; 224,240 people and $64 million disbursed. Annual report p. 6 dates 224,240 to 31 December 2024.",
+            "note": "Official PDF downloaded, text inspected and p. 2 table visually checked. The winter row was kept separate from the other cash modalities."
           }
         }
       ],
@@ -242,14 +299,14 @@
           "id": "energy-claim-09",
           "kind": "report",
           "status": "supported",
-          "text": "UNHCR reported 186 generators distributed during the winter period in its July monitoring report, compared with 420 planned. Its April update had reported 110 as of 31 March 2025.",
-          "caveat": "The later figure is 44.29% of the original generator target. The July box has no separate cutoff date and does not explain the difference from April. Generators are distinct from the 2,400 planned portable power stations; no delivered power-station total was found in the reviewed documents.",
+          "text": "UNHCR's April 2025 report lists 110 generators; its July monitoring report lists 186 distributed during the winter period, against 420 planned.",
+          "caveat": "The reports differ by 76 units without explaining the change. The April footnote dates people reached, not generator units; neither report supplies a separate comparable generator cutoff. Additional deliveries, changed coverage and revised records remain unconfirmed explanations. No delivered portable-power-station total was established.",
           "source_ids": [
             "unhcr-winter-plan-2024-25",
             "unhcr-delivery-april-2025",
             "unhcr-winter-pdm-july-2025"
           ],
-          "locator": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box."
+          "locator": "Plan p. 1, alternative energy; April update p. 4, Generators row and people-specific footnote; July monitoring p. 4, Alternative Energy Support box."
         },
         {
           "id": "energy-claim-10",
@@ -262,6 +319,41 @@
             "unhcr-cash-q2-2025"
           ],
           "locator": "Plan p. 1, cash requirement; Q2 cash factsheet p. 1, Winter 2024-25 row."
+        },
+        {
+          "id": "energy-claim-11",
+          "kind": "report",
+          "status": "supported",
+          "text": "UNHCR's 17 December 2024 announcement made the 550,000-person winter cash ambition conditional on receiving enough funding and described programmes aiming to support over 93,000 frontline families and another 57,000 vulnerable families.",
+          "caveat": "These are dated programme ambitions in families, not a formally revised people target or final delivered totals. They cannot replace the 550,000-person denominator or quantify the causes of the 291,655-person shortfall.",
+          "source_ids": [
+            "unhcr-winter-cash-december-story-2024"
+          ],
+          "locator": "Official article, closing programme paragraphs and funding condition."
+        },
+        {
+          "id": "energy-claim-12",
+          "kind": "report",
+          "status": "supported",
+          "text": "UNHCR's 2024 annual-report narrative says its Ukraine requirements were 57% funded and describes prioritizing activities within available resources, including subsistence and additional energy needs.",
+          "caveat": "This is countrywide calendar-year context, not funding coverage for winter cash in 2024-2025. The report does not apportion the winter-cash shortfall among funding, access, eligibility or enrolment. Its p. 23 financial table separately reports 55.78% funds available as a share of budget; that is not substituted for the narrative measure.",
+          "source_ids": [
+            "unhcr-ukraine-annual-results-2024"
+          ],
+          "locator": "PDF p. 24, section 3.2 Resources Overview; p. 25, priorities within available resources; p. 23, separately labelled financial measure."
+        },
+        {
+          "id": "energy-claim-13",
+          "kind": "report",
+          "status": "supported",
+          "text": "UNHCR reported winter cash assistance for 224,240 people and $64 million disbursed in its December 2024 factsheet, with the target still 550,000 people. Its annual report dates that reach to 31 December 2024.",
+          "caveat": "This is an interim reported result. Later publications report a higher total; these records do not reconcile that change, establish payment dates or explain why the original target was not reached. Other cash modalities and the annual report's broader winter-utility count are not substituted.",
+          "source_ids": [
+            "unhcr-cash-december-2024",
+            "unhcr-ukraine-annual-results-2024",
+            "unhcr-cash-q2-2025"
+          ],
+          "locator": "December factsheet PDF p. 2, Cash for winter row; annual report p. 6, winter cash paragraph; Q2 2025 cash factsheet p. 1, Winter 2024-25 row."
         }
       ],
       "evidence_links": [
@@ -347,19 +439,19 @@
           "claim_id": "energy-claim-09",
           "source_id": "unhcr-winter-plan-2024-25",
           "relationship": "supports",
-          "rationale": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+          "rationale": "Plan p. 1, alternative energy; April update p. 4, Generators row and people-specific footnote; July monitoring p. 4, Alternative Energy Support box. The generator counts are reported; a comparable cutoff or explanation of their difference is absent."
         },
         {
           "claim_id": "energy-claim-09",
           "source_id": "unhcr-delivery-april-2025",
           "relationship": "supports",
-          "rationale": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+          "rationale": "Plan p. 1, alternative energy; April update p. 4, Generators row and people-specific footnote; July monitoring p. 4, Alternative Energy Support box. The generator counts are reported; a comparable cutoff or explanation of their difference is absent."
         },
         {
           "claim_id": "energy-claim-09",
           "source_id": "unhcr-winter-pdm-july-2025",
           "relationship": "supports",
-          "rationale": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+          "rationale": "Plan p. 1, alternative energy; April update p. 4, Generators row and people-specific footnote; July monitoring p. 4, Alternative Energy Support box. The generator counts are reported; a comparable cutoff or explanation of their difference is absent."
         },
         {
           "claim_id": "energy-claim-10",
@@ -372,6 +464,36 @@
           "source_id": "unhcr-cash-q2-2025",
           "relationship": "supports",
           "rationale": "Plan p. 1, cash requirement; Q2 cash factsheet p. 1, Winter 2024-25 row. The source supports the attributed plan or reported result; it is not an independent delivery audit."
+        },
+        {
+          "claim_id": "energy-claim-11",
+          "source_id": "unhcr-winter-cash-december-story-2024",
+          "relationship": "supports",
+          "rationale": "Official article, closing programme paragraphs and funding condition. This establishes the attributed programme statement or reported result, not a quantified causal explanation of the full gap."
+        },
+        {
+          "claim_id": "energy-claim-12",
+          "source_id": "unhcr-ukraine-annual-results-2024",
+          "relationship": "supports",
+          "rationale": "PDF p. 24, section 3.2 Resources Overview; p. 25, priorities within available resources; p. 23, separately labelled financial measure. This establishes the attributed programme statement or reported result, not a quantified causal explanation of the full gap."
+        },
+        {
+          "claim_id": "energy-claim-13",
+          "source_id": "unhcr-cash-december-2024",
+          "relationship": "supports",
+          "rationale": "December factsheet PDF p. 2, Cash for winter row; annual report p. 6, winter cash paragraph; Q2 2025 cash factsheet p. 1, Winter 2024-25 row. This establishes the attributed programme statement or reported result, not a quantified causal explanation of the full gap."
+        },
+        {
+          "claim_id": "energy-claim-13",
+          "source_id": "unhcr-ukraine-annual-results-2024",
+          "relationship": "supports",
+          "rationale": "December factsheet PDF p. 2, Cash for winter row; annual report p. 6, winter cash paragraph; Q2 2025 cash factsheet p. 1, Winter 2024-25 row. This establishes the attributed programme statement or reported result, not a quantified causal explanation of the full gap."
+        },
+        {
+          "claim_id": "energy-claim-13",
+          "source_id": "unhcr-cash-q2-2025",
+          "relationship": "supports",
+          "rationale": "December factsheet PDF p. 2, Cash for winter row; annual report p. 6, winter cash paragraph; Q2 2025 cash factsheet p. 1, Winter 2024-25 row. This establishes the attributed programme statement or reported result, not a quantified causal explanation of the full gap."
         }
       ],
       "timeline": [
@@ -400,11 +522,35 @@
           ]
         },
         {
+          "date": "2024-12-17",
+          "label": "UNHCR reiterates funding condition for cash ambition",
+          "detail": "The announcement retains 550,000 people as a funding-dependent ambition and gives separate family-level programme plans.",
+          "source_ids": [
+            "unhcr-winter-cash-december-story-2024"
+          ]
+        },
+        {
+          "date": "2025-02-12",
+          "label": "December cash factsheet published",
+          "detail": "The winter row reports 224,240 people and $64 million against 550,000 targeted. The report period differs from the upload date.",
+          "source_ids": [
+            "unhcr-cash-december-2024"
+          ]
+        },
+        {
           "date": "2025-04-14",
-          "label": "UNHCR reports delivery as of 31 March",
-          "detail": "April update reports winter cash reach and the first reviewed generator total of 110.",
+          "label": "UNHCR publishes April winter-response totals",
+          "detail": "The infographic lists 110 generators; its 31 March date explicitly applies to people reached and is not a confirmed generator cutoff.",
           "source_ids": [
             "unhcr-delivery-april-2025"
+          ]
+        },
+        {
+          "date": "2025-05-28",
+          "label": "Annual report documents country resource constraints",
+          "detail": "Countrywide funding and priorities supply context, not a season-specific explanation of the cash shortfall.",
+          "source_ids": [
+            "unhcr-ukraine-annual-results-2024"
           ]
         },
         {
@@ -435,6 +581,20 @@
           ],
           "review_id": "energy-source-review-20261017",
           "revision_id": "energy-revision-2"
+        },
+        {
+          "date": "2026-10-17T21:20:35Z",
+          "label": "RELAY publishes sourced follow-up and generator date correction",
+          "detail": "Funding and rollout context added; a people-only date was removed from the generator claim. Full causal and count reconciliations remain open.",
+          "source_ids": [
+            "unhcr-winter-cash-december-story-2024",
+            "unhcr-ukraine-annual-results-2024",
+            "unhcr-cash-december-2024",
+            "unhcr-delivery-april-2025",
+            "unhcr-winter-pdm-july-2025"
+          ],
+          "review_id": "energy-followup-source-review-20261017",
+          "revision_id": "energy-revision-3"
         }
       ],
       "reviews": [
@@ -465,6 +625,48 @@
           "conflicts": "Reviewer supplied initial source findings and the evidence note within the same AI implementation team. This is not an independent commissioned audit, human approval, or verification with recipients.",
           "revision_id": "energy-revision-2",
           "snapshot_sha256": "8744dbf41a6e2213df3c2805d09041e224c0c3cf3b8242fcaaf074e8bd63ab54"
+        },
+        {
+          "id": "energy-followup-source-review-20261017",
+          "kind": "ai_assisted",
+          "reviewer_type": "ai",
+          "reviewer": "Codex follow-up source review",
+          "reviewed_at": "2026-10-17T21:21:41Z",
+          "decision": "reviewed",
+          "method": "Official article text and annual PDF text reviewed through web tools; December cash table and April generator footnote visually checked against official PDFs.",
+          "scope": "New claims 11-13, corrected claim 09, both comparison follow-ups, source dates/access limits and unchanged earlier history.",
+          "rationale": "The records establish conditional funding, resource context and interim delivery but not a quantified causal split. The April date footnote applies to people, requiring correction of the earlier generator cutoff claim.",
+          "conflicts": "Implementation-agent AI review. No human approval, commissioned independent audit or confirmation from recipients or UNHCR staff is claimed.",
+          "revision_id": "energy-revision-3",
+          "snapshot_sha256": "6d5282be603b3b77e616f9cdf222bbca1f273e436f3bfbf86d97b13f31297ad1"
+        },
+        {
+          "id": "energy-followup-cash-check-20261017",
+          "kind": "ai_assisted",
+          "reviewer_type": "ai",
+          "reviewer": "Codex cash evidence reviewer",
+          "reviewed_at": "2026-10-17T21:21:55.931806Z",
+          "decision": "reviewed",
+          "method": "Separate-agent review of the official cash programme and annual-report evidence, current case, snapshot digest and prior history against production commit 232f36b.",
+          "scope": "Claims 11-13, cash comparison follow-up, source dates and access methods; full 13-claim snapshot and preservation of earlier history.",
+          "rationale": "Funding conditionality and countrywide resource context are sourced; no quantified causal split or inferred payment dates are asserted. The original 550,000-person target and separately labelled funding measures remain intact.",
+          "conflicts": "Same-team AI reviewer supplied source research and wrote the follow-up note. This is not independent human approval, a commissioned audit or verification with recipients or UNHCR staff.",
+          "revision_id": "energy-revision-3",
+          "snapshot_sha256": "6d5282be603b3b77e616f9cdf222bbca1f273e436f3bfbf86d97b13f31297ad1"
+        },
+        {
+          "id": "energy-followup-generator-check-20261017",
+          "kind": "ai_assisted",
+          "reviewer_type": "ai",
+          "reviewer": "Codex generator evidence reviewer",
+          "reviewed_at": "2026-10-17T21:23:12.746194Z",
+          "decision": "reviewed",
+          "method": "Separate-agent documentary review including rendered April report p. 4 and July monitoring p. 4, followed by final snapshot and history checks.",
+          "scope": "Claim 09, generator comparison, source locators, timeline and revision 2-to-3 correction; final 13-claim snapshot and unchanged earlier history.",
+          "rationale": "The April footnote applies to people reached. Neither generator count is called final; no source establishes comparable generator cutoffs or explains the 76-unit difference.",
+          "conflicts": "Same-team AI reviewer participated in source research. No independent human approval, commissioned audit or field verification is claimed.",
+          "revision_id": "energy-revision-3",
+          "snapshot_sha256": "6d5282be603b3b77e616f9cdf222bbca1f273e436f3bfbf86d97b13f31297ad1"
         }
       ],
       "revisions": [
@@ -668,6 +870,174 @@
               "kind": "report"
             }
           ]
+        },
+        {
+          "id": "energy-revision-3",
+          "parent_revision_id": "energy-revision-2",
+          "published_at": "2026-10-17T21:23:45Z",
+          "recorded_at": "2026-10-17T21:23:45Z",
+          "publication_basis": "user_authorized",
+          "review_ids": [
+            "energy-followup-source-review-20261017",
+            "energy-followup-cash-check-20261017",
+            "energy-followup-generator-check-20261017"
+          ],
+          "change_note": "Add sourced cash funding and rollout context; correct the unsupported generator cutoff while preserving the unresolved 76-unit difference. Revision date records preparation; production activation is logged separately.",
+          "claim_snapshots": [
+            {
+              "claim_id": "energy-claim-01",
+              "kind": "report",
+              "text": "HRMMU documented nine waves of Russian armed forces' attacks on Ukraine's electricity system between 22 March and 31 August 2024.",
+              "status": "supported",
+              "caveat": "This is the report's historical scope, not a current incident count.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Scope: printed p. 1, executive summary item 1."
+            },
+            {
+              "claim_id": "energy-claim-02",
+              "kind": "report",
+              "text": "HRMMU recorded at least 18 civilians killed and 84 injured near the electricity-infrastructure strikes covered by its report.",
+              "status": "supported",
+              "caveat": "These are direct casualties in that reporting scope, not a total for indirect harm.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Direct-casualty figures: printed p. 4."
+            },
+            {
+              "claim_id": "energy-claim-03",
+              "kind": "report",
+              "text": "HRMMU described loss of water and sanitation access in high-rise buildings without independent generators when electricity cuts stopped water pumps.",
+              "status": "supported",
+              "caveat": "This identifies a civilian service dependency; it does not count affected households.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Water dependency: printed p. 6, second bullet."
+            },
+            {
+              "claim_id": "energy-claim-04",
+              "kind": "report",
+              "text": "On 29 August 2024, the IAEA reported temporary reactor shutdowns or disconnections after energy attacks destabilized Ukraine's grid; affected sites retained some off-site power.",
+              "status": "supported",
+              "caveat": "The statement does not report a nuclear accident or a complete off-site-power loss at those sites. HRMMU later cites this same IAEA statement.",
+              "source_ids": [
+                "iaea-update-247"
+              ],
+              "locator": "The national-grid-instability paragraphs report the effects and explicitly preserve the off-site-power qualification."
+            },
+            {
+              "claim_id": "energy-claim-05",
+              "kind": "report",
+              "text": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and requested $10 million for alternative energy support.",
+              "status": "supported",
+              "caveat": "These are planned reach and requested funding for winter 2024-2025, not proof of funding received or money spent. Later reported delivery is compared below.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25"
+              ],
+              "locator": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement."
+            },
+            {
+              "claim_id": "energy-claim-06",
+              "kind": "report",
+              "text": "UNHCR reported winter cash assistance for 258,345 people from October 2024 through March 2025, against the original 550,000-person target.",
+              "status": "supported",
+              "caveat": "This is 46.97% of the original people target, a difference of 291,655 people. It does not establish that those people received no aid from other providers. Do not compare a people count directly with the 263,000-household target.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-delivery-april-2025",
+                "unhcr-winter-pdm-july-2025",
+                "unhcr-cash-q2-2025"
+              ],
+              "locator": "Plan p. 1, cash support; April update p. 3 and p. 4; July monitoring p. 1; Q2 cash factsheet p. 1, Winter 2024-25 row."
+            },
+            {
+              "claim_id": "energy-claim-07",
+              "kind": "report",
+              "text": "UNHCR reported insulation assistance for 21,336 people against the original target of approximately 41,400 people.",
+              "status": "supported",
+              "caveat": "The July monitoring summary covers people reached with partners between September 2024 and March 2025. This is 51.54% of the original people target; household totals and independent recipient verification are not established here.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-winter-pdm-july-2025"
+              ],
+              "locator": "Plan p. 1, shelter/housing; July monitoring p. 1, Shelter/Housing row and footnotes."
+            },
+            {
+              "claim_id": "energy-claim-08",
+              "kind": "report",
+              "text": "UNHCR reported essential winter items for 34,319 people against the original target of approximately 33,600 people.",
+              "status": "supported",
+              "caveat": "This is 102.14% of the original people target. Category counts may overlap and must not be added as unique beneficiaries. UNHCR flags verification and possible retroactive correction.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-winter-pdm-july-2025"
+              ],
+              "locator": "Plan p. 1, essential items; July monitoring p. 1, Essential Items row and footnotes."
+            },
+            {
+              "claim_id": "energy-claim-09",
+              "kind": "report",
+              "text": "UNHCR's April 2025 report lists 110 generators; its July monitoring report lists 186 distributed during the winter period, against 420 planned.",
+              "status": "supported",
+              "caveat": "The reports differ by 76 units without explaining the change. The April footnote dates people reached, not generator units; neither report supplies a separate comparable generator cutoff. Additional deliveries, changed coverage and revised records remain unconfirmed explanations. No delivered portable-power-station total was established.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-delivery-april-2025",
+                "unhcr-winter-pdm-july-2025"
+              ],
+              "locator": "Plan p. 1, alternative energy; April update p. 4, Generators row and people-specific footnote; July monitoring p. 4, Alternative Energy Support box."
+            },
+            {
+              "claim_id": "energy-claim-10",
+              "kind": "report",
+              "text": "UNHCR reported $75.8 million disbursed for winter 2024-2025 cash assistance in its Q2 2025 factsheet; the original plan had a $140 million cash requirement.",
+              "status": "supported",
+              "caveat": "A requirement is not secured funding, and cash disbursement is not total programme expenditure. Both dollar figures are rounded. This does not establish spending against the separate $10 million alternative-energy requirement.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-cash-q2-2025"
+              ],
+              "locator": "Plan p. 1, cash requirement; Q2 cash factsheet p. 1, Winter 2024-25 row."
+            },
+            {
+              "claim_id": "energy-claim-11",
+              "kind": "report",
+              "text": "UNHCR's 17 December 2024 announcement made the 550,000-person winter cash ambition conditional on receiving enough funding and described programmes aiming to support over 93,000 frontline families and another 57,000 vulnerable families.",
+              "status": "supported",
+              "caveat": "These are dated programme ambitions in families, not a formally revised people target or final delivered totals. They cannot replace the 550,000-person denominator or quantify the causes of the 291,655-person shortfall.",
+              "source_ids": [
+                "unhcr-winter-cash-december-story-2024"
+              ],
+              "locator": "Official article, closing programme paragraphs and funding condition."
+            },
+            {
+              "claim_id": "energy-claim-12",
+              "kind": "report",
+              "text": "UNHCR's 2024 annual-report narrative says its Ukraine requirements were 57% funded and describes prioritizing activities within available resources, including subsistence and additional energy needs.",
+              "status": "supported",
+              "caveat": "This is countrywide calendar-year context, not funding coverage for winter cash in 2024-2025. The report does not apportion the winter-cash shortfall among funding, access, eligibility or enrolment. Its p. 23 financial table separately reports 55.78% funds available as a share of budget; that is not substituted for the narrative measure.",
+              "source_ids": [
+                "unhcr-ukraine-annual-results-2024"
+              ],
+              "locator": "PDF p. 24, section 3.2 Resources Overview; p. 25, priorities within available resources; p. 23, separately labelled financial measure."
+            },
+            {
+              "claim_id": "energy-claim-13",
+              "kind": "report",
+              "text": "UNHCR reported winter cash assistance for 224,240 people and $64 million disbursed in its December 2024 factsheet, with the target still 550,000 people. Its annual report dates that reach to 31 December 2024.",
+              "status": "supported",
+              "caveat": "This is an interim reported result. Later publications report a higher total; these records do not reconcile that change, establish payment dates or explain why the original target was not reached. Other cash modalities and the annual report's broader winter-utility count are not substituted.",
+              "source_ids": [
+                "unhcr-cash-december-2024",
+                "unhcr-ukraine-annual-results-2024",
+                "unhcr-cash-q2-2025"
+              ],
+              "locator": "December factsheet PDF p. 2, Cash for winter row; annual report p. 6, winter cash paragraph; Q2 2025 cash factsheet p. 1, Winter 2024-25 row."
+            }
+          ]
         }
       ],
       "corrections": [
@@ -864,17 +1234,150 @@
             "locator": "Plan p. 1, cash requirement; Q2 cash factsheet p. 1, Winter 2024-25 row.",
             "kind": "report"
           }
+        },
+        {
+          "id": "energy-generator-cutoff-correction-20261017",
+          "kind": "correction",
+          "from_revision_id": "energy-revision-2",
+          "to_revision_id": "energy-revision-3",
+          "claim_id": "energy-claim-09",
+          "recorded_at": "2026-10-17T21:23:45Z",
+          "cause": "Our earlier wording assigned the people-specific 31 March footnote to generator units. Remove that unsupported cutoff; keep both accurate reported counts and the unresolved difference. The comparison note and April timeline wording are corrected too.",
+          "source_ids": [
+            "unhcr-winter-plan-2024-25",
+            "unhcr-delivery-april-2025",
+            "unhcr-winter-pdm-july-2025"
+          ],
+          "before": "UNHCR reported 186 generators distributed during the winter period in its July monitoring report, compared with 420 planned. Its April update had reported 110 as of 31 March 2025.",
+          "after": "UNHCR's April 2025 report lists 110 generators; its July monitoring report lists 186 distributed during the winter period, against 420 planned.",
+          "before_status": "supported",
+          "after_status": "supported",
+          "before_snapshot": {
+            "claim_id": "energy-claim-09",
+            "text": "UNHCR reported 186 generators distributed during the winter period in its July monitoring report, compared with 420 planned. Its April update had reported 110 as of 31 March 2025.",
+            "status": "supported",
+            "caveat": "The later figure is 44.29% of the original generator target. The July box has no separate cutoff date and does not explain the difference from April. Generators are distinct from the 2,400 planned portable power stations; no delivered power-station total was found in the reviewed documents.",
+            "source_ids": [
+              "unhcr-winter-plan-2024-25",
+              "unhcr-delivery-april-2025",
+              "unhcr-winter-pdm-july-2025"
+            ],
+            "locator": "Plan p. 1, alternative energy; April update p. 4, Generators row; July monitoring p. 4, Alternative Energy Support box.",
+            "kind": "report"
+          },
+          "after_snapshot": {
+            "claim_id": "energy-claim-09",
+            "kind": "report",
+            "text": "UNHCR's April 2025 report lists 110 generators; its July monitoring report lists 186 distributed during the winter period, against 420 planned.",
+            "status": "supported",
+            "caveat": "The reports differ by 76 units without explaining the change. The April footnote dates people reached, not generator units; neither report supplies a separate comparable generator cutoff. Additional deliveries, changed coverage and revised records remain unconfirmed explanations. No delivered portable-power-station total was established.",
+            "source_ids": [
+              "unhcr-winter-plan-2024-25",
+              "unhcr-delivery-april-2025",
+              "unhcr-winter-pdm-july-2025"
+            ],
+            "locator": "Plan p. 1, alternative energy; April update p. 4, Generators row and people-specific footnote; July monitoring p. 4, Alternative Energy Support box."
+          }
+        },
+        {
+          "id": "energy-followup-energy-claim-11-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-2",
+          "to_revision_id": "energy-revision-3",
+          "claim_id": "energy-claim-11",
+          "recorded_at": "2026-10-17T21:23:45Z",
+          "cause": "Add newly reviewed programme, funding or interim-delivery evidence without presenting it as a proven explanation of the entire cash shortfall.",
+          "source_ids": [
+            "unhcr-winter-cash-december-story-2024"
+          ],
+          "before": null,
+          "after": "UNHCR's 17 December 2024 announcement made the 550,000-person winter cash ambition conditional on receiving enough funding and described programmes aiming to support over 93,000 frontline families and another 57,000 vulnerable families.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-11",
+            "kind": "report",
+            "text": "UNHCR's 17 December 2024 announcement made the 550,000-person winter cash ambition conditional on receiving enough funding and described programmes aiming to support over 93,000 frontline families and another 57,000 vulnerable families.",
+            "status": "supported",
+            "caveat": "These are dated programme ambitions in families, not a formally revised people target or final delivered totals. They cannot replace the 550,000-person denominator or quantify the causes of the 291,655-person shortfall.",
+            "source_ids": [
+              "unhcr-winter-cash-december-story-2024"
+            ],
+            "locator": "Official article, closing programme paragraphs and funding condition."
+          }
+        },
+        {
+          "id": "energy-followup-energy-claim-12-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-2",
+          "to_revision_id": "energy-revision-3",
+          "claim_id": "energy-claim-12",
+          "recorded_at": "2026-10-17T21:23:45Z",
+          "cause": "Add newly reviewed programme, funding or interim-delivery evidence without presenting it as a proven explanation of the entire cash shortfall.",
+          "source_ids": [
+            "unhcr-ukraine-annual-results-2024"
+          ],
+          "before": null,
+          "after": "UNHCR's 2024 annual-report narrative says its Ukraine requirements were 57% funded and describes prioritizing activities within available resources, including subsistence and additional energy needs.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-12",
+            "kind": "report",
+            "text": "UNHCR's 2024 annual-report narrative says its Ukraine requirements were 57% funded and describes prioritizing activities within available resources, including subsistence and additional energy needs.",
+            "status": "supported",
+            "caveat": "This is countrywide calendar-year context, not funding coverage for winter cash in 2024-2025. The report does not apportion the winter-cash shortfall among funding, access, eligibility or enrolment. Its p. 23 financial table separately reports 55.78% funds available as a share of budget; that is not substituted for the narrative measure.",
+            "source_ids": [
+              "unhcr-ukraine-annual-results-2024"
+            ],
+            "locator": "PDF p. 24, section 3.2 Resources Overview; p. 25, priorities within available resources; p. 23, separately labelled financial measure."
+          }
+        },
+        {
+          "id": "energy-followup-energy-claim-13-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-2",
+          "to_revision_id": "energy-revision-3",
+          "claim_id": "energy-claim-13",
+          "recorded_at": "2026-10-17T21:23:45Z",
+          "cause": "Add newly reviewed programme, funding or interim-delivery evidence without presenting it as a proven explanation of the entire cash shortfall.",
+          "source_ids": [
+            "unhcr-cash-december-2024",
+            "unhcr-ukraine-annual-results-2024",
+            "unhcr-cash-q2-2025"
+          ],
+          "before": null,
+          "after": "UNHCR reported winter cash assistance for 224,240 people and $64 million disbursed in its December 2024 factsheet, with the target still 550,000 people. Its annual report dates that reach to 31 December 2024.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-13",
+            "kind": "report",
+            "text": "UNHCR reported winter cash assistance for 224,240 people and $64 million disbursed in its December 2024 factsheet, with the target still 550,000 people. Its annual report dates that reach to 31 December 2024.",
+            "status": "supported",
+            "caveat": "This is an interim reported result. Later publications report a higher total; these records do not reconcile that change, establish payment dates or explain why the original target was not reached. Other cash modalities and the annual report's broader winter-utility count are not substituted.",
+            "source_ids": [
+              "unhcr-cash-december-2024",
+              "unhcr-ukraine-annual-results-2024",
+              "unhcr-cash-q2-2025"
+            ],
+            "locator": "December factsheet PDF p. 2, Cash for winter row; annual report p. 6, winter cash paragraph; Q2 2025 cash factsheet p. 1, Winter 2024-25 row."
+          }
         }
       ],
       "open_questions": [
         {
-          "question": "What explains the difference between the original cash target and reported reach?",
-          "why_it_matters": "Reported reach is 291,655 people below the original target. The reviewed figures alone do not establish funding, access, eligibility or other causes, nor whether other providers assisted them.",
-          "needed_evidence": "A published target-revision history or explanation linking funding, eligibility, access and final deduplicated winter cash results.",
+          "question": "How much of the winter-cash shortfall came from funding, access, eligibility or enrolment?",
+          "why_it_matters": "The appeal was funding-dependent and the country operation reports resource-driven prioritization, but the reviewed records do not allocate the 291,655-person shortfall to specific causes.",
+          "needed_evidence": "A winter-cash funding/allocation ledger, dated target decisions and aggregate counts of eligible, enrolled, excluded and unpaid households by programme, with reasons and consistent periods.",
           "source_ids": [
             "unhcr-winter-plan-2024-25",
-            "unhcr-delivery-april-2025",
-            "unhcr-winter-pdm-july-2025",
+            "unhcr-winter-cash-december-story-2024",
+            "unhcr-ukraine-annual-results-2024",
+            "unhcr-cash-december-2024",
             "unhcr-cash-q2-2025"
           ]
         },
@@ -888,9 +1391,9 @@
           ]
         },
         {
-          "question": "Why did the reported generator count change from 110 to 186?",
-          "why_it_matters": "April reports 110 as of 31 March; the July report says 186 during the winter period without explaining the difference. It may reflect timing or data revision; the case does not choose an explanation.",
-          "needed_evidence": "A dated reconciliation specifying coverage, delivery cutoff and any retroactive corrections.",
+          "question": "What counting rules and cutoffs reconcile 110 generators with 186?",
+          "why_it_matters": "April lists 110 and July lists 186. The 31 March footnote dates people reached, not generator units. Neither document explains the 76-unit difference.",
+          "needed_evidence": "An aggregate handover/distribution ledger, the counting scope and delivery cutoff used for each total, and any published correction or reconciliation notice.",
           "source_ids": [
             "unhcr-delivery-april-2025",
             "unhcr-winter-pdm-july-2025"
@@ -942,7 +1445,15 @@
           },
           "assessment": "46.97% of original people target",
           "calculation": "258,345 / 550,000 × 100 = 46.97%; difference: 291,655 people.",
-          "note": "The plan also gives 263,000 households. That is a different unit, not the denominator used here. Figures are UNHCR self-reports and remain subject to verification."
+          "note": "The plan also gives 263,000 households. That is a different unit, not the denominator used here. Figures are UNHCR self-reports and remain subject to verification.",
+          "followup": {
+            "summary": "The full cash ambition depended on funding. UNHCR announced narrower household programme components and reported countrywide resource constraints. The sources do not quantify how funding, access, eligibility or enrolment contributed to the 291,655-person gap; the original people target remains the comparison denominator.",
+            "source_ids": [
+              "unhcr-winter-cash-december-story-2024",
+              "unhcr-ukraine-annual-results-2024",
+              "unhcr-cash-december-2024"
+            ]
+          }
         },
         {
           "id": "winter-insulation-people",
@@ -1005,7 +1516,14 @@
           },
           "assessment": "44.29% of original generator target",
           "calculation": "186 / 420 × 100 = 44.29%; difference: 234 generators.",
-          "note": "The April update reported 110 as of 31 March. The later report gives 186 without explaining the change. This row uses the later count, not a reconciled delivery chronology."
+          "note": "April reports 110; July reports 186 during the winter period. The reports do not provide a reconciled delivery chronology or comparable generator cutoffs.",
+          "followup": {
+            "summary": "Correction: the April footnote dates people reached to 31 March, not generator units. The 76-unit difference cannot be assigned to later deliveries, wider coverage or revised records without a ledger or revision notice. Neither total is labelled final here.",
+            "source_ids": [
+              "unhcr-delivery-april-2025",
+              "unhcr-winter-pdm-july-2025"
+            ]
+          }
         },
         {
           "id": "winter-power-stations",
