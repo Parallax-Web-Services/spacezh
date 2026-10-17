@@ -39,6 +39,14 @@ The first 90 days have an **up-to-$2,000 discretionary cash spending ceiling**, 
 
 Paid labor, professional reviews, regulated operations, and flight hardware are **outside** this startup cash allowance and require separately funded approved scopes. No donations or GoFundYourself checkout are live; payment, tax, and governance arrangements must be settled first.
 
+## Ukrainian identity and Parallax products
+
+The SpaceЖ wordmark remains **SPACEЖ**. A Ukrainian **tryzub** now accompanies the header and footer wordmarks across the static website, with a larger, labeled emblem on the homepage. The public-domain vector is stored locally in `public/assets/tryzub.svg`, adapted from [Wikimedia Commons — Coat of Arms of Ukraine](https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Ukraine.svg). This represents solidarity with Ukraine, **not** government affiliation, endorsement, or official status. The original SpaceЖ favicon and Earth artwork are preserved.
+
+The homepage presents the four SpaceЖ workstreams as **proposed products**: **ECHO**, **ARRAY**, **RELAY**, and **PARALLAX**, preserving their research-stage and feasibility gates. A separate Parallax technology section describes possible infrastructure roles for **Slipstream**, **Plexus**, **Positronic**, **RELAY**, **HOLO**, and **Continuum**. Parallax RELAY is a general-purpose ingestion/publication product, separate from the SpaceЖ RELAY communications workstream. These are intended integrations, not claims of operational services.
+
+The new shared stylesheet, `public/assets/brand-products.css`, keeps tryzub and wordmark treatment consistent throughout the homepage, public proposal, coalition page, research index, research readers and evidence brief. No external scripts or assets, intake forms, or payment processing were added.
+
 ## Maintaining visual integrity
 
 The original artwork and `public/assets/` are retained. The bilingual ribbon separators now pair Ukrainian with English using equals signs, and its intermediate-width rule keeps pairs together. The future GoFundYourself mount remains **hidden**; no payment form has been introduced.
