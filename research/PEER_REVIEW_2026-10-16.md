@@ -60,6 +60,8 @@ No fabricated source was found. Note that the two most load-bearing factual clai
 
 Every study is organised around *verified detection within 60 seconds of launch*, and nothing in the four documents says where 60 seconds comes from. It is not derived from flight time, from shelter-reaching time, from the existing air-raid alert chain's latency budget, or from any civil-protection source; ISO 22322 is cited as context but sets no such number. A requirement with no derivation cannot be falsified, so "60-second detection: NOT DEMONSTRATED" on the front page is a statement about an arbitrary threshold. The first thing an external reviewer will ask is "why 60?", and the answer has to be on the page. Either derive it (publicly available flight-time and warning-chain figures suffice for a first cut) or present it as a placeholder.
 
+**Maintainer's response, 17 October 2026:** the threshold is the project's own operational target, set against ballistic flight times to Ukrainian cities of a few minutes. Study 002 now says so and invites challenge; the front-page wording stays by decision.
+
 ### 4.2 The "first hard upper bound" is a definition
 
 P(D₆₀) ≤ P(C) follows from D₆₀ ⊆ C, which is how C was defined. It is correct, and it is a useful rhetorical point against dashboards, but it is not a result and the front page should not present it as "the research constraint". The same applies to Study 003's "hard results" 2 and 3 (interval arithmetic and selection bias): sound, elementary, and not findings.
@@ -99,6 +101,8 @@ For 100 observed successes out of 100, Study 002 reports a 95 % Wilson lower bou
 * "467 kB raw" is airtime × bit rate; it omits framing overhead and does not say so in the result table.
 * Ignoring Earth rotation changes the ideal contact time by up to about 7 % (ground speed 0.47 km/s against a ground-track speed of 6.99 km/s); it is fine to ignore, but the magnitude should be stated.
 
+**Resolved, 17 October 2026:** Study 001 now derives the required E_b/N₀ for ideal BPSK at a stated bit-error rate, reports the link margin at every elevation mask, applies an explicit framing-efficiency factor to the raw byte count, states the Earth-rotation magnitude, and is labelled as part of the Link (communications) workstream on the research page. Four tests were added for the new quantities.
+
 ### 4.7 "54 published model tests" is a vanity metric
 
 Test count is advertised on the front page as a credibility signal. Roughly a third of the 54 tests check input validation (rejecting negative counts, non-boolean flags, unknown labels) or assert that a string contains the word "SYNTHETIC". They establish that the code does what the code does; they are not evidence about anything in the world. Keep the tests, drop the number from the hero section.
@@ -106,8 +110,8 @@ Test count is advertised on the front page as a credibility signal. Roughly a th
 ### 4.8 Provenance and presentation
 
 * All four studies were written and published on 16 October 2026, all four within two hours (commits at 11:19, 12:27 and 12:55 local time), with LLM assistance. A site whose principle is "every claim should include its evidence, source, and limitations" should say that on the research page.
-* The footer and FAQ state that SpaceЖ is "initiated by Varta Industries, a division of Tryzantha LLC". No public record of either name was found. The sibling package in the Varta repository brands the same work "Volya research". The maintainer should confirm which entity is real and use one name everywhere; a reviewer from a named Ukrainian institution will check.
-* The public git history and repository description still carry the site's parody-era content. Anyone invited to review will read it.
+* The footer and FAQ state that SpaceЖ is "initiated by Varta Industries, a division of Tryzantha LLC". No public record of either name was found. The sibling package in the Varta repository brands the same work "Volya research". The maintainer should confirm which entity is real and use one name everywhere; a reviewer from a named Ukrainian institution will check. **Resolved, 17 October 2026:** the initiating entity is Parallax Web Services, Inc., now stated on every page.
+* The public git history and repository description still carry the site's parody-era content. Anyone invited to review will read it. **Maintainer's decision, 17 October 2026:** it stays.
 * Study 002's source [6] is listed but never cited; Study 004's ISO citation supplies nothing used in the study.
 
 ## 5. Recommendations, in order

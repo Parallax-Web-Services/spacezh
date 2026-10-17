@@ -35,6 +35,8 @@ T_{\rm public}=T_{\rm detect}+T_{\rm authorize}+T_{\rm distribute}+T_{\rm device
 
 **Research target:** \(T_{\rm detect}\leq60\,\mathrm{s}\) for actual, independently verified launches, with meaningful reliability and false-alert bounds. An alert after the 60-second limit does not meet this requirement even if it was delivered quickly from the first notification.
 
+The 60-second figure is SpaceЖ's own research target, set by the maintainer against ballistic flight times to Ukrainian cities of only a few minutes. It is not taken from a civil-protection standard or a published flight-time analysis; reviewers are invited to challenge it.
+
 ### First hard upper bound
 
 Define \(C\) = “the launch is observable by at least one suitable, authorized, independent source” and \(D_{60}\) = “a launch was correctly verified by 60 seconds.”
