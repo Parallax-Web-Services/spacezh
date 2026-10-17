@@ -12,6 +12,8 @@ The UI now uses direct headings, including “Public evidence and source checks,
 
 Browser checks passed at 390, 820 and 1440 CSS pixels: no page overflow or console errors. Seven comparisons, two unknown totals, six actual changes, two AI reviews, source links and revision links were checked. [Desktop comparison](qa/unhcr-2026-10-17/comparisons-1440.jpg), [mobile comparison](qa/unhcr-2026-10-17/comparisons-390.jpg), [history](qa/unhcr-2026-10-17/history-1440.jpg), [reviews](qa/unhcr-2026-10-17/reviews-1440.jpg), and [browser results](qa/unhcr-2026-10-17/qa-results.json) record this pass.
 
+Production release `80483794` at `a4e248e802700dfb5938060cbb67b5258eb76665` was verified after deployment. [Eighteen live file checks](qa/unhcr-2026-10-17/production-http.json) matched the commit exactly. The live browser confirmed seven comparisons, two unknown totals, six change records and two AI reviews. [Production comparison](qa/unhcr-2026-10-17/production-comparisons.jpg), [phone layout](qa/unhcr-2026-10-17/production-comparisons-390.jpg) and [history](qa/unhcr-2026-10-17/production-history.jpg) retain proof; the previous release remained available for rollback.
+
 The initial release below is preserved as a dated record. Its counts and screenshots describe that earlier release.
 
 **Updated:** 17 October 2026. **Branch:** `codex/relay-public-evidence`.

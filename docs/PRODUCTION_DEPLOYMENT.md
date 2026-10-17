@@ -1,5 +1,17 @@
 # Production deployment
 
+## UNHCR delivery update: verified production payload
+
+Verified at 2026-10-17T21:11:20.705667+00:00. Forge automatically activated release `80483794` for commit `a4e248e802700dfb5938060cbb67b5258eb76665`; the previous release `80483094` (`88afa7e`) remained available for rollback. These are the payload identifiers observed during this check; a documentation-only publication may produce a later release with the same `public/` tree.
+
+Both CI checks passed: [RELAY publication integrity](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39069802786) and [research publication integrity](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39069802815). The release passed 46 tests. CI checks out full Git history so the preserved baseline commit can be verified.
+
+[Live HTTP receipts](qa/unhcr-2026-10-17/production-http.json) show 18 critical routes/assets returning HTTP 200 with bytes matching the pushed commit. Live browser checks confirmed the direct heading “Public evidence and source checks,” the UNHCR case, seven comparisons, two unknown results, two attributed AI reviews, one clarification and five added-evidence records. Phone width 390px had no page overflow; its source note retained word spacing. Console checks returned no errors or warnings.
+
+[Live comparison](https://xn--80akd1bg1j.com/relay/?case=ukraine-energy-civilian-resilience-2024#comparisons), [desktop proof](qa/unhcr-2026-10-17/production-comparisons.jpg), [phone proof](qa/unhcr-2026-10-17/production-comparisons-390.jpg), and [history proof](qa/unhcr-2026-10-17/production-history.jpg).
+
+## Initial RELAY release record
+
 Verified live on 17 October 2026, following the production push observed around 20:51 UTC. The existing Forge push hook activated the RELAY release from `master`.
 
 | Item | Verified value |
