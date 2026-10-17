@@ -18,7 +18,7 @@ from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIT = ROOT / "data/relay/retrievals.json"
-HOSTS = {"www.telegraph.co.uk", "telegraph.co.uk", "www.aol.com", "aol.com", "www.reuters.com", "reuters.com", "kyivindependent.com", "apnews.com", "www.internazionale.it", "ukraine.ohchr.org", "ukraine.un.org", "www.iaea.org", "iaea.org", "data.unhcr.org", "www.unhcr.org"}
+HOSTS = {"www.telegraph.co.uk", "telegraph.co.uk", "www.aol.com", "aol.com", "www.reuters.com", "reuters.com", "kyivindependent.com", "apnews.com", "www.internazionale.it", "ukraine.ohchr.org", "ukraine.un.org", "www.iaea.org", "iaea.org", "data.unhcr.org", "www.unhcr.org", "www.msp.gov.ua", "www.kmu.gov.ua", "suspilne.media", "kharkivoda.gov.ua"}
 MAX_BYTES = 30_000_000
 
 

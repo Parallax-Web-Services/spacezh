@@ -6,9 +6,10 @@ import sys
 import unittest
 from pathlib import Path
 from urllib.error import HTTPError
+from urllib.request import Request
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from ingest_relay_sources import allowed_url, fetch_source
+from ingest_relay_sources import PublisherRedirects, allowed_url, fetch_source, source_urls
 from relay_registry import attach_receipts, load_source, validate_publication_boundary, validate_registry
 
 URL = "https://ukraine.ohchr.org/en/public-report"
@@ -27,6 +28,29 @@ class IngestionTests(unittest.TestCase):
         self.assertTrue(allowed_url(URL))
         for url in ("http://ukraine.ohchr.org/report", "https://127.0.0.1/", "https://ukraine.ohchr.org.evil.example/", "https://person:password@ukraine.ohchr.org/", "https://ukraine.ohchr.org:8080/"):
             self.assertFalse(allowed_url(url), url)
+
+    def test_followup_sources_accept_only_the_named_new_publishers(self):
+        data = {"cases": [{"kind": "public_case", "sources": [
+            {"url": "https://www.msp.gov.ua/", "alternate_url": "https://www.kmu.gov.ua/", "verification": {"reviewed_url": "https://suspilne.media/"}},
+            {"url": "https://kharkivoda.gov.ua/"},
+        ]}]}
+        self.assertEqual(source_urls(data), sorted(["https://www.msp.gov.ua/", "https://www.kmu.gov.ua/", "https://suspilne.media/", "https://kharkivoda.gov.ua/"]))
+
+    def test_followup_hosts_do_not_admit_subdomains_or_unsafe_urls(self):
+        for url in ("https://news.msp.gov.ua/", "https://msp.gov.ua/", "https://www.kmu.gov.ua.evil.example/", "https://cdn.suspilne.media/", "http://kharkivoda.gov.ua/", "https://person:password@www.msp.gov.ua/", "https://suspilne.media:8080/"):
+            with self.subTest(url=url):
+                self.assertFalse(allowed_url(url))
+                with self.assertRaisesRegex(ValueError, "outside the publisher allowlist"):
+                    source_urls({"cases": [{"kind": "public_case", "sources": [{"url": url}]}]})
+
+    def test_followup_redirects_stay_within_exact_https_publisher_hosts(self):
+        redirects = PublisherRedirects()
+        request = Request("https://www.msp.gov.ua/")
+        allowed = redirects.redirect_request(request, None, 302, "Found", {}, "https://www.kmu.gov.ua/")
+        self.assertEqual(allowed.full_url, "https://www.kmu.gov.ua/")
+        for target in ("https://cdn.suspilne.media/", "https://unlisted.example/", "http://www.msp.gov.ua/"):
+            with self.subTest(target=target), self.assertRaisesRegex(ValueError, "explicit public-publisher allowlist"):
+                redirects.redirect_request(request, None, 302, "Found", {}, target)
 
     def test_invalid_url_never_calls_the_network(self):
         def unexpected(*args, **kwargs):

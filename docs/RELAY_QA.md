@@ -1,5 +1,15 @@
 # SPACEЖ RELAY — real-source verification record
 
+## UNHCR additional cash records — 17 October 2026
+
+Five newly located source records add specific attributed cash constraints and dated programme-component results. The public registry now contains 25 claims, 22 sources and eight open questions across two cases. The UNHCR case has 18 claims and 14 sources. Regional household figures remain distinct from national people counts. The newly found global-PDM cohort sum of 249,019 is not substituted for the separate seasonal 258,345 total; the 9,326-person difference remains open. The generator count and its unresolved 76-unit difference are unchanged.
+
+Revision 4 preserves the prior three revisions, five reviews and ten change records exactly against production commit `2f83567`. Three actual AI checks reviewed the final 18-claim snapshot `f8d4c689b0bc48c8c80820ddc526ffbdb0dc8a4fa8f496836f7f42f0dd2ace56`; same-team roles and source-access limits are disclosed. The case now has four revisions, eight AI reviews, one clarification, one correction and thirteen evidence additions.
+
+The code passed 52 unit tests. Three new tests verify the four exact public-publisher hosts while retaining HTTPS, port, credential, subdomain and redirect restrictions. Publication/export checks, cited evidence and research-reader checks, JavaScript syntax and whitespace checks also passed. An initial registry check caught missing evidence-link records for the new claims; these were added and the full tests and publication checks then passed.
+
+The latest explicit GET run attempted 27 URLs: 17 retrieved and ten unavailable. Separate content-review methods remain visible where web text was readable but direct access failed. See the [research note](evidence/2026-10-17-unhcr-cash-records.md), [baseline receipt](qa/unhcr-cash-records-2026-10-17/baseline.json) and the forthcoming browser/production verification receipts. The [prepared UNHCR records request](records-requests/unhcr-winter-2024-25-request.txt) is not evidence of a sent message or response.
+
 ## UNHCR cash and generator follow-up — 17 October 2026
 
 The registry now contains two real cases, 20 claims, 17 source records and eight open questions. The UNHCR case has 13 claims, nine sources and seven comparisons. Sourced follow-up notes appear directly on the cash and generator cards and link to their source records. The broader countrywide funding figures are not substituted for winter-cash funding coverage. The full shortfall and the 76-unit generator difference remain unresolved.

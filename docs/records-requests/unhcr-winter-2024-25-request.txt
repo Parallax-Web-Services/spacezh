@@ -1,0 +1,28 @@
+To: Alessia Pignatti <pignatti@unhcr.org>
+Cc: Livia das Neves <dasneves@unhcr.org>
+Subject: Request for aggregate reconciliation: Ukraine winter aid 2024-2025
+Status: Prepared for user review; not sent
+
+Hello Ms Pignatti and Ms das Neves,
+
+We are preparing a public-source comparison of UNHCR's Ukraine winter response for 2024-2025 at https://xn--80akd1bg1j.com/relay/?case=ukraine-energy-civilian-resilience-2024 . Could you provide the following aggregate records or direct us to published versions?
+
+1. Winter cash target and delivery: the September 2024 plan targeted approximately 550,000 people in 263,000 households; the July monitoring report and Q2 2025 cash factsheet report 258,345 people and $75.8 million disbursed. Please provide the programme-specific funding received and allocated, any approved target revisions, and a reconciliation of planned, eligible, enrolled, excluded and paid households/people, separating the Ministry of Social Policy/Pension Fund and frontline programme components. Which documented constraints explain the difference from the original people target, and how much of the difference is attributable to each?
+
+2. Payment failures: the Ministry of Social Policy statement published by the Cabinet on 7 August 2025 says technical difficulties prevented some families from receiving UNHCR payments in the previous year. What were the difficulties, how many households/people were affected, and were these payments later made? Please distinguish delayed payments, unsuccessful transfers, eligibility exclusions and funding-related non-selection.
+
+3. Generators: the 14 April 2025 update reports 110, while the July winter monitoring report reports 186 distributed during the winter period. Please provide an aggregate delivery/inventory or reporting reconciliation accounting for the 76-unit difference, including reporting periods, inclusion rules, any revisions and whether either figure includes units delivered before or after the 2024-2025 winter response. A batch-level reconciliation without facility locations or recipient identities is sufficient.
+
+Sources compared:
+- September plan: https://data.unhcr.org/en/documents/download/110943
+- April update, p. 4: https://data.unhcr.org/en/documents/download/115718
+- July monitoring, pp. 1 and 4: https://data.unhcr.org/en/documents/download/118022
+- Q2 cash factsheet: https://data.unhcr.org/en/documents/download/118031
+- Ministry statement: https://www.kmu.gov.ua/news/minsotspolityky-domohospodarstva-u-pryfrontovykh-rehionakh-otrymaiut-dodatkovi-koshty-na-prokhodzhennia-opaliuvalnoho-sezonu
+
+Please indicate which response and records may be quoted and published with attribution. We do not request recipient identities, bank details, or the locations of critical facilities. If another office holds these records, please direct us to it.
+
+Thank you.
+
+Recipient verification: both contacts appear in the official UNHCR Ukraine operational update dated 12 June 2026, final contacts section:
+https://www.unhcr.org/sites/ua/files/2026-06/UNHCR%20Ukraine%20Operational%20Update_12%20June%202026.pdf
