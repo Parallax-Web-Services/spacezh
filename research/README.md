@@ -4,7 +4,7 @@ Our mission is to support Ukraine's civilian protection and independence with re
 
 | Study | Research question | Status |
 | --- | --- | --- |
-| [001 — LEO ground-station contact](001-leo-contact/README.md) | What can one legal, cooperating satellite-to-ground link carry? | First-order mathematical screening; six deterministic tests; no field observations |
+| [001 — LEO ground-station contact](001-leo-contact/README.md) | What can one legal, cooperating satellite-to-ground link carry? (Link workstream, not the early-warning track) | First-order mathematical screening with link margin; ten deterministic tests; no field observations |
 | [002 — Independent 60-second ballistic early-warning requirement](002-independent-early-warning/README.md) | Can Ukraine obtain independently verified ballistic launch evidence within 60 seconds without U.S. warning services? | Research question and synthetic evaluation methodology only; **not demonstrated** |
 | [003 — Independent observation and evidence limits](003-observation-gap/README.md) | Which programmes actually establish launch sensing, and how do shared upstream sources, timestamp errors and sampling bias limit a 60-second claim? | Six public evidence categories, 15 deterministic tests; **not demonstrated** |
 | [004 — Statistical proof requirements](004-claim-validation/README.md) | How much independent event and non-event evidence would a 60-second reliability claim require? | Exact binomial/Poisson intervals and joint confidence, 24 synthetic-only tests; **not demonstrated** |
@@ -22,4 +22,4 @@ Our mission is to support Ukraine's civilian protection and independence with re
 
 [Peer review of 16 October 2026](PEER_REVIEW_2026-10-16.md): numbers, tests and citations reproduced; four publication defects fixed; substantive critique of the 60-second threshold, the evidence register and the statistical thresholds. It is not the Ukrainian scientific review these studies ask for.
 
-We will report an unresolved or infeasible result rather than invent an operational capability. **Four published studies now contain 54 passing mathematical tests, not validated sensors.**
+We will report an unresolved or infeasible result rather than invent an operational capability. **Four published studies now contain 58 passing mathematical tests, not validated sensors.**

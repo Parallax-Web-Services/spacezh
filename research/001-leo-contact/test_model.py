@@ -2,10 +2,36 @@
 import math
 import unittest
 from dataclasses import replace
-from model import Assumptions, solve
+from model import Assumptions, bpsk_bit_error_rate, required_ebn0_db, solve
 
 
 class GeometryAndLinkTests(unittest.TestCase):
+    def test_required_ebn0_matches_bpsk_theory(self):
+        # Ideal coherent BPSK needs about 9.6 dB for a 1e-5 bit-error rate.
+        need = required_ebn0_db(1e-5)
+        self.assertAlmostEqual(need, 9.588, places=2)
+        self.assertAlmostEqual(bpsk_bit_error_rate(need), 1e-5, delta=1e-8)
+
+    def test_reference_margin_and_useful_bytes(self):
+        r = solve()
+        self.assertAlmostEqual(r.link_margin_db, r.energy_per_bit_to_noise_density_db
+                               - r.required_energy_per_bit_to_noise_density_db, places=12)
+        self.assertGreater(r.link_margin_db, 8.0)
+        self.assertAlmostEqual(r.useful_kilobytes_per_pass, 0.8 * r.ideal_raw_kilobytes_per_pass, places=9)
+        self.assertLess(r.useful_kilobytes_per_pass, r.ideal_raw_kilobytes_per_pass)
+
+    def test_margin_falls_with_lower_elevation_mask(self):
+        self.assertLess(solve(replace(Assumptions(), elevation_deg=5)).link_margin_db,
+                        solve(replace(Assumptions(), elevation_deg=30)).link_margin_db)
+
+    def test_invalid_link_closure_inputs_rejected(self):
+        for a in (replace(Assumptions(), framing_efficiency=0),
+                  replace(Assumptions(), framing_efficiency=1.2),
+                  replace(Assumptions(), target_bit_error_rate=0),
+                  replace(Assumptions(), target_bit_error_rate=0.5)):
+            with self.subTest(a=a), self.assertRaises(ValueError):
+                solve(a)
+
     def test_reference_case(self):
         r = solve()
         self.assertAlmostEqual(r.slant_range_km, 1518.016718, places=4)
