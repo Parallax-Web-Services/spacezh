@@ -1,5 +1,7 @@
 # Production deployment
 
+Current research scope, 17 October 2026: the user selected public records only. The records-request draft remains unsent; email or other outreach is not authorized. Earlier release receipts below preserve the status observed when each release was verified.
+
 ## UNHCR additional cash records: verified production payload
 
 Verified at 2026-10-17T21:42:04.174401+00:00. Forge activated release `80484916` for commit `009d507be59a04288f9bf9cbd193a0d785b331a1`, public tree `af4cd2aa7f557544a6bc4eab39cdb2aa2c0c0ebf`. Previous release `80484431` (`2f83567`) remained available for rollback. A later documentation-only release may share this same public tree.

@@ -10,9 +10,9 @@
       "kind": "public_case",
       "visibility": "public",
       "status": "documented",
-      "summary": "UNHCR reported 47% of its original winter cash people target. New records document regional resource rationing and payment-processing problems, but do not apportion the national shortfall. The 110 and 186 generator totals still lack a reconciliation.",
+      "summary": "Cash constraints include limited allocations, payment-processing problems and a court-upheld local failure in beneficiary lists. No record obtained apportions the national cash shortfall. The 76-unit difference between generator totals remains unexplained.",
       "boundary_note": "Ukraine, winter 2024-2025. Results are UNHCR and partner self-reports, not an independent audit. Counts use the units and reporting periods shown below; they do not measure all aid received from other providers.",
-      "publication_note": "Additional records checked on 17 October 2026. Regional and national official statements identify specific cash constraints with their dates and limits preserved. The national causal split and generator ledger remain missing. Actual AI checks and earlier versions remain visible.",
+      "publication_note": "Public-record research obtained UK grant agreements and a donor review, an original appeal judgment, and a signed generator transfer. Their dates, units and limits are recorded below. No external enquiry was sent. Actual AI reviews and earlier wording remain visible.",
       "tags": [
         "Ukraine",
         "UNHCR",
@@ -294,6 +294,183 @@
             "note": "Full substantive matching official article text and date reviewed through web search; direct opening timed out. A government digest reproduces the same dated figures; no internal payment ledger was obtained."
           },
           "rights": "Official source linked with brief original paraphrases and locators. No full report, article body, photographs or recipient records republished."
+        },
+        {
+          "id": "msp-winter-cash-budget-october-2024",
+          "title": "Social Policy Ministry announces $30 million and 92,000-household winter support ambition",
+          "publisher": "Ministry of Social Policy of Ukraine",
+          "byline": "Ministry of Social Policy of Ukraine",
+          "published_date": "2024-10-28",
+          "source_type": "primary_government_programme_announcement",
+          "url": "https://www.msp.gov.ua/press-center/news/minsotspolityky-ta-uvkb-oon-ob%27yednuyut-zusyllya-dlya-pidtrymky-ukrayintsiv-pid-chas-zymy",
+          "notes": "Official article read in full. Its UNHCR-backed 92,000-household ambition and $30 million support announcement are separate from state-budget support; neither is a final cash result or donor receipt.",
+          "rights": "Public record linked with short original paraphrases and locators. No full document, photographs, personal records or operational facility details republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T22:10:35Z",
+            "method": "official_html_web_review",
+            "reviewed_url": "https://www.msp.gov.ua/press-center/news/minsotspolityky-ta-uvkb-oon-ob%27yednuyut-zusyllya-dlya-pidtrymky-ukrayintsiv-pid-chas-zymy",
+            "locator": "Dated article, final programme figures: paragraphs beginning Минулого року and Загальна сума.",
+            "note": "Official article read in full. Its UNHCR-backed 92,000-household ambition and $30 million support announcement are separate from state-budget support; neither is a final cash result or donor receipt."
+          }
+        },
+        {
+          "id": "frontline-winter-cash-budget-november-2024",
+          "title": "Frontline winter-cash budget increased to $40.6 million",
+          "publisher": "State Non-Profit Company National Agency for Territorial Development of Ukraine",
+          "byline": "State Non-Profit Company National Agency for Territorial Development of Ukraine",
+          "published_date": "2024-11-28",
+          "source_type": "primary_government_programme_announcement",
+          "url": "https://dp-reintegration.gov.ua/en/unhcr-increases-funding-for-frontline-support-project-to-40-6-million/",
+          "notes": "Full public article reviewed. It describes the Ministry of Reintegration-linked frontline component: $30 million to $37 million to $40.6 million; approximately 71,000 households and an expected additional 7,000. This announcement is not a donor cash ledger or final national allocation.",
+          "rights": "Public record linked with short original paraphrases and locators. No full document, photographs, personal records or operational facility details republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T22:10:35Z",
+            "method": "official_html_web_review",
+            "reviewed_url": "https://dp-reintegration.gov.ua/en/unhcr-increases-funding-for-frontline-support-project-to-40-6-million/",
+            "locator": "Article posted 28 November, updated 29 November; opening three budget paragraphs and UAH 21,000 programme paragraph.",
+            "note": "Full public article reviewed. It describes the Ministry of Reintegration-linked frontline component: $30 million to $37 million to $40.6 million; approximately 71,000 households and an expected additional 7,000. This announcement is not a donor cash ledger or final national allocation."
+          }
+        },
+        {
+          "id": "fcdo-unhcr-grant-transactions-2024-25",
+          "title": "FCDO IATI transactions for UNHCR grant GB-GOV-1-400176-403",
+          "publisher": "UK Foreign, Commonwealth and Development Office",
+          "byline": "UK Foreign, Commonwealth and Development Office",
+          "published_date": "Publication date not established (live IATI dataset)",
+          "source_type": "primary_donor_transaction_data",
+          "url": "https://fcdo.iati.cloud/search/activity/?fl=%2A&format=json&q=iati_identifier%3AGB-GOV-1-400176-403",
+          "notes": "Public JSON downloaded and parsed. Donor-reported disbursements are £10,000,000 on 11 December 2024 and £1,360,738 on 17 March 2025. The commitment is £11,360,738 on 26 November 2024. The grant covers protection, shelter/housing and winter cash; no cash-only allocation is given. These are donor transaction records, not confirmation of recipient receipt dates.",
+          "rights": "Public record linked with short original paraphrases and locators. No full document, photographs, personal records or operational facility details republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T22:10:35Z",
+            "method": "direct_public_document_text_review",
+            "reviewed_url": "https://fcdo.iati.cloud/search/activity/?fl=%2A&format=json&q=iati_identifier%3AGB-GOV-1-400176-403",
+            "locator": "response.docs[0]: iati_identifier; title_narrative; description_narrative; json.transaction entries (types 2 and 3, GBP values and transaction dates).",
+            "note": "Public JSON downloaded and parsed. Donor-reported disbursements are £10,000,000 on 11 December 2024 and £1,360,738 on 17 March 2025. The commitment is £11,360,738 on 26 November 2024. The grant covers protection, shelter/housing and winter cash; no cash-only allocation is given. These are donor transaction records, not confirmation of recipient receipt dates."
+          },
+          "alternate_url": "https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-400176-403/summary"
+        },
+        {
+          "id": "fcdo-unhcr-memorandum-2024",
+          "title": "FCDO–UNHCR memorandum D0007515",
+          "publisher": "UK Foreign, Commonwealth and Development Office",
+          "byline": "UK Foreign, Commonwealth and Development Office",
+          "published_date": "May 2025 (DevTracker listing)",
+          "source_type": "primary_donor_grant_agreement",
+          "url": "https://iati.fcdo.gov.uk/iati_documents/D0007515.odt",
+          "notes": "HTTP 200; OpenDocument XML reviewed with text spacing restored. Activity period 15 November 2024–31 March 2025 and original £10 million ceiling cover several activities. FCDO signature block says 14 November; partner day is redacted. Later amendment refers to signature on 20 November. The final narrative/financial report required by paragraph 24 was not obtained. No page-image review is claimed.",
+          "rights": "Public record linked with short original paraphrases and locators. No full document, photographs, personal records or operational facility details republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T22:10:35Z",
+            "method": "direct_public_document_text_review",
+            "reviewed_url": "https://iati.fcdo.gov.uk/iati_documents/D0007515.odt",
+            "locator": "Provision of grant, opening paragraphs: activity period and contribution ceiling; reporting paragraph 24.",
+            "note": "HTTP 200; OpenDocument XML reviewed with text spacing restored. Activity period 15 November 2024–31 March 2025 and original £10 million ceiling cover several activities. FCDO signature block says 14 November; partner day is redacted. Later amendment refers to signature on 20 November. The final narrative/financial report required by paragraph 24 was not obtained. No page-image review is claimed."
+          },
+          "alternate_url": "https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-400176/documents"
+        },
+        {
+          "id": "fcdo-unhcr-amendment-2025",
+          "title": "FCDO–UNHCR grant amendment no. 1/2025, D0007516",
+          "publisher": "UK Foreign, Commonwealth and Development Office",
+          "byline": "UK Foreign, Commonwealth and Development Office",
+          "published_date": "May 2025 (DevTracker listing)",
+          "source_type": "primary_donor_grant_amendment",
+          "url": "https://iati.fcdo.gov.uk/iati_documents/D0007516.odt",
+          "notes": "HTTP 200; OpenDocument XML reviewed. The ceiling increases by £1,360,738 to £11,360,738. FCDO date is 26 February 2025; partner day is redacted. A ceiling across several activities does not establish winter-cash receipts or spending. No page-image review is claimed.",
+          "rights": "Public record linked with short original paraphrases and locators. No full document, photographs, personal records or operational facility details republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T22:10:35Z",
+            "method": "direct_public_document_text_review",
+            "reviewed_url": "https://iati.fcdo.gov.uk/iati_documents/D0007516.odt",
+            "locator": "Annex B, increase amount and replacement contribution ceiling; signature date blocks.",
+            "note": "HTTP 200; OpenDocument XML reviewed. The ceiling increases by £1,360,738 to £11,360,738. FCDO date is 26 February 2025; partner day is redacted. A ceiling across several activities does not establish winter-cash receipts or spending. No page-image review is claimed."
+          },
+          "alternate_url": "https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-400176/documents"
+        },
+        {
+          "id": "fcdo-harp-annual-review-2025",
+          "title": "HARP annual review, S40017629, dated 16 November 2025",
+          "publisher": "UK Foreign, Commonwealth and Development Office",
+          "byline": "UK Foreign, Commonwealth and Development Office",
+          "published_date": "November 2025 (DevTracker listing)",
+          "source_type": "primary_donor_programme_review",
+          "url": "https://iati.fcdo.gov.uk/iati_documents/S40017629.odt",
+          "notes": "HTTP 200; OpenDocument XML reviewed, including table labels. The review covers October 2024–June 2025. The 53% cash result concerns the inter-agency plan, not UNHCR alone. Data-cleansing delay is attributed particularly to URCS under another programme. Paragraph 43 summarizes UNHCR third-party monitoring; the underlying monitoring report was not obtained. No page-image review is claimed.",
+          "rights": "Public record linked with short original paraphrases and locators. No full document, photographs, personal records or operational facility details republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T22:10:35Z",
+            "method": "direct_public_document_text_review",
+            "reviewed_url": "https://iati.fcdo.gov.uk/iati_documents/S40017629.odt",
+            "locator": "Section A paragraphs 3–4, review scope and partner spending table; Output 2 paragraph 33, indicators 2.1.1–2.1.2; paragraphs 35, 42 and 43.",
+            "note": "HTTP 200; OpenDocument XML reviewed, including table labels. The review covers October 2024–June 2025. The 53% cash result concerns the inter-agency plan, not UNHCR alone. Data-cleansing delay is attributed particularly to URCS under another programme. Paragraph 43 summarizes UNHCR third-party monitoring; the underlying monitoring report was not obtained. No page-image review is claimed."
+          },
+          "alternate_url": "https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-400176/documents"
+        },
+        {
+          "id": "fastiv-unhcr-generator-transfer-2025",
+          "title": "Signed UNHCR generator ownership-transfer agreement KYIV_GEN_18_2025",
+          "publisher": "Fastiv City Council / UNHCR",
+          "byline": "Fastiv City Council / UNHCR",
+          "published_date": "2025-04-16 (council posting)",
+          "source_type": "primary_signed_asset_transfer_agreement",
+          "url": "https://fastiv-rada.gov.ua/wp-content/uploads/259-dodatok.pdf",
+          "notes": "Four scanned pages downloaded with HTTP 200 and rendered for visual review by the generator research agent. Agreement effective date is 28 January 2025; council approval is 10 April and posting is 16 April. Annex A lists one generator. The linked Ukrainian version and earlier draft are copies of the same agreement. No actual physical handover date or national count membership is established.",
+          "rights": "Public record linked with short original paraphrases and locators. No full document, photographs, personal records or operational facility details republished.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T22:10:35Z",
+            "method": "downloaded_scanned_pdf_visual_review",
+            "reviewed_url": "https://fastiv-rada.gov.ua/wp-content/uploads/259-dodatok.pdf",
+            "locator": "English PDF p. 1 effective date and registration; p. 2 Article II; p. 3 Article VIII/signatures; p. 4 Annex A total. Council resolution 259-LXX-VIII dated 10 April 2025.",
+            "note": "Four scanned pages downloaded with HTTP 200 and rendered for visual review by the generator research agent. Agreement effective date is 28 January 2025; council approval is 10 April and posting is 16 April. Annex A lists one generator. The linked Ukrainian version and earlier draft are copies of the same agreement. No actual physical handover date or national count membership is established."
+          },
+          "alternate_url": "https://fastiv-rada.gov.ua/pro-nadannia-zhody-ta-pryjniattia-do-komunalnoi-vlasnosti-fastivskoi-miskoi-terytorialnoi-hromady-v-osobi-fastivskoi-miskoi-rady-humanitarnoi-blahodijnoi-dopomohy-u-vyhliadi-heneratora-coelmo-50-kva-2/"
+        },
+        {
+          "id": "snovsk-winter-cash-appeal-2025",
+          "title": "Snovsk winter-aid list failures: appeal judgment in case 620/6119/25",
+          "publisher": "Sixth Administrative Court of Appeal of Ukraine",
+          "byline": "Sixth Administrative Court of Appeal of Ukraine",
+          "published_date": "2025-11-13 (registry public-access date)",
+          "source_type": "primary_administrative_appeal_judgment",
+          "url": "https://reyestr.court.gov.ua/Review/131707397",
+          "alternate_url": "https://opendatabot.ua/court/131707397-e7e587f560d3a297ef48a3f10569c44f",
+          "notes": "Judgment dated 5 November 2025; full text made 10 November, publicly accessible 13 November. Appeal dismissed and 18 July judgment left unchanged. Local disciplinary administrative litigation, not a criminal conviction or national UNHCR audit. No later cassation found; absence of one is not established.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T22:11:28Z",
+            "method": "original_public_court_registry_browser_review",
+            "reviewed_url": "https://reyestr.court.gov.ua/Review/131707397",
+            "locator": "Header and registry metadata; factual findings on December beneficiary lists; concluding reasoning beginning Враховуючи встановлені обставини, доповідну записку; operative appeal outcome.",
+            "note": "Two research agents independently read the original public registry in Chrome without authentication or a challenge. The public copy was also checked. The finding concerns at least 90 residents losing opportunity, not 90 households or verified unpaid funded recipients. Direct machine retrieval may be unavailable despite browser content review."
+          },
+          "rights": "Public record linked with short original paraphrases and locators. No full judgment, individual names, addresses or beneficiary records republished."
+        },
+        {
+          "id": "snovsk-unhcr-winter-registration-2024",
+          "title": "Snovsk announces UNHCR solid-fuel assistance registration",
+          "publisher": "Snovsk City Council",
+          "byline": "Snovsk City Council",
+          "published_date": "2024-12-16",
+          "source_type": "primary_municipal_programme_notice",
+          "url": "https://snovmr.gov.ua/reyestratsiya-na-nadannya-dopomogy/",
+          "notes": "Contemporaneous notice identifies UNHCR, UAH 21,000 per household and the 2024–25 solid-fuel programme. Registration is explicitly not a guarantee of payment. Used to establish programme identity, not a count of payments or all eligible residents.",
+          "verification": {
+            "status": "content_reviewed",
+            "checked_at": "2026-10-17T22:11:28Z",
+            "method": "official_html_web_review",
+            "reviewed_url": "https://snovmr.gov.ua/reyestratsiya-na-nadannya-dopomogy/",
+            "locator": "Dated notice, opening programme paragraph, per-household qualification and closing no-guarantee warning.",
+            "note": "Official municipal notice read directly through the web tool and independently by the records reviewer. No form was submitted and no individual recipient records were collected."
+          },
+          "rights": "Public record linked with short original paraphrases and locators. No full judgment, individual names, addresses or beneficiary records republished."
         }
       ],
       "artifacts": [],
@@ -507,6 +684,66 @@
             "msp-winter-cash-component-december-2024"
           ],
           "locator": "Opening programme figures, UNHCR-funded row and immediately following continuing-payments qualification in the dated Ministry article."
+        },
+        {
+          "id": "energy-claim-19",
+          "kind": "report",
+          "status": "supported",
+          "text": "Two dated announcements describe component funding: the Social Policy Ministry announced $30 million and an ambition of 92,000 households on 28 October 2024; a 28 November announcement raised the separate frontline component’s budget from $30 million through $37 million to $40.6 million.",
+          "caveat": "These are separate programme announcements, not final donor receipts or national winter-cash spending. The frontline post describes about 71,000 households and an expected additional 7,000. The October 92,000-household ambition differs from UNHCR’s later 57,000-household ambition; no signed revision reconciling them was obtained. Do not sum these budgets as final seasonal funding.",
+          "source_ids": [
+            "msp-winter-cash-budget-october-2024",
+            "frontline-winter-cash-budget-november-2024"
+          ],
+          "locator": "October Ministry article, final two programme-figure paragraphs; November state-company article, opening budget paragraphs and programme scope."
+        },
+        {
+          "id": "energy-claim-20",
+          "kind": "report",
+          "status": "supported",
+          "text": "The public UK–UNHCR agreement set a £10 million ceiling, later raised to £11,360,738. FCDO transaction data reports disbursements of £10 million on 11 December 2024 and £1,360,738 on 17 March 2025 for a grant covering protection, shelter/housing and winter cash.",
+          "caveat": "The agreement ceiling and donor-reported disbursements are different records. Neither isolates winter cash or verifies when UNHCR received the funds. The February top-up was described by the donor review as mostly multipurpose cash and shelter/house repairs. The grant’s completed narrative/financial report and cash-only allocation were not obtained; these amounts do not explain the national target gap.",
+          "source_ids": [
+            "fcdo-unhcr-grant-transactions-2024-25",
+            "fcdo-unhcr-memorandum-2024",
+            "fcdo-unhcr-amendment-2025",
+            "fcdo-harp-annual-review-2025"
+          ],
+          "locator": "IATI activity GB-GOV-1-400176-403, json.transaction types 2/3 and GBP values; memorandum opening grant paragraphs and paragraph 24; amendment Annex B; annual review paragraphs 4 and 35."
+        },
+        {
+          "id": "energy-claim-21",
+          "kind": "report",
+          "status": "supported",
+          "text": "FCDO’s November 2025 review recommends earlier winter funding for UNHCR and attributes 30,339 winter-cash recipients to its HARP grant. It separately attributes the wider inter-agency plan’s 53% winter-cash reach to funding shortages.",
+          "caveat": "The grant’s recipient count is a donor-attributed subset, not an additional national total. The inter-agency 53% and UNHCR’s 47% use different scopes. The review does not quantify funding or timing as causes of UNHCR’s 291,655-person gap. Its data-cleaning delay example particularly concerns another organization, URCS; it cannot be assigned to UNHCR.",
+          "source_ids": [
+            "fcdo-harp-annual-review-2025"
+          ],
+          "locator": "Annual review Output 2, paragraph 33, individuals table and indicators 2.1.1–2.1.2; paragraph 42 and paragraph 43, UNHCR monitoring recommendations."
+        },
+        {
+          "id": "energy-claim-22",
+          "kind": "report",
+          "status": "supported",
+          "text": "A signed UNHCR ownership-transfer agreement effective 28 January 2025 lists one generator. Fastiv’s council approved it on 10 April and posted the enacted record on 16 April.",
+          "caveat": "These are agreement, approval and publication dates, not a verified physical delivery date. English and Ukrainian copies describe the same unit. The record does not identify whether that unit is counted in either 110 or 186, so it cannot account for any of the 76-unit difference.",
+          "source_ids": [
+            "fastiv-unhcr-generator-transfer-2025"
+          ],
+          "locator": "Signed English agreement pp. 1–3, effective date, Articles II/VIII and signatures; p. 4 Annex A total 1; council decision date and webpage posting date."
+        },
+        {
+          "id": "energy-claim-23",
+          "kind": "report",
+          "status": "supported",
+          "text": "On 5 November 2025, an appeal court upheld a finding that failures in compiling beneficiary lists, checking addresses/duplicates and notifying excluded applicants in Snovsk deprived at least 90 residents of the opportunity to receive UAH 21,000 in winter solid-fuel assistance. A contemporaneous council notice identifies the programme as UNHCR-backed.",
+          "caveat": "This is a local administrative judgment about a disciplinary measure. It concerns residents and lost opportunity, not 90 households, a criminal conviction or a verified payment ledger. The appeal was dismissed; no later cassation was located, which does not prove none exists. The record does not show how these residents map to UNHCR’s national reported reach or quantify any part of the 291,655-person target gap.",
+          "source_ids": [
+            "snovsk-winter-cash-appeal-2025",
+            "snovsk-unhcr-winter-registration-2024"
+          ],
+          "locator": "Appeal judgment, findings on December lists, concluding 90-resident reasoning and operative outcome; council registration notice dated 16 December 2024, opening programme paragraph and no-guarantee warning."
         }
       ],
       "evidence_links": [
@@ -689,6 +926,66 @@
           "source_id": "msp-winter-cash-component-december-2024",
           "relationship": "supports",
           "rationale": "Opening programme figures, UNHCR-funded row and immediately following continuing-payments qualification in the dated Ministry article. Preserves differing programme scopes and does not imply a reconciled national total."
+        },
+        {
+          "claim_id": "energy-claim-19",
+          "source_id": "msp-winter-cash-budget-october-2024",
+          "relationship": "supports",
+          "rationale": "October Ministry article, final two programme-figure paragraphs; November state-company article, opening budget paragraphs and programme scope. Supports the attributed record within its stated scope; does not reconcile the national cash shortfall or generator totals."
+        },
+        {
+          "claim_id": "energy-claim-19",
+          "source_id": "frontline-winter-cash-budget-november-2024",
+          "relationship": "supports",
+          "rationale": "October Ministry article, final two programme-figure paragraphs; November state-company article, opening budget paragraphs and programme scope. Supports the attributed record within its stated scope; does not reconcile the national cash shortfall or generator totals."
+        },
+        {
+          "claim_id": "energy-claim-20",
+          "source_id": "fcdo-unhcr-grant-transactions-2024-25",
+          "relationship": "supports",
+          "rationale": "IATI activity GB-GOV-1-400176-403, json.transaction types 2/3 and GBP values; memorandum opening grant paragraphs and paragraph 24; amendment Annex B; annual review paragraphs 4 and 35. Supports the attributed record within its stated scope; does not reconcile the national cash shortfall or generator totals."
+        },
+        {
+          "claim_id": "energy-claim-20",
+          "source_id": "fcdo-unhcr-memorandum-2024",
+          "relationship": "supports",
+          "rationale": "IATI activity GB-GOV-1-400176-403, json.transaction types 2/3 and GBP values; memorandum opening grant paragraphs and paragraph 24; amendment Annex B; annual review paragraphs 4 and 35. Supports the attributed record within its stated scope; does not reconcile the national cash shortfall or generator totals."
+        },
+        {
+          "claim_id": "energy-claim-20",
+          "source_id": "fcdo-unhcr-amendment-2025",
+          "relationship": "supports",
+          "rationale": "IATI activity GB-GOV-1-400176-403, json.transaction types 2/3 and GBP values; memorandum opening grant paragraphs and paragraph 24; amendment Annex B; annual review paragraphs 4 and 35. Supports the attributed record within its stated scope; does not reconcile the national cash shortfall or generator totals."
+        },
+        {
+          "claim_id": "energy-claim-20",
+          "source_id": "fcdo-harp-annual-review-2025",
+          "relationship": "supports",
+          "rationale": "IATI activity GB-GOV-1-400176-403, json.transaction types 2/3 and GBP values; memorandum opening grant paragraphs and paragraph 24; amendment Annex B; annual review paragraphs 4 and 35. Supports the attributed record within its stated scope; does not reconcile the national cash shortfall or generator totals."
+        },
+        {
+          "claim_id": "energy-claim-21",
+          "source_id": "fcdo-harp-annual-review-2025",
+          "relationship": "supports",
+          "rationale": "Annual review Output 2, paragraph 33, individuals table and indicators 2.1.1–2.1.2; paragraph 42 and paragraph 43, UNHCR monitoring recommendations. Supports the attributed record within its stated scope; does not reconcile the national cash shortfall or generator totals."
+        },
+        {
+          "claim_id": "energy-claim-22",
+          "source_id": "fastiv-unhcr-generator-transfer-2025",
+          "relationship": "supports",
+          "rationale": "Signed English agreement pp. 1–3, effective date, Articles II/VIII and signatures; p. 4 Annex A total 1; council decision date and webpage posting date. Supports the attributed record within its stated scope; does not reconcile the national cash shortfall or generator totals."
+        },
+        {
+          "claim_id": "energy-claim-23",
+          "source_id": "snovsk-winter-cash-appeal-2025",
+          "relationship": "supports",
+          "rationale": "Appeal judgment, findings on December lists, concluding 90-resident reasoning and operative outcome; council registration notice dated 16 December 2024, opening programme paragraph and no-guarantee warning. The court supports the local finding and appeal outcome; the notice establishes UNHCR programme identity. Neither apportions the national cash gap."
+        },
+        {
+          "claim_id": "energy-claim-23",
+          "source_id": "snovsk-unhcr-winter-registration-2024",
+          "relationship": "supports",
+          "rationale": "Appeal judgment, findings on December lists, concluding 90-resident reasoning and operative outcome; council registration notice dated 16 December 2024, opening programme paragraph and no-guarantee warning. The court supports the local finding and appeal outcome; the notice establishes UNHCR programme identity. Neither apportions the national cash gap."
         }
       ],
       "timeline": [
@@ -818,6 +1115,24 @@
           ],
           "review_id": "energy-records-source-review-20261017",
           "revision_id": "energy-revision-4"
+        },
+        {
+          "date": "2026-10-17T22:14:07Z",
+          "label": "RELAY publishes additional public records and a local court finding",
+          "detail": "Grant terms, donor transactions/review, a signed generator transfer and a court-upheld registration failure added after actual AI checks. National causes and the 76-unit difference remain unresolved; no enquiry was sent.",
+          "source_ids": [
+            "msp-winter-cash-budget-october-2024",
+            "frontline-winter-cash-budget-november-2024",
+            "fcdo-unhcr-grant-transactions-2024-25",
+            "fcdo-unhcr-memorandum-2024",
+            "fcdo-unhcr-amendment-2025",
+            "fcdo-harp-annual-review-2025",
+            "fastiv-unhcr-generator-transfer-2025",
+            "snovsk-winter-cash-appeal-2025",
+            "snovsk-unhcr-winter-registration-2024"
+          ],
+          "review_id": "energy-public-records-source-review-20261017",
+          "revision_id": "energy-revision-5"
         }
       ],
       "reviews": [
@@ -932,6 +1247,48 @@
           "conflicts": "Same-team AI documentary review; participated in generator research. No independent human approval, recipient verification or field audit is claimed.",
           "revision_id": "energy-revision-4",
           "snapshot_sha256": "f8d4c689b0bc48c8c80820ddc526ffbdb0dc8a4fa8f496836f7f42f0dd2ace56"
+        },
+        {
+          "id": "energy-public-records-source-review-20261017",
+          "reviewer": "Codex public-record implementation reviewer",
+          "reviewed_at": "2026-10-17T22:14:07Z",
+          "method": "Direct official HTML and FCDO OpenDocument XML checks with restored spacing; public IATI JSON/XML transaction cross-check; comparison of source-agent visual/court reviews and exact previous history.",
+          "scope": "All 23 claim snapshots, new component/grant/donor/court/transfer records, units, dates and unresolved national differences.",
+          "rationale": "The grant is bundled across activities, donor-attributed recipients are a subset, and the wider 53% result cannot replace UNHCR’s 47%. The local court finding and one signed transfer remain bounded to their records. Prior claims and history are preserved.",
+          "conflicts": "Implementation agent within the same AI team. Original court registry and scanned transfer review were performed by the named research agents, not independently reread in full by this reviewer. No human approval, field audit or external enquiry is claimed.",
+          "kind": "ai_assisted",
+          "reviewer_type": "ai",
+          "decision": "reviewed",
+          "revision_id": "energy-revision-5",
+          "snapshot_sha256": "8edcd0d193fad7ff461fc7a53213123787a8798c6729f78ff3e7094cc7aebc12"
+        },
+        {
+          "id": "energy-public-records-cash-check-20261017",
+          "reviewer": "Codex public cash-records reviewer",
+          "reviewed_at": "2026-10-17T22:13:30Z",
+          "method": "Separate-agent original court-registry browser review, official municipal notice, fresh direct FCDO OpenDocument XML and IATI transaction checks; full snapshot digest and history comparison against commit 2756602.",
+          "scope": "All 23 claim snapshots and new source metadata; court mechanism, 90-resident unit, lost opportunity, appeal outcome; grant chronology and national-scope limits.",
+          "rationale": "The original judgments support the local registration/control/notification failure and 5 November appeal outcome. Budgets, agreements and transactions retain distinct scopes. The first 18 claims and all previous reviews/revisions/changes match production. Generator page inspection relies on the documented separate visual review.",
+          "conflicts": "Same AI team; researched cash records and authored the Snovsk note. Did not independently inspect the scanned generator pages. No independent human audit or outreach.",
+          "kind": "ai_assisted",
+          "reviewer_type": "ai",
+          "decision": "reviewed",
+          "revision_id": "energy-revision-5",
+          "snapshot_sha256": "8edcd0d193fad7ff461fc7a53213123787a8798c6729f78ff3e7094cc7aebc12"
+        },
+        {
+          "id": "energy-public-records-scope-check-20261017",
+          "reviewer": "Codex public-record scope reviewer",
+          "reviewed_at": "2026-10-17T22:12:52Z",
+          "method": "Separate-agent direct grant XML and rendered Fastiv PDF review; fresh official budget and public IATI checks; all claim snapshots, sources, followups and exact previous history compared against 2756602.",
+          "scope": "All 23 claim snapshots; grant ceilings/disbursements, donor results, generator dates and membership limits; preservation of four revisions, eight reviews and 15 changes.",
+          "rationale": "30,339 is a donor-attributed subset; 53% inter-agency reach and 47% UNHCR reach are distinct. One signed transfer establishes neither a physical delivery date nor membership in 110/186. Court scope matches teammates’ original-registry reviews; the municipal notice was independently checked.",
+          "conflicts": "Same AI team; researched FCDO/Fastiv records and authored their note. Court findings rely on teammates’ recorded original-registry inspections after this reviewer’s fresh court retrieval failed. No human approval, field audit or outreach.",
+          "kind": "ai_assisted",
+          "reviewer_type": "ai",
+          "decision": "reviewed",
+          "revision_id": "energy-revision-5",
+          "snapshot_sha256": "8edcd0d193fad7ff461fc7a53213123787a8798c6729f78ff3e7094cc7aebc12"
         }
       ],
       "revisions": [
@@ -1528,6 +1885,291 @@
               "locator": "Opening programme figures, UNHCR-funded row and immediately following continuing-payments qualification in the dated Ministry article."
             }
           ]
+        },
+        {
+          "id": "energy-revision-5",
+          "parent_revision_id": "energy-revision-4",
+          "published_at": "2026-10-17T22:14:07Z",
+          "recorded_at": "2026-10-17T22:14:07Z",
+          "publication_basis": "user_authorized",
+          "review_ids": [
+            "energy-public-records-source-review-20261017",
+            "energy-public-records-cash-check-20261017",
+            "energy-public-records-scope-check-20261017"
+          ],
+          "change_note": "Add public component budgets, a donor agreement/amendment and transactions, donor review findings, one signed generator transfer and a court-upheld local registration failure. National cash causes and generator-count reconciliation remain open. Revision date records preparation; production activation is logged separately.",
+          "claim_snapshots": [
+            {
+              "claim_id": "energy-claim-01",
+              "kind": "report",
+              "text": "HRMMU documented nine waves of Russian armed forces' attacks on Ukraine's electricity system between 22 March and 31 August 2024.",
+              "status": "supported",
+              "caveat": "This is the report's historical scope, not a current incident count.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Scope: printed p. 1, executive summary item 1."
+            },
+            {
+              "claim_id": "energy-claim-02",
+              "kind": "report",
+              "text": "HRMMU recorded at least 18 civilians killed and 84 injured near the electricity-infrastructure strikes covered by its report.",
+              "status": "supported",
+              "caveat": "These are direct casualties in that reporting scope, not a total for indirect harm.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Direct-casualty figures: printed p. 4."
+            },
+            {
+              "claim_id": "energy-claim-03",
+              "kind": "report",
+              "text": "HRMMU described loss of water and sanitation access in high-rise buildings without independent generators when electricity cuts stopped water pumps.",
+              "status": "supported",
+              "caveat": "This identifies a civilian service dependency; it does not count affected households.",
+              "source_ids": [
+                "hrmmu-energy-september-2024"
+              ],
+              "locator": "Water dependency: printed p. 6, second bullet."
+            },
+            {
+              "claim_id": "energy-claim-04",
+              "kind": "report",
+              "text": "On 29 August 2024, the IAEA reported temporary reactor shutdowns or disconnections after energy attacks destabilized Ukraine's grid; affected sites retained some off-site power.",
+              "status": "supported",
+              "caveat": "The statement does not report a nuclear accident or a complete off-site-power loss at those sites. HRMMU later cites this same IAEA statement.",
+              "source_ids": [
+                "iaea-update-247"
+              ],
+              "locator": "The national-grid-instability paragraphs report the effects and explicitly preserve the off-site-power qualification."
+            },
+            {
+              "claim_id": "energy-claim-05",
+              "kind": "report",
+              "text": "UNHCR's September 2024 winter plan targeted cash support for 263,000 vulnerable households, approximately 550,000 people, and requested $10 million for alternative energy support.",
+              "status": "supported",
+              "caveat": "These are planned reach and requested funding for winter 2024-2025, not proof of funding received or money spent. Later reported delivery is compared below.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25"
+              ],
+              "locator": "PDF p. 1, Main response areas 1 and 2, supplies the target and budget requirement."
+            },
+            {
+              "claim_id": "energy-claim-06",
+              "kind": "report",
+              "text": "UNHCR reported winter cash assistance for 258,345 people from October 2024 through March 2025, against the original 550,000-person target.",
+              "status": "supported",
+              "caveat": "This is 46.97% of the original people target, a difference of 291,655 people. It does not establish that those people received no aid from other providers. Do not compare a people count directly with the 263,000-household target.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-delivery-april-2025",
+                "unhcr-winter-pdm-july-2025",
+                "unhcr-cash-q2-2025"
+              ],
+              "locator": "Plan p. 1, cash support; April update p. 3 and p. 4; July monitoring p. 1; Q2 cash factsheet p. 1, Winter 2024-25 row."
+            },
+            {
+              "claim_id": "energy-claim-07",
+              "kind": "report",
+              "text": "UNHCR reported insulation assistance for 21,336 people against the original target of approximately 41,400 people.",
+              "status": "supported",
+              "caveat": "The July monitoring summary covers people reached with partners between September 2024 and March 2025. This is 51.54% of the original people target; household totals and independent recipient verification are not established here.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-winter-pdm-july-2025"
+              ],
+              "locator": "Plan p. 1, shelter/housing; July monitoring p. 1, Shelter/Housing row and footnotes."
+            },
+            {
+              "claim_id": "energy-claim-08",
+              "kind": "report",
+              "text": "UNHCR reported essential winter items for 34,319 people against the original target of approximately 33,600 people.",
+              "status": "supported",
+              "caveat": "This is 102.14% of the original people target. Category counts may overlap and must not be added as unique beneficiaries. UNHCR flags verification and possible retroactive correction.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-winter-pdm-july-2025"
+              ],
+              "locator": "Plan p. 1, essential items; July monitoring p. 1, Essential Items row and footnotes."
+            },
+            {
+              "claim_id": "energy-claim-09",
+              "kind": "report",
+              "text": "UNHCR's April 2025 report lists 110 generators; its July monitoring report lists 186 distributed during the winter period, against 420 planned.",
+              "status": "supported",
+              "caveat": "The reports differ by 76 units without explaining the change. The April footnote dates people reached, not generator units; neither report supplies a separate comparable generator cutoff. Additional deliveries, changed coverage and revised records remain unconfirmed explanations. No delivered portable-power-station total was established.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-delivery-april-2025",
+                "unhcr-winter-pdm-july-2025"
+              ],
+              "locator": "Plan p. 1, alternative energy; April update p. 4, Generators row and people-specific footnote; July monitoring p. 4, Alternative Energy Support box."
+            },
+            {
+              "claim_id": "energy-claim-10",
+              "kind": "report",
+              "text": "UNHCR reported $75.8 million disbursed for winter 2024-2025 cash assistance in its Q2 2025 factsheet; the original plan had a $140 million cash requirement.",
+              "status": "supported",
+              "caveat": "A requirement is not secured funding, and cash disbursement is not total programme expenditure. Both dollar figures are rounded. This does not establish spending against the separate $10 million alternative-energy requirement.",
+              "source_ids": [
+                "unhcr-winter-plan-2024-25",
+                "unhcr-cash-q2-2025"
+              ],
+              "locator": "Plan p. 1, cash requirement; Q2 cash factsheet p. 1, Winter 2024-25 row."
+            },
+            {
+              "claim_id": "energy-claim-11",
+              "kind": "report",
+              "text": "UNHCR's 17 December 2024 announcement made the 550,000-person winter cash ambition conditional on receiving enough funding and described programmes aiming to support over 93,000 frontline families and another 57,000 vulnerable families.",
+              "status": "supported",
+              "caveat": "These are dated programme ambitions in families, not a formally revised people target or final delivered totals. They cannot replace the 550,000-person denominator or quantify the causes of the 291,655-person shortfall.",
+              "source_ids": [
+                "unhcr-winter-cash-december-story-2024"
+              ],
+              "locator": "Official article, closing programme paragraphs and funding condition."
+            },
+            {
+              "claim_id": "energy-claim-12",
+              "kind": "report",
+              "text": "UNHCR's 2024 annual-report narrative says its Ukraine requirements were 57% funded and describes prioritizing activities within available resources, including subsistence and additional energy needs.",
+              "status": "supported",
+              "caveat": "This is countrywide calendar-year context, not funding coverage for winter cash in 2024-2025. The report does not apportion the winter-cash shortfall among funding, access, eligibility or enrolment. Its p. 23 financial table separately reports 55.78% funds available as a share of budget; that is not substituted for the narrative measure.",
+              "source_ids": [
+                "unhcr-ukraine-annual-results-2024"
+              ],
+              "locator": "PDF p. 24, section 3.2 Resources Overview; p. 25, priorities within available resources; p. 23, separately labelled financial measure."
+            },
+            {
+              "claim_id": "energy-claim-13",
+              "kind": "report",
+              "text": "UNHCR reported winter cash assistance for 224,240 people and $64 million disbursed in its December 2024 factsheet, with the target still 550,000 people. Its annual report dates that reach to 31 December 2024.",
+              "status": "supported",
+              "caveat": "This is an interim reported result. Later publications report a higher total; these records do not reconcile that change, establish payment dates or explain why the original target was not reached. Other cash modalities and the annual report's broader winter-utility count are not substituted.",
+              "source_ids": [
+                "unhcr-cash-december-2024",
+                "unhcr-ukraine-annual-results-2024",
+                "unhcr-cash-q2-2025"
+              ],
+              "locator": "December factsheet PDF p. 2, Cash for winter row; annual report p. 6, winter cash paragraph; Q2 2025 cash factsheet p. 1, Winter 2024-25 row."
+            },
+            {
+              "claim_id": "energy-claim-14",
+              "kind": "report",
+              "text": "On 7 August 2025, Ukraine's Ministry of Social Policy reported that technical difficulties had prevented some families from receiving UNHCR payments in the previous year.",
+              "status": "supported",
+              "caveat": "This is an attributed official account of a payment problem, not a quantified explanation of the winter-cash gap. The statement does not specify the failure, affected count or later resolution; its 2025-2026 plans are a separate season.",
+              "source_ids": [
+                "ukraine-msp-winter-payment-failures-2025"
+              ],
+              "locator": "Official English article, retrospective Shemelynets quotation beginning For two consecutive years; matching Ukrainian Cabinet statement dated 7 August 2025."
+            },
+            {
+              "claim_id": "energy-claim-15",
+              "kind": "report",
+              "text": "In a 2 January 2025 report, Kharkiv programme official Andrii Nereta said over 30,000 households applied but UNHCR had resources for 13,000. He described priority for the 10-km zone, then application date.",
+              "status": "supported",
+              "caveat": "This documents regional resource rationing as reported by the broadcaster. It is not a national ledger or a people count. The cited Ministry prioritization letter was not obtained.",
+              "source_ids": [
+                "kharkiv-winter-cash-interview-2025"
+              ],
+              "locator": "Resource-allocation quotation and immediately following Ministry-letter quotation, before the section on other firewood assistance."
+            },
+            {
+              "claim_id": "energy-claim-16",
+              "kind": "report",
+              "text": "The Kharkiv interview also reported 170 households awaiting bank-detail reconciliation. On 8 January 2025 the regional administration reported UAH 21,000 paid to 13,000 households across 39 communities.",
+              "status": "supported",
+              "caveat": "The later rounded total does not establish whether the 170 pending cases were paid. These dated household figures cannot be added to the national people gap or assumed to match the Ministry's later technical-difficulty statement.",
+              "source_ids": [
+                "kharkiv-winter-cash-interview-2025",
+                "kharkiv-ova-winter-cash-delivery-2025"
+              ],
+              "locator": "Interview, final sentence of Ministry-letter quotation; official regional update, aggregate cash-delivery paragraph dated 8 January 2025, 18:13."
+            },
+            {
+              "claim_id": "energy-claim-17",
+              "kind": "report",
+              "text": "UNHCR's global 2025 cash monitoring report lists 152,382 people assisted with the Ministry of Reintegration and 96,637 through Social Policy/Pension Fund, with payments batched from October 2024 to February 2025.",
+              "status": "supported",
+              "caveat": "Those cohort figures sum to 249,019, which is 9,326 below the separate 258,345 seasonal total. The reviewed records do not reconcile the difference. Neither total is silently substituted, and this does not explain the target shortfall.",
+              "source_ids": [
+                "unhcr-global-cash-pdm-2025",
+                "unhcr-winter-pdm-july-2025"
+              ],
+              "locator": "Global cash PDM report p. 7, Ukraine case study, opening paragraph; July winter summary p. 1 for the separate seasonal total."
+            },
+            {
+              "claim_id": "energy-claim-18",
+              "kind": "report",
+              "text": "On 26 December 2024, the Ministry of Social Policy reported UAH 1.02 billion in UNHCR-backed solid-fuel payments for 47,000 households, with payments still continuing.",
+              "status": "supported",
+              "caveat": "This is an interim component result, separate from state-budget support and the national winter-cash total. It is not funding received from donors, a final reach figure or proof that the difference from the 57,000-household ambition represents failed payments.",
+              "source_ids": [
+                "msp-winter-cash-component-december-2024"
+              ],
+              "locator": "Opening programme figures, UNHCR-funded row and immediately following continuing-payments qualification in the dated Ministry article."
+            },
+            {
+              "claim_id": "energy-claim-19",
+              "kind": "report",
+              "text": "Two dated announcements describe component funding: the Social Policy Ministry announced $30 million and an ambition of 92,000 households on 28 October 2024; a 28 November announcement raised the separate frontline component’s budget from $30 million through $37 million to $40.6 million.",
+              "status": "supported",
+              "caveat": "These are separate programme announcements, not final donor receipts or national winter-cash spending. The frontline post describes about 71,000 households and an expected additional 7,000. The October 92,000-household ambition differs from UNHCR’s later 57,000-household ambition; no signed revision reconciling them was obtained. Do not sum these budgets as final seasonal funding.",
+              "source_ids": [
+                "msp-winter-cash-budget-october-2024",
+                "frontline-winter-cash-budget-november-2024"
+              ],
+              "locator": "October Ministry article, final two programme-figure paragraphs; November state-company article, opening budget paragraphs and programme scope."
+            },
+            {
+              "claim_id": "energy-claim-20",
+              "kind": "report",
+              "text": "The public UK–UNHCR agreement set a £10 million ceiling, later raised to £11,360,738. FCDO transaction data reports disbursements of £10 million on 11 December 2024 and £1,360,738 on 17 March 2025 for a grant covering protection, shelter/housing and winter cash.",
+              "status": "supported",
+              "caveat": "The agreement ceiling and donor-reported disbursements are different records. Neither isolates winter cash or verifies when UNHCR received the funds. The February top-up was described by the donor review as mostly multipurpose cash and shelter/house repairs. The grant’s completed narrative/financial report and cash-only allocation were not obtained; these amounts do not explain the national target gap.",
+              "source_ids": [
+                "fcdo-unhcr-grant-transactions-2024-25",
+                "fcdo-unhcr-memorandum-2024",
+                "fcdo-unhcr-amendment-2025",
+                "fcdo-harp-annual-review-2025"
+              ],
+              "locator": "IATI activity GB-GOV-1-400176-403, json.transaction types 2/3 and GBP values; memorandum opening grant paragraphs and paragraph 24; amendment Annex B; annual review paragraphs 4 and 35."
+            },
+            {
+              "claim_id": "energy-claim-21",
+              "kind": "report",
+              "text": "FCDO’s November 2025 review recommends earlier winter funding for UNHCR and attributes 30,339 winter-cash recipients to its HARP grant. It separately attributes the wider inter-agency plan’s 53% winter-cash reach to funding shortages.",
+              "status": "supported",
+              "caveat": "The grant’s recipient count is a donor-attributed subset, not an additional national total. The inter-agency 53% and UNHCR’s 47% use different scopes. The review does not quantify funding or timing as causes of UNHCR’s 291,655-person gap. Its data-cleaning delay example particularly concerns another organization, URCS; it cannot be assigned to UNHCR.",
+              "source_ids": [
+                "fcdo-harp-annual-review-2025"
+              ],
+              "locator": "Annual review Output 2, paragraph 33, individuals table and indicators 2.1.1–2.1.2; paragraph 42 and paragraph 43, UNHCR monitoring recommendations."
+            },
+            {
+              "claim_id": "energy-claim-22",
+              "kind": "report",
+              "text": "A signed UNHCR ownership-transfer agreement effective 28 January 2025 lists one generator. Fastiv’s council approved it on 10 April and posted the enacted record on 16 April.",
+              "status": "supported",
+              "caveat": "These are agreement, approval and publication dates, not a verified physical delivery date. English and Ukrainian copies describe the same unit. The record does not identify whether that unit is counted in either 110 or 186, so it cannot account for any of the 76-unit difference.",
+              "source_ids": [
+                "fastiv-unhcr-generator-transfer-2025"
+              ],
+              "locator": "Signed English agreement pp. 1–3, effective date, Articles II/VIII and signatures; p. 4 Annex A total 1; council decision date and webpage posting date."
+            },
+            {
+              "claim_id": "energy-claim-23",
+              "kind": "report",
+              "text": "On 5 November 2025, an appeal court upheld a finding that failures in compiling beneficiary lists, checking addresses/duplicates and notifying excluded applicants in Snovsk deprived at least 90 residents of the opportunity to receive UAH 21,000 in winter solid-fuel assistance. A contemporaneous council notice identifies the programme as UNHCR-backed.",
+              "status": "supported",
+              "caveat": "This is a local administrative judgment about a disciplinary measure. It concerns residents and lost opportunity, not 90 households, a criminal conviction or a verified payment ledger. The appeal was dismissed; no later cassation was located, which does not prove none exists. The record does not show how these residents map to UNHCR’s national reported reach or quantify any part of the 291,655-person target gap.",
+              "source_ids": [
+                "snovsk-winter-cash-appeal-2025",
+                "snovsk-unhcr-winter-registration-2024"
+              ],
+              "locator": "Appeal judgment, findings on December lists, concluding 90-resident reasoning and operative outcome; council registration notice dated 16 December 2024, opening programme paragraph and no-guarantee warning."
+            }
+          ]
         }
       ],
       "corrections": [
@@ -2000,6 +2642,156 @@
             ],
             "locator": "Opening programme figures, UNHCR-funded row and immediately following continuing-payments qualification in the dated Ministry article."
           }
+        },
+        {
+          "id": "energy-public-records-energy-claim-19-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-4",
+          "to_revision_id": "energy-revision-5",
+          "claim_id": "energy-claim-19",
+          "recorded_at": "2026-10-17T22:14:07Z",
+          "cause": "Add newly obtained public records with their actual dates, units and limits. Do not infer a national reconciliation from component, donor or local evidence.",
+          "source_ids": [
+            "msp-winter-cash-budget-october-2024",
+            "frontline-winter-cash-budget-november-2024"
+          ],
+          "before": null,
+          "after": "Two dated announcements describe component funding: the Social Policy Ministry announced $30 million and an ambition of 92,000 households on 28 October 2024; a 28 November announcement raised the separate frontline component’s budget from $30 million through $37 million to $40.6 million.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-19",
+            "kind": "report",
+            "text": "Two dated announcements describe component funding: the Social Policy Ministry announced $30 million and an ambition of 92,000 households on 28 October 2024; a 28 November announcement raised the separate frontline component’s budget from $30 million through $37 million to $40.6 million.",
+            "status": "supported",
+            "caveat": "These are separate programme announcements, not final donor receipts or national winter-cash spending. The frontline post describes about 71,000 households and an expected additional 7,000. The October 92,000-household ambition differs from UNHCR’s later 57,000-household ambition; no signed revision reconciling them was obtained. Do not sum these budgets as final seasonal funding.",
+            "source_ids": [
+              "msp-winter-cash-budget-october-2024",
+              "frontline-winter-cash-budget-november-2024"
+            ],
+            "locator": "October Ministry article, final two programme-figure paragraphs; November state-company article, opening budget paragraphs and programme scope."
+          }
+        },
+        {
+          "id": "energy-public-records-energy-claim-20-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-4",
+          "to_revision_id": "energy-revision-5",
+          "claim_id": "energy-claim-20",
+          "recorded_at": "2026-10-17T22:14:07Z",
+          "cause": "Add newly obtained public records with their actual dates, units and limits. Do not infer a national reconciliation from component, donor or local evidence.",
+          "source_ids": [
+            "fcdo-unhcr-grant-transactions-2024-25",
+            "fcdo-unhcr-memorandum-2024",
+            "fcdo-unhcr-amendment-2025",
+            "fcdo-harp-annual-review-2025"
+          ],
+          "before": null,
+          "after": "The public UK–UNHCR agreement set a £10 million ceiling, later raised to £11,360,738. FCDO transaction data reports disbursements of £10 million on 11 December 2024 and £1,360,738 on 17 March 2025 for a grant covering protection, shelter/housing and winter cash.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-20",
+            "kind": "report",
+            "text": "The public UK–UNHCR agreement set a £10 million ceiling, later raised to £11,360,738. FCDO transaction data reports disbursements of £10 million on 11 December 2024 and £1,360,738 on 17 March 2025 for a grant covering protection, shelter/housing and winter cash.",
+            "status": "supported",
+            "caveat": "The agreement ceiling and donor-reported disbursements are different records. Neither isolates winter cash or verifies when UNHCR received the funds. The February top-up was described by the donor review as mostly multipurpose cash and shelter/house repairs. The grant’s completed narrative/financial report and cash-only allocation were not obtained; these amounts do not explain the national target gap.",
+            "source_ids": [
+              "fcdo-unhcr-grant-transactions-2024-25",
+              "fcdo-unhcr-memorandum-2024",
+              "fcdo-unhcr-amendment-2025",
+              "fcdo-harp-annual-review-2025"
+            ],
+            "locator": "IATI activity GB-GOV-1-400176-403, json.transaction types 2/3 and GBP values; memorandum opening grant paragraphs and paragraph 24; amendment Annex B; annual review paragraphs 4 and 35."
+          }
+        },
+        {
+          "id": "energy-public-records-energy-claim-21-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-4",
+          "to_revision_id": "energy-revision-5",
+          "claim_id": "energy-claim-21",
+          "recorded_at": "2026-10-17T22:14:07Z",
+          "cause": "Add newly obtained public records with their actual dates, units and limits. Do not infer a national reconciliation from component, donor or local evidence.",
+          "source_ids": [
+            "fcdo-harp-annual-review-2025"
+          ],
+          "before": null,
+          "after": "FCDO’s November 2025 review recommends earlier winter funding for UNHCR and attributes 30,339 winter-cash recipients to its HARP grant. It separately attributes the wider inter-agency plan’s 53% winter-cash reach to funding shortages.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-21",
+            "kind": "report",
+            "text": "FCDO’s November 2025 review recommends earlier winter funding for UNHCR and attributes 30,339 winter-cash recipients to its HARP grant. It separately attributes the wider inter-agency plan’s 53% winter-cash reach to funding shortages.",
+            "status": "supported",
+            "caveat": "The grant’s recipient count is a donor-attributed subset, not an additional national total. The inter-agency 53% and UNHCR’s 47% use different scopes. The review does not quantify funding or timing as causes of UNHCR’s 291,655-person gap. Its data-cleaning delay example particularly concerns another organization, URCS; it cannot be assigned to UNHCR.",
+            "source_ids": [
+              "fcdo-harp-annual-review-2025"
+            ],
+            "locator": "Annual review Output 2, paragraph 33, individuals table and indicators 2.1.1–2.1.2; paragraph 42 and paragraph 43, UNHCR monitoring recommendations."
+          }
+        },
+        {
+          "id": "energy-public-records-energy-claim-22-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-4",
+          "to_revision_id": "energy-revision-5",
+          "claim_id": "energy-claim-22",
+          "recorded_at": "2026-10-17T22:14:07Z",
+          "cause": "Add newly obtained public records with their actual dates, units and limits. Do not infer a national reconciliation from component, donor or local evidence.",
+          "source_ids": [
+            "fastiv-unhcr-generator-transfer-2025"
+          ],
+          "before": null,
+          "after": "A signed UNHCR ownership-transfer agreement effective 28 January 2025 lists one generator. Fastiv’s council approved it on 10 April and posted the enacted record on 16 April.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-22",
+            "kind": "report",
+            "text": "A signed UNHCR ownership-transfer agreement effective 28 January 2025 lists one generator. Fastiv’s council approved it on 10 April and posted the enacted record on 16 April.",
+            "status": "supported",
+            "caveat": "These are agreement, approval and publication dates, not a verified physical delivery date. English and Ukrainian copies describe the same unit. The record does not identify whether that unit is counted in either 110 or 186, so it cannot account for any of the 76-unit difference.",
+            "source_ids": [
+              "fastiv-unhcr-generator-transfer-2025"
+            ],
+            "locator": "Signed English agreement pp. 1–3, effective date, Articles II/VIII and signatures; p. 4 Annex A total 1; council decision date and webpage posting date."
+          }
+        },
+        {
+          "id": "energy-public-records-energy-claim-23-20261017",
+          "kind": "update",
+          "from_revision_id": "energy-revision-4",
+          "to_revision_id": "energy-revision-5",
+          "claim_id": "energy-claim-23",
+          "recorded_at": "2026-10-17T22:14:07Z",
+          "cause": "Add newly obtained public records with their actual dates, units and limits. Do not infer a national reconciliation from component, donor or local evidence.",
+          "source_ids": [
+            "snovsk-winter-cash-appeal-2025",
+            "snovsk-unhcr-winter-registration-2024"
+          ],
+          "before": null,
+          "after": "On 5 November 2025, an appeal court upheld a finding that failures in compiling beneficiary lists, checking addresses/duplicates and notifying excluded applicants in Snovsk deprived at least 90 residents of the opportunity to receive UAH 21,000 in winter solid-fuel assistance. A contemporaneous council notice identifies the programme as UNHCR-backed.",
+          "before_status": null,
+          "after_status": "supported",
+          "before_snapshot": null,
+          "after_snapshot": {
+            "claim_id": "energy-claim-23",
+            "kind": "report",
+            "text": "On 5 November 2025, an appeal court upheld a finding that failures in compiling beneficiary lists, checking addresses/duplicates and notifying excluded applicants in Snovsk deprived at least 90 residents of the opportunity to receive UAH 21,000 in winter solid-fuel assistance. A contemporaneous council notice identifies the programme as UNHCR-backed.",
+            "status": "supported",
+            "caveat": "This is a local administrative judgment about a disciplinary measure. It concerns residents and lost opportunity, not 90 households, a criminal conviction or a verified payment ledger. The appeal was dismissed; no later cassation was located, which does not prove none exists. The record does not show how these residents map to UNHCR’s national reported reach or quantify any part of the 291,655-person target gap.",
+            "source_ids": [
+              "snovsk-winter-cash-appeal-2025",
+              "snovsk-unhcr-winter-registration-2024"
+            ],
+            "locator": "Appeal judgment, findings on December lists, concluding 90-resident reasoning and operative outcome; council registration notice dated 16 December 2024, opening programme paragraph and no-guarantee warning."
+          }
         }
       ],
       "open_questions": [
@@ -2087,12 +2879,13 @@
           "calculation": "258,345 / 550,000 × 100 = 46.97%; difference: 291,655 people.",
           "note": "The plan also gives 263,000 households. That is a different unit, not the denominator used here. Figures are UNHCR self-reports and remain subject to verification.",
           "followup": {
-            "summary": "Kharkiv's official reported a resource ceiling and 170 households awaiting bank checks in January 2025. Separately, the Ministry said technical difficulties prevented some 2024 UNHCR payments. These identify specific constraints, but do not apportion the national 291,655-person gap. Household figures cannot replace people, and the later regional payment total does not reconcile the pending cases. A later global report's two cohort figures also need reconciliation with the seasonal total; neither is silently substituted.",
+            "summary": "Kharkiv reported a regional resource ceiling and bank-detail checks; the Ministry separately reported technical payment failures. A later appeal judgment upheld a finding that Snovsk list/control failures deprived at least 90 residents of the opportunity for aid. FCDO recommends earlier UNHCR winter funding. These are specific constraints with different scopes. No obtained record apportions the national 291,655-person gap, and residents or households cannot replace people in that calculation.",
             "source_ids": [
-              "ukraine-msp-winter-payment-failures-2025",
               "kharkiv-winter-cash-interview-2025",
-              "kharkiv-ova-winter-cash-delivery-2025",
-              "unhcr-global-cash-pdm-2025"
+              "ukraine-msp-winter-payment-failures-2025",
+              "snovsk-winter-cash-appeal-2025",
+              "snovsk-unhcr-winter-registration-2024",
+              "fcdo-harp-annual-review-2025"
             ]
           }
         },
@@ -2159,10 +2952,11 @@
           "calculation": "186 / 420 × 100 = 44.29%; difference: 234 generators.",
           "note": "April reports 110; July reports 186 during the winter period. The reports do not provide a reconciled delivery chronology or comparable generator cutoffs.",
           "followup": {
-            "summary": "Correction: the April footnote dates people reached to 31 March, not generator units. The 76-unit difference cannot be assigned to later deliveries, wider coverage or revised records without a ledger or revision notice. Neither total is labelled final here.",
+            "summary": "Correction: the April footnote dates people reached to 31 March, not generator units. A signed agreement effective 28 January lists one generator, but does not identify its membership in either national count or establish its physical delivery date. The 76-unit difference still cannot be assigned to later deliveries, wider coverage or revised records. Neither total is labelled final here.",
             "source_ids": [
               "unhcr-delivery-april-2025",
-              "unhcr-winter-pdm-july-2025"
+              "unhcr-winter-pdm-july-2025",
+              "fastiv-unhcr-generator-transfer-2025"
             ]
           }
         },

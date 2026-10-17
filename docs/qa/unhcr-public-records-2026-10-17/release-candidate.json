@@ -1,0 +1,44 @@
+{
+  "prepared_at": "2026-10-17T22:14:07Z",
+  "baseline_commit": "2756602b41450868a709f0c2b2da88b7e0b63221",
+  "research_scope": "Public records only; no email, form submission or external enquiry sent.",
+  "snapshot_sha256": "8edcd0d193fad7ff461fc7a53213123787a8798c6729f78ff3e7094cc7aebc12",
+  "counts": {
+    "cases": 2,
+    "claims": 30,
+    "sources": 31,
+    "open_questions": 8,
+    "unhcr_claims": 23,
+    "unhcr_sources": 23,
+    "revisions": 5,
+    "ai_reviews": 11,
+    "changes": 20,
+    "clarifications": 1,
+    "corrections": 1,
+    "evidence_additions": 18
+  },
+  "validation": {
+    "unit_tests": {
+      "run": 54,
+      "passed": 54
+    },
+    "relay_publication": "passed",
+    "evidence_brief": "passed",
+    "research_publication": "passed",
+    "javascript_syntax": "passed",
+    "git_diff_check": "passed"
+  },
+  "source_access_run": {
+    "started_at": "2026-10-17T22:12:58Z",
+    "completed_at": "2026-10-17T22:13:05Z",
+    "attempts": 40,
+    "retrieved": 29,
+    "unavailable": 11
+  },
+  "preservation": "Original 18 claims, four revisions, eight reviews and 15 changes exactly retained from baseline; Starshield canonical record unchanged.",
+  "unresolved": [
+    "National cause-by-cause allocation of the 291,655-person winter cash target gap",
+    "9,326-person difference between the two cohort sum and seasonal total",
+    "76-unit difference between published generator totals; one transfer cannot be assigned to it"
+  ]
+}

@@ -52,6 +52,22 @@ class IngestionTests(unittest.TestCase):
             with self.subTest(target=target), self.assertRaisesRegex(ValueError, "explicit public-publisher allowlist"):
                 redirects.redirect_request(request, None, 302, "Found", {}, target)
 
+    def test_public_records_accept_only_exact_publisher_hosts(self):
+        hosts = ("dp-reintegration.gov.ua", "fcdo.iati.cloud", "devtracker.fcdo.gov.uk", "iati.fcdo.gov.uk", "fastiv-rada.gov.ua", "reyestr.court.gov.ua", "opendatabot.ua", "snovmr.gov.ua")
+        for host in hosts:
+            with self.subTest(host=host):
+                url = "https://" + host + "/public-record?format=json"
+                self.assertEqual(source_urls({"cases": [{"kind": "public_case", "sources": [{"url": url}]}]}), [url])
+                for unsafe in ("http://" + host + "/", "https://" + host + ".evil.example/", "https://sub." + host + "/", "https://user:password@" + host + "/", "https://" + host + ":8443/"):
+                    self.assertFalse(allowed_url(unsafe), unsafe)
+
+    def test_public_record_redirects_reject_unlisted_and_unsafe_destinations(self):
+        redirects = PublisherRedirects()
+        request = Request("https://reyestr.court.gov.ua/Review/131707397")
+        for target in ("https://snovmr.gov.ua.evil.example/", "https://cdn.fastiv-rada.gov.ua/", "http://iati.fcdo.gov.uk/", "https://user:password@fcdo.iati.cloud/", "https://reyestr.court.gov.ua:8443/"):
+            with self.subTest(target=target), self.assertRaisesRegex(ValueError, "explicit public-publisher allowlist"):
+                redirects.redirect_request(request, None, 302, "Found", {}, target)
+
     def test_invalid_url_never_calls_the_network(self):
         def unexpected(*args, **kwargs):
             self.fail("Disallowed URL reached network")
