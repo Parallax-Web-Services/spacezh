@@ -26,6 +26,8 @@ The fictional library case has been removed from the published registry. Synthet
 - [Reviewed source copies and access records](qa/relay-2026-10-17/real-source-access-1440.jpg)
 - [Primary-source energy case on mobile](qa/relay-2026-10-17/real-energy-390.jpg)
 - [Both real cases at all five widths](qa/relay-2026-10-17/real-evidence-layout.json)
+- [Production Starshield dossier](qa/relay-2026-10-17/production-relay.jpg)
+- [Production energy case at 390px](qa/relay-2026-10-17/production-energy-390.jpg)
 
 ## Site presentation before/after
 
@@ -39,4 +41,4 @@ The original Earth/Ukraine hero remains byte-identical (Git blob `e3d98ec377f966
 
 [Solidarity desktop](qa/relay-2026-10-17/solidarity-1440.jpg) and [mobile](qa/relay-2026-10-17/solidarity-390.jpg). The earlier fictional-interface screenshots are historical QA artifacts outside the public web root; they are not the current registry.
 
-This verifies local implementation and documented public-source work, not a production deployment, expert security review, legal determination, access-control service, confidential intake or warning capability. The retrieval command runs only when explicitly invoked; no recurring automation or deployed Parallax RELAY connection is implied.
+Production verification on 17 October 2026 confirmed Forge release `80483011` at commit `dd67d14ca52eea17a8d6c1a12a5c31d80c66370e`. [HTTP receipts](qa/relay-2026-10-17/production-http.json) record 18 critical routes and assets returning HTTP 200 with bytes matching the committed files. Live browser checks confirmed both cases work, no overflow at 390 CSS pixels, no broken homepage images and no console errors. See the [deployment record](PRODUCTION_DEPLOYMENT.md) for activation and rollback details. This verifies publication and documented public-source work; it does not establish an expert security review, legal determination, access-control service, confidential intake or warning capability. The retrieval command runs only when explicitly invoked; no recurring automation or deployed Parallax RELAY connection is implied.

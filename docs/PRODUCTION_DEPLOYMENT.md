@@ -1,26 +1,31 @@
 # Production deployment
 
-Verified 17 October 2026. This records the existing host before the RELAY release; it does not certify that the new release is live.
+Verified live on 17 October 2026, following the production push observed around 20:51 UTC. The existing Forge push hook activated the RELAY release from `master`.
 
 | Item | Verified value |
 | --- | --- |
 | Canonical site | https://xn--80akd1bg1j.com/ |
 | Existing host | `slipstream.host` (`104.248.52.126`), matching the canonical domain's A record |
 | nginx document root | `/home/forge/xn--80akd1bg1j.com/current/public` |
-| Active release observed | `current` points to `releases/80475209` |
-| Active Git commit observed | `d197c18` |
+| RELAY payload release verified | `releases/80483011`, observed through `current` |
+| RELAY payload commit verified | `dd67d14ca52eea17a8d6c1a12a5c31d80c66370e` |
+| Previous release retained | `releases/80475209`, commit `d197c18` |
 | Ownership and working tree | Forge-owned; tracked files clean; an untracked `.env` symlink exists |
 | Website payload | Static `public/`; no application build or npm installation required |
 
-The server uses a Forge-style release layout. The configured Forge deployment mechanism and whether pushes trigger automatic deployment have **not yet been verified**. Repository CI checks publication integrity; it is not a deployment confirmation.
+The existing Forge deployment hook automatically activated the pushed revision. Both GitHub publication checks succeeded ([RELAY](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39068458889), [research](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39068458807)). The active server release was checked independently against the exact pushed SHA.
+
+These identifiers record the verified RELAY payload. A later documentation-only commit may create another Forge release with the same `public/` tree.
+
+[Production HTTP receipts](qa/relay-2026-10-17/production-http.json) record 18 critical routes and assets returning HTTP 200 with response bytes matching the release's Git blobs, including the homepage, plan, research, coalition, RELAY data and manifest. Browser checks confirmed both cases work, no horizontal overflow at 390 CSS pixels, no broken homepage images and no console errors.
 
 ## Publish an exact revision
 
 1. Run the repository publication checks and relevant tests. Review the generated RELAY export and ensure it matches its canonical registry.
 2. Commit and push the reviewed changes. Record the full Git commit SHA intended for production; use that exact SHA rather than the moving `master` branch tip.
 3. On the existing host, record the resolved `current` target and its commit before making changes. Preserve that release and the existing `.env` arrangement.
-4. Prepare a separate Forge-owned release from the exact intended commit. Confirm `git rev-parse HEAD` matches the recorded SHA and the release contains `public/index.html`, `public/relay/index.html` and the generated RELAY data. Do not overwrite a dirty checkout or copy the repository root into the public directory.
-5. Run publication checks in the prepared release, then activate it through the verified existing deployment mechanism or an atomic switch of `current`. The nginx root already resolves through `current/public`; changing DNS or provisioning hosting is unnecessary.
+4. The existing Forge push hook prepares and activates a separate Forge-owned release. Confirm `git rev-parse HEAD` in that release matches the recorded SHA and the release contains `public/index.html`, `public/relay/index.html` and the generated RELAY data. Do not overwrite a dirty checkout or copy the repository root into the public directory.
+5. Verify publication checks and activation through the existing deployment mechanism. The nginx root already resolves through `current/public`; changing DNS or provisioning hosting is unnecessary.
 6. Confirm the active symlink resolves to the new release and its Git SHA still matches the intended revision. Keep the previous release until public verification is complete.
 
 ## Verify the public release

@@ -1,0 +1,133 @@
+{
+  "verified_at": "2026-10-17T20:52:30.313791+00:00",
+  "origin": "https://xn--80akd1bg1j.com",
+  "commit": "dd67d14ca52eea17a8d6c1a12a5c31d80c66370e",
+  "checks": [
+    {
+      "path": "index.html",
+      "http_status": 200,
+      "bytes": 50017,
+      "sha256": "24661ddc80bc160dd7ece3cf3f09f68b42c7173d59ef1af1c78291075c88fc93",
+      "matches_commit": true
+    },
+    {
+      "path": "plan/index.html",
+      "http_status": 200,
+      "bytes": 73667,
+      "sha256": "ea1ecc12c9aa2997c5319cf1b7c647620b478f61b7d8b9a22bb80b0fcbc68a75",
+      "matches_commit": true
+    },
+    {
+      "path": "relay/index.html",
+      "http_status": 200,
+      "bytes": 8759,
+      "sha256": "fbb4e9593e04f568512050d8b8d81ee7fb8cd2b8f2b5a47bed301fa3b3bc00dc",
+      "matches_commit": true
+    },
+    {
+      "path": "relay/data/cases.json",
+      "http_status": 200,
+      "bytes": 68806,
+      "sha256": "9184f95575eb439f4b1b344b48981fda26e24fe50819c1d3781e343306536337",
+      "matches_commit": true
+    },
+    {
+      "path": "relay/data/retrievals.json",
+      "http_status": 200,
+      "bytes": 9407,
+      "sha256": "9c563468f4a8c647e238cbc339566ec01fbb59845a5068c958883166a54271cf",
+      "matches_commit": true
+    },
+    {
+      "path": "relay/data/manifest.json",
+      "http_status": 200,
+      "bytes": 512,
+      "sha256": "52190914a1d3fec0bb71d40d1e6ee0f8469b28adec8d4ef225067323c3f075b4",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/relay.js",
+      "http_status": 200,
+      "bytes": 21482,
+      "sha256": "596673211d582ec3ac11d8c4ec0f12f81d46e585f641661efd6aaca3dc1c3350",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/relay.css",
+      "http_status": 200,
+      "bytes": 15574,
+      "sha256": "a53cae5aea14192b9f1fa2d63010e91923065288df5342884a3937a776ba4104",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/solidarity.css",
+      "http_status": 200,
+      "bytes": 1949,
+      "sha256": "cefc71efe5dd0ebb181f2db8ae1bcd97ceecfd7400152acbb92b69b2ee8366c7",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/spacezh-solidarity-flags.webp",
+      "http_status": 200,
+      "bytes": 152784,
+      "sha256": "e3e457e382203fb406e84bbe572da9f17d16f224f0ee2c6ef572037453eaa4ba",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/tryzub.svg",
+      "http_status": 200,
+      "bytes": 1200,
+      "sha256": "295c0dda83cf37a0b0ae1888c6c44066bba2237429dd8f89e6e3d433d553c169",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/brand-products.css",
+      "http_status": 200,
+      "bytes": 3873,
+      "sha256": "d701635f707e4ae3811cf5247078608232aedd691829a3b7ab37081df79e2163",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/mobile-polish.css",
+      "http_status": 200,
+      "bytes": 6437,
+      "sha256": "54e2e797579a6da2978ea5b33095e9a5f861135952bd7241b2241446a928de8d",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/spacezh-hero.webp",
+      "http_status": 200,
+      "bytes": 218320,
+      "sha256": "9304a46d20f4e9b4142726247127dc92ecb184510323263d12b02f88caecf07a",
+      "matches_commit": true
+    },
+    {
+      "path": "assets/favicon.svg",
+      "http_status": 200,
+      "bytes": 381,
+      "sha256": "91edf4f9fc21008fba8b28357a59330de43d4b73168f040b52e3ba4bbe928f45",
+      "matches_commit": true
+    },
+    {
+      "path": "coalition/index.html",
+      "http_status": 200,
+      "bytes": 42383,
+      "sha256": "2f4aa4f0d66ccc193bf32350652cb43b61e96928a3187b0d4f4b8d76cbf08647",
+      "matches_commit": true
+    },
+    {
+      "path": "research/index.html",
+      "http_status": 200,
+      "bytes": 41071,
+      "sha256": "dfe951fb2c0a6d766652310711e2d67541619e432f6c51463c2b638cfc59fd83",
+      "matches_commit": true
+    },
+    {
+      "path": "research/briefings/starshield-restrictions/index.html",
+      "http_status": 200,
+      "bytes": 43457,
+      "sha256": "d126e25596fbccc5c6cd10b4d5103cb026e5a50aa2f69db6b99b04db2c8db0bf",
+      "matches_commit": true
+    }
+  ]
+}
