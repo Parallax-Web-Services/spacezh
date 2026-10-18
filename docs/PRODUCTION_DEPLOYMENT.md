@@ -2,6 +2,18 @@
 
 Current research scope, 17 October 2026: the user selected public records only. The records-request draft remains unsent; email or other outreach is not authorized. Earlier release receipts below preserve the status observed when each release was verified.
 
+## Ballistic early-warning focus: verified mission correction
+
+Verified at 2026-10-18T00:40:10.817391+00:00. Forge activated release `80490129` for commit `a74f5366f390f7edeebb3217db7a9fcdef56e6af`, public tree `2bfefc580c4e651a67a09fbaeef34e4305ad1f93`. The previous release `80486288` was verified retained. A later documentation-only release may share the same public tree.
+
+The homepage, research index and founding proposal now lead with ballistic early-warning research for Ukrainian civilian protection. The next deliverable is a public documentary feasibility and data-access assessment. The homepage synthetic scanner was removed; existing RELAY investigations are supporting publication work. Inherited timing and independence assumptions are provisional. This is a mission/presentation correction, not a new sensing result, data agreement, partnership or warning capability.
+
+Both [research publication integrity](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39083525895) and [RELAY publication integrity](https://github.com/Parallax-Web-Services/spacezh/actions/runs/39083525956) passed on the payload. Local publication/evidence checks, HTML structure, all local links/anchors and exact local HTTP bytes passed. The founding proposal and rendered plan have matching source fingerprints. Individual studies, case/source/review/revision data and access receipts remain unchanged.
+
+[Production HTTP receipts](qa/early-warning-focus-2026-10-17/production-http.json) record 19 critical routes/assets returning HTTP 200 with bytes matching the deployed commit. Fresh browser visual, viewport and console QA was **unavailable**: computer-use exposed no browser and documented Chrome tab creation failed. No fresh screenshots or visual pass are claimed. Original assets and styles were preserved. The owned local preview was stopped after its HTTP checks.
+
+[Live mission](https://xn--80akd1bg1j.com/), [research priority](https://xn--80akd1bg1j.com/research/#next-step), [local verification and browser limit](qa/early-warning-focus-2026-10-17/local-checks.json), [scope/review receipt](qa/early-warning-focus-2026-10-17/release-candidate.json).
+
 ## UNHCR public-record investigation: verified production payload
 
 Verified at 2026-10-17T22:19:56.108710+00:00. Forge activated release `80486095` for commit `e6f0a1caf3c82eb8a22b594aba6908f6f82ad54a`, public tree `d475477ef92680de713fbff155656cb4698e7f01`. The preceding release `80484993` at `2756602` was verified retained for rollback. A later documentation-only release may share this public tree.

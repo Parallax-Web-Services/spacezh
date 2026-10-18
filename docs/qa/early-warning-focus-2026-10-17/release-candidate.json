@@ -31,5 +31,27 @@
     "Budget and legal-status facts"
   ],
   "research_state": "No ballistic sensing or live warning capability demonstrated; no new real observation data or access obtained.",
-  "next_deliverable": "Public documentary feasibility and data-access assessment using published retrospective or aggregate records; qualified review and any further evaluation separately scoped."
+  "next_deliverable": "Public documentary feasibility and data-access assessment using published retrospective or aggregate records; qualified review and any further evaluation separately scoped.",
+  "payload_commit": "a74f5366f390f7edeebb3217db7a9fcdef56e6af",
+  "public_tree": "2bfefc580c4e651a67a09fbaeef34e4305ad1f93",
+  "ci": [
+    {
+      "check": "Research publication integrity",
+      "result": "success",
+      "url": "https://github.com/Parallax-Web-Services/spacezh/actions/runs/39083525895"
+    },
+    {
+      "check": "RELAY public publication integrity",
+      "result": "success",
+      "url": "https://github.com/Parallax-Web-Services/spacezh/actions/runs/39083525956"
+    }
+  ],
+  "production": {
+    "release": "80490129",
+    "public_tree": "2bfefc580c4e651a67a09fbaeef34e4305ad1f93",
+    "http_byte_checks": 19,
+    "passed": 19,
+    "visual_qa": "unavailable; no fresh browser review claimed",
+    "receipt": "production-http.json"
+  }
 }
