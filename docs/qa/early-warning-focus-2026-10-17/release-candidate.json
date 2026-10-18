@@ -1,0 +1,35 @@
+{
+  "prepared_at": "2026-10-18T00:38:17.878673+00:00",
+  "baseline_commit": "28b119a6ac840a7a4c87c6b9bf4ff9536c84da78",
+  "scope": "Mission and presentation correction: ballistic early-warning research for Ukrainian civilian protection. No sensing or warning implementation.",
+  "changes": [
+    "Homepage/research lead with the early-warning research and real-evidence/access assessment",
+    "Synthetic scanner removed from homepage",
+    "Founding proposal v0.5 and rendered plan synchronized",
+    "RELAY investigations classified as supporting publication work; actual history preserved",
+    "Inherited 60-second and complete U.S.-independence criteria marked provisional"
+  ],
+  "validation": {
+    "relay_publication": "pass",
+    "research_publication": "pass",
+    "evidence_brief": "pass",
+    "diff_check": "pass",
+    "local_http_and_links": "pass; see local-checks.json",
+    "browser_visual_qa": "unavailable; no enabled browser surface and Chrome creation failed; not claimed"
+  },
+  "source_review": {
+    "reviewer": "Codex separate source-scope review agent",
+    "reviewed_at": "2026-10-18T00:37:49Z",
+    "method": "All eight changed files compared with baseline, including source fingerprint and preserved case/study scope. No field, human or browser review.",
+    "result": "pass",
+    "conflicts": "Same AI team; independent of the copy implementation task, not independent human scientific review."
+  },
+  "preserved": [
+    "Case/source/review/revision and access-receipt data",
+    "Individual mathematical studies and their public readers",
+    "Original hero, tryzub, solidarity artwork and assets",
+    "Budget and legal-status facts"
+  ],
+  "research_state": "No ballistic sensing or live warning capability demonstrated; no new real observation data or access obtained.",
+  "next_deliverable": "Public documentary feasibility and data-access assessment using published retrospective or aggregate records; qualified review and any further evaluation separately scoped."
+}

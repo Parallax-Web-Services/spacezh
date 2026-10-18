@@ -1,6 +1,18 @@
 # SpaceЖ — Open research
 
-Our mission is to support Ukraine's civilian protection and independence with research that can be checked, challenged, and reproduced. Each study begins with an engineering decision, publishes assumptions, includes negative cases, and distinguishes simulation from measurement.
+**Ballistic early warning for Ukrainian civilian protection is the primary research programme.** No launch-detection or warning service has been demonstrated. General investigations and the RELAY case viewer are supporting publication work.
+
+## Immediate research deliverable
+
+Produce a public documentary feasibility and data-access assessment based on real published records. For each relevant observation route, record authoritative evidence, original provenance, stated timing and uncertainty, access and licensing, dependencies, and missing proof. Use retrospective or aggregate information; omit operational sensor details, live threat tracks and personal information. The decision is whether a documented, lawfully usable route merits a separately authorized feasibility evaluation.
+
+The inherited 60-second target and complete U.S.-independence criterion are provisional research assumptions, not newly confirmed requirements or demonstrated performance. Civilian-protection requirements, error and timing criteria, and any real-data evaluation need qualified review. No such review, partnership or data access is claimed. Research remains public-records only; no external enquiry is authorized by this scope update.
+
+The [existing peer review](PEER_REVIEW_2026-10-16.md) identifies unresolved source-selection, timing-target and statistical-method issues. It is an AI-produced critique, not independent Ukrainian scientific approval. Additional synthetic examples would not supply missing real observations.
+
+## Existing studies
+
+Each study publishes assumptions and distinguishes simulation from measurement.
 
 | Study | Research question | Status |
 | --- | --- | --- |

@@ -3,7 +3,13 @@
 **Version:** 0.1 · **Date:** 17 October 2026  
 **Status:** published read-only public-data prototype and proposed architecture; no operational investigation service, connected Parallax RELAY import, confidential intake, or warning capability is claimed.
 
-This RFC translates the supplied planning draft into a bounded first implementation. The current work covers site presentation, synchronized canonical plans, and a read-only case prototype. Further infrastructure and sensitive features have separate gates. See [the implementation plan](RELAY_IMPLEMENTATION_PLAN.md) for paths, acceptance, and delivery status and [the founding proposal](FOUNDING_PROPOSAL.md) for funding, governance, and wider mission.
+This RFC records the earlier bounded implementation of the supplied planning draft: site presentation, synchronized canonical plans, and a read-only case prototype. Further infrastructure and sensitive features have separate gates. See [the implementation plan](RELAY_IMPLEMENTATION_PLAN.md) for paths, acceptance, and delivery status and [the founding proposal](FOUNDING_PROPOSAL.md) for funding, governance, and wider mission.
+
+## Mission scope update — 17 October 2026
+
+SpaceЖ's current priority is ballistic early-warning research for Ukrainian civilian protection. The next milestone is a public documentary feasibility and data-access assessment. The inherited 60-second objective and complete independence from U.S. sensing and indispensable operating services remain provisional criteria to validate, not newly confirmed requirements or demonstrated capability.
+
+This RFC describes the supporting evidence-publication product and its actual delivered cases. The UNHCR inquiry and general investigations no longer set the programme priority. Their published records and correction histories remain intact. RELAY may document the early-warning research and its limitations; its case viewer, source checks and review records do not constitute sensing or a warning service.
 
 ## Product boundary
 
@@ -58,7 +64,7 @@ The existing [Starshield brief](evidence/2026-10-16-starshield.md) and [source/c
 
 The published [case registry](../data/relay/cases.json) contains real public-source cases only. The fictional exercise and simulated reviewers have been removed from the public bundle; minimal synthetic records are confined to unit tests. Missing review attribution or unavailable retrieval details remain missing or explicitly described.
 
-The [source access checker](../scripts/ingest_relay_sources.py) makes an explicitly invoked HTTPS GET to each allowlisted public URL and appends actual timestamps, status codes, response byte counts, and SHA-256 hashes to [retrievals.json](../data/relay/retrievals.json). Bodies are hashed in memory without full-article preservation or republication. The latest 17 October run attempted 27 URLs: seventeen returned HTTP 200 and ten were unavailable (four Reuters 401 responses, Telegraph 402, AP 403, IAEA 403 and three UNHCR 403 responses: the story, annual report PDF and global cash-monitoring PDF). Readable Reuters republications are included in the registry. A content review through web research and a transport receipt from this command are distinct observations; HTTP success is not a factual verdict. This is a manual tool, not a background ingestion service. The builder attaches receipts to sources and emits public cases, receipts, and a manifest.
+The [source access checker](../scripts/ingest_relay_sources.py) makes an explicitly invoked HTTPS GET to each allowlisted public URL and appends actual timestamps, status codes, response byte counts, and SHA-256 hashes to [retrievals.json](../data/relay/retrievals.json). Bodies are hashed in memory without full-article preservation or republication. Recorded runs preserve each attempt, including unavailable responses; consult the dated access log for their exact counts and results. Readable Reuters republications are included in the registry. A content review through web research and a transport receipt from this command are distinct observations; HTTP success is not a factual verdict. This is a manual tool, not a background ingestion service. The builder attaches receipts to sources and emits public cases, receipts, and a manifest.
 
 ## Domain model
 
@@ -108,7 +114,7 @@ Do not publish unconsented identities, precise sensitive locations, live militar
 
 Before any confidential intake, require a written case-specific threat model; security, privacy and legal review; Ukrainian and other affected contributor-safety input; an accountable staffed operator; access and key management; retention/deletion rules; incident response; and a realistic budget. Assess a professionally operated SecureDrop-class service or trusted external partner instead of inventing bespoke anonymous infrastructure. A VPN or network bouncing does not establish anonymity. No such service or partner is selected, contacted, provisioned, or endorsed by this RFC.
 
-## Separate early-warning safety track
+## Early-warning research and the RELAY boundary
 
 The [independent early-warning research](../research/002-independent-early-warning/README.md) and [scientific review protocol](../research/003-observation-gap/REVIEW_PROTOCOL.md) remain research. Their useful transferable principles are explicit time origins, uncertainty, complete evaluation denominators, upstream-dependency audits, independent review, and publication of insufficiencies. Synthetic metric tests are not launch sensing.
 

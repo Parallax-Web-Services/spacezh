@@ -1,0 +1,34 @@
+{
+  "local_pages": [
+    {
+      "path": "index.html",
+      "http_status": 200,
+      "matches_workspace": true,
+      "sha256": "fc34683739f718d1192b3f07c0566855426c00bab9f40e3f651aaabd2ee6ffb7",
+      "ids_unique": true,
+      "local_links_checked": 48
+    },
+    {
+      "path": "research/index.html",
+      "http_status": 200,
+      "matches_workspace": true,
+      "sha256": "6c9379a3df1d81f766fb90be4cef8f04c9bde42aded902d082bd8a8c2c63edcf",
+      "ids_unique": true,
+      "local_links_checked": 39
+    },
+    {
+      "path": "plan/index.html",
+      "http_status": 200,
+      "matches_workspace": true,
+      "sha256": "6240d5284bc6e654f06b1bb52c7ff602019c91235ee8ae38d14813b8a0f817d1",
+      "ids_unique": true,
+      "local_links_checked": 55
+    }
+  ],
+  "result": "pass",
+  "case_data_and_receipts": "unchanged from 28b119a",
+  "browser_qa": {
+    "status": "unavailable",
+    "reason": "Computer-use inventory exposed no browsers; documented Chrome tab creation failed. No fresh viewport, console or visual review is claimed."
+  }
+}

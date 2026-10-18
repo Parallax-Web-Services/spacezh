@@ -1,14 +1,22 @@
 # SpaceЖ — The sky belongs to everyone
 
-Public site and founding proposal for SpaceЖ, an open-source public-interest initiative proposed in support of the **global defense of Ukraine** through public-source evidence, auditable satellite intelligence and resilient communications research.
+Public site and founding proposal for SpaceЖ, an open-source public-interest initiative focused on **ballistic early-warning research for Ukrainian civilian protection**.
 
 **Status:** public working proposal, not an established nonprofit, operational satellite network, or live warning service. No donations are being accepted through this repository.
+
+## Current priority — 17 October 2026
+
+SpaceЖ's primary work is a public documentary feasibility and data-access assessment for ballistic early warning. The next milestone is a sourced account of what public records establish, which relevant data is lawfully available and under what conditions, where independent evaluation remains impossible, and which questions need qualified Ukrainian civilian-protection and scientific review. This is an assessment milestone; no real sensing data or demonstrated detection capability is claimed.
+
+The [existing research programme](research/README.md) provides prior work to examine. Its 60-second objective and complete independence from U.S. sensing and indispensable operating services are inherited provisional criteria to validate, not newly confirmed requirements or achieved performance. The current studies use mathematical models and synthetic tests; they do not establish real-world ballistic early warning.
+
+RELAY provides supporting evidence publication, source review and correction history. The existing UNHCR and Starshield cases remain published with their sources and history intact. Expanding general investigations or the UNHCR inquiry is not the current priority.
 
 ## This site
 
 The homepage at `/` links to the designed public proposal at **`/plan/`** and the public coalition research/invitation at **`/coalition/`**. The [Markdown proposal](docs/FOUNDING_PROPOSAL.md) and [coalition strategy](docs/COALITION_STRATEGY.md) remain editable source documents. No live payment processing is implemented.
 
-The deployable static website lives in **`public/`**: `public/index.html`, `public/plan/index.html`, `public/coalition/index.html`, `public/assets/favicon.svg`, and `public/assets/spacezh-hero.webp`. Repository-level `docs/` and `CONTRIBUTING.md` are project documentation, not public web assets. No npm dependencies, analytics, third-party scripts, or backend. RELAY uses local JavaScript, a deterministic Python publication export, and an explicitly run public-source access checker. The launch design, responsive CSS, animated synthetic scanner, and original artwork have been preserved.
+The deployable static website lives in **`public/`**: `public/index.html`, `public/plan/index.html`, `public/coalition/index.html`, `public/assets/favicon.svg`, and `public/assets/spacezh-hero.webp`. Repository-level `docs/` and `CONTRIBUTING.md` are project documentation, not public web assets. No npm dependencies, analytics, third-party scripts, or backend. RELAY uses local JavaScript, a deterministic Python publication export, and an explicitly run public-source access checker. The launch design, responsive CSS and original artwork are retained; illustrative displays do not establish sensing capability.
 
 To preview locally:
 
@@ -26,7 +34,9 @@ Visit http://localhost:8080, http://localhost:8080/plan/, and http://localhost:8
 
 A PDF copy of the proposal was produced separately and can be uploaded to the repository once an approved binary-file publishing route is available.
 
-## Workstreams
+## Supporting workstreams
+
+Assess these proposed workstreams against the early-warning research mission. Their product descriptions do not establish a validated warning architecture.
 
 1. **SpaceЖ Echo:** Source-linked orbital intelligence, 3D observations, provenance, and playback.
 2. **SpaceЖ Array:** Reproducible, opt-in ground-station tools interoperable with established open projects.
@@ -76,7 +86,7 @@ The original embedded desktop CSS and design assets are preserved. A separate [m
 
 Public headlines and explanatory copy have been revised to describe the actual scope and proposed partnership work rather than rely on generic startup slogans. The main "The sky belongs to everyone" identity is retained.
 
-For manual QA, check all three routes (`/`, `/coalition/`, `/plan/`) at narrow mobile widths, ~390px, 750px and desktop. Confirm no horizontal page scroll, readable cards and budgets, working navigation, intact artwork, and the synthetic-data/funding disclaimers.
+For manual QA, check all three routes (`/`, `/coalition/`, `/plan/`) at narrow mobile widths, ~390px, 750px and desktop. Confirm no horizontal page scroll, readable cards and budgets, working navigation, intact artwork, and accurate research-status and funding disclosures.
 
 ## Research programme
 
@@ -107,12 +117,12 @@ GitHub remains the home of source code and test suites, not the required publica
 - [Canonical original editorial source](docs/evidence/2026-10-16-starshield.md).
 - [Machine-readable claim and source register](data/evidence/starshield-restrictions-2026-10-16.json) — source IDs, per-claim classifications, denials, independence and copyright notes.
 
-The public website features this reporting on both the homepage and `/research/`. **This is a sourced editorial brief, not an independently verified finding that a named individual ordered the restriction.** The original publishers retain their articles and imagery. The JSON is **staged for future Parallax RELAY import but has not been ingested into a connected RELAY service**. Review, corrections and date updates are required as new reporting emerges.
+This reporting remains available as supporting work. **This is a sourced editorial brief, not an independently verified finding that a named individual ordered the restriction.** The original publishers retain their articles and imagery. The JSON is **staged for future Parallax RELAY import but has not been ingested into a connected RELAY service**. Review, corrections and date updates are required as new reporting emerges.
 
 
 ## SPACEЖ RELAY public evidence workspace
 
-The `/relay/` site publishes two real cases with **30 claims, 31 source records and 8 open questions**. The UNHCR winter-aid comparison opens first: its 23 claims and 23 source records compare the September 2024 plan with reported delivery. New public records add a court-upheld local registration failure, UK grant agreements and a donor review, plus one signed generator transfer. Earlier records document technical payment difficulties and Kharkiv resource limits and bank-detail checks. They do not apportion the national cash shortfall or reconcile the generator-count difference. The Starshield dossier remains available with allegations, denials and source dependencies intact.
+The `/relay/` site is an existing supporting publication tool with two real cases, **30 claims, 31 source records and 8 open questions**. The UNHCR winter-aid comparison currently opens first in that viewer: its 23 claims and 23 source records compare the September 2024 plan with reported delivery. New public records add a court-upheld local registration failure, UK grant agreements and a donor review, plus one signed generator transfer. Earlier records document technical payment difficulties and Kharkiv resource limits and bank-detail checks. They do not apportion the national cash shortfall or reconcile the generator-count difference. The Starshield dossier remains available with allegations, denials and source dependencies intact.
 
 The UNHCR case includes seven comparisons, eleven recorded AI source reviews, five preserved revisions, one wording clarification, one generator-cutoff correction and eighteen evidence additions. Reviews are bound to exact claim snapshots; they do not claim human approval or independent verification with recipients. See the [source comparison](docs/evidence/2026-10-17-unhcr-winter-delivery.md), [cash and generator follow-up](docs/evidence/2026-10-17-unhcr-followup.md), [new payment and allocation records](docs/evidence/2026-10-17-unhcr-cash-records.md), [public grant and transfer records](docs/evidence/2026-10-17-unhcr-public-records.md), [Snovsk court findings](docs/evidence/2026-10-17-unhcr-snovsk.md) and [history rules](docs/SPACEZH_RELAY_OSINT_RFC.md).
 
@@ -126,7 +136,7 @@ The interface uses direct labels: Cases, Claims and supporting sources, Open que
 - [Explicit source access checker](scripts/ingest_relay_sources.py), [publication builder](scripts/build_relay_publication.py), and generated [cases](public/relay/data/cases.json), [receipts](public/relay/data/retrievals.json), and [SHA-256 manifest](public/relay/data/manifest.json).
 - App: `public/relay/index.html`, `public/assets/relay.css`, `public/assets/relay.js`.
 
-To refresh source access receipts, explicitly run `python scripts/ingest_relay_sources.py`. It makes HTTPS GET requests only to allowlisted public publishers, records actual timestamps, status codes, byte counts, and response hashes, and appends a run to `data/relay/retrievals.json`. It hashes response bodies in memory without archiving or republishing full articles. This is a manual command, not a background daemon or a factual verdict. The latest 17 October run attempted 27 URLs: seventeen returned HTTP 200; ten were unavailable (four Reuters 401 responses, Telegraph 402, AP 403, IAEA 403 and three UNHCR 403 responses: the story, annual report PDF and global cash-monitoring PDF). Web-research content access is recorded separately and may differ from this command's transport results.
+To refresh source access receipts, explicitly run `python scripts/ingest_relay_sources.py`. It makes HTTPS GET requests only to allowlisted public publishers, records actual timestamps, status codes, byte counts, and response hashes, and appends a run to `data/relay/retrievals.json`. It hashes response bodies in memory without archiving or republishing full articles. This is a manual command, not a background daemon or a factual verdict. Recorded runs preserve each attempt, including unavailable responses; consult the dated access log for their exact counts and results. Web-research content access is recorded separately and may differ from this command's transport results.
 
 History validation reads the preserved baseline Git object. Use a full clone, or fetch that recorded commit before checking a shallow checkout. CI checks out full history.
 
